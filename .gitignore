@@ -19,8 +19,11 @@ Thumbs.db
 # internal working notes
 notes/
 
-# manuscript text stays out of the public repository
+# manuscript text and submission correspondence stay out of the public repository
 08_manuscript_v1.md
+12_cover_letter_JPR.md
+13_manuscript_for_supervisor.md
+fix_zenodo_dns.ps1
 
 # python build artefacts
 __pycache__/

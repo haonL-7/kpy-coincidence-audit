@@ -57,18 +57,18 @@ def label(i,letter,name):
     ax0.text(X[i],7.7,letter,fontsize=7.4,fontweight="bold")
     ax0.text(X[i]+2.8,7.7,name,fontsize=6.6)
 # A
-label(0,"A","pooled across proteins")
+label(0,"A","pooled")
 for yy in (5.9,4.8,3.7):
     bar(ax0,X[0],yy,W); ticks(ax0,X[0],yy+0.475,W,11,[True]*11)
 # B
-label(1,"B","split by protein class")
+label(1,"B","stratified")
 bar(ax0,X[1],5.9,W); ticks(ax0,X[1],6.375,W,14,[True]*14)
 bar(ax0,X[1],3.7,W); ticks(ax0,X[1],4.175,W,9,[True,False,True,False,True,False,True,False,True])
 # C
-label(2,"C","within protein, all lysines")
+label(2,"C","within-protein")
 bar(ax0,X[2],4.8,W); ticks(ax0,X[2],5.275,W,12,[True]*12)
 # D
-label(3,"D","within protein, catalogued")
+label(3,"D","annotated-only")
 bar(ax0,X[3],4.8,W); ticks(ax0,X[3],5.275,W,12,[True,False,False,True,False,True,False,False,True,False,False,True])
 ax0.text(X[0],1.9,"filled ticks = lysines entering the comparison set;  pale ticks = excluded",fontsize=6.4,color=CB["grey"])
 
