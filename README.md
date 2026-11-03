@@ -39,7 +39,12 @@ The primary databases are not redistributed. They are large (CPLM 4.0 is ~260 MB
     python tools/make_fig4.py
     python tools/consistency_check.py      # citation numbering, figure references, key numbers
 
-Scripts use absolute paths pointing at the project directory; adjust the `base` variable at the top of each script if you clone it elsewhere.
+Scripts resolve paths from `BASE`, which defaults to the repository root and can be overridden:
+
+    setx KPY_BASE D:\path\to\clone      # Windows, then reopen the shell
+    export KPY_BASE=/path/to/clone        # Linux/macOS
+
+All scripts are runnable from the repository root without editing.
 
 ## Environment
 
