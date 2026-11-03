@@ -25,6 +25,9 @@ notes/
 13_manuscript_for_supervisor.md
 fix_zenodo_dns.ps1
 
+# local verification package (regenerated from the release archive)
+_verify/
+
 # python build artefacts
 __pycache__/
 *.pyc
