@@ -58,7 +58,7 @@ cite, and the Methods should name that version explicitly.
 
 ## 6. Coverage by version
 
-| Item | v1.1 | v1.2 |
+| Item | v1.1 | v1.2.1 |
 |---|---|---|
 | `tools/exact_ci.py` — exact conditional OR and interval | yes | yes |
 | `tools/leave_one_out.py` — nine modifications, one estimator | yes | yes |
