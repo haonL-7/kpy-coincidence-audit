@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the archived release."
+title: "kpy-coincidence-audit: reference-set dependence in lysine acylation co-occupancy"
+abstract: "Code and derived tables reproducing the audit of four reference sets for lysine acylation co-occupancy, using 88 lysine pyruvoylation sites as a test case."
+authors:
+  - family-names: "Liu"
+    given-names: "Haon"
+    email: "haon.liu@outlook.com"
+version: 1.0.0
+date-released: "2026-11-03"
+license: MIT
+type: software
+repository-code: "https://github.com/haonL-7/kpy-coincidence-audit"
+keywords:
+  - lysine acylation
+  - pyruvylation
+  - post-translational modification
+  - annotation bias
+  - reproducibility
