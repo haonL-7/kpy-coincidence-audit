@@ -93,3 +93,5 @@ ax.text(0.02,0.02,"mean %+.1f  (95%% CI %+.1f to %+.1f)"%(mean,mean-1.96*se,mean
         transform=ax.transAxes,fontsize=5.8,color=CB["red"])
 fig.savefig(os.path.join(figs,"FigS1_structure.pdf")); fig.savefig(os.path.join(figs,"FigS1_structure.png"),dpi=300)
 print("FigS1 saved; proteins in panel d:", len(rows), "mean %.2f CI %.2f..%.2f"%(mean,mean-1.96*se,mean+1.96*se))
+sub=os.path.join(figs,"submission"); os.makedirs(sub,exist_ok=True)
+fig.savefig(os.path.join(sub,"FigS1.pdf")); fig.savefig(os.path.join(sub,"FigS1.tif"),dpi=600,pil_kwargs={"compression":"tiff_lzw"})

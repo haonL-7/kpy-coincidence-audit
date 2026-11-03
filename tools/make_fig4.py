@@ -34,5 +34,5 @@ arr(70.5,11.8,74.5,7.0,"#B06060"); ax.text(72.6,8.6,"no",fontsize=6.2,color="#B0
 
 fig.savefig(os.path.join(figs,"Fig4_protocol.pdf")); fig.savefig(os.path.join(figs,"Fig4_protocol.png"),dpi=300)
 sub=os.path.join(figs,"submission"); os.makedirs(sub,exist_ok=True)
-fig.savefig(os.path.join(sub,"Fig4.pdf")); fig.savefig(os.path.join(sub,"Fig4.tif"),dpi=600,pil_kwargs={"compression":"tiff_lzw"})
+fig.savefig(os.path.join(sub,"Fig3.pdf")); fig.savefig(os.path.join(sub,"Fig3.tif"),dpi=600,pil_kwargs={"compression":"tiff_lzw"})
 print("ok")
