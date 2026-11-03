@@ -1,8 +1,8 @@
 # kpy-coincidence-audit
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23906361.svg)](https://doi.org/10.5281/zenodo.23906361)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23915860.svg)](https://doi.org/10.5281/zenodo.23915860)
 
-Archived release: v1.0, DOI 10.5281/zenodo.23906361.
+Archived release: v1.1, DOI 10.5281/zenodo.23915860.
 
 Code and derived tables for the manuscript *"The reference set decides the answer: annotation depth, not competition, governs lysine acylation co-occupancy"*.
 
