@@ -2,7 +2,8 @@
 import os, glob, json, random, math
 from collections import defaultdict
 import pandas as pd
-base = r"C:\Users\Administrator\Desktop\丙酮酰化\data"
+BASE = os.environ.get("KPY_BASE", os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+base = os.path.join(BASE, "data")
 files = sorted(glob.glob(os.path.join(base, "cplm", "*", "*.txt")))
 site_mods = defaultdict(set); gene_of = {}
 for f in files:
@@ -13,6 +14,8 @@ for f in files:
     for a,p,g in zip(df["acc"].str.strip(), df["pos"].astype(int), df["gene"].fillna("")):
         site_mods[(a,p)].add(mod); gene_of.setdefault(a, g.strip())
 import re
+
+import os
 HIST = re.compile(r"^(H1|H2A|H2B|H2AX|H3|H4|HIST|CENP)", re.I)
 hist_acc = {a for a,g in gene_of.items() if HIST.match(g)}
 

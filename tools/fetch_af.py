@@ -1,7 +1,10 @@
 
 import os, json, urllib.request, gzip
 import pandas as pd
-base = r"C:\Users\Administrator\Desktop\丙酮酰化\data"
+
+import os
+BASE = os.environ.get("KPY_BASE", os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+base = os.path.join(BASE, "data")
 out = os.path.join(base, "alphafold"); os.makedirs(out, exist_ok=True)
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
 def get(u, t=60):

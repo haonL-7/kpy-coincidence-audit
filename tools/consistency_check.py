@@ -1,8 +1,11 @@
 
 import sys, re, json, os
 import pandas as pd
+
+import os
+BASE = os.environ.get("KPY_BASE", os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
-ms = r"C:\Users\Administrator\Desktop\丙酮酰化\08_manuscript_v1.md"
+ms = os.path.join(BASE, "08_manuscript_v1.md")
 t = open(ms, encoding="utf-8").read()
 body = t.split("## References")[0]
 refs = t.split("## References")[1].split("## Figure legends")[0]

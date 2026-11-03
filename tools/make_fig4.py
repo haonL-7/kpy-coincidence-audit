@@ -4,8 +4,9 @@ import numpy as np, pandas as pd
 import matplotlib; matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from matplotlib.patches import FancyBboxPatch, FancyArrowPatch
+BASE = os.environ.get("KPY_BASE", os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-base=r"C:\Users\Administrator\Desktop\丙酮酰化"; data=os.path.join(base,"data"); figs=os.path.join(base,"figs")
+base=BASE; data=os.path.join(base,"data"); figs=os.path.join(base,"figs")
 plt.rcParams.update({"font.family":"Arial","font.size":7,"axes.labelsize":7.2,"axes.titlesize":7.8,
  "xtick.labelsize":6.6,"ytick.labelsize":6.6,"axes.linewidth":0.6,"xtick.major.width":0.6,"ytick.major.width":0.6,
  "xtick.major.size":2.4,"ytick.major.size":2.4,"axes.spines.top":False,"axes.spines.right":False,
@@ -61,6 +62,8 @@ fig.savefig(os.path.join(figs,"Fig4_curation_and_protocol.png"),dpi=300)
 print("saved")
 
 import os as _os
+
+import os
 _sub=_os.path.join(os.path.dirname(os.path.dirname(_os.path.abspath(__file__))),"figs","submission")
 _os.makedirs(_sub, exist_ok=True)
 fig.savefig(_os.path.join(_sub,"Fig4.pdf"))

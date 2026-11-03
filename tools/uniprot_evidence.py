@@ -2,7 +2,8 @@
 import os, json, gzip, glob, statistics as st
 from collections import defaultdict
 import pandas as pd
-base = r"C:\Users\Administrator\Desktop\丙酮酰化\data"
+BASE = os.environ.get("KPY_BASE", os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+base = os.path.join(BASE, "data")
 up = os.path.join(base, "uniprot")
 recs = {}
 for f in glob.glob(os.path.join(up, "*.json")):
@@ -42,6 +43,8 @@ print("refs per site  Kpy median %.1f mean %.2f | all lysines median %.1f mean %
 
 # multi-mod (CPLM) vs evidence depth
 import glob as g2
+
+import os
 site_mods = defaultdict(set)
 for f in sorted(g2.glob(os.path.join(base,"cplm","*","*.txt"))):
     mod = os.path.basename(os.path.dirname(f))

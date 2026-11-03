@@ -1,8 +1,11 @@
 
 import sys, os, re
+BASE = os.environ.get("KPY_BASE", os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 from docx import Document
-p = r"C:\Users\Administrator\Desktop\丙酮酰化\11_manuscript_JPR.docx"
+
+import os
+p = os.path.join(BASE, "11_manuscript_JPR.docx")
 d = Document(p)
 print("paragraphs:", len(d.paragraphs), "images:", len(d.inline_shapes))
 print("\n-- outline --")

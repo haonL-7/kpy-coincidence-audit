@@ -1,8 +1,11 @@
 
 import os, glob, json, urllib.request, io
 import pandas as pd
-base = r"C:\Users\Administrator\Desktop\丙酮酰化\data"
-ws = r"C:\Users\Administrator\Desktop\丙酮酰化"
+
+import os
+BASE = os.environ.get("KPY_BASE", os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+base = os.path.join(BASE, "data")
+ws = BASE
 
 kpy = pd.read_csv(os.path.join(base, "kpy_sites.csv"))
 kpy.columns = [c.strip() for c in kpy.columns]

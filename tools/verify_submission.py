@@ -1,9 +1,12 @@
 
 import sys, os
+BASE = os.environ.get("KPY_BASE", os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 from PIL import Image
 from PIL.TiffImagePlugin import ImageFileDirectory_v2
-base = r"C:\Users\Administrator\Desktop\丙酮酰化"
+
+import os
+base = BASE
 sub = os.path.join(base, "figs", "submission")
 # TOC png -> tiff
 src = os.path.join(sub, "_toc600.png")

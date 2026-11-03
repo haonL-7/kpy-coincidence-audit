@@ -1,7 +1,10 @@
 
 import pandas as pd, os
-supp = r"C:\Users\Administrator\Desktop\丙酮酰化\data\supp"
-out  = r"C:\Users\Administrator\Desktop\丙酮酰化\data"
+
+import os
+BASE = os.environ.get("KPY_BASE", os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+supp = os.path.join(BASE, "data", "supp")
+out  = os.path.join(BASE, "data")
 f = os.path.join(supp, "MOESM2.xlsx")
 raw = pd.read_excel(f, sheet_name="kpySites", header=None)
 print("shape:", raw.shape)

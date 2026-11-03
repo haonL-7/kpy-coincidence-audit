@@ -1,6 +1,9 @@
 
 import pandas as pd, math, statistics as st
-base = r"C:\Users\Administrator\Desktop\丙酮酰化\data"
+
+import os
+BASE = os.environ.get("KPY_BASE", os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+base = os.path.join(BASE, "data")
 df = pd.read_csv(base + r"\uniprot_lysines.csv")
 kpy = pd.read_csv(base + r"\kpy_sites.csv")
 kpy["acc"]=kpy["Uniprot ID"].astype(str).str.strip(); kpy["pos"]=kpy["Positions within proteins"].astype(int)

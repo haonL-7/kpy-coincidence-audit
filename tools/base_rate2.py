@@ -2,7 +2,8 @@
 import os, glob, re, json, math
 from collections import defaultdict, Counter
 import pandas as pd
-base = r"C:\Users\Administrator\Desktop\丙酮酰化\data"
+BASE = os.environ.get("KPY_BASE", os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+base = os.path.join(BASE, "data")
 
 files = sorted(glob.glob(os.path.join(base, "cplm", "*", "*.txt")))
 site_mods = defaultdict(set); gene_of = {}
@@ -73,6 +74,8 @@ print("Kla sites in CPLM: %d, histone %d (%.0f%%), multi-mod %d (%.0f%%)" %
 print()
 print("== proteins ranked by annotation density (annotated Lys / total Lys) ==")
 import urllib.request, urllib.parse
+
+import os
 accs = sorted({a for a,_ in ks})
 seqs = {}
 for i in range(0, len(accs), 25):

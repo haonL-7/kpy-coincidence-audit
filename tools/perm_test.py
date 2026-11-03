@@ -1,7 +1,10 @@
 
 import os, glob, json, random, urllib.request
 import pandas as pd
-base = r"C:\Users\Administrator\Desktop\丙酮酰化\data"
+
+import os
+BASE = os.environ.get("KPY_BASE", os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+base = os.path.join(BASE, "data")
 kpy = pd.read_csv(os.path.join(base, "kpy_sites.csv"))
 kpy["acc"] = kpy["Uniprot ID"].astype(str).str.strip()
 kpy["pos"] = kpy["Positions within proteins"].astype(int)

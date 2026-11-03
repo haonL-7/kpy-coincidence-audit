@@ -1,7 +1,10 @@
 
 import os, glob, numpy as np, pandas as pd, math
 from collections import defaultdict
-base = r"C:\Users\Administrator\Desktop\丙酮酰化\data"
+
+import os
+BASE = os.environ.get("KPY_BASE", os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+base = os.path.join(BASE, "data")
 rsa = pd.read_csv(os.path.join(base, "rsa_table.csv"))
 rsa_key = {(a,p): (r, l) for a,p,r,l in zip(rsa.acc, rsa.resents if "resents" in rsa else rsa.resents_num, rsa.rsa, rsa.plddt)} if False else None
 rsa_key = {(a,int(p)): (rr, ld) for a,p,rr,ld in zip(rsa.acc, rsa.resseq, rsa.rsa, rsa.plddt)}

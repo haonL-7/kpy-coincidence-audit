@@ -2,7 +2,8 @@
 import os, glob, json, gzip, math, random, statistics as st
 from collections import defaultdict
 import pandas as pd
-base = r"C:\Users\Administrator\Desktop\丙酮酰化\data"
+BASE = os.environ.get("KPY_BASE", os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+base = os.path.join(BASE, "data")
 print("========== 自检 ==========")
 
 # 1 Kpy sites
@@ -46,6 +47,8 @@ print("    per-mod overlap:", dict(sorted(bymod.items(),key=lambda x:-x[1])))
 
 # 5 histone classification
 import re
+
+import os
 HIST=re.compile(r"^(H1|H2A|H2B|H2AX|H3|H4|HIST|CENP)",re.I)
 hist_acc={a for a,g in gene_of.items() if HIST.match(g)}
 kpy_hist=[s for s in ks if s[0] in hist_acc]

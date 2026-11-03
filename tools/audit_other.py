@@ -2,7 +2,10 @@
 import os, glob, math
 from collections import defaultdict
 import pandas as pd
-base = r"C:\Users\Administrator\Desktop\丙酮酰化\data"
+
+import os
+BASE = os.environ.get("KPY_BASE", os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+base = os.path.join(BASE, "data")
 files = sorted(glob.glob(os.path.join(base, "cplm", "*", "*.txt")))
 site_mods = defaultdict(set)
 for f in files:

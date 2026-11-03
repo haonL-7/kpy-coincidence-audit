@@ -3,7 +3,10 @@ import os, glob, json, re
 from collections import defaultdict, Counter
 import pandas as pd
 
-base = r"C:\Users\Administrator\Desktop\丙酮酰化\data"
+import os
+BASE = os.environ.get("KPY_BASE", os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+base = os.path.join(BASE, "data")
 files = sorted(glob.glob(os.path.join(base, "cplm", "*", "*.txt")))
 
 site_mods = defaultdict(set)

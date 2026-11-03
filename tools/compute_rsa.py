@@ -1,6 +1,9 @@
 
 import os, glob, numpy as np, pandas as pd, math
-base = r"C:\Users\Administrator\Desktop\丙酮酰化\data"
+
+import os
+BASE = os.environ.get("KPY_BASE", os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+base = os.path.join(BASE, "data")
 af = os.path.join(base, "alphafold")
 RAD = {"C":1.70,"N":1.55,"O":1.52,"S":1.80,"P":1.80,"H":1.20,"SE":1.90}
 MAXASA = {"ALA":129,"ARG":274,"ASN":195,"ASP":193,"CYS":167,"GLN":225,"GLU":223,"GLY":104,

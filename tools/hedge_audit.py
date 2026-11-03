@@ -1,7 +1,10 @@
 
 import sys, re
+
+import os
+BASE = os.environ.get("KPY_BASE", os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
-p = r"C:\Users\Administrator\Desktop\丙酮酰化\08_manuscript_v1.md"
+p = os.path.join(BASE, "08_manuscript_v1.md")
 t = open(p, encoding="utf-8").read()
 body = t.split("## References")[0]
 # split sentences
