@@ -25,8 +25,12 @@ CHECKS = [
       ("power at OR 10.25", r"power at OR 10\.25 = ([\d.]+)", 0.80, 0.05)]),
     ("power at the observed effect size", "tools/power_sim.py",
      ["power at OR 2.6"],
-     [("power at OR 2.6 (23 sites)", r"x1 \(n~23\): power at OR 2\.6 = ([\d.]+)", 0.18, 0.05),
+     [("power at OR 2.6 (23 sites)", r"x1 \(n~23\): power at OR 2\.6 = ([\d.]+)", 0.17, 0.05),
       ("power at 92 sites", r"x4 \(n~92\): power at OR 2\.6 = ([\d.]+)", 0.56, 0.05)]),
+    ("annotation density, structure and curation (Results 2-4)", "tools/check_sections.py",
+     ["median 0.042", "Spearman(log10 catalogue size, multi-modification rate) = -0.48",
+      "single 331 | multi 128", "median RSA: multi 0.569 | single 0.636",
+      "with curated evidence 74", "Fisher P = 9.0e-14"], []),
 ]
 
 

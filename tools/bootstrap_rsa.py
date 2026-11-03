@@ -1,3 +1,9 @@
+import sys, os, math, random
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from kpydata import load_sites, DATA
+import pandas as pd, numpy as np
+site = load_sites()
+rsa = pd.read_csv(os.path.join(DATA, 'rsa_table.csv'))
 
 import sys, os, glob, math, random
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")

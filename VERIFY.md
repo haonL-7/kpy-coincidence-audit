@@ -32,7 +32,7 @@ redistributed; nothing below needs them.
 Python 3.12, numpy, pandas, matplotlib, pillow. No network access is required
 for the checks below.
 
-## 4. Four checks against numbers in the manuscript
+## 4. Five checks against numbers in the manuscript
 
 | Command | Expected output | Where the manuscript states it |
 |---|---|---|
@@ -40,6 +40,7 @@ for the checks below.
 | `python tools/leave_one_out.py` | nine odds ratios from 1.97 to 65.12, then `Kpy ... OR=2.60 P=0.182` | Table S1 |
 | `python tools/power_sim.py` | `power at OR 2.6 = 0.18`, `x2 ... 0.45`, `x4 ... 0.56` | Results 5; Methods, Power |
 | `python tools/power_scale.py` | `power at OR 5.19 = 0.50`, `power at OR 10.25 = 0.80` (about 2 points of Monte Carlo noise) | Results 5 |
+| `python tools/check_sections.py` | `median 0.042`, `Spearman … = -0.48`, `single 331 \| multi 128`, `median RSA: multi 0.569 \| single 0.636`, `with curated evidence 74`, `Fisher P = 9.0e-14` | Results 2, 3 and 4 |
 
 On Windows set `PYTHONIOENCODING=utf-8` first; the scripts print no non-ASCII
 except the typographic minus in a few table cells.
@@ -69,6 +70,8 @@ cite, and the Methods should name that version explicitly.
 | `tools/kpydata.py` — portable data loader | **no** | **no** | yes |
 | `data/cplm_sites.tsv.gz` — 66,790 sites, so the archive runs without the 233 MB raw download | **no** | **no** | yes |
 | `verify.py` — cross-platform check runner | **no** | **no** | yes |
+| `tools/check_sections.py` — Results 2-4 numbers | **no** | **no** | yes |
+| `data/protein_lysines.csv` — 63 proteins with total and catalogued lysines | **no** | **no** | yes |
 | `VERIFY.md` — this file | **no** | yes | yes |
 
 Cite the version that contains what you are checking. The five power values in

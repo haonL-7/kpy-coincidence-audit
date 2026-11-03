@@ -1,25 +1,25 @@
 
 import sys, os, glob, math, re
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from kpydata import load_sites, load_kpy, DATA
 import numpy as np, pandas as pd
 from collections import defaultdict
-root = os.environ.get("KPY_BASE", r"C:\Users\Administrator\Desktop\丙酮酰化")
-data = os.path.join(root, "data")
+site = load_sites()
+ks = load_kpy()
+data = DATA
 
-site=defaultdict(set); gene={}
-for f in sorted(glob.glob(os.path.join(data,"cplm","*","*.txt"))):
-    mod=os.path.basename(os.path.dirname(f))
-    df=pd.read_csv(f,sep="\t",header=None,usecols=[1,2,4,5],names=["acc","pos","g","sp"],dtype=str,on_bad_lines="skip")
-    df=df[df["sp"].fillna("").str.contains("Homo sapiens",na=False)].dropna(subset=["acc","pos"])
-    df=df[df["pos"].str.match(r"^\d+$",na=False)]
-    for a,p,g in zip(df.acc.str.strip(),df.pos.astype(int),df.g.fillna("")):
-        site[(a,p)].add(mod); gene.setdefault(a,g.strip())
-HIST=re.compile(r"^(H1|H2A|H2B|H2AX|H3|H4|HIST|CENP)",re.I)
-hist={a for a,g in gene.items() if HIST.match(g)}
-
-kpy=pd.read_csv(os.path.join(data,"kpy_sites.csv"))
-kpy["acc"]=kpy["Uniprot ID"].astype(str).str.strip(); kpy["pos"]=kpy["Positions within proteins"].astype(int)
-ks=set((a,int(p)) for a,p in zip(kpy.acc,kpy.pos))
+gene = {}
+for f in sorted(glob.glob(os.path.join(data, "cplm", "*", "*.txt"))):
+    df = pd.read_csv(f, sep="\t", header=None, usecols=[1, 4], names=["acc", "g"], dtype=str, on_bad_lines="skip")
+    for a, g in zip(df.acc.astype(str).str.strip(), df.g.fillna("")):
+        gene.setdefault(a, g.strip())
+if not gene:
+    kpy_tbl = pd.read_csv(os.path.join(data, "kpy_sites.csv"))
+    for a in kpy_tbl["Uniprot ID"].astype(str).str.strip():
+        gene.setdefault(a, "")
+HIST = re.compile(r"^(H1|H2A|H2B|H2AX|H3|H4|HIST|CENP)", re.I)
+hist = {a for a, g in gene.items() if HIST.match(g)}
 cat={s for s in site}
 kpy_cat=[s for s in ks if s in cat]
 print("catalogued Kpy sites:", len(kpy_cat))
@@ -53,7 +53,7 @@ lo, hi = math.exp(math.log(OR)-1.96*se), math.exp(math.log(OR)+1.96*se)
 z = math.log(OR)/se
 p = math.erfc(abs(z)/math.sqrt(2))
 print("\nMantel-Haenszel (strata = protein, n=%d usable):" % keep)
-print("  OR = %.2f  95%% CI %.2f-%.2f  z=%.2f  P=%.3f" % (OR, lo, hi, z, p))
+print("  MH OR = %.2f  (exact conditional interval and P: see tools/exact_ci.py)" % OR)
 
 # ---- within-protein structural comparison ----
 rsa=pd.read_csv(os.path.join(data,"rsa_table.csv"))
