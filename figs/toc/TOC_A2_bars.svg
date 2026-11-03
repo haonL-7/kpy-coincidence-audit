@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="234pt" height="126pt" viewBox="0 0 234 126">
+  <rect width="234" height="126" fill="#ffffff"/>
+
+  <g fill="#0072B2">
+    <circle cx="15" cy="34" r="1.5"/><circle cx="19.2" cy="34" r="1.5"/><circle cx="23.4" cy="34" r="1.5"/><circle cx="27.6" cy="34" r="1.5"/><circle cx="31.8" cy="34" r="1.5"/><circle cx="15" cy="38.2" r="1.5"/><circle cx="19.2" cy="38.2" r="1.5"/><circle cx="23.4" cy="38.2" r="1.5"/><circle cx="27.6" cy="38.2" r="1.5"/><circle cx="31.8" cy="38.2" r="1.5"/><circle cx="15" cy="42.4" r="1.5"/><circle cx="19.2" cy="42.4" r="1.5"/><circle cx="23.4" cy="42.4" r="1.5"/><circle cx="27.6" cy="42.4" r="1.5"/><circle cx="31.8" cy="42.4" r="1.5"/><circle cx="15" cy="46.6" r="1.5"/><circle cx="19.2" cy="46.6" r="1.5"/><circle cx="23.4" cy="46.6" r="1.5"/><circle cx="27.6" cy="46.6" r="1.5"/><circle cx="31.8" cy="46.6" r="1.5"/><circle cx="15" cy="50.8" r="1.5"/><circle cx="19.2" cy="50.8" r="1.5"/><circle cx="23.4" cy="50.8" r="1.5"/><circle cx="27.6" cy="50.8" r="1.5"/><circle cx="31.8" cy="50.8" r="1.5"/><circle cx="15" cy="55" r="1.5"/><circle cx="19.2" cy="55" r="1.5"/><circle cx="23.4" cy="55" r="1.5"/><circle cx="27.6" cy="55" r="1.5"/><circle cx="31.8" cy="55" r="1.5"/>
+  </g>
+  <text x="25" y="72" font-family="Arial" font-size="7" text-anchor="middle" fill="#333333">88 Kpy sites</text>
+
+  <path d="M42 60 H58" stroke="#888888" stroke-width="1" fill="none"/>
+  <path d="M58 22 V100" stroke="#888888" stroke-width="1" fill="none"/>
+  <path d="M58 22 H70 M58 48 H70 M58 74 H70 M58 100 H70" stroke="#888888" stroke-width="1" fill="none"/>
+
+  <g font-family="Arial" font-size="7" fill="#111111">
+    <text x="74" y="24.5">pooled baseline</text>
+    <text x="74" y="50.5">stratified by class</text>
+    <text x="74" y="76.5">all sites</text>
+    <text x="74" y="102.5">within-protein</text>
+  </g>
+  <g font-family="Arial" font-size="7" fill="#444444" text-anchor="end">
+    <text x="190" y="24.5">1&#215;10&#8315;&#8309;</text>
+    <text x="190" y="50.5">0.011 / 0.044</text>
+    <text x="190" y="76.5">0.275</text>
+    <text x="190" y="102.5">0.15&#8211;0.35</text>
+  </g>
+  <rect x="198" y="15" width="6" height="14" rx="3" fill="#009E73"/>
+  <rect x="198" y="41" width="6" height="14" rx="3" fill="#E69F00"/>
+  <rect x="198" y="67" width="6" height="14" rx="3" fill="#BBBBBB"/>
+  <rect x="198" y="93" width="6" height="14" rx="3" fill="#BBBBBB"/>
+
+  <g font-family="Arial" font-size="6.6" fill="#666666">
+    <text x="210" y="24.5">sig.</text>
+    <text x="210" y="50.5">weak</text>
+    <text x="210" y="76.5">n.s.</text>
+    <text x="210" y="102.5">n.s.</text>
+  </g>
+  <text x="8" y="120" font-family="Arial" font-size="6.8" fill="#555555">Same sites, four reference sets: the answer follows the set.</text>
+</svg>

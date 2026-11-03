@@ -1,0 +1,11 @@
+﻿mod,n,proteins,obs_other,obs_rate,exp_rate,z,p
+Acetylation,58672,11867,13379,22.8,28.0,-93.19,0.0
+Crotonylation,12865,3262,9525,74.0,86.3,-73.29,0.0
+2-Hydroxyisobutyrylation,8817,2495,7630,86.5,95.0,-54.46,0.0
+Malonylation,5015,1843,4071,81.2,93.6,-51.31,0.0
+Succinylation,4205,1812,3175,75.5,90.5,-55.15,0.0
+Butyrylation,327,205,114,34.9,47.8,-13.53,0.0
+Kpy (this study),88,63,23,26.1,77.3,0.0,0.5
+Lactylation,80,22,64,80.0,92.4,-8.16,0.0
+Glutarylation,49,7,39,79.6,88.8,-3.41,0.0003
+Propionylation,44,5,41,93.2,99.0,-4.31,0.0

@@ -1,0 +1,492 @@
+{
+ "kpy_total": 88,
+ "with_any": 23,
+ "by_mod": {
+  "2-Hydroxyisobutyrylation": {
+   "mod": "2-Hydroxyisobutyrylation",
+   "human_sites": 8817,
+   "overlap": 7,
+   "expected": 7.49,
+   "enrichment": 0.93,
+   "sites": [
+    [
+     "P37837",
+     321
+    ],
+    [
+     "P62805",
+     9
+    ],
+    [
+     "P62805",
+     13
+    ],
+    [
+     "P62805",
+     32
+    ],
+    [
+     "P62807",
+     21
+    ],
+    [
+     "P68431",
+     24
+    ],
+    [
+     "P68431",
+     123
+    ]
+   ]
+  },
+  "Acetylation": {
+   "mod": "Acetylation",
+   "human_sites": 58672,
+   "overlap": 22,
+   "expected": 20.23,
+   "enrichment": 1.09,
+   "sites": [
+    [
+     "P09382",
+     128
+    ],
+    [
+     "P0DPI2",
+     164
+    ],
+    [
+     "P37837",
+     314
+    ],
+    [
+     "P37837",
+     321
+    ],
+    [
+     "P62328",
+     4
+    ],
+    [
+     "P62805",
+     6
+    ],
+    [
+     "P62805",
+     9
+    ],
+    [
+     "P62805",
+     13
+    ],
+    [
+     "P62805",
+     32
+    ],
+    [
+     "P62805",
+     60
+    ],
+    [
+     "P62807",
+     16
+    ],
+    [
+     "P62807",
+     21
+    ],
+    [
+     "P68431",
+     10
+    ],
+    [
+     "P68431",
+     24
+    ],
+    [
+     "P68431",
+     123
+    ],
+    [
+     "P84090",
+     34
+    ],
+    [
+     "Q15075",
+     332
+    ],
+    [
+     "Q5T200",
+     205
+    ],
+    [
+     "Q86VM9",
+     823
+    ],
+    [
+     "Q86W92",
+     309
+    ],
+    [
+     "Q8N1G2",
+     123
+    ],
+    [
+     "Q8WWK9",
+     77
+    ]
+   ]
+  },
+  "Butyrylation": {
+   "mod": "Butyrylation",
+   "human_sites": 327,
+   "overlap": 6,
+   "expected": 5.71,
+   "enrichment": 1.05,
+   "sites": [
+    [
+     "P62805",
+     6
+    ],
+    [
+     "P62805",
+     9
+    ],
+    [
+     "P62805",
+     13
+    ],
+    [
+     "P62805",
+     32
+    ],
+    [
+     "P68431",
+     10
+    ],
+    [
+     "P68431",
+     24
+    ]
+   ]
+  },
+  "Crotonylation": {
+   "mod": "Crotonylation",
+   "human_sites": 12865,
+   "overlap": 13,
+   "expected": 9.39,
+   "enrichment": 1.38,
+   "sites": [
+    [
+     "P09382",
+     128
+    ],
+    [
+     "P37837",
+     321
+    ],
+    [
+     "P62805",
+     6
+    ],
+    [
+     "P62805",
+     9
+    ],
+    [
+     "P62805",
+     13
+    ],
+    [
+     "P62805",
+     32
+    ],
+    [
+     "P62807",
+     16
+    ],
+    [
+     "P62807",
+     21
+    ],
+    [
+     "P68431",
+     10
+    ],
+    [
+     "P68431",
+     24
+    ],
+    [
+     "P68431",
+     123
+    ],
+    [
+     "Q15075",
+     332
+    ],
+    [
+     "Q9Y5J1",
+     175
+    ]
+   ]
+  },
+  "Formylation": {
+   "mod": "Formylation",
+   "human_sites": 0,
+   "overlap": 0,
+   "expected": 0.0,
+   "enrichment": null,
+   "sites": []
+  },
+  "Glutarylation": {
+   "mod": "Glutarylation",
+   "human_sites": 49,
+   "overlap": 0,
+   "expected": 0.0,
+   "enrichment": null,
+   "sites": []
+  },
+  "Lactylation": {
+   "mod": "Lactylation",
+   "human_sites": 80,
+   "overlap": 8,
+   "expected": 5.9,
+   "enrichment": 1.36,
+   "sites": [
+    [
+     "P62805",
+     6
+    ],
+    [
+     "P62805",
+     9
+    ],
+    [
+     "P62805",
+     13
+    ],
+    [
+     "P62805",
+     32
+    ],
+    [
+     "P62807",
+     16
+    ],
+    [
+     "P62807",
+     21
+    ],
+    [
+     "P68431",
+     10
+    ],
+    [
+     "P68431",
+     24
+    ]
+   ]
+  },
+  "Malonylation": {
+   "mod": "Malonylation",
+   "human_sites": 5015,
+   "overlap": 4,
+   "expected": 2.79,
+   "enrichment": 1.44,
+   "sites": [
+    [
+     "P09382",
+     128
+    ],
+    [
+     "P37837",
+     314
+    ],
+    [
+     "P37837",
+     321
+    ],
+    [
+     "P68431",
+     123
+    ]
+   ]
+  },
+  "Propionylation": {
+   "mod": "Propionylation",
+   "human_sites": 44,
+   "overlap": 5,
+   "expected": 4.32,
+   "enrichment": 1.16,
+   "sites": [
+    [
+     "P62805",
+     6
+    ],
+    [
+     "P62805",
+     9
+    ],
+    [
+     "P62805",
+     13
+    ],
+    [
+     "P62805",
+     32
+    ],
+    [
+     "P68431",
+     24
+    ]
+   ]
+  },
+  "Succinylation": {
+   "mod": "Succinylation",
+   "human_sites": 4205,
+   "overlap": 5,
+   "expected": 4.32,
+   "enrichment": 1.16,
+   "sites": [
+    [
+     "P0DPI2",
+     164
+    ],
+    [
+     "P62328",
+     4
+    ],
+    [
+     "P62805",
+     13
+    ],
+    [
+     "P62805",
+     32
+    ],
+    [
+     "P68431",
+     123
+    ]
+   ]
+  }
+ },
+ "detail": {
+  "P37837_321": [
+   "2-Hydroxyisobutyrylation",
+   "Acetylation",
+   "Crotonylation",
+   "Malonylation"
+  ],
+  "P62805_9": [
+   "2-Hydroxyisobutyrylation",
+   "Acetylation",
+   "Butyrylation",
+   "Crotonylation",
+   "Lactylation",
+   "Propionylation"
+  ],
+  "P62805_13": [
+   "2-Hydroxyisobutyrylation",
+   "Acetylation",
+   "Butyrylation",
+   "Crotonylation",
+   "Lactylation",
+   "Propionylation",
+   "Succinylation"
+  ],
+  "P62805_32": [
+   "2-Hydroxyisobutyrylation",
+   "Acetylation",
+   "Butyrylation",
+   "Crotonylation",
+   "Lactylation",
+   "Propionylation",
+   "Succinylation"
+  ],
+  "P62807_21": [
+   "2-Hydroxyisobutyrylation",
+   "Acetylation",
+   "Crotonylation",
+   "Lactylation"
+  ],
+  "P68431_24": [
+   "2-Hydroxyisobutyrylation",
+   "Acetylation",
+   "Butyrylation",
+   "Crotonylation",
+   "Lactylation",
+   "Propionylation"
+  ],
+  "P68431_123": [
+   "2-Hydroxyisobutyrylation",
+   "Acetylation",
+   "Crotonylation",
+   "Malonylation",
+   "Succinylation"
+  ],
+  "P09382_128": [
+   "Acetylation",
+   "Crotonylation",
+   "Malonylation"
+  ],
+  "P0DPI2_164": [
+   "Acetylation",
+   "Succinylation"
+  ],
+  "P37837_314": [
+   "Acetylation",
+   "Malonylation"
+  ],
+  "P62328_4": [
+   "Acetylation",
+   "Succinylation"
+  ],
+  "P62805_6": [
+   "Acetylation",
+   "Butyrylation",
+   "Crotonylation",
+   "Lactylation",
+   "Propionylation"
+  ],
+  "P62805_60": [
+   "Acetylation"
+  ],
+  "P62807_16": [
+   "Acetylation",
+   "Crotonylation",
+   "Lactylation"
+  ],
+  "P68431_10": [
+   "Acetylation",
+   "Butyrylation",
+   "Crotonylation",
+   "Lactylation"
+  ],
+  "P84090_34": [
+   "Acetylation"
+  ],
+  "Q15075_332": [
+   "Acetylation",
+   "Crotonylation"
+  ],
+  "Q5T200_205": [
+   "Acetylation"
+  ],
+  "Q86VM9_823": [
+   "Acetylation"
+  ],
+  "Q86W92_309": [
+   "Acetylation"
+  ],
+  "Q8N1G2_123": [
+   "Acetylation"
+  ],
+  "Q8WWK9_77": [
+   "Acetylation"
+  ],
+  "Q9Y5J1_175": [
+   "Crotonylation"
+  ]
+ }
+}

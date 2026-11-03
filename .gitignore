@@ -1,0 +1,20 @@
+# primary data (download separately)
+data/cplm/
+data/alphafold/
+data/uniprot/
+data/supp/
+data/psp/
+
+# working material
+refs/
+.mpl/
+*.docx
+figs/submission/_preview*
+figs/**/prof*/
+tools/dev/
+
+# OS
+Thumbs.db
+.DS_Store
+# internal working notes
+notes/

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="234pt" height="126pt" viewBox="0 0 234 126">
+  <rect width="234" height="126" fill="#ffffff"/>
+  <text x="10" y="13" font-family="Arial" font-size="7" font-weight="700" fill="#111111">Co-occupancy depends on the reference set</text>
+
+  <!-- three stage arrows -->
+  <g font-family="Arial" font-size="6" fill="#555555">
+    <text x="12" y="26">88 Kpy sites</text>
+    <text x="86" y="26">reference set</text>
+    <text x="168" y="26">conclusion</text>
+  </g>
+
+  <!-- rows: input dot, arrow, chip, p, verdict -->
+  
+  <circle cx="18" cy="40" r="2.2" fill="#0072B2"/>
+  <path d="M24 40 H40" stroke="#999999" stroke-width="0.8"/>
+  <rect x="42" y="33" width="72" height="14" rx="2.5" fill="#F2F6FA" stroke="#C9D8E6" stroke-width="0.6"/>
+  <text x="48" y="42.2" font-family="Arial" font-size="6.2" fill="#111111">A pooled</text>
+  <path d="M116 40 H128" stroke="#999999" stroke-width="0.8"/>
+  <text x="132" y="42.2" font-family="Arial" font-size="6.2" fill="#333333">P = 1&#215;10&#8315;&#8309;</text>
+  <rect x="196" y="33.5" width="26" height="13" rx="6.5" fill="#009E73"/>
+  <text x="209" y="42.2" font-family="Arial" font-size="5.6" fill="#ffffff" text-anchor="middle">sig.</text>
+  <circle cx="18" cy="62" r="2.2" fill="#0072B2"/>
+  <path d="M24 62 H40" stroke="#999999" stroke-width="0.8"/>
+  <rect x="42" y="55" width="72" height="14" rx="2.5" fill="#F2F6FA" stroke="#C9D8E6" stroke-width="0.6"/>
+  <text x="48" y="64.2" font-family="Arial" font-size="6.2" fill="#111111">B stratified</text>
+  <path d="M116 62 H128" stroke="#999999" stroke-width="0.8"/>
+  <text x="132" y="64.2" font-family="Arial" font-size="6.2" fill="#333333">P = 0.011 / 0.044</text>
+  <rect x="196" y="55.5" width="26" height="13" rx="6.5" fill="#E69F00"/>
+  <text x="209" y="64.2" font-family="Arial" font-size="5.6" fill="#ffffff" text-anchor="middle">weak</text>
+  <circle cx="18" cy="84" r="2.2" fill="#0072B2"/>
+  <path d="M24 84 H40" stroke="#999999" stroke-width="0.8"/>
+  <rect x="42" y="77" width="72" height="14" rx="2.5" fill="#F2F6FA" stroke="#C9D8E6" stroke-width="0.6"/>
+  <text x="48" y="86.2" font-family="Arial" font-size="6.2" fill="#111111">C all sites</text>
+  <path d="M116 84 H128" stroke="#999999" stroke-width="0.8"/>
+  <text x="132" y="86.2" font-family="Arial" font-size="6.2" fill="#333333">P = 0.275</text>
+  <rect x="196" y="77.5" width="26" height="13" rx="6.5" fill="#BBBBBB"/>
+  <text x="209" y="86.2" font-family="Arial" font-size="5.6" fill="#333333" text-anchor="middle">n.s.</text>
+  <circle cx="18" cy="106" r="2.2" fill="#0072B2"/>
+  <path d="M24 106 H40" stroke="#999999" stroke-width="0.8"/>
+  <rect x="42" y="99" width="72" height="14" rx="2.5" fill="#F2F6FA" stroke="#C9D8E6" stroke-width="0.6"/>
+  <text x="48" y="108.2" font-family="Arial" font-size="6.2" fill="#111111">D within-protein</text>
+  <path d="M116 106 H128" stroke="#999999" stroke-width="0.8"/>
+  <text x="132" y="108.2" font-family="Arial" font-size="6.2" fill="#333333">P = 0.15&#8211;0.35</text>
+  <rect x="196" y="99.5" width="26" height="13" rx="6.5" fill="#BBBBBB"/>
+  <text x="209" y="108.2" font-family="Arial" font-size="5.6" fill="#333333" text-anchor="middle">n.s.</text>
+
+  <text x="10" y="122" font-family="Arial" font-size="6" font-style="italic" fill="#666666">Same sites; the choice decides whether crosstalk is reported.</text>
+</svg>
