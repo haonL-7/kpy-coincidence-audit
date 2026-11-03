@@ -1,5 +1,9 @@
 # kpy-coincidence-audit
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23906361.svg)](https://doi.org/10.5281/zenodo.23906361)
+
+Archived release: v1.0, DOI 10.5281/zenodo.23906361.
+
 Code and derived tables for the manuscript *"The reference set decides the answer: annotation depth, not competition, governs lysine acylation co-occupancy"*.
 
 The paper asks a narrow question: when two lysine modifications are said to "compete" because their sites overlap, what does the overlap actually measure? Using 88 lysine pyruvoylation (Kpy) sites as a test case, the repository reproduces four reference sets (A-D), the structural covariates, and the curation-depth comparison, and shows that the same sites yield a 1e-5 enrichment, a two-fold enrichment, or no detectable enrichment depending only on how the comparison set is defined.
