@@ -88,3 +88,19 @@ def power(psi, scale=1.0, reps=6000, seed=11):
 
 for psi in (2.60, 3.00, 5.19, 8.00, 10.25):
     print("power at OR %.2f = %.2f" % (psi, power(psi)))
+
+# diagnostics behind the plateau reported in Results 5 and Table S2
+print("")
+print("scale | capped at n-1 | above 80% | above n/2 | mean variance | mean share")
+for sc in (1, 2, 3, 4, 6):
+    capped = over80 = overhalf = 0
+    vs, sh = [], []
+    for (n, R1, C1) in marg:
+        R1s = min(max(1, int(round(R1 * sc))), n - 1)
+        if R1s >= n - 1: capped += 1
+        if R1s >= 0.8 * n: over80 += 1
+        if R1s > n / 2: overhalf += 1
+        vs.append((R1s * (n - C1) * C1 * (n - R1s)) / (n * n * (n - 1)))
+        sh.append(R1s / n)
+    print("x%-4d %13d %10d %10d %13.3f %11.2f"
+          % (sc, capped, over80, overhalf, sum(vs) / len(vs), sum(sh) / len(sh)))

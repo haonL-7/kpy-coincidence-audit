@@ -28,6 +28,11 @@ fix_zenodo_dns.ps1
 # local verification package (regenerated from the release archive)
 _verify/
 
+# downloaded publisher full texts: used for coding, not redistributed
+fulltext/
+tools/dev/fulltext/*.xml
+artifacts/fulltext/
+
 # python build artefacts
 __pycache__/
 *.pyc

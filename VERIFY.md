@@ -72,6 +72,7 @@ cite, and the Methods should name that version explicitly.
 | `verify.py` — cross-platform check runner | **no** | **no** | yes |
 | `tools/check_sections.py` — Results 2-4 numbers | **no** | **no** | yes |
 | `data/protein_lysines.csv` — 63 proteins with total and catalogued lysines | **no** | **no** | yes |
+| `artifacts/` — coding sheets for the literature check behind Table S3, with the sampling frame | **no** | **no** | yes |
 | `VERIFY.md` — this file | **no** | yes | yes |
 
 Cite the version that contains what you are checking. The five power values in
