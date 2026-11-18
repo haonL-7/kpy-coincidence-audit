@@ -1,0 +1,640 @@
+Protein Expression and Purification 203 (2023) 106216
+Available online 15 December 2022
+1046-5928/© 2022 The Authors. Published by Elsevier Inc. This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).
+Comparative analysis of protein expression systems and PTM landscape in 
+the study of transcription factor ELK-1 
+Charles Ducker a,*, Manohar Ratnam b, Peter E. Shaw a, Robert Layfield a 
+a School of Life Sciences, University of Nottingham, Queen’s Medical Centre, Nottingham, United Kingdom 
+b Department of Oncology, Wayne State University School of Medicine and Barbara Ann Karmanos Cancer Institute, Detroit, MI, USA   
+A R T I C L E I N F O  
+Keywords: 
+Protein expression 
+Phosphorylation 
+Acetylation 
+Transcription factors 
+Mitogens 
+ELK-1 
+A B S T R A C T  
+Post-translational modifications (PTMs) are important for protein folding and activity, and the ability to recreate 
+physiologically relevant PTM profiles on recombinantly-expressed proteins is vital for meaningful functional 
+analysis. The ETS transcription factor ELK-1 serves as a paradigm for cellular responses to mitogens and can 
+synergise with androgen receptor to promote prostate cancer progression, although in vitro protein function 
+analyses to date have largely overlooked its complex PTM landscapes. We expressed and purified human ELK-1 
+using mammalian (HEK293T), insect (Sf9) and bacterial (E. coli) systems in parallel and compared PTMs 
+imparted upon purified proteins, along with their performance in DNA and protein interaction assays. Phos­
+phorylation of ELK-1 within its transactivation domain, known to promote DNA binding, was most apparent in 
+protein isolated from human cells and accordingly conferred the strongest DNA binding in vitro, while protein 
+expressed in insect cells bound most efficiently to the androgen receptor. We observed lysine acetylation, a 
+hitherto unreported PTM of ELK-1, which appeared highest in insect cell-derived ELK-1 but was also present in 
+HEK293T-derived ELK-1. Acetylation of ELK-1 was enhanced in HEK293T cells following starvation and mitogen 
+stimulation, and modified lysines showed overlap with previously identified regulatory SUMOylation and 
+ubiquitination sites. Our data demonstrate that the choice of recombinant expression system can be tailored to 
+suit biochemical application rather than to maximise soluble protein production and suggest the potential for 
+crosstalk and antagonism between different PTMs of ELK-1.   
+1. Introduction 
+Heterologous expression and purification of proteins is key to 
+experimentally studying their structure and function and, as such, a 
+wide range of prokaryotic and eukaryotic expression systems have been 
+developed and refined over many years. Detailed biochemical analyses 
+of purified human health-relevant proteins (such as oncoproteins) pro­
+duced using various expression systems can provide insight into the 
+molecular mechanisms underpinning disease pathogenesis [1–3]. 
+Commonly, optimised strains of Escherichia coli (E. coli) are transformed 
+with a plasmid containing the protein of interest, grown to log phase, 
+and induced, before isolation of the protein of interest through purifi­
+cation methodologies. Benefits of E. coli use include its fast growth rate 
+under optimal conditions and potential for large protein output at low 
+cost. However, protein functionality is not guaranteed, as some proteins 
+will fail to fold correctly in a bacterial expression system and/or be 
+sequestered in inclusion bodies, hampering viable purification [4]. One 
+important factor in this regard is appropriate regulatory post-translation 
+modification (PTM) of the protein of interest, such as phosphorylation, 
+glycosylation and acetylation, which may be essential for optimal pro­
+tein function and for which E. coli systems are generally less than 
+adequate in providing [5]. 
+To this end, eukaryotic expression systems may be more appropriate. 
+These include expression-vector transformation of yeast (e.g. Saccharo­
+myces cerevisiae, Pichia pastoris), infection of lepidopteran insect cells (e. 
+g. Spodoptera frugiperda Sf9/Sf21, Trichoplusia ni) with recombinant 
+baculovirus vectors, and transient transfection or stable cell line gen­
+eration using immortalised mammalian cells (e.g. CHO, HEK293 [6,7]). 
+Each system has advantages and disadvantages depending on the spe­
+cific requirements of the target protein, as well as differences in cost and 
+scalability. For example, expression of human protein in mammalian 
+expression systems reaps the benefits of a cognate repertoire of PTM 
+enzymes, with the downside of more demanding culture conditions and 
+far slower growth and yield compared with microbial-based methods 
+* Corresponding author. 
+E-mail address: mbzcd@exmail.nottingham.ac.uk (C. Ducker).  
+Contents lists available at ScienceDirect 
+Protein Expression and Purification 
+journal homepage: www.elsevier.com/locate/yprep 
+https://doi.org/10.1016/j.pep.2022.106216 
+Received 11 October 2022; Received in revised form 6 December 2022; Accepted 14 December 2022   
+
+Protein Expression and Purification 203 (2023) 106216
+2
+[7]. 
+The E-twenty-six/E26 (ETS) family member and ternary complex 
+factor (TCF) ELK-1 has been extensively studied as a mitogen-responsive 
+transcription factor activated upon phosphorylation by extracellular 
+signal-regulated kinases (ERKs) within its C-terminal transactivation 
+domain (TAD, Fig. 1a) [8–10]. The conserved winged helix-turn-helix 
+DNA-binding domain that defines the ETS family forms contacts with 
+purine-rich DNA sequences with a GGA core and represents one of the 
+two regions of defined structure in TCFs, alongside the B domain 
+[11–13]. In response to growth factor signalling, ELK-1 forms a ternary 
+complex through the B domain with a dimer of Serum Response Factor 
+(SRF) at Serum Response Elements (SREs) in target genes such as CFOS 
+and EGR1, promoting their transcription and driving cell-cycle entry and 
+proliferation [14–17]. Transcriptional activity can also be suppressed by 
+SUMOylation in a repression domain (R) and mono-ubiquitination in the 
+ETS domain [18–20]. ELK-1 has been identified as a possible therapeutic 
+target in prostate cancer (PC) due to interactions with the androgen 
+receptor (AR), in depression, and Huntington’s disease [21–25]. 
+Therefore, expression and purification of functional ELK-1 is of impor­
+tance to allow detailed studies of relevant disease-state interactors, such 
+as AR in the context of PC. 
+In this study, we have expressed full-length human ELK-1 using 
+bacterial, insect and mammalian systems in parallel and carried out 
+protein purification to permit comparative analysis of PTM and protein 
+function (DNA and protein binding). Differential PTM profiles were 
+observed with proteins resulting from each methodology, with optimal 
+ELK-1-DNA and ELK-1-AR interactions observed with human and insect 
+cell-derived ELK-1 protein, respectively. By stimulating mammalian 
+cells, we have also identified sites of lysine acetylation in ELK-1 that 
+overlap with sites of other PTMs, implying competition within the ELK-1 
+PTM landscape. Our work highlights the need to match the target to the 
+expression system, and to the downstream experimental or functional 
+applications for the desired protein. 
+2. Materials and methods 
+2.1. Plasmids and antibodies 
+Vectors encoding ELK-1-His (human, UniProt ID P19419) for 
+expression in human (pCMV5), insect (pFastBac1) and bacterial cells 
+(pQE60) were available from previous studies [10,26]. Human AR-N-His 
+(1–560) cDNA was sub-cloned into pGEX2T for bacterial expression with 
+an N-terminal glutathione S-transferase (GST)-tag. Full-length human 
+AR cDNA inserted into polylinker of CMV-FLAG (pCMV5) was used for 
+expression in human cells. Antibodies used were as follows: ELK-1 rabbit 
+monoclonal (Abcam ab32106), phospho-ELK-1 (S383) rabbit polyclonal 
+(Cell Signalling Technology #9181), phospho-tyrosine mouse mono­
+clonal (Merck Millipore 4G10), acetyl-lysine rabbit polyclonal (Upstate 
+Biotechnology), GST-HRP conjugate (Amersham RPN1236), AR rabbit 
+polyclonal (GeneTex GTX100056), phospho-ERK1/2 (T202/Y204) rab­
+bit monoclonal (Cell Signalling Technology #4376), ERK2 mouse 
+monoclonal (Santa Cruz Biotechnology sc-1647). 
+2.2. Cell culture 
+HEK293T cells were cultured at 37 ◦C (7.5% CO2) in low glucose 
+DMEM supplemented with 10% foetal calf serum (FCS), 100 U/ml 
+penicillin, 100 μg/ml streptomycin and 2 mM L-glutamine. Where 
+Fig. 1. a) Schematic of human ELK-1 illustrating functional domains. ETS – DNA-binding, B – SRF interaction, R – SUMOylation and repression, D/F – MAP kinase 
+docking, TAD – transactivation. b) Human ELK-1-His cDNA was cloned into appropriate plasmids and expressed as follows: Mammalian – pCMV5-ELK-1 was 
+transiently transfected into HEK293T cells. Insect - pFastBac1-ELK-1 was transformed into DH10Bac E. coli allowing transposition between pFastBac1 and shuttle 
+vector (bacmid) bMON14272 through transposase activity conferred from helper plasmid pMON7124. Recombinant bacmid DNA was transfected into Sf9 cells, with 
+virus harvested and used to infect Sf9 cells for protein expression. Bacterial – pQE60-ELK-1 was transformed into SG13009 E. coli (harbouring pREP4 plasmid for lacI 
+expression) and used to generate liquid cultures, which were grown to log phase and induced with IPTG. All ELK-1-His proteins were subsequently purified by IMAC 
+and resolved by SDS-PAGE. c) Equal loads of ELK-1 proteins (1.5 μg) resolved by SDS-PAGE on a gradient (5–20%) gel (MW markers indicated right of gel 
+image, kDa). 
+C. Ducker et al.                                                                                                                                                                                                                                  
+
+Protein Expression and Purification 203 (2023) 106216
+3
+indicated, cells were serum-starved in growth medium supplemented 
+with 0.5% FCS for 24 h and stimulated with 15% FCS and 100 ng/ml 12- 
+O-tetradecanoylphorbol-13-acetate (TPA) for 30 min. Sf9 cells were 
+maintained at 27 ◦C in Insect-Xpress medium supplemented with 10% 
+FCS, 200 U/ml penicillin and 200 μg/ml streptomycin. 
+2.3. Protein expression and purification 
+Mammalian - HEK293T cells were transfected with pCMV5-ELK-1- 
+His via calcium phosphate precipitation and harvested after 48 h. In­
+sect – pFastBac1-ELK-1-His was transformed into DH10Bac E. coli on LB 
+agar containing 30 μg/ml kanamycin, 7 μg/ml gentamicin, 10 μg/ml 
+tetracycline, 100 μg/ml X-gal and 40 μg/ml IPTG with white colonies 
+indicative of transposition into baculoviral genome selected. Recombi­
+nant bacmid was transfected into Sf9 cells with Escort IV reagent, with 
+supernatant harvested after 7 days. Baculovirus-infected insect cell 
+(BIIC) stocks were generated by infection of Sf9 cells with supernatant 
+and harvested when mean cell diameter increased by ~1.5 μm. BIIC 
+stocks were used to infect Sf9 cells and harvested after 48 h. Bacterial – 
+pQE60-ELK-1-His was transformed into SG13009 E. coli cells on LB agar 
+containing 25 μg/ml kanamycin and 100 μg/ml ampicillin. LB cultures 
+were grown at 37 ◦C and cells were induced at OD600~0.6 with 1 mM 
+IPTG for 4 h at 30 ◦C before harvesting. 
+Protein purification was the same across all ELK-1-His preparations, 
+with pellets lysed in phosphate buffer (50 mM NaH2PO4 pH 7.0, 500 mM 
+NaCl, 300 mM KCl, 20 mM imidazole, 1% v/v NP-40), sonicated 8 × 10 s 
+pulses (amplitude 25 Hz) followed by centrifugation (14,000 rpm, 4 ◦C, 
+15 min). Supernatant was incubated with 1 ml nickel-NTA agarose beads 
+(Qiagen) for 2 h (4 ◦C), washed with phosphate buffer and eluted with 
+imidazole (50–500 mM gradient). Purified proteins in the 200–500 mM 
+imidazole fractions were dialysed against HEPES-buffered saline (HBS- 
+10 mM HEPES pH 7.4, 150 mM NaCl, 1 mM DTT). 
+2.4. Protein mass spectrometry 
+Coomassie-stained protein bands from SDS-PAGE (1.5 μg) were 
+excised, reduced, alkylated, digested with trypsin and submitted to 
+tandem mass spectrometry (MS/MS) on an LTQ Orbitrap spectrometer 
+with nanoflow liquid chromatography. Peptides were identified in data- 
+dependent mode, using Mascot (2.7.0) to search the human UniProt 
+(2018) and cRAP (2019) databases (93734 proteins, 2 max missed 
+cleavage sites, precursor ion mass tolerance 20 PPM, fragment ion mass 
+tolerance 0.100 Da) and validated with Scaffold (4.11.1). Total Spec­
+trum Counts for a given identified peptide were recorded. Carbamido­
+methyl (+57 on C) was considered a fixed modification, while 
+deamidation (+1 on N/Q), oxidation (+16 on M), phosphorylation (+80 
+on S/T/Y) and acetylation (+42 on K/N-terminal M) were considered as 
+variable modifications. 
+2.5. Electrophoretic mobility shift assay (EMSA) 
+Recombinant ELK-1-His proteins (25/50 ng) were incubated with 
+Cy5-labelled E74 probe for 10 min at room temperature alongside 1 μg 
+poly(dI-dC) and 5.4 μg herring sperm DNA as non-specific competitors. 
+Complexes were resolved on native 5% polyacrylamide gels and 
+visualised on an Amersham Typhoon Biomolecular imager. When in vitro 
+phosphorylation prior to EMSA was required, ELK-1 protein was incu­
+bated with active ERK2 [27] in PP buffer (25 mM Tris-HCl pH 7.2, 10 
+mM MgCl2, 1 mM DTT, 250 μM ATP) for 1 h at 37oc. 
+2.6. Protein interaction assay 
+GST-AR-N-His (1 μg) on glutathione agarose beads was pre-blocked 
+with 0.1% w/v BSA (in HBS) for 1 h, washed with HBS and incubated 
+with ELK-1 protein (1 μg) for 2 h at room temperature. Beads were 
+washed and resolved by SDS-PAGE gradient gel (5–20%), transferred to 
+nitrocellulose membrane and submitted to immunoblot. 
+2.7. Co-immunoprecipitation (Co-IP) assay 
+HEK293T cells were transfected with pCMV5-ELK-1-His and pCMV5- 
+AR-FLAG in 6-well dishes using TransIT-LT1 transfection reagent as per 
+manufacturer’s instructions (Mirus Bio). The following day cells were 
+serum-starved and stimulated, before lysis in Co-IP buffer (40 mM 
+HEPES pH 7.4, 150 mM NaCl, 1% v/v NP40), sonication for 10 s 
+(amplitude 25 Hz) followed by centrifugation (14,000 rpm, 4 ◦C, 15 
+min). Supernatants were incubated with anti-FLAG M2 affinity gel 
+(Sigma-Aldrich) for 2 h at room temperature, beads were washed, eluted 
+proteins were resolved by SDS-PAGE gradient gel (5–20%), transferred 
+to nitrocellulose membrane and submitted to immunoblot. 
+3. Results 
+3.1. ELK-1 phosphorylation and acetylation modifications vary 
+depending on protein origin 
+To produce comparable protein preparations, cDNA encoding C- 
+terminally His-tagged full-length human ELK-1 was cloned into vectors 
+appropriate for each expression system of interest (Fig. 1b). Proteins 
+were generated through transient transfection in human cells 
+(HEK293T), viral infection in insect cells (Sf9) and transformation and 
+induction in bacterial cells (E. coli SG13009). Following lysis of cells, 
+ELK-1-His was purified through immobilised metal affinity chromatog­
+raphy (IMAC). From denaturing SDS-PAGE analysis of purified proteins, 
+we noted clear differences between protein samples analysed in parallel, 
+with an apparent faster migration of bacterially produced ELK-1 sug­
+gestive of lower denatured molecular weight (Fig. 1c). Also of note was 
+the apparent homogeneity in bacterial and insect cell-derived proteins, 
+indicated by a single sharp gel band, compared to a more dispersed band 
+for the human cell-derived ELK-1 protein, potentially indicating di­
+versity in observed molecular weight due to PTM heterogeneity. 
+To determine whether this was the case, equal amounts of the pu­
+rified proteins were submitted to immunoblot against a panel of anti­
+bodies that recognise PTMs. ELK-1 phosphorylation is well- 
+characterised in the C-terminal TAD, with S383 and S389 established 
+as positive indicators of transcriptional activation following mitogen 
+stimulation 
+[8–10]. 
+Commercial 
+antibodies 
+are 
+available 
+for 
+phosphoS383-ELK-1, and as expected gave a strong signal against 
+human cell-derived purified ELK-1, consistent with endogenous ERK 
+expression and other mitogen activated protein kinases (MAPKs) in 
+HEK293T cells (Fig. 2a). A weaker signal was seen in insect cell-derived 
+ELK-1 protein, with no signal detected with the bacterially-derived 
+protein, rationally reflecting the lack of appropriate PTM machinery in 
+E. coli [5]. Tyrosine phosphorylation in ELK-1 is not well studied, 
+although it has been documented in large proteomic datasets [28]. 
+Immunoblot for phospho-Y also gave (weak) reactivity with human 
+cell-derived ELK-1, with no detected reactivity in the other samples. 
+Lysine acetylation is undocumented in ELK-1, although ELK-1 is known 
+to associate with p300/CBP [29–31]. Interestingly, immunoblot against 
+acetyl-K gave the strongest signal with the Sf9-derived purified ELK-1 
+protein, with weaker reactivity for the HEK293T-derived ELK-1 and 
+very faint detection of E. coli-derived protein. 
+To complement immunoblot data, we used MS/MS to identify PTM 
+sites in purified ELK-1 proteins. As expected, no phosphorylation sites 
+were found in the bacterial preparation of ELK-1, while multiple sites 
+were identified in both insect and human-derived protein at sub- 
+stoichiometric levels (Fig. 2b/Table S1). Of these, S324 has been pre­
+viously characterised as an ERK target and is associated with tran­
+scriptionally active ELK-1, while S304 has been documented in a 
+proteomic study of mitotic phosphorylation events [10,32]. Of note, 
+S383 (detected by immunoblot) and S389 were absent from MS/MS 
+datasets due to a lack of sequence coverage of the ELK-1 C-terminus. 
+C. Ducker et al.                                                                                                                                                                                                                                  
+
+Protein Expression and Purification 203 (2023) 106216
+4
+Regarding lysine acetylation, only low-level peptide modifications could 
+be confirmed by mass spectrometry with no overlap of sites between 
+expression systems (data not shown). 
+3.2. Differential PTM profiles associated with variable DNA and AR 
+binding efficacies in ELK-1 
+Having established differential candidate PTM profiles for the 
+various purified ELK-1 proteins, we assessed their performance in 
+Fig. 2. Comparison of recombinant ELK-1 PTM profiles. a) Immunoblot for a panel of PTM markers as indicated on equal protein loads of ELK-1 preparations (MW 
+markers indicated right of blot image, kDa). b) HEK293T and Sf9-derived ELK-1 phosphorylation sites identified by MS/MS, with bars representing total spectrum 
+counts for each peptide. Tryptic peptide is labelled above graph, with modification site highlighted red. 
+Fig. 3. Comparison of recombinant ELK-1 proteins in functional assays. a) ELK-1 binding to fluorescent Cy5-E74 DNA probe. Graph denotes densitometry mea­
+surements of bound ELK-1 (50 ng) displayed as averages of three independent experiments ( ± SEM). b) ELK-1 binding to immobilised GST-tagged AR-N (1–560; MW 
+markers indicated right of blot/gel image, kDa). Graph denotes densitometry measurements of bound ELK-1 normalised to total ELK-1 load displayed as averages of 
+three independent experiments ( ± SEM). Statistical analyses were performed with one-way ANOVA; significance is reported in figures by *P < 0.05, **P < 0.01. 
+C. Ducker et al.                                                                                                                                                                                                                                  
+
+Protein Expression and Purification 203 (2023) 106216
+5
+functional (in vitro binding) assays. Due to its role as a transcription 
+factor, ELK-1 DNA-binding was first explored. A particularly high af­
+finity DNA-binding site for the ETS domain is E74 (5′-ACCGGAAGT-3′), 
+first characterised as a target for the ETS protein E74 in Drosophila [33]. 
+Human cell-derived ELK-1 bound E74 probe by EMSA significantly more 
+readily than E. coli-derived protein, which only showed very weak in­
+teractions (Fig. 3a). This likely reflects the contrasting C-terminal TAD 
+phosphorylation levels (e.g. S383) in these ELK-1 preparations, which is 
+known to enhance DNA-binding, although it could also be influenced by 
+other factors unique to each expression system. Attenuated DNA-binding 
+of ELK-1 produced in E. coli (and Sf9 cells) in the absence of subsequent 
+in vitro phosphorylation is in line with previous reports [26,34]. To 
+confirm functionality, bacterially-prepared ELK-1 was phosphorylated 
+in vitro with recombinant, active ERK, whereafter it bound the E74 DNA 
+probe more efficiently (Fig. S1). 
+Protein-protein interactions of ELK-1 are also key to its function and 
+are of increasing relevance to carcinogenesis. ELK-1 acts as a tethering 
+protein for AR in PC, recruiting it to target genes and promoting cell 
+growth [21]. The intrinsically disordered N-terminal of AR (AR-N) is 
+sufficient for this interaction, which is mediated through the 
+MAPK-docking motifs in ELK-1 (D/F - Fig. 1a) [2,21,35],. We found that 
+binding to GST-AR-N in pulldown assays was most pronounced with 
+Sf9-expressed 
+ELK-1, 
+with 
+lower 
+levels 
+of 
+binding 
+with 
+HEK293T-derived ELK-1 and much reduced binding associated with the 
+E. coli-derived protein (Fig. 3b). Unlike DNA-binding, the ELK-1/AR 
+interaction is reported to be independent of TAD phosphorylation [2, 
+21]. Our data is consistent with this notion, with no apparent correlation 
+between phosphorylation status of ELK-1 and AR-N interaction. 
+3.3. Mitogen stimulation of HEK293T cells promotes lysine acetylation of 
+ELK-1 at known sites of other PTMs 
+Recognising that acetylation of ELK-1 protein may be a hitherto 
+unexplored regulatory PTM, we manipulated HEK293T cells transfected 
+with ELK-1-His through serum starvation, followed by mitogen stimu­
+lation. Here, purified ELK-1 from stimulated cells showed increased 
+phosphorylation (most prominently at S304), along with substantial 
+acetylation at K254 and K271, detected by MS/MS, when compared with 
+protein from serum-starved cells (Fig. 4a and b). Interestingly, K254 is a 
+bona fide ELK-1 SUMOylation site [36]. Moreover, there was proteomic 
+evidence of low-level acetylation at K35, which we have previously 
+shown to be a regulatory ubiquitination site [19]. Evaluation of ubiq­
+uitination sites of ELK-1 identified a single peptide containing ubiq­
+uitinated K59 and a single modified K35 peptide from serum-starved and 
+mitogen-stimulated samples respectively. These data point to potential 
+crosstalk and/or antagonism within the ELK-1 PTM landscape that has 
+been overlooked to date (Fig. 4c). The increase in acetylation seen in 
+mitogen-stimulated cells indicates the potential for further PTM-driven 
+regulation of ELK-1 function. Initial experiments suggest that acetyla­
+tion does not impact on ELK-1-AR interactions (Fig. S2), consistent with 
+their independence from the mitogen signalling axis [2,21]. 
+4. Discussion 
+The data presented illustrate variations in protein functional activity 
+depending on the expression system used, alongside differences in PTM 
+landscape, with ELK-1 as our paradigm (Table 1). With regard to PTMs, 
+Fig. 4. Impact of mitogen stimulation on ELK-1 PTM profile. a) Phosphorylation sites identified by MS/MS in transfected human ELK-1 from serum-starved (blue) 
+and serum/TPA stimulated (red) HEK293T cells, with bars representing Total Spectrum Counts (Scaffold) for each indicated tryptic peptide carrying the indicated 
+modified residue. b) As for a) for acetylation sites. c) Schematic showing acetylation sites identified in purified ELK-1 by MS/MS and overlap with previously 
+identified ubiquitination and SUMOylation sites. 
+Table 1 
+Summary of differences between human, insect and bacterial cell-derived 
+preparations of ELK-1. PTM assessment based on immunoblot analysis.   
+Human 
+Insect 
+Bacterial 
+PTM 
+Phosphorylation (S383) 
++++
+++
+Phosphorylation (Y) 
+++
+Acetylation (K) 
+++
++++
++
+Function 
+DNA binding (E74) 
++++
+++
++
+Protein binding (AR) 
+++
++++
++
+C. Ducker et al.                                                                                                                                                                                                                                  
+
+Protein Expression and Purification 203 (2023) 106216
+6
+phosphorylation of ELK-1 prepared from HEK293T cells was entirely 
+rational given the mammalian background. Higher phosphorylation 
+levels correlated with increased DNA interactions for protein isolated 
+from mammalian cells (Figs. 2 and 3a). Replicating TAD phosphoryla­
+tion on ELK-1 isolated from E. coli requires post-purification in vitro 
+phosphorylation (Fig. S1) or possibly use of phospho-mimetic mutants 
+[5,27,34,37]. This would not replicate some poorly studied ELK-1 
+phosphorylation sites however, which may also influence protein func­
+tion, such as those mediated by tyrosine kinases [28]. 
+Lysine acetylation of transcription factors can have various func­
+tional impacts, including promoting or abrogating DNA binding and 
+regulating protein turnover [38]. We present evidence of lysine acety­
+lation of ELK-1, a hitherto unreported modification. ELK-1 acetylation 
+levels appeared highest in protein purified from Sf9 cells, with the 
+reasons behind this unclear (Fig. 2a). A previous study found that global 
+lysine acetylation in Sf9 cells was significantly lower than in mammalian 
+AA8 cells (a CHO derivative) [39]. However, this does not account for 
+how these cells react to the stress of viral infection (used here for 
+ELK-1-His expression) and subsequent overexpression of a foreign 
+transcription factor. Dynamic acetylation events in human lung fibro­
+blasts were found to be important for defence responses and viral 
+replication in response to human cytomegalovirus infection [40]. Plant 
+pathogens are also known to encode acetyltransferase enzymes that can 
+modify host proteins and modulate immune responses [41]. Hence it 
+seems plausible that baculoviral infection of insect cells could inadver­
+tently prompt acetylation events on latent, ectopically expressed pro­
+tein, of potential relevance to expression of other proteins in this system. 
+Whether the relatively high level of ELK-1 acetylation seen in Sf9 
+cell-derived protein mimics any physiological modification of the pro­
+tein remains to be clarified. Notably, ELK-1 from serum-stimulated 
+human cells showed increased acetylation by immunoblot and MS/MS 
+compared with starved cells, including at consensus SUMOylation and 
+ubiquitination sites (Fig. 4/S2). The possibility of competition with 
+repressive ubiquitin/SUMO modifications suggests that acetylation 
+could be a positive marker for ELK-1 activity following mitogen induc­
+tion in the regulation of cell proliferation. Increased lysine acetylation 
+may augment ELK-1 de-ubiquitination and/or de-SUMOylation, which 
+correlate with an increase in TAD phosphorylation. Competition be­
+tween acetylation and other PTMs is well documented, particularly with 
+regard to the tumour suppressor p53, where p300-mediated acetylation 
+in the C-terminal regulatory region can directly block ubiquitination to 
+protect against proteasomal degradation, and SUMOylation can prevent 
+acetylation at adjacent lysine residues to inhibit DNA binding [42,43]. 
+Further study is required to elucidate whether similar PTM interplay 
+exists in the ELK-1 nexus. 
+ELK-1 interaction with AR-N protein showed variability depending 
+on the origin of the ELK-1 protein, with bacterially-expressed ELK-1 
+found to be a weak binder of AR-N compared to the other samples 
+(Fig. 3b). Mitogen-stimulated lysine acetylation and serine/threonine 
+phosphorylation of ELK-1 appeared not be directly involved in regu­
+lating this interaction (Fig. S2), although involvement of other PTMs 
+cannot be ruled out. Issues with correct protein folding as a result of lack 
+of PTM seem unlikely, due to the inherent disorder in ELK-1 regions 
+important for AR docking, and that structured domains of ELK-1 readily 
+fold and function correctly when expressed in isolation in E. coli [12,34]. 
+A complicating factor of this could be the provenance of the AR-N 
+protein itself, which was produced in E. coli (Rosetta) for this study, so 
+it is feasible that ELK-1-AR binding could be subject to further regulation 
+through PTMs on AR. Indeed, an area for future investigation is AR 
+acetylation, recently described as an important step for its activation 
+[44]. 
+Our data highlight the danger of oversimplification when viewing 
+recombinant expression systems as a route to soluble protein production 
+for functional studies. The use of different expression backgrounds, all of 
+which were successful in producing full-length purified proteins, none­
+theless resulted in clear variations in binding efficacy of ELK-1 to DNA 
+and a known disease-relevant protein cofactor, AR. More generally, this 
+reinforces the importance of the source of purified proteins in the 
+biochemical analysis of protein-protein interactions. Unravelling the 
+complex PTM network governing the function of a protein of interest is 
+pivotal to understanding its roles in human health and disease. With this 
+information, careful considerations can be made over the best expres­
+sion system to generate recombinant protein with optimal biochemical 
+activity, targeted to assay requirements. 
+Funding 
+This work was funded by US Department of Defense, grant number 
+W81XWH-17-1-0243. 
+Declaration of competing interest 
+The authors declare that they have no known competing financial 
+interests or personal relationships that could have appeared to influence 
+the work reported in this paper. 
+Data availability 
+Data will be made available on request. 
+Abbreviations 
+PTM 
+Post-translational modification 
+ETS 
+E-twenty-six/E26 
+TCF 
+Ternary complex factor 
+ERK 
+Extracellular signal-regulated kinase 
+TAD 
+Transactivation domain 
+SRF 
+Serum Response Factor 
+SRE 
+Serum Response Elements 
+PC 
+Prostate cancer 
+AR 
+Androgen receptor 
+TPA 
+12-O-tetradecanoylphorbol-13-acetate 
+HBS 
+HEPES-buffered saline 
+GST 
+Glutathione S-transferase 
+EMSA 
+Electrophoretic mobility shift assay 
+Co-IP 
+Co-immunoprecipitation 
+IMAC 
+Immobilised metal affinity chromatography 
+MAPK 
+Mitogen activated protein kinase 
+MS/MS 
+Tandem mass spectrometry 
+Appendix A. Supplementary data 
+Supplementary data to this article can be found online at https://doi. 
+org/10.1016/j.pep.2022.106216. 
+References 
+[1] R.S. Williams, R. Green, J.N.M. Glover, Crystal structure of the BRCT repeat region 
+from the breast cancer-associated protein BRCA1, Nat. Struct. Biol. 8 (2001) 
+838–842. 
+[2] R. Rosati, M. Patki, V. Chari, S. Dakshnamurthy, T. McFall, J. Saxton, B.L. Kidder, 
+P.E. Shaw, M. Ratnam, The amino-terminal domain of the androgen receptor co- 
+opts extracellular signal-regulated kinase (ERK) docking sites in ELK1 protein to 
+induce sustained gene activation that supports prostate cancer cell growth, J. Biol. 
+Chem. 291 (2016) 25983–25998. 
+[3] K. Kourentzi, M. Crum, U. Patil, A. Prebisch, D. Chavan, B. Vu, Z. Zeng, D. Litvinov, 
+Y. Zu, R.C. Willson, Recombinant expression, characterization, and quantification 
+in human cancer cell lines of the Anaplastic Large-Cell Lymphoma-characteristic 
+NPM-ALK fusion protein, Sci. Rep. 10 (2020) 1–7. 
+[4] G.L. Rosano, E.A. Ceccarelli, Recombinant protein expression in Escherichia coli: 
+advances and challenges, Front. Microbiol. 5 (2014) 1–17. 
+[5] S. Sahdev, S.K. Khattar, K.S. Saini, Production of active eukaryotic proteins through 
+bacterial expression systems: a review of the existing biotechnology strategies, Mol. 
+Cell. Biochem. 307 (2008) 249–264. 
+[6] M. C´erutti, J. Golay, Lepidopteran cells: an alternative for the production of 
+recombinant antibodies? mAbs 4 (2012) 294–309. 
+C. Ducker et al.                                                                                                                                                                                                                                  
+
+Protein Expression and Purification 203 (2023) 106216
+7
+[7] N.K. Tripathi, A. Shrivastava, Recent developments in bioprocessing of 
+recombinant proteins: expression hosts and process development, Front. Bioeng. 
+Biotechnol. 7 (2019). 
+[8] R. Marais, J. Wynne, R. Treisman, The SRF accessory protein Elk-1 contains a 
+growth factor-regulated transcriptional activation domain, Cell 73 (1993) 
+381–393. 
+[9] R. Janknecht, W.H. Ernst, V. Pingoud, A. Nordheim, Activation of ternary complex 
+factor Elk-1 by MAP kinases, EMBO J. 12 (1993) 5097–5104. 
+[10] H. Gille, M. Kortenjann, O. Thomae, C. Moomaw, C. Slaughter, M.H. Cobb, P. 
+E. Shaw, ERK phosphorylation potentiates Elk-1-mediated ternary complex 
+formation and transactivation, EMBO J. 14 (1995) 951–962. 
+[11] F.D. Karim, L.D. Urness, C.S. Thummel, M.J. Klemsz, S.R. McKercher, The ETS- 
+domaln: a new DNA-binding motif that recognizes a purine-rich core DNA 
+sequence, Genes Dev. 4 (1990) 1452–1453. 
+[12] Y. Mo, B. Vaessen, K. Johnston, Structure of the Elk-1 – DNA complex reveals how 
+DNA- distal residues affect ETS domain recognition of DNA, Nat. Struct. Biol. 7 
+(2000) 3–8. 
+[13] M. Hassler, T.J. Richmond, The B-box dominates SAP-1-SRF interactions in the 
+structure of the ternary complex, EMBO J. 20 (2001) 3018–3028. 
+[14] H. Gille, A.D. Sharrocks, P.E. Shaw, Phosphorylation of transcription factor 
+P62TCF by MAP Kinase stimulates ternary complex-formation at C-FOS promoter, 
+Nature 358 (1992) 414–417. 
+[15] R. Janknecht, A. Nordheim, Elk-1 protein domains required for direct and SRF- 
+assisted DNA-binding, Nucleic Acids Res. 20 (1992) 3317–3324. 
+[16] J. Goke, Y.S. Chan, J. Yan, M. Vingron, H.H. Ng, Genome-wide kinase-chromatin 
+interactions reveal the regulatory network of ERK signaling in human embryonic 
+stem cells, Mol. Cell 50 (2013) 844–855. 
+[17] F. Gualdrini, C. Esnault, S. Horswell, A. Stewart, N. Matthews, R. Treisman, SRF 
+Co-factors control the balance between cell proliferation and contractility, Mol. 
+Cell. 64 (2016) 1048–1061. 
+[18] S.-H. Yang, E. Jaffray, R.T. Hay, A.D. Sharrocks, Dynamic interplay of the SUMO 
+and ERK pathways in regulating Elk-1 transcriptional activity, Mol. Cell. 12 (2003) 
+63–74. 
+[19] C. Ducker, L.K.Y. Chow, J. Saxton, J. Handwerger, A. McGregor, T. Strahl, 
+R. Layfield, P.E. Shaw, De-ubiquitination of ELK-1 by USP17 potentiates mitogenic 
+gene expression and cell proliferation, Nucleic Acids Res. 47 (2019) 4495–4508. 
+[20] C. Ducker, P.E. Shaw, Ubiquitin-mediated control of ets transcription factors: roles 
+in cancer and development, Int. J. Mol. Sci. 22 (2021). 
+[21] M. Patki, V. Chari, S. Sivakumaran, M. Gonit, R. Trumbly, M. Ratnam, The ETS 
+domain transcription factor ELK1 directs a critical component of growth signaling 
+by the androgen receptor in prostate cancer cells, J. Biol. Chem. 288 (2013) 
+11047–11065. 
+[22] R. Rosati, L. Polin, C. Ducker, J. Li, X. Bao, D. Selvakumar, S. Kim, B. Xhabija, 
+M. Larsen, T. McFall, Y. Huang, B.L. Kidder, A. Fribley, J. Saxton, H. Kakuta, 
+P. Shaw, M. Ratnam, Strategy for tumor-selective disruption of androgen receptor 
+function in the spectrum of prostate cancer, Clin. Cancer Res. 24 (2018) 
+6509–6522. 
+[23] L. Pardy, R. Rosati, C. Soave, Y. Huang, S. Kim, M. Ratnam, The ternary complex 
+factor protein ELK1 is an independent prognosticator of disease recurrence in 
+prostate cancer, Prostate 80 (2020) 198–208. 
+[24] K. Apazoglou, S. Farley, V. Gorgievski, R. Belzeaux, J.P. Lopez, J. Grenier, E. 
+C. Ibrahim, M.A. El Khoury, Y.C. Tse, R. Mongredien, A. Barb´e, C.E.A. De Macedo, 
+W. Jaworski, A. Bochereau, A. Orrico, E. Isingrini, C. Guinaudie, L. Mikasova, 
+F. Louis, S. Gautron, L. Groc, C. Massaad, F. Yildirim, V. Vialou, S. Dumas, F. Marti, 
+N. Mechawar, E. Morice, T.P. Wong, J. Caboche, G. Turecki, B. Giros, E.T. Tzavara, 
+Antidepressive effects of targeting ELK-1 signal transduction, Nat. Med. 24 (2018) 
+591–597. 
+[25] F. Yildirim, C.W. Ng, V. Kappes, T. Ehrenberger, S.K. Rigby, V. Stivanello, T. 
+A. Gipson, A.R. Soltis, P. Vanhoutte, J. Caboche, D.E. Housman, E. Fraenkel, Early 
+epigenomic and transcriptional changes reveal Elk-1 transcription factor as a 
+therapeutic target in Huntington’s disease, Proc. Natl. Acad. Sci. U. S. A. 116 
+(2019) 24840–24851. 
+[26] J. Saxton, Z. Ferjentsik, C. Ducker, A.D. Johnson, P.E. Shaw, Stepwise evolution of 
+Elk-1 in early deuterostomes, FEBS J. 283 (2016) 1025–1038. 
+[27] A. Khokhlatchev, S. Xu, J. English, P. Wu, E. Schaefer, M.H. Cobb, Reconstitution 
+of mitogen-activated protein kinase phosphorylation cascades in bacteria. Efficient 
+synthesis of active protein kinases, J. Biol. Chem. 272 (1997) 11057–11062. 
+[28] J. Palacios-Moreno, L. Foltz, A. Guo, M.P. Stokes, E.D. Kuehn, L. George, M. Comb, 
+M.L. Grimes, Neuroblastoma tyrosine kinase signaling networks involve FYN and 
+LYN in endosomes and lipid rafts, PLoS Comput. Biol. 11 (2015) 1–33. 
+[29] R. Janknecht, A. Nordheim, MAP Kinase-Dependent Transcriptional Coactivation 
+by Elk-1 and its Cofactor CBP of signals such as growth factors or cytokines, 
+Biochem. Biophys. Res. Commun. 228 (1996) 831–837. 
+[30] L.J. Nissen, J.C. Gelly, R.A. Hipskind, Induction-independent recruitment of CREB- 
+binding protein to the c-fos serum response element through interactions between 
+the bromodomain and Elk-1, J. Biol. Chem. 276 (2001) 5213–5221. 
+[31] Q.J. Li, S.H. Yang, Y. Maeda, F.M. Sladek, A.D. Sharrocks, M. Martins-Green, MAP 
+kinase phosphorylation-dependent activation of Elk-1 leads to activation of the co- 
+activator p300, EMBO J. 22 (2003) 281–291. 
+[32] N. Dephoure, C. Zhou, J. Vill´en, S. a Beausoleil, C.E. Bakalarski, S.J. Elledge, S. 
+P. Gygi, A quantitative atlas of mitotic phosphorylation, Proc. Natl. Acad. Sci. U. S. 
+A. 105 (2008) 10762–10767. 
+[33] L.D. Urness, C.S. Thummel, Molecular interactions within the ecdysone regulatory 
+hierarchy: DNA binding properties of the Drosophila ecdysone-inducible E74A 
+protein, Cell 63 (1990) 47–61. 
+[34] A.D. Sharrocks, ERK2/p42 MAP kinase stimulates both autonomous and SRF- 
+dependent DNA binding by Elk-1, FEBS Lett. 368 (1995) 77–80. 
+[35] I.J. McEwan, Intrinsic disorder in the androgen receptor: identification, 
+characterisation and drugability, Mol. Biosyst. 8 (2012) 82–90. 
+[36] S. Salinas, A. Briançon-Marjollet, G. Bossis, M.-A. Lopez, M. Piechaczyk, I. Jariel- 
+Encontre, A. Debant, R. a Hipskind, SUMOylation regulates nucleo-cytoplasmic 
+shuttling of Elk-1, J. Cell Biol. 165 (2004) 767–773. 
+[37] Z. Hong, W. Zhang, D. Ding, Z. Huang, Y. Yan, W. Cao, Y. Pan, X. Hou, S.J. Weroha, 
+R.J. Karnes, D. Wang, Q. Wu, D. Wu, H. Huang, DNA damage promotes TMPRSS2- 
+ERG oncoprotein destruction and prostate cancer suppression via signaling 
+converged by GSK3β and WEE1, Mol. Cell. 79 (2020) 1008–1023.e4. 
+[38] M. Arif, P. Senapati, J. Shandilya, T.K. Kundu, Protein lysine acetylation in cellular 
+function and its role in cancer manifestation, Biochim. Biophys. Acta - Gene Regul. 
+Mech. 1799 (2010) 702–716. 
+[39] K. Sharma, A. Kumar, S. Chandna, Constitutive hyperactivity of histone 
+deacetylases enhances radioresistance in Lepidopteran Sf9 insect cells, Biochim. 
+Biophys. Acta Gen. Subj. 1860 (2016) 1237–1246. 
+[40] L.A. Murray, X. Sheng, I.M. Cristea, Orchestration of protein acetylation as a toggle 
+for cellular defense and virus replication, Nat. Commun. 9 (2018). 
+[41] G. Song, J.W. Walley, Dynamic protein acetylation in plant-pathogen interactions, 
+Front. Plant Sci. 7 (2016) 1–6. 
+[42] X.J. Yang, E. Seto, Lysine acetylation: codified crosstalk with other 
+posttranslational modifications, Mol. Cell. 31 (2008) 449–461. 
+[43] S.Y. Wu, C.M. Chiang, Crosstalk between sumoylation and acetylation regulates 
+p53-dependent chromatin transcription and DNA binding, EMBO J. 28 (2009) 
+1246–1259. 
+[44] K.J. Kuhns, G. Zhang, Z. Wang, W. Liu, ARD1/NAA10 acetylation in prostate 
+cancer, Exp. Mol. Med. 50 (2018). 
+C. Ducker et al.                                                                                                                                                                                                                                  

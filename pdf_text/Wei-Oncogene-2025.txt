@@ -1,0 +1,1079 @@
+ARTICLE
+Crosstalk between SUMOylation and ubiquitination controls the
+stability of transcription factor zinc ﬁnger protein 24: a novel
+antitumor mechanism in bladder cancer
+Xiaosong Wei
+1,4✉, Beibei Wang2,4, Yang Yang1, Zhiwei Fang1, Chengzhi Yi1, Liuhui Zhang1, Xin Fan1, Dongdong Tang1,
+Lirong Zhang3, Xiaoming Yang1✉and Dongkui Song1✉
+© The Author(s), under exclusive licence to Springer Nature Limited 2025
+Zinc ﬁnger protein 24 (ZNF24) is a conserved multifunctional transcription factor associated with tumorigenesis, but its function in
+bladder carcinogenesis remains unclear. Herein, the expression of ZNF24 was decreased in bladder cancer (BC) cells and tissues, and
+patients with higher expression of ZNF24 had a better prognosis. Doxycycline-induced overexpression and knockdown of ZNF24
+identiﬁed its anti-proliferative and anti-metastasis role in BC in vitro and in vivo. The potential genes for the anti-cancer role of ZNF24,
+involving transcriptional regulation of several factors, such as dual-speciﬁcity phosphatase 1 and squalene epoxidase. E2 conjugating
+enzyme UBC9 and small ubiquitin-like modiﬁer (SUMO) 1 were found to interact with ZNF24, suggesting that ZNF24 may be
+SUMOylated. Consistent with the expression, ZNF24 SUMOylation levels were decreased in BC cells and tissues. Pan-SUMOylation
+inhibition promoted protein degradation of ZNF24. UBC9 SUMOylated ZNF24 at Lys-27 (K27) site with SUMO1 modiﬁcation and the
+K27 mutation of ZNF24 greatly damaged the protein stability of ZNF24. Cullin 3 (CUL3), a E3 ubiquitin ligase, was responsible for the
+degradation of ZNF24. ZNF24 SUMOylation prevented CUL3-mediated protein degradation of ZNF24. Overall, the crosstalk between
+the SUMOylation and ubiquitination of ZNF24 may be a novel regulatory mechanism to block tumorigenesis and development of BC.
+Oncogene (2025) 44:2762–2777; https://doi.org/10.1038/s41388-025-03450-9
+Graphical Abstract
+Received: 9 October 2024 Revised: 9 May 2025 Accepted: 14 May 2025
+Published online: 28 May 2025
+1Department of Urology, The First Afﬁliated Hospital of Zhengzhou University, Zhengzhou, Henan, China. 2Department of Pathology, The First Afﬁliated Hospital of Zhengzhou
+University, Zhengzhou, Henan, China. 3School of Basic Medical Sciences, Zhengzhou University, Zhengzhou, Henan, China. 4These authors contributed equally: Xiaosong Wei,
+Beibei Wang. ✉email: wxs1008@163.com; yxmdk@126.com; dksong@zzu.edu.cn
+www.nature.com/onc
+Oncogene
+1234567890();,:
+
+INTRODUCTION
+Bladder cancer (BC) is the most common malignancy of the
+urinary system, characterized by high morbidity and mortality [1].
+Although a variety of treatments, including surgery, intravesical
+chemotherapy, and immunotherapy, can improve the prognosis
+of patients with BC, the recurrence rate within 5 years is still high
+[2, 3]. Therefore, new treatments are sorely needed.
+SUMOylation is a reversible post-translational modiﬁcation that
+is present in almost all eukaryotes [4]. SUMOylation contains a
+conserved catalytic cascade—small ubiquitin-like modiﬁer (SUMO)
+molecule maturation, activation, UBC9-SUMO molecule conjuga-
+tion, SUMO molecule-substrate ligation, and SUMO molecule-
+substrate separation (de-modiﬁcation) [5]. With the help of the E2
+enzyme ubiquitin-conjugating enzyme 9 (UBC9), SUMO proteins
+are covalently bound to lysine (K) residues of the target protein,
+altering the stability, subcellular localization, or binding afﬁnity of
+a wide range of proteins [5]. Xia et al. quantiﬁed the SUMOylation
+pattern in BC patients and reported that a high SUMO score (to a
+certain extent, representing the level of SUMOylation) was
+associated with poor prognosis and low chemotherapy sensitivity
+in BC patients, suggesting that SUMOylation promotes the
+progression of BC [6]. However, several researchers also demon-
+strated the cancer-inhibiting role of SUMOylation in BC. They
+found that sentrin/SUMO-speciﬁc protease3 (SENP3) was highly
+expressed in BC tissues and promoted BC progression through
+deSUMOylation of signal transducer and activator of transcription
+3 (STAT3) [7]. UBC9 was overexpressed in BC tissues but was
+negatively correlated with TNM stage and grade [8]. Therefore,
+simply studying the function of SUMOylation may be one-sided
+and should be based on the function of the target protein.
+Currently, only a few factors such as heterogeneous nuclear
+ribonucleoprotein A1, DExD-box helicase 39B, Δ24-dehydrocho-
+lesterol reductase, and STAT3 were reported to be SUMOylated in
+BC [9–11]. Revealing the role of more SUMOylated proteins in BC
+may provide a new perspective for targeted therapy of BC.
+The Kruppel-Like Factor family of regulatory proteins, which
+contains 18 members, is transcription factors [12, 13]. Their
+functions cover a variety of diseases, including carcinogenesis,
+liver ﬁbrosis, and metabolic syndrome [12]. Zinc ﬁnger protein 24
+(ZNF24) is a member of the Kruppel-like zinc ﬁnger transcription
+factor family and has the contradictory function in different
+cancers [13]. Jia et al. reported that ZNF24 acted as a cancer
+suppressor in breast cancer by inhibiting angiogenesis [14].
+However, in patients with hepatocellular carcinoma, ZNF24 was
+signiﬁcantly overexpressed in cancer tissues, and its knockdown
+suppressed the proliferation of Hep3B cells [15]. At present, the
+function of ZNF24 in BC is unknown. The expression and
+prognostic value of ZNF24 in BC patients were analyzed by using
+the TNMplot and Kaplan-Meier Plotter databases, and showed that
+compared with non-cancer tissues, ZNF24 was signiﬁcantly
+reduced in BC tissues, and patients with higher expression of
+ZNF24 had better survival rate. The contradictory function of
+ZNF24 in cancer progression and its abnormal expression in BC
+progression prompted us to explore its function in BC.
+SUMOylation is reported to regulate the interaction between
+modiﬁed proteins and other proteins and mediates the localiza-
+tion, functional regulation, and degradation of target proteins [16].
+Proteins, such as meiotic recombination 11 homolog 1 and p63,
+undergo SUMOylation and their ubiquitination modiﬁcation
+weakens, thereby avoiding recognition and degradation by
+proteases [17, 18]. Results of database analysis (JASSA and GPS-
+SUMO websites) showed that there was a high conﬁdence
+SUMOylation site at K27 of ZNF24. Whether the SUMOylation at
+this site affects the stability and ubiquitination of ZNF24 deserves
+further investigation. The factors related to the regulation of
+ZNF24 SUMOylation were explored by IP-LC/MS assay.
+The C terminal of ZNF24 contains four C2H2 zinc ﬁnger motifs,
+which are DNA binding domains and essential for regulating
+downstream gene transcription [19, 20]. As a transcription factor,
+ZNF24 is known to promote the transcription of downstream
+genes, such as wnt family member 8B, and can also inhibit the
+transcription of downstream genes, such as vascular endothelial
+growth factor [14, 21]. Herein, chromatin immunoprecipitation
+sequencing (ChIP-seq) combined with mRNA transcriptomic
+sequencing (mRNA-seq) were conducted to explore the potential
+mechanism of ZNF24 regulating the progression of BC.
+MATERIALS AND METHODS
+Tissue samples
+The 20 pairs of BC and adjacent non-tumor tissues and BC parafﬁn tissue
+sections from 78 patients were collected from the First Afﬁliated Hospital
+of Zhengzhou University.
+Cell culture
+Human ureteral epithelial cell line (SV-HUC-1), BC cell lines (T24, J82, 5637,
+TCCSUP, and HT-1376), and 293 T cell line were purchased from iCell
+Biotechnology, Inc (Shanghai, China). SV-HUC-1 cells were grown in F12K
+medium (iCell). T24 cells were maintained in McCOY’s 5 A medium
+(Servicebio, Wuhan, China). J82, TCCSUP, and HT-1376 cells were placed in
+MEM medium (Solarbio, Beijing, China). 5637 cells were grown in RPMI-
+1640 medium (Solarbio). 293 T cells were maintained in DMEM medium
+(Servicebio). All mediums were supplemented with 10% fetal bovine serum
+(FBS, Tianhang Biotechnology, Zhejiang, China) and placed in an incubator
+at 37 °C with 5% CO2.
+Lentivirus production
+Dox-inducible lentiviral vectors were used to interfere with the expression
+of ZNF24 in CRC cells. For ZNF24 silencing, empty vector Tet-pLKO-EGFP
+system was used as the control. The shRNA speciﬁcally targeting ZNF24
+mRNA in CDS region or 3ʹ-untranslated regions (3ʹ-UTR) was inserted into
+Tet-pLKO-EGFP lentivirus vector to obtain the recombinant Tet-pLKO-
+EGFP-shZNF24 vector. To prepare lentivirus for introduction of shRNAs into
+CRC cells, HEK-293T cells were co-transfected with recombinant Tet-pLKO-
+EGFP-shZNF24, pSPAX2, and pMD2.G vectors with the help of Lipofecta-
+mine 3000. Subsequently, CRC cells were infected with lentivirus particle to
+induce ZNF24 silencing in CRC cells. Cells infected with lentiviruses were
+then selected by 2 μg/mL puromycin to generate stable cell clones. Two
+ZNF24-targeting sequences were used:
+shRNA sequences targeting the 3ʹ-UTR: ccgggtttgaaagaaagagaaatcttcaa
+gagagatttctctttctttcaaaccttttt
+shRNA sequences targeting the CDS region: ccggaagaagattcaatacttatctt-
+caagagagataagtattgaatcttcttcttttt. The viral titer for the Tet-pLKO-EGFP
+system was 2 × 108 TU/mL. To induce ZNF24 silencing, cells were treated
+with 1 μg/mL Dox at the time point indicated.
+For ZNF24 overexpression, empty vector pLVX-TetOne-EGFP system
+served as a control. The CDS region of ZNF24 was cloned into the pLVX-
+TetOne-EGFP vector to generate the recombinant pLVX-TetOne-EGFP-ZNF24
+vector. HEK-293T cells were then co-transfected with recombinant pLVX-
+TetOne-EGFP-ZNF24, pSPAX2, and pMD2.G vectors to prepare the lentivirus
+particle. Lentivirus particle infection induced ZNF24 overexpression. Stable
+cell clones were selected by treating 2 μg/mL puromycin. The viral titer for
+the pLVX-TetOne-EGFP-ZNF24 vector was 1 × 108 TU/mL. Cells were treated
+with 1 μg/mL Dox at indicated time to induce ZNF24 overexpression.
+Real-time quantitative PCR (RT-qPCR)
+Total RNA was extracted from BC cell lines using TRIpure lysate (BioTeke,
+Beijing, China) and quantiﬁed by NanoDrop One Ultraviolet spectro-
+photometer (Thermo Scientiﬁc, Pittsburgh, PA, USA). RNA was then reverse
+transcribed using the All-in-One First-Strand SuperMix (Magen Biotechnol-
+ogy, Guangzhou, China). Primers for qPCR were generated from General
+Biology, Inc (Anhui, China) and presented in Supplementary Table 1. The
+qPCR ampliﬁcation was conducted by using the SYBR GREEN (Solarbio) and
+PCR MasterMix (Solarbio). The data obtained were analyzed by using
+ExicyclerTM 96 ﬂuorescence quantiﬁer (Bioneer Corporation, Daejeon,
+Korea). GAPDH served as the internal control.
+MTT assay
+The 96-well plates were used to seed cells (6 × 103 cells/well) and exposed
+them to Dox (1 μg/mL) for 0, 12, 24, 36, 48, or 60 h, separately. MTT solution
+X. Wei et al.
+2763
+Oncogene (2025) 44:2762 – 2777
+
+(50 μL, KeyGEN, Jiangsu, China) was then added to the well and incubated
+for 4 h. The reaction was inhibited by the removal of the supernatant and
+followed by the addition of DMSO to dissolve all of the purple crystals. The
+absorbances of the cells at a wavelength of 490 nm were measured by a
+microplate reader to determine cell viability.
+Clonogenic growth
+BC cells were transferred to Petri dishes at 300 cells per dish. Following
+2 weeks incubation in medium supplemented with or without Dox (1 μg/
+mL), cell colonies were ﬁxed using 4% paraformaldehyde (Aladdin,
+Shanghai, China) and stained with Giemsa staining (KeyGEN). Clone
+formation rate was calculated.
+EdU assay
+EdU incorporation assay (KeyGEN) was used to measure cell prolifera-
+tion. 2 × 105 cells were seeded in each well of a 24-well ﬂat-bottom
+plate. The cells were incubated with EdU (10 μM) for 2 h, and then ﬁxed
+with 4% paraformaldehyde for 15 min at room temperature. After
+removing the buffer, the cells were incubated with Click-iT reaction
+solution for 30 min in the dark. The nucleus was stained with DAPI for
+5 min. A ﬂuorescence microscopy (Olympus, Tokyo, Japan) was used to
+obtain images (×400).
+Migration and invasion assay
+Cell migration and invasion assay was performed in Transwell chambers
+(24-well). Before invasion assay, the chamber was coated with Matrigel
+(Corning Incorporated, Corning, NY, USA) previously. Transwell chambers
+(24-well) without Matrigel coating was used for cell migration detection.
+Cell suspension (200 μL) was added into the top chamber of transwell,
+whereas 800 μL of FBS-contained medium was added in the bottom
+chamber. After the cell migration at 37 °C for 24 h, nonmigrating cells on
+the top of membrane were carefully removed by PBS washing. The cells
+that have migrated to the lower surface of membrane were ﬁxed with 4%
+paraformaldehyde at room temperature for 20 min and stained with 0.5%
+crystal violet for 5 min. The number of migrated cells was counted using an
+Olympus ﬂuorescence microscopy (×100).
+Xenograft mouse model and pulmonary metastasis model
+The 6-week-old male nude mice were used to evaluate the effects of
+ZNF24 knockdown or overexpression on tumor growth and tumorigenicity.
+5637 cells (1 × 107 cells) carrying dox-inducible ZNF24 overexpression,
+silencing, or control vectors were injected subcutaneously into nude mice.
+Dox diet (drinking water containing 2 mg/mL Dox and 10 mg/mL sucrose)
+was given to mice when palpable tumors were observed. The volume of
+tumor was monitored every 4 days for 32 days. The bioluminescence
+system detected tumor growth in vivo and calculated light intensity.
+Finally, mice were sacriﬁced and the tumor tissues were weighted and
+photos were collected.
+The mice were injected with the above cells (2 × 105 cells) via tail vein
+and immediately followed by giving the Dox diet (drinking water
+containing 2 mg/mL Dox and 10 mg/mL sucrose) to established pulmonary
+metastasis models. Lung metastasis of BC cells was detected after 6 weeks.
+Immunohistochemistry Parafﬁn-embedded tissue sections (5 μm) were
+deparafﬁnized stepwise in xylene and rehydrated in graded solutions of
+ethanol (95%, 85%, and 75%, respectively). Sections were incubated with
+heated antigen repair solution for 10 min. Blocking of endogenous
+peroxidase was performed using 3% H2O2 for 15 min. Sections were then
+incubated
+with
+primary
+antibody
+(ZNF24,
+Proteintech
+Group,
+Inc.,
+Rosemont, IL, USA; Ki67, Afﬁnity, Changzhou, China) at a dilution of 1: 50
+at 4 °C overnight. The avidin-biotin method with the counterstain of
+hematoxylin was conducted to visualize antigen-antibody complex. The
+slices were sealed with neutral gum. Images were obtained by using the
+microscope (×400, Olympus). For the pathological correlation analysis,
+staining index was analyzed based on previous study [22]: tumor cell
+proportions were scored: 0 (no positive tumor cells); 1 (<10% positive
+tumor cells); 2 (10–35% positive tumor cells); 3 (35–75% positive tumor
+cells); and 4 (>75% positive tumor cells). Staining intensity was graded: 1
+(no staining); 2 (weak staining = light yellow); 3 (moderate staining =
+yellow brown); and 4 (strong staining = brown). The staining index=
+staining intensity score × the proportion of positive tumor cells. Using this
+method, ZNF24 expression in BC tissues was measured. Staining index
+scores ≥6 were considered highly expressed, while scores <6 were
+identiﬁed as low expression.
+Hematoxylin and eosin (H&E) staining
+Formalin-ﬁxed xenograft tumors were subjected to parafﬁn embedding
+and sectioning (5 μm thickness). Sections (5 μm) were deparafﬁnized
+stepwise in xylene and rehydrated in graded solutions of ethanol (95%,
+85%, and 75%, respectively). Then, slides were stained with hematoxylin
+solution, followed by counterstaining in eosin solution. Images were
+obtained using the microscope (×100, Olympus).
+Chromatin immunoprecipitation (ChIP)
+Cells were treated with a ﬁnal concentration of 1% formaldehyde for
+10 min to cross-link the target protein with the corresponding genomic
+DNA. The crosslinking was stopped by adding 1.1 mL glycine solution.
+Subsequently, the cells were lysed and subjected to ultrasound treatment
+to obtain suitable DNA fragments. DNA fragments were then diluted and
+the following antibodies were used for immunoprecipitation: anti-ZNF24
+(Novus Biologicals, Littleton, CO, USA). Elution buffer was used to elute the
+chromatin from the antibody/protein G magnetic beads. The protein-DNA
+crosslinks were removed by heating at 65 °C for 4 h and then the DNA
+samples were incubated with Proteinase K for 60 min at 45 °C. DNA was
+collected by centrifugation for sequencing.
+Library preparation, library sequencing, and ChIP-seq analysis
+After passing the DNA sample testing, library construction was followed by
+end-repairing, A-tailing, adaptor-ligating, and fragment ﬁltering. The
+ligated fragments were then ampliﬁed and underwent sequenced. The
+sequencing images were generated by the sequencing platform and
+transformed into Raw Reads or Raw Data and stored in FASTQ format. The
+fastp software was used for Raw Data trimming. After ﬁltering out the
+joints and low-quality reads, clean reads were aligned to the human
+genome
+(GRCh38)
+using
+Burrows-Wheeler
+Aligner
+(BWA)
+software.
+MACS2 software was used for peak calling of the ChIP regions (the
+threshold was q ≤0.05). Transcription start site (TSS) of each peak-related
+gene was detected by ChIPseeker, and the distance distribution between
+peak and TSS was analyzed.
+RNA extraction and library preparation
+Cells were lysed by treating with Trizol solution (1 mL/5 × 106 cells). One-
+ﬁfth of the volume of chloroform was added to the lysate, Shaked for 15 s
+and rested for 2–3 min. After centrifugation, the upper water sample was
+absorbed and treated with isopropyl alcohol in equal volume for 10 min.
+After
+centrifugation,
+the
+supernatant
+was
+discarded,
+washed
+and
+precipitated with 75% ethanol, and then the RNA was collected by
+centrifugation. The Agilent 2100 bioanalyzer was used to detect the total
+amount and integrity of RNA. The extracted RNA was enriched with poly(A)
+bearing mRNA by using Oligo(dT) magnetic beads and the resulting mRNA
+was subsequently interrupted by divalent cations in Fragmentation Buffer.
+Using fragmented mRNA as template and random oligonucleotide as
+primer, the ﬁrst strand of cDNA was synthesized in M-MuLV reverse
+transcriptase system. The second strand of cDNA was synthesized by using
+dNTPs and DNA polymerase I. The puriﬁed double-stranded cDNA was
+end-repaired, A tail was added and a sequencing connector was
+connected.
+AMPure XP
+beads were used
+to
+screen cDNA about
+370–420 bp for PCR ampliﬁcation and the PCR products were puriﬁed
+again using AMPure XP beads to obtain the ﬁnal library. After the library
+was constructed, initial quantiﬁcation was performed using Qubit2.0
+Fluorometer and diluted to 1.5 ng/μL. Agilent 2100 bioanalyzer was used
+to detect the insert size of the library. Once the insert size met
+expectations, RT-qPCR was used to accurately quantify the effective
+concentration of the library.
+Library sequencing and RNA-seq analysis
+The sequencing images were generated by the sequencing platform and
+converted into sequential data (reads) by CASAVA base recognition. The
+ﬁle was in fastq format, which mainly contains the sequence information
+of sequencing fragments and their corresponding sequencing quality
+information. The raw data from sequencing contained a small number of
+reads with sequencing connectors or with low sequencing quality. In
+order to ensure the quality and reliability of data analysis, the original
+data were ﬁltered. After ﬁltering out the joints and low-quality reads,
+clean reads were aligned to the human genome (GRCh38) using
+HISAT2 software. HTSeq (v2.0.2) transcriptome analysis quantitative
+software was used for the reads count. The FPKM of each gene was
+then calculated based on the length of the gene and the readings
+X. Wei et al.
+2764
+Oncogene (2025) 44:2762 – 2777
+
+mapped to that gene were calculated. DESeq2 software was used to
+perform differential expression analysis between different groups. The
+DEGs was analyzed by using the false discovery rate (FDR) adjusted
+p < 0.05 & |log2 (foldchange)|>1 threshold. FDR was computed using the
+Benjamini-Hochberg method. The cluster Proﬁler software was used for
+Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes
+(KEGG) enrichment analysis of DEGs.
+Co-immunoprecipitation (Co-IP)
+Total proteins from cells were isolated and quantiﬁed. The target
+antibody and incubation buffer were added into the protein lysate
+overnight at 4 °C. Then, protein A + G beads were added to the lysate at
+4 °C for 4 h. Immunoprecipitants were eluted with elution buffer and
+underwent SDS-PAGE. The related antibodies were shown in Supple-
+mentary Table 2.
+Mass spectrometry (MS)
+The protein bands were cut from the gel and the proteins underwent
+reduction alkylation and enzymatic hydrolysis, followed by peptide
+desalination, and ﬁnally MS detection. The obtained raw ﬁle was directly
+imported into Proteome Discoverer2.5 software for database retrieval,
+peptide, and protein quantiﬁcation. The identiﬁed proteins were compared
+with the Pfam database using Interproccan software to obtain protein GO
+annotation information.
+In vitro SUMOylation assays
+The in vitro ZNF24 SUMOylation was measured by using Ni2+-NTA pull
+down assay. In brief, after plasmid transfection for 48 h, cells were collected
+and part of cells (25%) were lysed by RIPA buffer (Solarbio) for western
+blotting. The remaining cells were lysed in His-lysis buffer (3 mL, containing
+6 M guanidinium-HCl). Ni2+-NTA-agarose beads (60 μL, Qiagen, Hilden,
+Germany) were then added to the lysates and incubated at 4 °C overnight.
+The beads were successively washed with washing buffers 1–4 (50 μL each,
+containing 8 M urea) for 5 min at room temperature. Then, the beads were
+incubated in elution buffer (75 μL) for 20 min at room temperature. The
+eluates were analyzed by western blotting.
+In vivo SUMOylation assays
+The endogenous SUMOylation was detected by Co-IP assay based on
+previous studies with minor changes [23, 24]. Cells were lysed with RIPA
+buffer containing 20 mM N-ethylmaleimide (NEM), protease inhibitor
+cocktail (Roche, Nutley, NJ, USA), and 5 mM DTT. The lysates were
+sonicated and boiled for 10 min. After removal of cell debris by
+centrifugation, the target antibody and incubation buffer were added
+into the protein lysate overnight at 4 °C. Then, protein A + G beads were
+added to the lysate at 4 °C for 4 h. Immunoprecipitants were eluted with
+elution buffer and underwent SDS-PAGE.
+Western blot
+Total protein in tissues and cells were extracted using RIPA buffer
+(Solarbio) mixed with PMSF (Solarbio). A Protein Assay BCA kit (Solarbio)
+was used to determine protein concentrations and immunoblotting was
+then performed. Total protein of 20 μg was subjected to SDS-PAGE and the
+separated proteins were transferred onto PVDF membrane (Millipore,
+Billerica, MA, USA). After immersing the PVDF membranes in the blocking
+solution for 1 h, the membranes were incubated with primary antibodies
+overnight at 4 °C followed by the incubation of secondary antibodies.
+Finally, the bound secondary antibody was detected using the ECL
+luminescent solution (Solarbio). The band densities were analyzed using
+Gel-Pro-Analyzer software. Protein expression was presented in reference
+to the protein levels of GAPDH.
+Immunoﬂuorescence staining (IF)
+The cover slips were ﬁxed with 4% paraformaldehyde for 15 min, and then
+incubated with 0.1% tritonX-100 for 30 min. After blocking with 1% bovine
+serum albumin for 15 min, cells were co-incubated with anti-ZNF24 (Santa
+Cruz Biotechnology, Inc., Santa Cruz, CA, USA) and Cullin 3 (CUL3,
+Proteintech
+Group,
+Inc.)
+overnight.
+Then,
+cells
+were
+treated
+with
+corresponding secondary antibodies (abcam) for 1 h. After performing
+nuclear staining with DAPI, the slides were treated with anti-ﬂuorescence
+quenching agent and images were obtained under a ﬂuorescence
+microscope (Olympus).
+Statistical analysis
+Statistical analysis was conducted using GraphPad Prism 9.0 software
+(GraphPad Software, USA), and the data were presented as mean ±
+standard deviation (SD). The homogeneity of variance was determined by
+the Brown-Forsythe test. Parameter analysis was determined by the
+Shapiro-Wilk test. The student’s t test was used the comparison between
+two groups. One-way ANOVA was used for three or more group. A
+signiﬁcance
+level
+of
+P < 0.05
+was
+considered
+signiﬁcant:
+*P < 0.05,
+**P < 0.01, and ***P < 0.001.
+RESULTS
+ZNF24 is downregulated in BC tissues and cells and ZNF24 is
+positively correlated with prognosis of BC patients
+ZNF24 expressions in BC cells and tissues were ﬁrst detected, and
+ZNF24 protein levels in BC cell lines (T24, J82, 5637, TCCSUP, and
+HT-1376) were signiﬁcantly decreased compared with human
+urothelial cells (SV-HUC-1) (Fig. 1A). The same expression trend of
+ZNF24 was also observed in BC cancer tissues (n = 20) compared
+to para-cancer tissues (Fig. 1B, C). The relationship between ZNF24
+expression (high or low) and clinicopathological characteristics of
+BC patients was analyzed. Staining index scores ≥6 were
+considered highly expressed, while scores <6 were identiﬁed as
+low expression. The representative pictures of ZNF24 high and low
+expression were shown in SF. 1A. Meanwhile, the ZNF24 staining
+(sections from the same person) in normal bladder tissues was
+obtained from The Human Protein Atlas website (SF. 1B). It was
+shown that different expression of ZNF24 had no signiﬁcant
+impact on age, gender, tumor size, and lymph node metastasis
+(Fig. 1D). Patients of BC with stages III-IV preferred to have low
+ZNF24 expression (Fig. 1D). Consistently, low expression of ZNF24
+in BC tissues was also found on related bioinformatics websites
+and BC patients with higher ZNF24 showed better prognosis than
+that with lower ZNF24 expression (Fig. 1E).
+ZNF24 suppresses cell growth in vitro and in vivo
+Dox-inducible expression vectors were used to achieve ZNF24
+overexpression or silencing in BC cells (Fig. 2A). ZNF24 expression
+was veriﬁed by RT-qPCR (SF. 2A). It was shown that ZNF24
+overexpression caused a signiﬁcant decrease in cell viability (SF.
+2B). The decreased EdU-positive cells and reduced colony
+formation ability were also indicated the disrupted cell prolifera-
+tion post-ZNF24 overexpression (Fig. 2B, C). ZNF24 knockdown
+enhanced the proliferation ability of BC cells.
+The effects of ZNF24 on the tumorigenicity of BC cells in vivo
+were explored. After injecting stable ZNF24-overexpressed or
+-silenced cells into subcutaneous tissues of nude mice, mice were
+fed with Dox-containing water when the tumor was visible.
+Bioluminescent imaging of the mouse models showed that
+smaller tumors were formed by 5637 cells in the ZNF24
+overexpression group than in the Ctrl group (Fig. 3A–C). Tumor
+volume was calculated in the animals over time, the data
+indicated that tumor growth was signiﬁcantly suppressed by
+ZNF24 upregulation (Fig. 3D). The decreased tumor weight also
+suggested impaired tumor growth (Fig. 3E). Results of IHC staining
+showed that ZNF24 expression in tumor tissues were successfully
+induced (Fig. 3F). The detection of Ki67 by IHC staining further
+veriﬁed the effects of ZNF24 on tumor growth (Fig. 3F). All in all,
+those results suggests that ZNF24 overexpression can slow down
+the growth of tumors.
+ZNF24 inhibits BC cell metastasis in vitro and in vivo
+Metastases are characteristic of most malignancies and respon-
+sible for many cancer-related deaths. The effects of ZNF24 on cell
+metastasis were further detected. Post-ZNF24 overexpression, the
+migration and invasion abilities of T24 and 5637 cells were
+weakened (Fig. 4A). Furthermore, stable ZNF24-overexpressed or
+silenced cells were injected into nude mice via tail vein, lung
+metastasis was evaluated after 6 weeks. Mice with exogenous
+X. Wei et al.
+2765
+Oncogene (2025) 44:2762 – 2777
+
+expression of ZNF24 showed a signiﬁcant reduction of photon ﬂux
+in the lungs, indicating a lower incidence of metastasis (Fig. 4B).
+Histopathological evaluation also conﬁrmed the suppression of
+metastatic lung tumors after inducing ZNF24 expression (Fig. 4C).
+The potential target genes of ZNF24 are identiﬁed by ChIP-
+seq combined with mRNA-seq
+ZNF24 contains four C2H2 zinc ﬁnger motifs, which are DNA
+binding domains and essential for regulating downstream gene
+transcription (Fig. 5A). ChIP followed by sequence analysis was ﬁrst
+performed to recognize the downstream genes and binding
+location (Fig. 5B). Almost 17307 sequence peaks were found (after
+normalization relative to input chromatin), and these peaks were
+annotated to 8955 genes based on sequences relative to the
+transcriptional start site (TSS), 10 kbp upstream to 2.5 kbp
+downstream of various genes (Fig. 5B). We then identiﬁed the top
+DNA sequence motifs recognized by ZNF24 (Fig. 5C). Of the 8955
+genes, 14.85 percent (1363 genes) were bound to the promoter
+region (within 3 kbp) by ZNF24 (Fig. 5D). In addition, the main
+binding site of ZNF24 was mainly within 1 kbp upstream of the
+TSS (Fig. 5E). mRNA-seq was then conducted to identify the
+downstream regulatory genes of ZNF24 (Fig. 5F, G). 1529 DEGs
+Fig. 1
+ZNF24 is downregulated in BC tissues and cells and ZNF24 is positively correlated with prognosis of BC patients. A Relative protein
+expressions of ZNF24 in BC cell lines (T24, J82, 5637, TCCSUP, and HT-1376) and human urothelial cells (SV-HUC-1), n = 3. B, C Protein levels of
+ZNF24 in 20 paired tumor and normal tissues, and the relative expression level of ZNF24 was quantiﬁed. D Association between the
+clinicopathological features and ZNF24 expression in BC tissues (n = 78). E The expression of ZNF24 in BC and its relationship to survival were
+also analyzed through relevant websites. ZNF24 Zinc ﬁnger protein 24, BC bladder cancer.
+X. Wei et al.
+2766
+Oncogene (2025) 44:2762 – 2777
+
+were obtained in 5637 cells after ZNF24 silencing with 680 genes
+downregulation and 849 genes upregulation (Fig. 5H). As shown
+in the Venn diagram, the expression values of these DEGs were
+mainly concentrated in 1 < | log2FC |<2 (Fig. 5I). By combining
+ChIP-seq and mRNA-seq results, 123 overlapping genes (66 genes
+downregulation and 57 genes upregulation) were identiﬁed,
+which may be transcriptionally regulated by ZNF24 (Fig. 6A, B).
+KEGG and GO analysis revealed that ZNF24 were associated with
+genes of diverse functional categories, such as apoptosis, focal
+adhesion, cancer development, and growth factor binding (Fig.
+6C, D). Among the functional categories of genes to which
+signiﬁcant association of ZNF24, the ATPase Family AAA Domain
+Containing 3 A (ATAD3A), squalene epoxidase (SQLE), semaphorin
+4D (SEMA4D), dual-speciﬁcity phosphatase 1 (DUSP1), Forkhead
+box protein O3 (FOXO3), and naked cuticle homolog 2 (NKD2),
+regulators of cell growth and metastasis, were chose to verify.
+ZNF24 mainly bound to regions within 1 kbp of the upstream TSS
+of these genes (Fig. 6E, F). The Integrative Genomics Viewer (IGV)
+Fig. 2
+ZNF24 suppresses cell growth in vitro. A Components of Doxycycline inducible expression vector; B The colony formation of T24 and
+5637 cells with ZNF24 silencing or overexpression was measured by Giemsa staining, n = 3. Full circles stand for plate. C After inducing ZNF24
+knockdown or upregulation for 48 h, DNA synthesis in cells was detected by EdU assay, n = 3. Red color represents EdU-positive staining.
+ZNF24 Zinc ﬁnger protein 24, BC bladder cancer. *P < 0.05; **P < 0.01; ***P < 0.001.
+X. Wei et al.
+2767
+Oncogene (2025) 44:2762 – 2777
+
+proﬁles were also used to show the binding sites of ZNF24 at the
+promoters of the six genes, which include ATAD3A, SQLE,
+SEMA4D, DUSP1, FOXO3, and NKD2 (SF. 3). After ZNF24 knock-
+down in 5637 cells, ATAD3A, SQLE, and SEMA4D expressions were
+decreased, whereas DUSP1, FOXO3, and NKD2 expressions were
+upregulated (Fig. 6G), which were veriﬁed by RT-qPCR (Fig. 6G).
+ZNF24 binding partners are identiﬁed by IP combined with
+LC/MS analysis
+IP combined with LC/MS analysis was performed to analyze the
+binding partners of ZNF24 (SF. 4A). A total of 1541 partners were
+identiﬁed (SF. 4B). GO analysis showed that those proteins were
+mainly annotated in protein post-translational modiﬁcation (PTM),
+Fig. 3
+ZNF24 suppresses cell growth in vivo. A, B Tumor sizes were assessed by performing the bioluminescent imaging of mouse tumors
+and the intensity of bioluminescence was calculated. C Images of removed tumors were shown. D The volume of tumors was measured and
+calculated at speciﬁed time intervals. E Tumor weights were recorded following the sacriﬁce of mice. F The slides of the tumors were
+subjected to IHC analysis to measure the expression of Ki67 and ZNF24 and the percentage of Ki67- and ZNF24-positive cells was quantiﬁed.
+N = 8 per test. ZNF24 zinc ﬁnger protein 24, BC bladder cancer, IHC immunohistochemical staining. *P < 0.05; ***P < 0.001.
+X. Wei et al.
+2768
+Oncogene (2025) 44:2762 – 2777
+
+Fig. 4
+ZNF24 inhibits BC cell metastasis in vitro and in vivo. A The effects of cell migration and invasion abilities were analyzed by Transwell
+assay, n = 3. B The inﬂuences of ZNF24 on BC cell migration capacity was demonstrated by the ﬂuorescence of pulmonary metastases, n = 4.
+C After injection for 6 weeks, mice were sacriﬁced and the lungs tissues were subjected to H&E staining, n = 4. ZNF24 zinc ﬁnger protein 24, BC
+bladder cancer, H&E hematoxylin and Eosin staining. *P < 0.05; **P < 0.01; ***P < 0.001.
+X. Wei et al.
+2769
+Oncogene (2025) 44:2762 – 2777
+
+cell growth, and metastasis (SF. 4C). KEGG analysis illustrated that
+those partners were enriched in the pathways related to
+apoptosis, cell cycle, Gap junction, and so on (SF. 4D). Based on
+the results of the binding partners of ZNF24, we conducted a two-
+part analysis. First, previous studies have shown that transcrip-
+tional regulation of downstream genes by transcription factors
+may involve recruitment of factors
+such as transcriptional
+cofactors. We therefore further analyzed the transcriptional
+cofactors associated with ZNF24. The cofactors list was ﬁrst
+obtained from Animal TFDB website. We identiﬁed 137 transcrip-
+tion cofactors from the binding partners of ZNF24 (SF. 5A). These
+cofactors were mainly related to histone modiﬁcations, cell
+proliferation, migration as well as the regulation of immune
+microenvironment (SF. 5B, C). By searching for GEPIA website, we
+obtained 14 TF cofactors that were differentially expressed in BC
+from these overlapping genes (SF. 5D, E). Molecular bonding
+analysis of RuvB-like AAA ATPase 1 (RUVBL1), actin-like 6 A
+(ACTL6A), and transducin beta-like protein 1X (TBL1X) with
+ZNF24 were analyzed by GRAMM website (SF. 5F). Second, protein
+post-translational modiﬁcation (PTM) profoundly affects protein
+function and plays a key role in almost all cellular biological
+processes, we therefore analyze the PTM involved in ZNF24. After
+functional enrichment, SUMOylation related factors SUMO1, 2 and
+UBC9 were found to be the binding partners of ZNF24 (Fig. 7A, B).
+We therefore investigated whether there was SUMOylation of
+ZNF24.
+Fig. 5
+The potential target genes of ZNF24 are identiﬁed by ChIP-seq combined with mRNA-seq. A Protein structure of ZNF24. B The table
+showed the data and analysis ﬂow of the ZNF24 ChIP-seq assay, from sequence reading to annotated gene assignment at ZNF24 binding sites.
+C The top three DNA recognition motifs of ZNF24. D Pie chart showed the distribution of the different genomic features with or without
+ZNF24 binding peaks on the genome. E Bar chart of the number of ZNF24-binding sites classiﬁed by peak location in the human genome.
+F The analysis ﬂow of the mRNA-seq in cells with or without ZNF24 overexpression. G Principal component analysis (PCA) plot of control and
+ZNF24-overexpressed cells. H After overexpression of ZNF24, volcano map showed changes in gene expression in 5637 cells. Red indicated
+increased genes, green indicated decreased genes, and black dots indicated no difference. I The Venn diagram showed the log2 fold changes
+of genes. ZNF24 zinc ﬁnger protein 24, BC bladder cancer.
+X. Wei et al.
+2770
+Oncogene (2025) 44:2762 – 2777
+
+ZNF24 is SUMOylated with SUMO-1/2 and ZNF24
+SUMOylation is decreased in BC cells and tissues
+To measure whether ZNF24 was a SUMOylated substrate, in vitro
+SUMOylation assay (Ni2+-NTA pull down) was performed. We co-
+expressed Myc-tagged ZNF24 and His-tagged SUMO1 or 2 in
+HEK293T cells and Ni2+-NTA pull down assay was used to detect
+SUMOylated ZNF24 (Fig. 7C). The data showed that ZNF24 could
+be modiﬁed by SUMO1 and SUMO2. Since ZNF24 was mostly
+Fig. 6
+Analysis of potential downstream target genes of ZNF24. A 123 overlapping genes (66 genes downregulation and 57 genes
+upregulation) were identiﬁed from ChIP-seq and mRNA-seq, which may be transcriptionally regulated by ZNF24. B The volcano map showed
+the differential expression of these 123 genes. C KEGG enrichment analysis results of 123 genes. D GO enrichment analysis for 123 genes. BP
+biological process, CC cellular component, MF molecular function. E ChiPlot website (https://www.chiplot.online/) analyzed the gene clusters
+of SQLE, SEMA4D, ATAD3A, NKD2, DUSP1, and FOXO3. F The table showed ZNF24 binding sites and differential expression of these 6 genes.
+G Relative mRNA levels of these 6 genes were veriﬁed after ZNF24 overexpression in 5637 cells, n = 3. ZNF24 zinc ﬁnger protein 24, BC bladder
+cancer, KEGG Kyoto Encyclopedia of Genes and Genomes, GO gene ontology, SQLE squalene epoxidase, SEMA4D semaphorin 4D, ATAD3A the
+ATPase family AAA domain xontaining 3A, NKD2 naked cuticle homolog 2, DUSP1 dual-speciﬁcity phosphatase 1, FOXO3 forkhead box protein
+O3. **P < 0.01; ***P < 0.001.
+X. Wei et al.
+2771
+Oncogene (2025) 44:2762 – 2777
+
+conjugated by SUMO1, we therefore focused the functions of
+ZNF24 modiﬁed by SUMO1 in the follow-up experiments (Fig. 7C).
+We analyzed the molecular docking of SUMO1 with ZNF24, where
+the interaction domain contains the K27 site (Fig. 7D). To analyze
+changes of ZNF24 SUMOylation in BC cells, endogenous ZNF24 in
+cells was enriched by IP using anti-ZNF24 antibody and then
+measured SUMOylated ZNF24 against anti-SUMO1 antibody
+(Fig. 7E). SUMOylated ZNF24 was markedly decreased in T24
+and 5637 cells as compared with normal SV-HUC-1 cells (Fig. 7E).
+The SUMOylated ZNF24 was also detected in BC tissues and paired
+normal tissues, in which SUMOylated ZNF24 in BC tissues
+was signiﬁcantly decreased compared with para-cancer tissues
+(Fig. 7F). The observations suggest that as with their expression,
+ZNF24 SUMOylation in BC cells and tissues is decreased.
+Fig. 7
+ZNF24 is SUMOylated with SUMO-1/2 and ZNF24 SUMOylation is decreased in BC cells and tissues, pan-SUMOylation inhibition of
+ZNF24 promotes protein degradation of ZNF24 by inhibiting the ubiquitin-proteasome pathway. A SUMOylation modiﬁcation mechanism
+diagram. B The petal diagram showed proteins enriched in protein SUMOylation and peptidyl-lysine modiﬁcation terms. C The SUMOylated
+ZNF24 was mainly modiﬁed by SUMO1 in HEK293T cells. HEK293T cells were transfected with Myc-ZNF24 and His-SUMO1 or His-SUMO2, 48 h
+later, cells were lysed for precipitation with Ni2+-NTA resin. Western blot analysis was performed with the indicated antibodies. D The
+molecular docking of SUMO1 with ZNF24 was analyzed by GRAMM website (https://gramm.compbio.ku.edu/request). E The endogenous
+SUMOylated ZNF24 in normal cells SV-HUC-1 and BC cell lines (T24 and 5637). Cell lysates were immunoprecipitated by anti-ZNF24 antibody
+and SUMOylated ZNF24 was detected by SUMO1 antibody. F Three pairs of human BC and normal tissues were used to detect expression of
+total ZNF24 and SUMOylated ZNF24. G After treating pan-SUMOylation inhibitor TAK-981 (0.5 μM) for 48 h, endogenous SUMOylated ZNF24 in
+T24 and 5637 cells were detected. Cell lysates were immunoprecipitated by anti-ZNF24 antibody and SUMOylated ZNF24 was detected by
+SUMO1 antibody. H Ubiquitination of ZNF24 in TAK-981-treated 5637 cells was measured. Cell lysates were immunoprecipitated by anti-ZNF24
+antibody and ubiquitination of ZNF24 was detected by anti-ubi antibody. I Protein degradation rate of ZNF24 in 5637 cells treating with TAK-
+981 was analyzed in presence of cycloheximide (100 μg/mL). N = 3 per test. ZNF24 zinc ﬁnger protein 24, BC bladder cancer, IP-LC/MS
+immunocoprecipitation-liquid chromatography-mass spectrometry.
+X. Wei et al.
+2772
+Oncogene (2025) 44:2762 – 2777
+
+Pan-SUMOylation inhibition of ZNF24 promotes protein
+degradation of ZNF24 by inhibiting the ubiquitin-proteasome
+pathway
+SUMOylation is found to inﬂuence the functions of proteins by
+regulating their properties such as protein stability. We used a
+pan-SUMOylation inhibitor TAK-981 to inhibit ZNF24 SUMOylation
+in T24 and 5637 cells, the results showed that for the input, TAK-
+981 treatment decreased the amount of SUMO1 and SUMO1-
+substrates, which is similar to previous studies [25]. Meanwhile,
+ZNF24 SUMOylation was successfully suppressed (Fig. 7G). After
+the inhibition of ZNF24 SUMOylation, ZNF24 ubiquitination in
+5637 cells were measured, TAK-981 treatment also increased the
+ubiquitination of ZNF24 (Fig. 7H). Furthermore, TAK-981 treatment
+promoted the degradation of SUMO1 and SUMO1-substrates,
+including ZNF24 (SF. 7A and Fig. 7I). Those observations indicate
+that SUMOylation stabilizes ZNF24 via depressing ubiquitination.
+UBC9 increases ZNF24 SUMOylation
+UBC9 is the only E2 conjugating enzyme for SUMOylation. The
+expression correlation between ZNF24 and UBC9 at RNA levels in
+BC was analyzed using GEPIA website, and a signiﬁcant positive
+correlation (R = 0.5) was found between them, indicating the
+positive regulatory relationship between ZNF24 and UBC9 (Fig.
+8A). Co-IP and IF assay veriﬁed the protein interaction between
+ZNF24 and UBC9 (Fig. 8B, C). Flag-tagged UBC9 was transfected
+into T24 and 5637 cells to detect the effects of exogenous UBC9
+on endogenous ZNF24 SUMOylation (Fig. 8D). It was shown that
+UBC9 overexpression increased SUMOylated ZNF24 (Fig. 8D).
+ZNF24 is SUMOylated at K27 in a UBC9-dependent manner
+The amino acid residue K27 of ZNF24 was predicted to rank the
+highest possibility to be SUMOylated using the GPS-SUMO
+website (Fig. 8E). The lysine residue K27 is highly evolutionally
+conserved in various species (Fig. 8F). We constructed single
+mutation plasmid Myc-ZNF24K27R via site-directed mutagenesis
+(Fig. 8F), and no difference was occurred between the 3D structure
+(SWISS-MODEL, https://swissmodel.expasy.org/) of wild-type and
+K27 mutant ZNF24 (Fig. 8G). The His-tagged SUMO1, Flag-tagged
+UBC9, and Myc-tagged ZNF24 (WT or K27R) were co-expressed in
+HEK293T cells, Ni2+-NTA pull down was used to detect SUMOy-
+lated ZNF24, the results showed that K27 mutation decreased the
+SUMOylation of ZNF24 in the absence and presence of UBC9 (Fig.
+8H). The Myc-tagged ZNF24 (WT or K27R) was respectively co-
+transfected with HA-tagged ubiquitin and Flag-tagged UBC9 into
+HEK293T cells to analyze the relations between SUMOylation at
+K27 and ubiquitination of ZNF24 (Fig. 8I). The ubiquitination of
+exogenous ZNF24 was decreased after the introduction of
+exogenous UBC9 but K27 mutation increased ZNF24 ubiquitina-
+tion (Fig. 8I). The Myc-tagged ZNF24 (WT or K27R) was co-
+transfected with Flag-tagged UBC9 into 5637 cells, the Myc/ZNF24
+and Flag/UBC9 protein levels in 5637 cells were ﬁrst detected (SF.
+6A). ZNF24 protein and Flag-tagged UBC9 levels in 5637 cells were
+then measured at each time point after CHX addition (Fig. 8J and
+SF. 7B). The results showed that UBC9 induction blocked ZNF24
+degradation
+in
+5637
+cells
+but
+K27
+mutation
+signiﬁcantly
+weakened this blockade (Fig. 8J). The protein stability of Flag-
+tagged UBC9 did not change signiﬁcantly among all groups (SF.
+7B). Those observations indicate that K27 may be the key site
+affecting the ubiquitination and SUMOylation of ZNF24.
+SUMOylation inhibits protein degradation of ZNF24 mediated
+by CUL3
+According
+the
+results
+of
+mass
+spectrometry,
+we
+screened
+ubiquitin-related proteases that affect the stability of ZNF24.
+Based on the GO enrichment results, we focused on the proteins
+of terms GO: 0043161, GO: 0031647, GO: 1903320, GO: 0031396,
+and GO: 1903322 using the characteristics of ubiquitin degrada-
+tion and protein stability (Fig. 9A). CUL3 was an overlapping
+protein and chose for subsequent experiments (Fig. 9B). IF assay
+demonstrated the co-localization of CUL3 and ZNF24 in 5637 cells,
+and the protein interaction was conﬁrmed by Co-IP assay (Fig.
+9C, D). Docking between CUL3 and ZNF24 was generated by
+GRAMM website (Fig. 9E). The results showed that the interaction
+domain between CUL3 and ZNF24 was close to the K27 site of
+ZNF24 (Fig. 9E). The effects of CUL3 on protein stability of ZNF24
+was analyzed. CUL3 overexpression in 5637 cells were veriﬁed by
+western blot (SF. 6B). It was shown that CUL3 overexpression
+signiﬁcantly increased the ubiquitination of ZNF24 and promoted
+the protein degradation of ZNF24 (SF. 6C, Fig. 9F). There was no
+signiﬁcant change in the rate of CUL3 protein degradation
+between EV and OE-CULE3 groups (SF. 7C). Furthermore, the
+Myc-tagged ZNF24 (WT or K27R) was co-transfected with OE-CUL3
+or EV into 5637 cells, Myc/ZNF24 and CUL3 protein levels were
+measured at each time point after CHX addition. The results
+showed that CUL3 overexpression promoted the protein degrada-
+tion of ZNF24 and K27 mutation further enhanced this promotion
+(SF. 6D). The protein stability of CUL3 did not change signiﬁcantly
+among all groups (SF. 7D). We then expressed His-tagged CUL3,
+Flag-tagged UBC9, Myc-tagged ZNF24 (WT), and HA-tagged
+ubiquitin in 5637 cells (Fig. 9G). Plasmid transfections were
+veriﬁed by western blot (SF. 6E). The data showed that CUL3
+overexpression decreased the protein stability of ZNF24, whereas
+UBC9 induction reversed this change (Fig. 9G). The protein
+stability of His-tagged CUL3 and Flag-tagged UBC9 were also
+measured (SF. 7E). However, after K27 mutation, UBC9 induction
+had no signiﬁcant effects on the stability of ZNF24 (SF. 6F). The
+protein degradation rates of exogenous CUL3 and ubi did not
+change in cells with or without UBC9 induction (SF. 7F).
+DISCUSSION
+Posttranslational modiﬁcation provides a key functional regulatory
+link
+in
+tumorigenesis,
+cancer
+progression,
+and
+metastasis.
+Intracellular signaling proteins such as p53 and signal transducer
+and activator of transcription 1 are known to be SUMOylated to
+regulate tumorigenesis [26]. However, the regulatory mechanism
+of SUMOylation and the interaction between SUMOylated proteins
+and intracellular signaling proteins during tumor progression and
+metastasis are still unclear. In this study, we demonstrate that
+transcription factor ZNF24 is a new SUMOylation target protein,
+and the SUMOylation of ZNF24 positively regulates its stability and
+inhibits the growth and metastasis of BC. ZNF24 is SUMOylated at
+K27 site by UBC9 with SUMO1 modiﬁcation. CUL3, an E3 ubiquitin
+ligase, is shown to mediate the degradation of ZNF24. ZNF24
+SUMOylation inhibits CUL3-mediated proteasomal degradation of
+ZNF24. The downstream mechanisms of ZNF24 in BC develop-
+ment are identiﬁed through high-throughput omics analysis.
+Li et al. performed a transcriptional analysis of ZNF24 in
+293 T cells, revealing the pleiotropic effects of ZNF24, such as
+kinase activity, transcription, angiogenesis, and DNA damage [27].
+This pleiotropy is also seen in cancer progression, with ZNF24
+acting as a tumor suppressor in breast cancer but not in
+hepatocellular carcinoma [14, 28]. The decreased ZNF24 expres-
+sion in BC cells and tissues, poor prognosis in patients with low
+expression of ZNF24, and enhanced malignant phenotypes in
+ZNF24-decreased cells demonstrate the tumor suppressive effect
+of ZNF24 in BC progression. ZNF24 contains four Kruppel-like
+C2H2 zinc ﬁnger domains at the C-terminal, which serve as DNA-
+binding domains [13, 29]. The domains speciﬁcally bind to
+chromosomal loci, thereby activating or inhibiting target gene
+transcription [21, 30]. The results of ChIP-seq and mRNA-seq were
+analyzed comprehensively, 123 genes that might be regulated by
+ZNF24 transcription. The functional enrichment of these genes is
+multifunctional, including cell growth and metastasis, such as
+growth factor binding, apoptosis, focal adhesion, etc, which is
+veriﬁed in the present study. Previous reports also showed the
+X. Wei et al.
+2773
+Oncogene (2025) 44:2762 – 2777
+
+Fig. 8
+UBC9 increases ZNF24 SUMOylation and ZNF24 is SUMOylated at K27 in a UBC9-dependent manner. A The correlation between the
+RNA expression of UBC9 and ZNF24 in BC tissues was analyzed by the GEPIA website (http://gepia.cancer-pku.cn/). B Co-IP assay veriﬁed the
+protein interaction between ZNF24 and UBC9 in T24 and 5637 cells. C The protein localization of UBC9 and ZNF24 in 5637 and T24 cells was
+detected by immunoﬂuorescence double staining. D Flag-tagged UBC9 was transfected into T24 and 5637 cells to detect the effects of
+exogenous UBC9 on endogenous ZNF24 SUMOylation. Cell lysates were immunoprecipitated by anti-ZNF24 antibody and SUMOylated ZNF24
+was detected by SUMO1 antibody. E The SUMO modiﬁcation sites of ZNF24 were analyzed by the GPS-SUMO 2.0 website (https://
+sumo.biocuckoo.cn/). F The conservation of K27 site across species and the lysine mutation to arginine at site 27 were demonstrated. G Swiss-
+model website (https://swissmodel.expasy.org/) generated the 3D structure of ZNF24 protein and the protein structure of ZNF24 was not
+changed after K27 mutation. H HER293T cells were transfected with wild-type Myc-ZNF24 or its mutant K27R and His-tagged SUMO1, 48 h
+later, cells were lysed for precipitation with Ni2+-NTA resin. Western blot analysis was performed with the indicated antibodies. I The Myc-
+tagged ZNF24 (WT or K27R) was respectively co-transfected with HA-tagged ubiquitin and Flag-tagged UBC9 into HEK293T cells. Cell lysates
+were immunoprecipitated by anti-Myc antibody and ZNF24 ubiquitination was detected by HA antibody. J 5637 cells co-expressed with Myc-
+tagged ZNF24 (WT or K27R) and/or Flag-tagged UBC9, and subjected to western blot with anti-ZNF24 antibody. The protein degradation of
+ZNF24 was calculated. N = 3 per test. ZNF24 zinc ﬁnger protein 24, BC bladder cancer, UBC9 ubiquitin-conjugating enzyme E2I, SUMO1 small
+ubiquitin-related modiﬁer 1, Co-IP co-immunoprecipitation.
+X. Wei et al.
+2774
+Oncogene (2025) 44:2762 – 2777
+
+cancer inhibitory effect of ZNF24, involving angiogenesis and
+chemotherapy sensitivity [14, 31].
+From the overlapping 123 genes we noticed that 66 genes were
+negatively regulated by ZNF24 and 57 genes were positively
+regulated. Previous studies reported that ZNF24 affected the
+transcription of downstream genes without the involvement of
+other factors [32], indicating that ZNF24 perhaps independently
+regulate the transcription of these genes. Interestingly, based on
+our results, we found that ZNF24 bound to multiple transcription
+cofactors, such as RUVBL1, ACTL6A, and TBL1X. It was reported
+Fig. 9
+SUMOylation inhibits protein degradation of ZNF24 mediated by CUL3. A The interacting proteins of ZNF24 were functionally
+enriched and the bar chart showed the terms related to ubiquitin proteasome and protein stability. B STUB1 and CUL3 were overlapping
+genes in these ﬁve terms. C The subcellular localization of CUL3 and ZNF24 in 5637 was demonstrated by immunoﬂuorescence double
+staining. D Co-IP assay veriﬁed the protein interaction between CUL3 and ZNF24. E The molecular docking of CUL3 with ZNF24 was analyzed
+by GRAMM website (https://gramm.compbio.ku.edu/request). F The protein degradation rate of ZNF24 in 5637 cells after CUL3
+overexpression was calculated. G The His-tagged CUL3, Flag-tagged UBC9, Myc-tagged ZNF24 (WT), and HA-tagged ubiquitin were
+expressed in 5637 cells, the protein degradation rate of ZNF24 was calculated. N = 3 per test. ZNF24 zinc ﬁnger protein 24, BC bladder cancer,
+UBC9 ubiquitin-conjugating enzyme E2I, STUB1 U-box-containing protein 1, CUL3 cullin 3, Co-IP co-immunoprecipitation.
+X. Wei et al.
+2775
+Oncogene (2025) 44:2762 – 2777
+
+that RUVBL1 inhibited histone trimethylation of histone H3 lysine
+4 (H3K4me3) in the nitric oxide synthase promoter [33]. The
+enrichment of H4K20me3 in the promoter blocks gene transcrip-
+tion [34]. ACTL6A was found to interact with p53 DNA response
+elements in the p21 gene promoter to suppress p21 transcription
+factor [35]. Thus, the ability of ZNF24 to both promote and inhibit
+transcription probably is related to the recruitment of these
+transcriptional cofactors.
+Although
+ZNF24
+can
+be
+SUMOylated
+by
+SUMO1/2,
+the
+SUMOylation is mainly carried out by SUMO1, and the SUMOyla-
+tion improves the stability of ZNF24 by inhibiting the ubiquitina-
+tion of ZNF24. The SUMOylation of ZNF24 in BC cells and tissues
+was reduced, which may be the reason for the decreased
+expression of ZNF24 in BC cells and tissues. Through molecular
+docking, it was found that the protein interaction domain
+between SUMO1 and ZNF24 contained a K27 site, which is also
+a SUMOylation modiﬁcation site of ZNF24. This is a reliable basis
+for SUMO1-mediated SUMOylation of ZNF24. SUMOylation not
+only affects protein stability but also protein localization and
+interaction [36, 37]. This study mainly focuses on the changes of
+protein stability of ZNF24, and whether SUMOylated ZNF24
+change protein localization and interaction will be explored in
+future
+experiments.
+After
+K27
+mutation,
+the
+SUMOylation
+modiﬁcation
+of
+ZNF24
+decreased
+while
+the
+ubiquitination
+modiﬁcation increased, indicating that although there are several
+potential SUMO modiﬁcation sites on ZNF24, K27 may be an
+important site for regulating the stability of ZNF24 protein. The
+appearance of this competitive-like modiﬁcation may be due to
+K27 site not only being a SUMOylation modiﬁcation site but also a
+ubiquitination modiﬁcation site, or the SUMOylation of ZNF24
+may affect the binding of ubiquitin protease to ZNF24. We
+attempted to identify factors that affect the stability of ZNF24 and
+focused on CUL3. Our results indicate that the CUL3-mediate
+ZNF24 degradation is weakened after induction of SUMOylation
+modiﬁcation. Meanwhile, through molecular docking, the binding
+of CUL3 to ZNF24 was close to the K27 site and did not contain
+the K27 site, which rules out the possibility of placeholder
+modiﬁcation. Thus, we speculate that the SUMOylation of ZNF24
+may affect the protein interaction between CUL3 and ZNF24,
+which needs to be conﬁrmed by further experiments. In this study,
+we have explained the importance of K27 site for maintaining the
+stability of ZNF24 protein from the molecular level, but whether
+this site affects the malignant behaviors of cancer cells is
+unknown, which is what our next experiment needs to do.
+Overall,
+our
+observations
+provide
+novel
+insights
+into
+the
+regulatory cross-talk between SUMOylation and ubiquitination of
+ZNF24 in BC progression.
+DATA AVAILABILITY
+All data are available from the corresponding author upon reasonable request.
+REFERENCES
+1. Lenis AT, Lec PM, Chamie K, Mshs MD. Bladder cancer: a review. JAMA.
+2020;324:1980–91.
+2. Bladder cancer: diagnosis and management of bladder cancer: (c) NICE (2015) Bladder
+cancer: diagnosis and management of bladder cancer. BJU Int. 2017;120:755-65.
+3. Smith AB, Jaeger B, Pinheiro LC, Edwards LJ, Tan HJ, Nielsen ME, et al. Impact of
+bladder cancer on health-related quality of life. BJU Int. 2018;121:549–57.
+4. Sahin U, de H, Lallemand-Breitenbach V. Sumoylation in physiology, pathology
+and therapy. Cells. 2022;11:814.
+5. Seeler JS, Dejean A. SUMO and the robustness of cancer. Nat Rev Cancer.
+2017;17:184–97.
+6. Xia QD, Sun JX, Xun Y, Xiao J, Liu CQ, Xu JZ, et al. SUMOylation pattern predicts
+prognosis and indicates tumor microenvironment inﬁltration characterization in
+bladder cancer. Front Immunol. 2022;13:864156.
+7. Li Z, Liu J, Fu H, Li Y, Liu Q, Song W, et al. SENP3 affects the expression of PYCR1
+to promote bladder cancer proliferation and EMT transformation by deSUMOy-
+lation of STAT3. Aging. 2022;14:8032–45.
+8. Huang X, Tao Y, Gao J, Zhou X, Tang S, Deng C, et al. UBC9 coordinates
+inﬂammation affecting development of bladder cancer. Sci Rep. 2020;10:20670.
+9. Chen C, Zheng H, Luo Y, Kong Y, An M, Li Y, et al. SUMOylation promotes
+extracellular vesicle-mediated transmission of lncRNA ELNAT1 and lymph node
+metastasis in bladder cancer. J Clin Investig. 2021;131:e146431.
+10. An M, Zheng H, Huang J, Lin Y, Luo Y, Kong Y, et al. Aberrant nuclear export of
+circNCOR1 underlies SMAD7-mediated lymph node metastasis of bladder cancer.
+Cancer Res. 2022;82:2239–53.
+11. Zhao Y, Chen J, Zheng H, Luo Y, An M, Lin Y, et al. SUMOylation-driven mRNA
+circularization enhances translation and promotes lymphatic metastasis of
+bladder cancer. Cancer Res. 2024;84:434–48.
+12. Yuce K, Ozkan AI. The kruppel-like factor (KLF) family, diseases, and physiological
+events. Gene. 2024;895:148027.
+13. Han ZG, Zhang QH, Ye M, Kan LX, Gu BW, He KL, et al. Molecular cloning of six
+novel Krüppel-like zinc ﬁnger genes from hematopoietic cells and identiﬁcation
+of a novel transregulatory domain KRNB. J Biol Chem. 1999;274:35741–8.
+14. Jia D, Hasso SM, Chan J, Filingeri D, D’Amore PA, Rice L, et al. Transcriptional
+repression of VEGF by ZNF24: mechanistic studies and vascular consequences
+in vivo. Blood. 2013;121:707–15.
+15. Liu G, Jiang S, Wang C, Jiang W, Liu Z, Liu C, et al. Zinc ﬁnger transcription factor
+191, directly binding to beta-catenin promoter, promotes cell proliferation of
+hepatocellular carcinoma. Hepatology. 2012;55:1830–9.
+16. Eiﬂer K, Vertegaal ACO. SUMOylation-mediated regulation of cell cycle progres-
+sion and cancer. Trends Biochem Sci. 2015;40:779–93.
+17. Zhang T, Yang H, Zhou Z, Bai Y, Wang J, Wang W. Crosstalk between SUMOy-
+lation and ubiquitylation controls DNA end resection by maintaining MRE11
+homeostasis on chromatin. Nat Commun. 2022;13:5133.
+18. Ranieri M, Vivo M, De Simone M, Guerrini L, Pollice A, La Mantia G, et al.
+Sumoylation and ubiquitylation crosstalk in the control of ΔNp63α protein sta-
+bility. Gene. 2018;645:34–40.
+19. Edelstein LC, Collins T. The SCAN domain family of zinc ﬁnger transcription fac-
+tors. Gene. 2005;359:1–17.
+20. Wang H, Sun R, Liu G, Yao M, Fei J, Shen H. Characterization of the target DNA
+sequence for the DNA-binding domain of zinc ﬁnger protein 191. Acta Biochi-
+mica et Biophysica Sin. 2008;40:704–10.
+21. Liu Y, Wu D, Cheng H, Chen L, Zhang W, Zou L, et al. Wnt8B, transcriptionally
+regulated by ZNF191, promotes cell proliferation of hepatocellular carcinoma via
+Wnt signaling. Cancer Sci. 2021;112:629–40.
+22. Zeng Q, Liu J, Cao P, Li J, Liu X, Fan X, et al. Inhibition of REDD1 sensitizes bladder
+urothelial carcinoma to paclitaxel by inhibiting autophagy. Clin Cancer Res : J Am
+Assoc Cancer Res. 2018;24:445–59.
+23. Du L, Fakih MG, Rosen ST, Chen Y. SUMOylation of E2F1 regulates expression of
+EZH2. Cancer Res. 2020;80:4212–23.
+24. Hou G, Zhao X, Li L, Yang Q, Liu X, Huang C, et al. SUMOylation of YTHDF2
+promotes mRNA degradation and cancer progression by increasing its binding
+afﬁnity with m6A-modiﬁed mRNAs. Nucleic Acids Res. 2021;49:2859–77.
+25. Du L, Liu W, Aldana-Masangkay G, Pozhitkov A, Pichiorri F, Chen Y, et al.
+SUMOylation inhibition enhances dexamethasone sensitivity in multiple mye-
+loma. J Exp Clin Cancer Res. 2022;41:8.
+26. Bettermann K, Benesch M, Weis S, Haybaeck J. SUMOylation in carcinogenesis.
+Cancer Lett. 2012;316:113–25.
+27. Li J, Chen X, Gong X, Liu Y, Feng H, Qiu L, et al. A transcript proﬁling approach
+reveals the zinc ﬁnger transcription factor ZNF191 is a pleiotropic factor. BMC
+Genomics. 2009;10:241.
+28. Liu G, Jiang S, Wang C, Jiang W, Liu Z, Liu C, et al. Zinc ﬁnger transcription factor
+191, directly binding to β-catenin promoter, promotes cell proliferation of
+hepatocellular carcinoma. Hepatol (Balt, Md). 2012;55:1830–9.
+29. Rousseau-Merck MF, Huebner K, Berger R, Thiesen HJ. Chromosomal localization
+of two human zinc ﬁnger protein genes, ZNF24 (KOX17) and ZNF29 (KOX26), to
+18q12 and 17p13-p12, respectively. Genomics. 1991;9:154–61.
+30. Harper J, Yan L, Loureiro RM, Wu I, Fang J, D’Amore PA, et al. Repression of
+vascular endothelial growth factor expression by the zinc ﬁnger transcription
+factor ZNF24. Cancer Res. 2007;67:8736–41.
+31. Meng F, Ai C, Yan G, Wang G. Tumor-suppressive zinc ﬁnger protein 24 (ZNF24)
+sensitizes colorectal cancer cells to 5-ﬂuorouracil by inhibiting the Wnt pathway
+and activating the p53 signaling. Exp cell Res. 2023;433:113796.
+32. Liu L, Lei Y, Chen W, Zhou Q, Zheng Z, Zeng G, et al. In vivo genome-wide CRISPR
+screening identiﬁes ZNF24 as a negative NF-κB modulator in lung cancer. Cell
+Biosci. 2022;12:193.
+33. Zhang R, Cheung CY, Seo SU, Liu H, Pardeshi L, Wong KH, et al. RUVBL1/2
+complex regulates pro-inﬂammatory responses in macrophages via regulating
+histone H3K4 trimethylation. Front Immunol. 2021;12:679184.
+34. Ye S, Ding YF, Jia WH, Liu XL, Feng JY, Zhu Q, et al. SET domain-containing protein
+4 epigenetically controls breast cancer stem cell quiescence. Cancer Res.
+2019;79:4729–43.
+X. Wei et al.
+2776
+Oncogene (2025) 44:2762 – 2777
+
+35. Shrestha S, Adhikary G, Xu W, Kandasamy S, Eckert RL. ACTL6A suppresses
+p21(Cip1) expression to enhance the epidermal squamous cell carcinoma phe-
+notype. Oncogene. 2020;39:5855–66.
+36. Shangguan X, He J, Ma Z, Zhang W, Ji Y, Shen K, et al. SUMOylation controls the
+binding of hexokinase 2 to mitochondria and protects against prostate cancer
+tumorigenesis. Nat Commun. 2021;12:1812.
+37. Garcia-Caballero A, Zhang FX, Chen L, M’Dahoma S, Huang J, Zamponi GW.
+SUMOylation regulates USP5-Cav3.2 calcium channel interactions. Mol Brain.
+2019;12:73.
+ACKNOWLEDGEMENTS
+This work was supported by the National Natural Science Foundation of China (Grant
+No. 82373077 and 82373947) and the Science and Technology Research Project of
+Henan Province (Grant No. 242102310115 and 242102310397).
+AUTHOR CONTRIBUTIONS
+Conceptualization, Writing—original draft, and Writing—review and editing: XW, BW,
+XY, and DS; Data curation, Methodology, and Validation: XW, BW, YY, ZF, and CY;
+Software and Formal analysis: XW, BW, LZ, XF, DT, and LZ; Supervision, Project
+administration, and Funding acquisition: XW, XY, and DS.
+COMPETING INTERESTS
+The authors declare no competing interests.
+ETHICS APPROVAL AND CONSENT TO PARTICIPATE
+The informed consents were obtained from all participants. All human experiments
+were approved by the Ethics Committee of the First Afﬁliated Hospital of Zhengzhou
+University. All animal experiments were conducted following the guidelines of the
+Institutional Committee for Animal Care and Use and the ethics committee of the
+First Afﬁliated Hospital of Zhengzhou University.
+ADDITIONAL INFORMATION
+Supplementary information The online version contains supplementary material
+available at https://doi.org/10.1038/s41388-025-03450-9.
+Correspondence and requests for materials should be addressed to Xiaosong Wei,
+Xiaoming Yang or Dongkui Song.
+Reprints and permission information is available at http://www.nature.com/
+reprints
+Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims
+in published maps and institutional afﬁliations.
+Springer Nature or its licensor (e.g. a society or other partner) holds exclusive rights to
+this article under a publishing agreement with the author(s) or other rightsholder(s);
+author self-archiving of the accepted manuscript version of this article is solely
+governed by the terms of such publishing agreement and applicable law.
+X. Wei et al.
+2777
+Oncogene (2025) 44:2762 – 2777

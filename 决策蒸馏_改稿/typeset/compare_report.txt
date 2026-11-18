@@ -1,0 +1,5 @@
+md 块数 = 64  docx 正文段数 = 64
+md 类型统计:
+   Counter({'body': 34, 'ref': 18, 'h1': 5, 'title': 1, 'abs': 1, 'kw': 1, 'fig': 1, 'cap': 1, 'h2': 1, 'refhead': 1})
+docx: Counter({'para': 63, 'fig': 1})
+比对完成: 不一致项 = 0  未比对多余段 = 0

@@ -50,7 +50,7 @@ def ranksum(x, y):
     N=n1+n2
     var=n1*n2/12*((N+1)-tie/(N*(N-1)))
     z=(U-mu)/math.sqrt(var) if var>0 else 0
-    p=2*(1-0.5*math.erfc(abs(z)/math.sqrt(2)))
+    p=math.erfc(abs(z)/math.sqrt(2))
     return round(z,2), round(p,4)
 
 rx=lambda g:[rsa_key[s][0] for s in g]

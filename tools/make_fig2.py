@@ -46,7 +46,7 @@ for i,(lab,sel) in enumerate([("non-histone",[a for a in dens if a not in HISTG]
 ax.axhspan(0.5,1.5,color=CB["orange"],alpha=0.10,lw=0)
 ax.set_yticks([0,1]); ax.set_yticklabels(["non-histone","histone"]); ax.set_ylim(-0.55,1.75)
 ax.set_xlim(-0.03,1.05); ax.set_xlabel("Annotation density (catalogued Lys / all Lys)")
-ax.set_title("a   Annotation density differs 24-fold\nbetween protein classes",loc="left")
+ax.set_title("a   Densest histones approach\ncomplete annotation",loc="left")
 ax.axvline(med,color=CB["red"],ls=(0,(3,2)),lw=0.7)
 ax.text(med+0.03,0.55,"median %.3f\n(all 63 proteins)"%med,color=CB["red"],fontsize=6.3,va="center")
 for j,(a,lbl) in enumerate([("P62807","H2BC4"),("P68431","H3C1"),("P62805","H4C1")]):

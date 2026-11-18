@@ -1,0 +1,1237 @@
+Atherosclerosis 377 (2023) 43–59
+Available online 23 June 2023
+0021-9150/© 2023 Elsevier B.V. All rights reserved.
+SIRT3-and FAK-mediated acetylation-phosphorylation crosstalk of NFATc1 
+regulates Nε-carboxymethyl-lysine-induced vascular calcification in 
+diabetes mellitus 
+Zhen Sun a, Lili Zhang a, Kai Yin b, Guangyao Zang a, Yongjiang Qian a, Xiang Mao a, Lihua Li c,**, 
+Qing Jing d,***, Zhongqun Wang a,* 
+a Department of Cardiology, Affiliated Hospital of Jiangsu University, Zhenjiang, China 
+b Department of General Practice, The Fifth Affiliated Hospital of Southern Medical University, Guangzhou, Guangdong, China 
+c Department of Pathology, Affiliated Hospital of Jiangsu University, Zhenjiang, China 
+d CAS Key Laboratory of Tissue Microenvironment and Tumor, Shanghai Institute of Nutrition and Health, Innovation Center for Intervention of Chronic Disease and 
+Promotion of Health, University of Chinese Academy of Sciences, Chinese Academy of Sciences, China   
+A R T I C L E I N F O  
+Keywords: 
+Vascular calcification 
+Diabetes mellitus 
+Nε-carboxymethyl-lysine 
+NFATc1 
+SIRT3 
+FAK 
+A B S T R A C T  
+Background and aims: Arterial calcification is the predictor of cardiovascular risk in diabetic patients. Nε-car­
+boxymethyl-lysine (CML), a toxic metabolite, is associated with accelerated vascular calcification in diabetes 
+mellitus (DM). However, the mechanism remains elusive. This study aims to explore the key regulators involved 
+in CML-induced vascular calcification in DM. 
+Methods: We used Western blot and immuno-staining to test the expression and localization of nuclear factor of 
+activated T cells, cytoplasmic 1 (NFATc1) in human samples, a diabetic apolipoprotein E-deficient (ApoE−/−) 
+mouse model, and a vascular smooth muscle cells (VSMC) model. Further, we confirmed the regulator of NFATc1 
+phosphorylation and acetylation induced by CML. The role of NFATc1 in VSMCs calcification and osteogenic 
+differentiation was explored in vivo and in vitro. 
+Results: In diabetic patients, CML and NFATc1 levels increased in the severe calcified anterior tibial arteries. CML 
+significantly promoted NFATc1 expression and nuclear translocation in VSMCs and mouse aorta. Knockdown of 
+NFATc1 significantly inhibited CML-induced calcification. CML promoted NFATc1 acetylation at K549 by 
+downregulating sirtuin 3 (SIRT3), which antagonized the focal adhesion kinase (FAK) induced NFATc1 phos­
+phorylation at the Y270 site. FAK and SIRT3 affected the nuclear translocation of NFATc1 by regulating the 
+acetylation-phosphorylation crosstalk. NFATc1 dephosphorylation mutant Y270F and deacetylation mutant 
+K549R had opposite effects on VSMC calcification. SIRT3 overexpression and FAK inhibitor could reverse CML- 
+promoted VSMC calcification. 
+Conclusions: CML enhances vascular calcification in DM through NFATc1. In this process, CML increases NFATc1 
+acetylation by downregulating SIRT3 to antagonize FAK-induced NFATc1 phosphorylation.   
+1. Introduction 
+Vascular calcification is a reliable predictor for the risk of major 
+adverse cardiovascular events, confirmed by a large number of clinical 
+data [1–3]. Further studies have refined the classification according to 
+the morphology and location of calcification [1–4]. It is clear that 
+increased calcification is closely related to mortality in patients with 
+cardiovascular disease [5]. Due to the long-term high blood glucose 
+level, there is a tendency for formation of toxic glycolipid metabolites in 
+diabetics, which greatly contribute to vascular calcification develop­
+ment and promote the occurrence of acute cardiovascular events [6,7]. 
+Therefore, there is an urgent need to gain a better understanding of the 
+* Corresponding author. Department of Cardiology, Affiliated Hospital of Jiangsu University, Zhenjiang, 212001, China. 
+** Corresponding author. Department of Pathology, Affiliated Hospital of Jiangsu University, Zhenjiang, 212001, China. 
+*** Corresponding author. CAS Key Laboratory of Tissue Microenvironment and Tumor, Shanghai Institute of Nutrition and Health, Chinese Academy of Sciences 
+(CAS), Shanghai, 200031, China. 
+E-mail addresses: tsmc01@163.com (L. Li), qjing@sibs.ac.cn (Q. Jing), wangtsmc@126.com (Z. Wang).  
+Contents lists available at ScienceDirect 
+Atherosclerosis 
+journal homepage: www.elsevier.com/locate/atherosclerosis 
+https://doi.org/10.1016/j.atherosclerosis.2023.06.969 
+Received 15 November 2022; Received in revised form 21 June 2023; Accepted 23 June 2023   
+
+Atherosclerosis 377 (2023) 43–59
+44
+causes and molecular mechanisms of vascular calcification in diabetes 
+mellitus (DM). 
+Advanced glycation end products (AGEs), formed in the Maillard 
+reaction, are one of the most common diabetic toxic metabolites [8]. 
+Nε-carboxymethyl-lysine (CML) is an active component of AGEs. A 
+higher level of circulating CMLwas associated with increased cardio­
+vascular events [9]. Previous studies also revealed that CML was 
+involved in the occurrence and progression of diabetic nephropathy [10] 
+and peripheral vascular disease [11]. Our former studies investigated 
+the role of CML in promoting vascular calcification in DM. CML could 
+directly act on vascular smooth muscle cells (VSMCs) to promote oste­
+ogenic and adipogenic differentiation [12], and CML could also stimu­
+late the release of apoptotic bodies to mediate VSMC calcification [13]. 
+However, the molecular mechanisms involved in CML-induced promo­
+tion of vascular calcification in DM are still unclear. 
+Nuclear factor of activated T cells, cytoplasmic 1 (NFATc1) is a 
+member of the NFAT transcription factors family and a key regulator of 
+numerous pathophysiological processes [14,15]. Nuclear translocation 
+and transcriptional regulation of NFATc1 can mediate changes of mul­
+tiple indicators at the mRNA level [16]. Previous studies have shown 
+that NFATc1 related cascade signals play a critical role in the progres­
+sion of diabetic osteoporosis [17] and diabetic nephropathy [18]. More 
+importantly, NFATc1 has been reported to participate in the balance 
+mediation of osteogenic-osteoclastic metabolism [19,20]. In the regu­
+lation of osteoclast activity, NFATc1 is an essential indicator of osteo­
+clastic differentiation [21]. However, whether NFATc1 plays a 
+regulatory role in vascular calcification under the toxic metabolic 
+environment of DM needs further study. 
+In this study, we performed RNA sequencing (RNA-seq) to screen the 
+potential regulatory factor of vascular calcification in DM and further 
+verified NFATc1 in the anterior tibial arteries from patients with dia­
+betic foot amputated, and in vitro and in vivo models. Then, we explored 
+the regulatory mechanism of VSMC osteogenic differentiation and 
+vascular calcification under CML stimulation in diabetic apolipoprotein 
+E-deficient (ApoE−/−) mice and primary murine VSMCs. We hope to 
+provide a breakthrough point for the prevention and treatment of 
+vascular calcification in DM. 
+2. Patients and methods 
+2.1. Patients 
+All clinical studies complied with the Declaration of Helsinki and 
+were approved by the Ethics Committee of the Affiliated Hospital of 
+Jiangsu University. Anterior tibial arteries were collected from 19 pa­
+tients with an amputated diabetic foot. All amputations were performed 
+in the Affiliated Hospital of Jiangsu University from November 2019 to 
+March 2021, and these patients had given prior informed consent. 
+Fasting blood was also collected and centrifuged at 1000 rpm for 30 min 
+to obtain serum. CML in serum and artery tissues was determined with 
+an ELISA kit (CEB977Ge, Cloud-Clone, Wuhan, China), and the experi­
+mental steps were performed in accordance with the instructions. After 
+the calcium content of artery specimens was determined with a Calcium 
+Colorimetric Assay Kit (S1063S, Beyotime Biotech, Shanghai, China), 
+the patients were divided into the mild calcification group (9 patients) 
+and severe calcification group (10 patients) according to the median 
+calcium content (8.5mol/gprot). Then, the anterior tibial arteries were 
+sectioned for subsequent staining. 
+2.2. Animals 
+Six-week-old male ApoE−/−
+mice and C57 BL/6 mice (Cavens 
+Experimental Animals, Changzhou, China) were intraperitoneally 
+injected with streptozotocin (STZ) (40 mg/kg/day) for 5 consecutive 
+days to construct the in vivo diabetic model [3,13]. Two weeks later, 
+mice with a blood glucose level of more than 300 mg/dL were used for 
+the subsequent experiments. Additional CML was supplemented via tail 
+vein injection (10 mg/kg/day) (Toronto research chemicals, Toronto, 
+Canada). Adeno-associated virus (AAV) (1010v.g/mouse) (Sangon 
+Biotech, Shanghai, China) or recombinant adenovirus (Ad) (4 × 109 pfu) 
+(GenePharma, Shanghai, China) was used to silence or overexpress 
+NFATc1. The viral vector was used as negative control (AAVshNC was 
+the control of AAVshNFATc1 and AdNC was the control of AdNFATc1). 
+Mice were then fed a high-fat diet (41 kcal% fat and 43 kcal% carbo­
+hydrates) (HFK Bioscience, Beijing, China) for 18 weeks (Supplementary 
+Fig. S1). All mice were randomly divided into different groups and 
+housed in an environment of 12h light/12h dark cycle and 22 ◦C tem­
+perature and had free access to food and water. Mice were euthanized 
+with 100 mg/kg sodium pentobarbital injection at the end of the 
+experiment. The thoracic aorta was isolated for subsequent experiments. 
+The sample size was chosen to ensure reproducibility and allow strin­
+gent statistical analysis. All animal experiments complied with the 
+ARRIVE guidelines and were approved by the Experimental Animal Use 
+Ethics Committee of Jiangsu University. 
+2.3. Cell cultures 
+Primary mouse VSMCs were isolated as previously described [2,3]. 
+In short, aortas from 6-week-old male C57 BL/6 mice were obtained 
+immediately after euthanasia. After removing the adventitia and intima, 
+the aortic medium was cut into a 0.1 × 0.1 cm tissue block. Then, the 
+tissue block was moved into DMEM supplemented with 10% fetal bovine 
+serum (FBS) (Wisent Biotech, Nanjing, China), 100 U/mL penicillin, and 
+100 μg/mL streptomycin (Wisent Biotech). After the cells migrated from 
+the tissue block, the cell culture medium was updated. Cells after the 3rd 
+passage were used for subsequent experiments. Osteogenic medium 
+(OM) containing 2.5 mmol/L β-glycerophosphate and 50 μg/mL ascor­
+bic acid was added and cultured for 7 days to induce osteogenic dif­
+ferentiation of VSMCs (Supplementary Fig. S2A). CML and 50 μg/mL 
+oxidized low density lipoprotein (ox-LDL) were used to simulate glucose 
+and lipid metabolism disorders in DM. NFATc1 and sirtuin (SIRT) 3 were 
+overexpressed or knocked down with plasmid or siRNA transduction 
+(Supplementary Figs. S2B and C). The focal adhesion kinase (FAK) ac­
+tivity was inhibited with inhibitor Y15 (1 μmol/L) (MedChemExpress, 
+New Jersey, USA). 
+2.4. Calcification measurement 
+For von Kossa staining, samples were fixed in 4% paraformaldehyde 
+for 30 min. After washing, samples were placed in 2.5% silver nitrate 
+solution and then exposed to ultraviolet light for 2 h. Then 5% sodium 
+thiosulfate solution was added to neutralize the unreacted silver nitrate. 
+After washing, samples were stained with 1% neutral red for 3 min. 
+Finally, calcium nodules were observed and photographed under a mi­
+croscope (IX51, Olympus, Tokyo, Japan). For Alizarin Red S staining of 
+cell samples, after fixation with 4% paraformaldehyde, 2% Alizarin Red 
+(pH 4.2) (Solarbio Science & Technology, Beijing, China) was added and 
+incubated at room temperature for 10 min. After washing, the sample 
+was photographed. For tissues, the whole mouse aorta was obtained and 
+fixed in 95% ethanol overnight. The aorta was then incubated with 
+0.003% Alizarin Red S dissolved in 1% potassium hydroxide overnight. 
+After washing with 2% potassium hydroxide, the sample was photo­
+graphed. The o-cresolphthalein complexone method was applied for 
+calcium content determination, and a Calcium Colorimetric Assay Kit 
+(Beyotime Biotech) was used. The protein concentration of samples was 
+detected with the BCA Protein Quantification Kit (E112, Vazyme 
+Biotech, Nanjing, China). Calcium content was standardized to protein 
+concentration. All experimental steps were carried out according to the 
+instructions of the kits. 
+Z. Sun et al.                                                                                                                                                                                                                                      
+
+Atherosclerosis 377 (2023) 43–59
+45
+2.5. Quantitative PCR (qPCR), Western blot and immunoprecipitation 
+For qPCR, total RNA was extracted with Trizol reagent (Invitrogen, 
+CA, USA). The mRNA was then reverse transcribed into cDNA with a 
+Reverse Transcriptase Kit (R222, Vazyme Biotech). QPCR was per­
+formed using the SYBR qPCR Master Mix (Q311, Vazyme Biotech). The 
+experiments were performed in accordance with the manufacturer’s 
+instructions. All primer sequences used are shown in Table 1. β-actin was 
+used as internal reference. For Western blot, tissue/cell protein extracts 
+were obtained with the protein lysate (RIPA: protease inhibitor: phos­
+phatase inhibitor 100:1:1 in volume) (Beyotime Biotech). After the 
+sample was fully lysed, 5 × loading buffer was added and boiled for 8 
+min. Proteins were then separated by SDS-PAGE and then transferred to 
+a polyvinylidene difluoride membrane (Merck Millipore, Billerica, 
+USA). After the membrane was blocked with 10% skimmed milk and 
+incubated with the primary antibody and secondary antibody in 
+sequence, a chemiluminescence system (Amersham Imager 600, General 
+Electric, Boston, USA) was applied to display and analyze the images. 
+The primary antibody used in Western blot was anti-CML (1:2000, 
+ab125145, Abcam, Cambridge, UK), anti-β-actin (1:5000, 21800, Sig­
+nalway Antibody, Maryland, USA), anti-NFATc1 (1:1000, ab125145, 
+Abcam), anti-Histone H3 (H3) (1:1000, ab176842, Abcam), anti- 
+Phospho-Serine(Ser)/Threonine (Thr) (1:1000, AP1067, ABclonal, 
+Wuhan, China), anti-Phospho-Tyrosine(Tyr, Y) (1:1000, PTM-702RM, 
+PTM-Biolab, Hangzhou, China), anti-Acetyllysine (1:1000, PTM-101, 
+PTM-Biolab), anti-SIRT3 (1:1000, AF5135, Affinity Biosciences, 
+Changzhou, China), anti-FAK (1:3000, 66258-1-Ig, Proteintech, Wuhan, 
+China), Anti-GFP tag (1:5000, 66002-1-Ig, Proteintech), anti-Flag Tag 
+(1:5000, M1403-2, HuaBio, Hangzhou, China), anti-Bcl-2 associated X 
+protein (BAX) (1:5000, 50599-2-Ig, Proteintech), anti-Caspase9 
+(1:1000, 10380-1-AP, Proteintech), anti-actin, alpha 2, smooth mus­
+cle, aorta (α-SMA) (1:1000, ER1003, HuaBio).Anti-Runt-related tran­
+scription factor 2 (RUNX2) (1:1000, ab236639, Abcam) and anti-Bone 
+morphogenetic protein 2 (BMP2) (1:1000, 18933-1-AP, Proteintech). 
+Immunoprecipitation was performed with a Protein A/G Immunopre­
+cipitation Kit (22202, Beaverbio, Suzhou, China). All operations were 
+performed in accordance with the instructions of the kit. Briefly, cells 
+were lysed to prepare protein suspensions. The primary antibody was 
+incubated with magnetic beads at room temperature for 30 min. Then, 
+the antibody-magnetic bead conjugate was added to the protein sus­
+pension and incubated for 30 min. Subsequently, immunoprecipitates 
+were obtained using a magnetic frame and analyzed by Western blot. 
+The primary antibodies used in immunoprecipitation were anti-NFATc1 
+(1:200, sc-7294, Santa Cruz Biotech, Dallas, USA), anti-SIRT3 (1:200, sc- 
+365175, Santa Cruz), anti-FAK (1:100, 66258-1-Ig, Proteintech) and 
+anti-GFP tag (1:100, 66002-1-Ig, Proteintech). 
+2.6. Immunohistochemical and immunofluorescence staining 
+For immunohistochemical staining, tissue sections were placed into 
+4% paraformaldehyde and fixed at room temperature for 30 min. Then 
+the SP Rabbit & Mouse HRP kit (CW2069, CoWin Century Biotech, 
+Beijing, China) was applied, and the experimental steps were performed 
+in accordance with the kit instructions. Then, sections were stained with 
+hematoxylin for 2 min to visualize the nucleus, and they were finally 
+observed under the microscope (Olympus). Images were analyzed using 
+ImageJ software. The primary antibody used was anti-NFATc1 (1:200, 
+sc-7294, Santa Cruz). For immunofluorescence staining, after the sam­
+ples were fixed with 4% paraformaldehyde, they were placed in the 
+blocking solution supplemented with 5% goat serum and 0.1% Triton X- 
+100 and incubated for 30 min. After washing, primary antibodies were 
+added and incubated at 4 ◦C overnight. The samples were then incu­
+bated with fluorescent-labeled secondary antibodies for 30 min. The 
+nuclei were marked with DAPI (1:10000, D9542, Sigma-Aldrich, St. 
+Louis, USA). Finally, samples were observed and photographed with a 
+microscope (Olympus) or a confocal microscope (LSM510, Carl Zeiss, 
+Thornwood, USA). Images were analyzed with Image-Pro Plus software. 
+2.7. Plasmids and small interfering RNA (siRNA) transfection and 
+luciferase reporter assay 
+To overexpress NFATc1 and SIRT3, the pCMV6-AC-GFP-NFATc1 
+(General Biol, Chuzhou, China) and pCMV-Flag-SIRT3 (Generay 
+Biotech, Shanghai, China) plasmids were constructed. SiRNA targeting 
+NFATc1 or SIRT3 (GenePharma) was synthesized to knock down 
+NFATc1 and SIRT3 in cells. To verify the phosphorylation and acetyla­
+tion sites of NFATc1, pCMV6-AC-GFP-NFATc1 Y270F and pCMV6-AC- 
+GFP-NFATc1 K549R mutant plasmids (General Biol) were constructed. 
+Plasmid and siRNA transfection were performed when cell density 
+reached 70–80% confluence. Opti-MEM® Medium (Gibco, New York, 
+USA) and Lipo8000™ reagent (C0533, Beyotime Biotech) were used to 
+enhance the transfection efficiency. Experimental steps followed the 
+instructions of Lipo8000™ reagent. For luciferase reporter assay, VSMCs 
+were seeded in a 96-well plate at the density of 1 × 104 cells and 
+transfected with BMP2 promoter reporter plasmids (General Biol) or 
+pGL3-basic plasmids. Renilla plasmids were also transfected to 
+normalize luciferase activities. After 24 h, cells were lysed to detect 
+luminescence with the Duo-Lite Luciferase Assay System (Vazyme 
+Biotech) according to the manufacturer’s instructions. 
+2.8. Mass spectrometry (MS) 
+Cell extracts from CML-stimulated VSMCs were subjected to immu­
+noprecipitation with anti-NFATc1. The immunoprecipitates were sepa­
+rated by SDS-PAGE, which was subsequently excised after staining with 
+Coomassie brilliant blue. After dehydration, the gel strips were digested 
+with 5 ng/μL trypsin at 37 ◦C for 20 h. Smples after enzymatic hydrolysis 
+were desalted and centrifuged in vacuum, redissolved in 0.2% formic 
+acid and loaded onto a reversed-phase analytical column (Thermo 
+Fisher, MA, USA, 75 μm × 150 mm, packed with Acclaim PepMap RSLC 
+C18; 2 μm, 100 Å, nanoViper) and subsequently separated by gradient 
+elution buffer with the Easy nLC 1000 system (Thermo Fisher). The 
+eluted peptides were detected with the nanospray ionization linear ion 
+trap tandem MS (Q Exactive, Thermo Fisher). Twenty fragments (MS2 
+scan) were collected after each full scan. Mascot software was used for 
+data analysis to obtain qualitative identification information of target 
+protein polypeptide molecules. 
+2.9. RNA-seq and bioinformatics analysis 
+Three diabetic and 3 non-diabetic ApoE−/−
+mice were euthanized 
+after 18 weeks of high-fat diet intake. The aortas were immediately 
+isolated. The adventitia and intima of the aorta were then stripped. All 
+operations were performed in an ice bath environment. RNA was 
+extracted from the mouse aorta with Trizol reagent (Invitrogen). RNA 
+quality was identified using Bioanalyzer 2100 (Agilent, CA, USA). After 
+the RNA was qualified, the mRNA was enriched with magnetic beads 
+with oligo dT. The obtained mRNA was then used as a template for the 
+Table 1 
+Sequences of the primers used for qPCR.  
+Gene 
+Forward (5′-3′) 
+Reverse (5′-3′) 
+Sirt1 
+CGCTGTGGCAGATTGTTATTAA 
+TTGATCTGAAGTCAGGAATCCC 
+Sirt2 
+CAGCTACTTCAAGAAACATCCG 
+TATTCTTTTCTGCAGGAGGTGT 
+Sirt3 
+TCTATACACAGAACATCGACGG 
+GCATGTAGCTGTTACAAAGGTC 
+Sirt6 
+CCCAAGTGTAAGACGCAGTA 
+GTCCAGAATGGTGTCTCTACG 
+Sirt7 
+TCCACCACTGCCTTACCTACATC 
+TTCTCCCTGTGCCGCATACCC 
+Runx2 
+CCTTCAAGGTTGTAGCCCTC 
+GGAGTAGTTCTCATCATTCCCG 
+Bmp2 
+AGTAGTTTCCAGCACCGAATTA 
+CACTAACCTGGTGTCCAATAGT 
+β-actin 
+CTACCTCATGAAGATCCTGACC 
+CACAGCTTCTCTTTGATGTCAC 
+Sirt, sirtuin; Runx2, Runt-related transcription factor 2; Bmp2, bone morpho­
+genetic protein 2. 
+Z. Sun et al.                                                                                                                                                                                                                                      
+
+Atherosclerosis 377 (2023) 43–59
+46
+(caption on next page) 
+Z. Sun et al.                                                                                                                                                                                                                                      
+
+Atherosclerosis 377 (2023) 43–59
+47
+synthesis of double stranded cDNA. Then, cDNA purification, terminal 
+repair, sequencing linker ligation and PCR amplification were carried 
+out. The PCR products were purified and used for sequencing (Illumina 
+HiSeq2000). After pre-processing of the obtained original data, HISAT2 
+software was used for sequence alignment, and the expected number of 
+fragments per kilobase of transcript sequence per million base pairs 
+sequenced was calculated by the featureCounts software. The differen­
+tially expressed genes (DEGs) with adjusted p < 0.05 and |log2 
+(foldchange)|>1 were screened by the edgeR software. The Database for 
+Annotation, Visualization and Integrated Discovery (https://david.nci 
+fcrf.gov/) was used for Gene Ontology and Kyoto Encyclopedia of 
+Genes and Genomes (KEGG) enrichment analysis. For the prediction of 
+NFATc1 phosphorylation, group-based phosphorylation site predicting 
+and scoring 5.0 was used [22]. 
+2.10. Nucleoprotein isolation and NFATc1 detection 
+A Membrane, Nuclear and Cytoplasmic Protein Extraction Kit 
+(C510002, Sangon Biotech) was used to collect the nuclear protein. The 
+experimental steps were carried out according to the instructions. The 
+content of NFATc1 in the nuclear protein was detected by Western blot. 
+H3 was used as the internal reference. Active NFATc1 in nuclear extracts 
+was detected with an NFATc1 Transcription Factor Assay Kit (ab207215, 
+Abcam). The kit pre-coated the NFATc1 common binding sequence 
+(5′–AGGAAA–3′) in a 96-well plate, with which active NFATc1 in nu­
+clear extracts could be captured. Then, the primary antibody and HRP 
+labeled secondary antibody were incubated, and the optical density 
+values were recorded at 450 nm. 
+2.11. Statistical analysis 
+Shapiro-Wilk test was applied to detect the normality of data. Data of 
+normal distribution were shown by mean ± SD. The comparison be­
+tween two groups was performed by the Student t-test. One way ANOVA 
+followed by Turkey’s post hoc test was used to analyze three or more 
+groups. Pearson correlation analysis was used to explore the correlation 
+between groups. Data showing with non-normality were displayed with 
+median and interquartile spacing, and the comparison between groups 
+was performed with the nonparametric test. SPSS 22.0 software was 
+used for statistical analysis. p < 0.05 represented a statistically signifi­
+cant difference. 
+3. Results 
+3.1. NFATc1 and CML levels are increased in diabetic mouse aorta and 
+calcified human anterior tibial arteries 
+We constructed an ApoE−/−
+mouse model of DM (Supplementary 
+Table S1). Alizarin Red Staining of the aorta showed that compared with 
+the NODM (non-diabetes mellitus) group, aortic calcification was more 
+obvious in the ApoE−/−mice of the DM group (Fig. 1A) and calcium 
+content also showed that aortic calcification significantly increased in 
+DM mice (Supplementary Fig. S3). The aortas of 3 diabetic ApoE−/−mice 
+and 3 non-diabetic ApoE−/−mice were collected, and the adventitia and 
+the intima were removed. Then RNA-seq was performed to screen the 
+potential mediators. KEGG analysis revealed that the AGEs signaling 
+pathway may be a major participant in vascular calcification in DM 
+Fig. 1. NFATc1 increases with CML and calcification in mouse and human arteries. 
+(A) Representative Alizarin Red S staining images of aorta in non-diabetic (NODM group) and diabetic ApoE−/−mice (DM group) (n = 5). Scale bar 10 mm. (B) Kyoto 
+Encyclopedia of Genes and Genomes (KEGG) enrichment analysis revealed the pathways involved in differentially expressed genes (DEGs) of aorta media between 
+NODM and DM group (n = 3). (C) Heatmap shows the DEGs in the ‘AGE-RAGE signaling pathway in diabetic complications’ KEGG pathway. (D and E) CML content 
+and NFATc1 expression in mouse aorta were detected with Western blot and normalized to β-actin (n = 12). (F and G) The expression of NFATc1 in the aorta over 
+time was detected (n = 8). (H) Tissue CML of anterior tibial arteries with mild (n = 9 patients) and severe calcification (n = 10 patients) from diabetic foot amputated 
+patients was detected and normalized to protein concentration. (I and J) CML content and NFATc1 expression of anterior tibial arteries were determined with 
+Western blot. (K) Representative images of von Kossa staining (1st row) and NFATc1 immunohistochemistry staining (2nd row) of anterior tibial arteries. Scale bar 
+200 μm. (L) Calcium content of anterior tibial arteries was measured and normalized to protein concentration. (M) Percentage of NFATc1 immunohistochemical 
+positive area. (N) Correlation between NFATc1 positive area and calcium content of anterior tibial arteries. (For interpretation of the references to color in this figure 
+legend, the reader is referred to the Web version of this article.) 
+Table 2 
+Baseline characteristics of the study patients.   
+Mild calcification, Mean (SD) 
+Severe calcification, Mean (SD) 
+p value 
+Age, years 
+64.8 (9.9) 
+65 (10) 
+0.96 
+Sex, male 
+3 
+6 
+0.37 
+Smoker, n 
+4 
+3 
+0.65 
+Hypertension 
+5 
+7 
+0.44 
+SBP, mmHg 
+132.1 (14.5) 
+136.8 (16.1) 
+0.51 
+DBP, mmHg 
+83.3 (11.6) 
+83.7 (14.7) 
+0.95 
+Stroke 
+1 
+1 
+0.99 
+BMI, kg/m2 
+27.3 (5.5) 
+28.6 (4.6) 
+0.57 
+Diabetes duration, years 
+13.7 (5.7) 
+18.5 (7.7) 
+0.13 
+Hemoglobin, g/l 
+139.5 (11.6) 
+130.9 (10.7) 
+0.11 
+FPG, mg/dl 
+156.5 (32.9) 
+167.3 (28.9) 
+0.45 
+HbA1c, % 
+7.8 (1.3) 
+8.6 (0.9) 
+0.13 
+LDL-C, mg/dl 
+171.1 (42.4) 
+173.5 (47) 
+0.90 
+Triglycerides, mg/dl 
+371.4 (58.8) 
+375.7 (32.8) 
+0.85 
+Total cholesterol, mg/dl 
+225.6 (41.2) 
+236.1 (28.4) 
+0.52 
+Cr, μmol/L 
+72.2 (18.7) 
+71.3 (22.1) 
+0.91 
+BUN, mmol/L 
+5.9 (1.4) 
+6.1 (2.1) 
+0.76 
+CML, ng/ml 
+61.5 (17.7) 
+85.8 (21.6) 
+0.02 
+Insulin 
+4 
+5 
+0.99 
+OADs 
+7 
+7 
+0.64 
+Statins 
+8 
+8 
+0.59 
+BMI, body mass index; CML, Nε-carboxymethyl-lysine; BUN: blood urea nitrogen; Cr, creatinine; DBP, diastolic blood pressure; FPG, fasting plasma glucose; HbA1c, 
+glycated hemoglobin A1c; LDL-C, low-density lipoprotein cholesterol; OADs, oral antidiabetic drugs; SBP, systolic blood pressure. 
+Z. Sun et al.                                                                                                                                                                                                                                      
+
+Atherosclerosis 377 (2023) 43–59
+48
+(caption on next page) 
+Z. Sun et al.                                                                                                                                                                                                                                      
+
+Atherosclerosis 377 (2023) 43–59
+49
+(Fig. 1B). Twenty-five DEGs were distributed in this pathway (Fig. 1C), 
+of which NFATc1 attracted our attention. NFATc1 is known to be a 
+marker of osteoclast activity [23], but its role in vascular calcification 
+has been rarely reported. CML, a major component of AGEs, has been 
+proved to be an important cause of plaque calcification in diabetic pa­
+tients [12,13]. The content of CML and the expression of NFATc1 were 
+significantly increased in the aorta of DM group (Fig. 1D and E). Also, 
+the protein level of NFATc1 in the aorta increased over time in diabetic 
+ApoE−/−mice (Fig. 1F and G). Therefore, we speculated that NFATc1 
+was the potential regulator of vascular calcification in DM. To verify our 
+hypothesis, we collected the anterior tibial arteries from 19 patients 
+with diabetic foot amputation. Samples were classified into mild calci­
+fication group and severe calcification group according to the median 
+calcium content (8.5mol/gprot). Baseline characteristics of the patients 
+are displayed in Table 2. CML concentrations in serum (Table 2) and 
+anterior tibial arteries (Fig. 1H–J) of the mild calcification group were 
+significantly lower than those of the severe calcification group. Immu­
+nohistochemistry and Western blot also showed prominently upregu­
+lated NFATc1 expression in the severely calcified anterior tibial arteries 
+(Fig. 1K-M). More importantly, NFATc1 was positively correlated with 
+the calcium content in anterior tibial arteries (r = 0.68, p < 0.01). These 
+results suggested that NFATc1 may be involved in CML-induced vascular 
+calcification in DM. 
+3.2. CML promotes NFATc1 expression and nuclear translocation 
+We established a mouse aortic smooth muscle cell model of diabetic 
+vascular calcification and a mouse model of diabetic vascular calcifi­
+cation [2,3]. In the cell model, protein levels of NFATc1 were increased 
+in a CML concentration dependent manner (Fig. 2A and B). We noticed 
+that 20 μmol/L CML reversely induced a decrease in the NFATc1 level, 
+which may be caused by the cytotoxicity of high concentration of CML. 
+Therefore, 10 μmol/L CML was selected as the concentration of the 
+subsequent experiments. Previous studies have demonstrated the 
+pro-apoptosis effects of CML. In this study, we also found that CML 
+promoted the expression of apoptosis indicators Caspase9 and BAX in 
+calcified VSMCs (Supplementary Fig. S4). nfatc1 mRNA level was also 
+upregulated in the CML group (Fig. 2C). NFATc1 is a member of the 
+transcription factor NFAT family. NFATc1 nuclear translocation de­
+termines its transcriptional regulatory activity [19]. We used laser 
+confocal microscopy to observe the localization of NFATc1 in VSMCs 
+(Fig. 2D) and found that CML significantly increased NFATc1 expression 
+(Fig. 2E) and nuclear translocation (Fig. 2F). Western blot also showed 
+that CML significantly increased the level of NFATc1 in the nuclear ly­
+sates (Fig. 2G and H), while the content of NFATc1 in the cytoplasm was 
+significantly decreased (Supplementary Fig. S5). We observed similar 
+results in the ApoE−/−mouse model. Western blot (Fig. 2I and J) and 
+immunohistochemical staining (Fig. 2K and L) showed that the expres­
+sion of NFATc1 in the mouse aorta was significantly increased in the DM 
++ CML group. We then fluorescently labeled NFATc1 and α-SMA 
+(Fig. 2M). CML greatly promoted NFATc1 expression and nuclear 
+translocation in smooth muscle cells (Fig. 2N and O). These results 
+suggested that the expression of NFATc1 and the transcriptional regu­
+latory activity were enhanced by CML. 
+3.3. CML increases osteogenic differentiation and vascular calcification 
+via upregulating NFATc1 
+In the diabetic models of wild-type (WT) and ApoE−/−
+mice, the 
+expression of RUNX2 and BMP2, indicators of osteogenic differentiation 
+[24] was significantly increased in the DM + CML group (Fig. 3A). AAV 
+(shNFATc1) or Ad (AdNFATc1) were used to knockdown or overexpress 
+NFATc1 in the aorta of diabetic ApoE−/−mice, respectively. Knockdown 
+of NFATc1 with AAV-shNFATc1 significantly reduced the expression of 
+RUNX2 and BMP2 (Fig. 3B). Overexpression of NFATc1 further 
+enhanced the expression of osteogenic differentiation markers (Fig. 3C). 
+Calcium content assay and von Kossa staining indicated that CML could 
+promote aortic calcification in diabetic ApoE−/−mice (Fig. 3D and E). 
+The increase in plaque calcification induced by CML was reversed after 
+inhibition of NFATc1 with AAV-shNFATc1, while the overexpression of 
+NFATc1 by AdNFATc1 further promoted plaque calcification (Fig. 3D 
+and E). In the cell model, NFATc1 was knocked down or overexpressed 
+with siRNA or plasmids, respectively. The knockdown of NFATc1 
+significantly downregulated the expression of RUNX2 and BMP2 
+(Fig. 3F–H) and upregulated the expression of contraction phenotypic 
+index α-SMA in VSMCs (Supplementary Fig. S6A), suggesting that the 
+inhibition of NFATc1 could antagonize CML-induced osteogenic differ­
+entiation of VSMCs. After overexpression of NFATc1, the osteogenic 
+differentiation of VSMCs was further aggravated (Fig. 3I–K, Supple­
+mentary Fig. S6B). Alizarin Red S staining and calcium content assay 
+showed that CML significantly increased mineralization deposition in 
+VSMCs, which was reversed by the knockdown of NFATc1 with siRNA 
+(Fig. 3L and M). Compared with the CML + Vector group, the degree of 
+calcification was further increased after overexpression of NFATc1 
+(CML + NFATc1 group) (Fig. 3L and M). These results suggested that 
+CML promoted vascular calcification and osteogenic differentiation of 
+VSMCs via upregulating NFATc1. 
+3.4. CML mediates the acetylation and phosphorylation of NFATc1 via 
+downregulating SIRT3 
+Protein functions are influenced by its acetylation modification. The 
+acetylation of NFATc1 in CML-stimulated VSMCs was identified by MS 
+(Fig. 4A). Immunoprecipitation with anti-NFATc1 followed by detection 
+of acetylation levels found that CML significantly promoted acetylation 
+of NFATc1 (Fig. 4B and C). Previous studies have found that histone 
+deacetylase (HDAC) family and SIRT family are major deacetylases 
+mediating protein deacetylation [25]; hence, we used trichostatin A 
+(TSA) or nicotinamide (NAM) to inhibit HDAC family or SIRT family, 
+respectively. We found that CML could further increase NFATc1 acety­
+lation in VSMCs treated with TSA instead of NAM (Supplementary 
+Fig. S7), which indicated that CML could inhibit the activity of SIRT 
+family. The SIRT family has seven members (SIRT1-SIRT7), of which 
+SIRT1, SIRT2, SIRT3, SIRT6 and SIRT7 are the main deacetylase. Q-PCR 
+revealed that CML significantly down-regulated Sirt3 mRNA level 
+(Supplementary Fig. S8). MS revealed that SIRT3 may bind to NFATc1. 
+Western blot and immunofluorescence staining showed that the protein 
+level of SIRT3 was also significantly reduced by CML (Fig. 4E–G). 
+Immunoprecipitation further verified that NFATc1 could interacted with 
+Fig. 2. NFATc1 is activated by CML in VSMCs and mouse aortas. 
+(A and B) NFATc1 expression was measured in VSMCs stimulated with different concentrations of CML and was normalized to β-actin (n = 5). *p < 0.05. (C) Nfatc1 
+mRNA in VSMCs of in the control (CON) group and the CML group (10 μmmol/L) was detected with qPCR of (n = 5). (D) VSMCs in the CON group and the CML group 
+were labeled with anti-NFATc1 by immunofluorescence staining and observed under a confocal microscope (n = 5). Scale bar 10 μm. Red, NFATc1. Blue, nuclear. (E) 
+Images of confocal microscope were quantified with integrated optical density (IOD). (F) The co-localization coefficient of NFATc1 and DAPI (nuclear) was 
+calculated. (G and H) The expression of NFATc1 in nuclear was tested with western blot and normalized to H3 (n = 5). (I and J) The protein level of NFATc1 in the 
+mouse thoracic aorta of the diabetes mellitus (DM) group and DM + CML group was detected by Western blot (n = 10). (K and L) The level of NFATc1 in the mouse 
+aorta was determined by immunohistochemical staining (n = 10). Scale bar 50 μm. (M) NFATc1 (red), actin, alpha 2, smooth muscle, aorta (α-SMA) (green) and 
+nucleus (blue) were stained with immunofluorescence (n = 10). Representative images are displayed. Scale bar 50 μm. (N) IOD of NFATc1 in vascular smooth muscle 
+cells was calculated. (O) The co-localization of NFATc1 with DAPI was quantified. (For interpretation of the references to color in this figure legend, the reader is 
+referred to the Web version of this article.) 
+Z. Sun et al.                                                                                                                                                                                                                                      
+
+Atherosclerosis 377 (2023) 43–59
+50
+(caption on next page) 
+Z. Sun et al.                                                                                                                                                                                                                                      
+
+Atherosclerosis 377 (2023) 43–59
+51
+SIRT3 (Fig. 4H). MS identified that K549 was a possible acetylation site 
+of NFATc1 (Fig. 4A). Sequence alignment showed that the protein 
+sequence of NFATc1 was conserved at K549 site (Fig. 4I). Knockdown of 
+SIRT3 significantly promoted the acetylation of NFATc1, and SIRT3 
+overexpression significantly inhibited its acetylation (Fig. 4J and K). The 
+deacetylation mutant of NFATc1 further confirmed that K549R signifi­
+cantly reduced the acetylation of NFATc1, which was not affected by 
+SIRT3 knockdown or overexpression (Fig. 4J and K). These results 
+suggested that SIRT3 deacetylated NFATc1 at the K549 site. Nuclear 
+translocation and transcriptional regulatory activity of NFATc1 are 
+closely related to its phosphorylation and dephosphorylation [26]. 
+Therefore, we also tested the phosphorylation of NFATc1 in 
+CML-stimulated VSMCs. We found that CML significantly inhibited the 
+phosphorylation of NFATc1 Tyr rather than Ser/Thr (Fig. 4L-N). Recent 
+studies have reported that there exists a crosstalk between acetylation 
+and phosphorylation [27,28]. Then, we explore whether there is a 
+crosstalk between the acetylation and phosphorylation of NFATc1 under 
+the stimulation with CML. CML could promote the acetylation of 
+NFATc1 acetylation but inhibit its phosphorylation (Fig. 4O). Compared 
+with the CML + siNC group, the acetylation of NFATc1 in the CML +
+siSIRT3 group was significantly increased, while its phosphorylation 
+decreased significantly (Fig. 4O). After overexpression of SIRT3 with 
+plasmid, the acetylation of NFATc1 induced by CML was significantly 
+inhibited, and phosphorylation of NFATc1 was also restored (Fig. 4O). 
+These results suggested that CML initiated the crosstalk between acet­
+ylation and phosphorylation of NFATc1 by downregulating SIRT3 
+(Fig. 4P). 
+3.5. FAK is involved in the phosphorylation of NFATc1 
+The phosphorylation of proteins is closely associated with their ki­
+nases. MS found that FAK, a kinase involved in the phosphorylation of 
+Tyr, may be a potential driver of NFATc1 phosphorylation (Fig. 5A). The 
+interaction between FAK and NFATc1 was verified by immunoprecipi­
+tation (Fig. 5B). Prediction based on the phosphorylation database 
+revealed that FAK may Tyr-phosphorylate NFATc1 at the Y270 site, 
+which is a conserved site of protein sequences among different species 
+(Fig. 5C and D). Y15, a specific inhibitor of FAK, significantly decreased 
+the phosphorylation of NFATc1 (Fig. 5E). We constructed a dephos­
+phorylation mutation of NFATc1 at Y270 site. The dephosphorylation 
+mutation Y270F is hardly phosphorylated by FAK (Fig. 5E). These re­
+sults suggested that FAK phosphorylated NFATc1 at the Y270 site. 
+Previous results indicated that CML mediated the crosstalk between the 
+acetylation and phosphorylation of NFATc1 via SIRT3. Interestingly, we 
+also found that FAK was involved in the crosstalk. Compared with the 
+CML group, the phosphorylation of NFATc1 was further inhibited and 
+the acetylation of NFATc1 was further elevated in the CML + Y15 group 
+(Fig. 5F). Under the regulation of SIRT3 or FAK, phosphorylation and 
+acetylation of NFATc1 completely changed in the opposite direction, 
+suggesting that the acetylation of NFATc1 at K549 site and the phos­
+phorylation at Y270 site may be antagonistic to each other. Since CML 
+had little effects on the P-FAKTyr397 level (Fig. 5F), we inferred that CML 
+promoted NFATc1 acetylation by down-regulating SIRT3, which 
+inhibited the phosphorylation of NFATc1. Further, we investigated the 
+changes in the acetylation and phosphorylation of NFATc1 mutation. 
+Compared with NFATc1 WT, the phosphorylation of Y270F mutation 
+decreased significantly, while the acetylation of Y270F mutation 
+increased significantly (Fig. 5G). Also, the K549 mutation hardly un­
+derwent acetylation, but its phosphorylation was obvious (Fig. 5G). 
+CML-mediated downregulation of SIRT3 broke the balance between 
+phosphorylation and acetylation (Fig. 5H). The inhibition of SIRT3 
+increased the acetylation of NFATc1 at K549 site, which antagonized the 
+phosphorylation of NFATc1 at Y270 site. 
+3.6. SIRT3 and FAK inhibit NFATc1 nuclear translocation in VSMCs 
+NFATc1 is an important transcription factor involved in multiple 
+transcriptional mediations [29,30]. We then explored the effects of FAK 
+and SIRT3 on the nuclear translocation of NFATc1 in VSMCs. The sub­
+cellular localization of NFATc1 was labeled with immunofluorescence 
+staining and observed with confocal microscopy. We found that 
+compared with the siNC +
+CML group, knockdown of SIRT3 
+(siSIRT3+CML group) significantly enhanced NFATc1 nuclear trans­
+location (Fig. 6A and B). SIRT3 overexpression attenuated CML-induced 
+NFATc1 nuclear translocation (Fig. 6A and B). Compared with the CML 
+group, inhibition of FAK with Y15 (CML + Y15 group) significantly 
+increased NFATc1 nuclear translocation (Fig. 6A and B). We also found 
+that NFATc1 level in nuclear extracts was further elevated after inhibi­
+tion of FAK with Y15 or knockdown of SIRT3 with siSIRT3 (Fig. 6C and 
+D), while nuclear NFATc1 level was significantly reduced after over­
+expression of SIRT3 (Fig. 6D). Nuclear translocation is important for 
+transcriptional regulation of NFATc1. A 96-well plate pre-coated with 
+NFATc1 common binding sequence was used to test the transcriptional 
+activity of NFATc1. CML significantly promoted the transcriptional ac­
+tivity of NFATc1, which was further amplified by knockdown of SIRT3 
+or inhibition of FAK (Fig. 6E). Overexpression of SIRT3 significantly 
+antagonized promotion of NFATc1 transcriptional activity induced by 
+CML (Fig. 6E). Therefore, SIRT3 and FAK play an important role in 
+regulating CML-induced NFATc1 nuclear translocation and activity. 
+Then we used GFP labeled plasmids to characterize the localization of 
+NFATc1 and its mutants (Fig. 6F). We found that NFATc1 WT was 
+distributed in both cytoplasm and nucleus. NFATc1 Y270F was more 
+obviously distributed in the nucleus, while NFATc1 K549R was mostly 
+distributed in the cytoplasm. 
+3.7. SIRT3 and FAK regulates osteogenic differentiation and calcification 
+of VSMCs 
+As mentioned above, the crosstalk between phosphorylation and 
+acetylation of NFATc1 was mediated via deacetylase SIRT3 and tyrosine 
+kinase FAK. We further explored the effects of SIRT3 and FAK on CML- 
+induced VSMC osteogenic differentiation and calcification. Compared 
+with the CML group, the addition of FAK inhibitor Y15 (CML + Y15 
+group) significantly increased the expression of RUNX2 and BMP2 
+(Fig. 7A and B, Supplementary Figs. S9A and B). Knockdown of SIRT3 
+(siSIRT3+CML group) further enhanced VSMC osteogenic differentia­
+tion, while SIRT3 overexpression (SIRT3+CML group) could antagonize 
+CML-induced VSMC osteogenic differentiation (Fig. 7C and D, Supple­
+mentary Figs. S9C and D). We also found that both FAK inhibitor Y15 
+and siSIRT3 significantly increased CML-induced VSMC calcification, 
+and SIRT3 overexpression could inhibit CML-promoted VSMC calcifi­
+cation (Fig. 7E and F). Moreover, silencing of NFATc1 with siNFATc1 
+significantly blocked the calcification-promoting effect of Y15 or 
+siSIRT3 (Fig. 7E and F). The results above revealed that SIRT3 and FAK 
+Fig. 3. CML promotes diabetic vascular calcification through NFATc1. 
+(A-E) C57 BL/6 mice (WT) and ApoE−/−mice were divided into diabetes mellitus (DM) group and DM + CML group. ApoE−/−mice of DM and DM + CML group were 
+further subject to adeno-associated virus (shNFATc1) or adenovirus (AdNFATc1) intervention. The osteogenic markers, RUNX2 and BMP2, in mouse aorta were 
+detected by western blot and normalized to β-actin (n = 10) (A-C). Calcium content in mouse aorta of each group was determined (n = 10) (D). Von Kossa staining 
+was performed to visualize the calcium nodules in mouse thoracic aorta (n = 10) (E). Representative images are displayed. Scale bar 50 μm. (F-M) NFATc1 in the 
+VSMCs was knocked down with siRNA or overexpressed with plasmid. The osteogenic differentiation of VMSCs was determined by detecting RUNX2 and BMP2 
+protein levels (n = 5) (F-K). Alizarin Red S staining were performed to visualize VSMCs calcification (n = 5) (L). VSMCs calcification was determined with calcium 
+content (n = 5) (M). (For interpretation of the references to color in this figure legend, the reader is referred to the Web version of this article.) 
+Z. Sun et al.                                                                                                                                                                                                                                      
+
+Atherosclerosis 377 (2023) 43–59
+52
+(caption on next page) 
+Z. Sun et al.                                                                                                                                                                                                                                      
+
+Atherosclerosis 377 (2023) 43–59
+53
+were involved in the regulation of NFATc1 nuclear translocation and 
+transcriptional activity. BMP2 has been reported to be upstream of 
+RUNX2, and the BMP2/RUNX2 signal is an important regulator for 
+osteogenic differentiation and calcium deposition in VSMCs [31,32]. 
+The promoter region of Bmp2 gene has the binding motif for NFATc1 
+(Fig. 7G). We cloned the promoter into luciferase reporter plasmids. The 
+luciferase reporter assay indicated that CML significantly enhanced the 
+transcription of BMP2 (Fig. 7H). SiSIRT3 or Y15 further promoted the 
+transcription of Bmp2, while overexpression of SIRT3 could significantly 
+attenuate the transcription of Bmp2 (Fig. 7H). Therefore, we speculated 
+that SIRT3 and FAK regulated CML-induced osteogenic differentiation 
+and calcification of VSMC via affecting NFATc1-mediated transcription 
+of Bmp2. Then, we investigated the effect of NFATc1 phosphor­
+ylation/acetylation on CML-induced VSMCs calcification. After trans­
+duction with vector, NFATc1-WT, NFATc1-270F or NFATc1-549R 
+plasmids, VSMCs were subjected to OM (osteogenic media) supple­
+mented with CML and cultured for 7 days. We found that compared with 
+NFATc1 WT, the NFATc1 dephosphorylation mutant Y270F could 
+further exacerbate VSMC osteogenic differentiation and calcification 
+(Fig. 7I-L), whereas the deacetylation mutant K549R had little effect on 
+VSMC osteogenic differentiation and calcification. The expression of 
+RUNX2 and BMP2 and the calcium deposition in the NFATc1-549R 
+group were significantly lower than those in the NFATc1-WT group 
+(Fig. 7I-L). Moreover, we detected whether BMP2 is a direct target of 
+NFATc1. Compared with vector, NFATc1-WT positive regulated the 
+transcription of Bmp2 (Fig. 7M). The mutant NFATc1-270F induced 
+higher luciferase activity than NFATc1-WT, whereas the luciferase ac­
+tivity was significantly decreased in VSMCs treated with NFATc1-549R 
+(Fig. 7M). These results suggested that NFATc1 could bind to the pro­
+motor of Bmp2 gene. 
+4. Discussion 
+The present study clarified the role of CML in promoting vascular 
+calcification in DM. We identified NFATc1 as the novel regulator of 
+CML-promoted vascular calcification (Fig. 8). In terms of the mecha­
+nism, CML could promote nuclear translocation and transcriptional ac­
+tivity of NFATc1, thereby enhancing the osteogenic differentiation of 
+VSMCs. CML also mediated the crosstalk between NFATc1 phosphory­
+lation and acetylation. The balance of phosphorylation and acetylation 
+was maintained by FAK and SIRT3. CML promoted acetylation of 
+NFATc1 at K549 via downregulation of SIRT3, which further antago­
+nized phosphorylation of NFATc1 at Y270 and increased nuclear 
+translocation and transcriptional regulatory activity of NFATc1. This 
+study provided new ideas for clinical intervention of vascular calcifi­
+cation in DM. 
+AGEs are generated in the Maillard reaction after primary reaction 
+between aldehydes and amines or amides, and they were involved in 
+progression of a variety of diabetic complications [33,34]. Different 
+ideas were provided for intervening AGE-related pathogenesis. On the 
+one hand, approaches to prevent the formation of AGEs were raised. 
+Some methylglyoxal (a potent precursor of AGEs) enzymes and degly­
+cosylase were found [35], and AGEs inhibitors were developed [36]. On 
+the other hand, some studies intended to block the AGE-related patho­
+genic pathways after the receptors and possible molecular targets of 
+AGEs were identified [37,38]. However, due to the complexity of AGEs 
+components and related signals, the formation of AGEs and their path­
+ogenic mechanism are still unclear. CML is the main active ingredient of 
+AGEs. Meloche et al. claimed that CML/RAGE/STAT3/Pim1 axis could 
+activate NFATc1 and promote VSMC proliferation and decrease 
+apoptosis [39]. Our former studies also reported that CML promoted 
+vascular calcification via CML/RAGE signaling [3,13,40]. The present 
+study further revealed the novel mechanism of CML in promoting 
+vascular calcification through NFATc1. We speculate that activation of 
+NFATc1 in vascular calcification may be related to CML/RAGE 
+signaling. However, VSMC apoptosis is known to be the key in the 
+process of vascular calcification [41,42]. Therefore, in the progression of 
+vascular calcification in DM, NFATc1 may not be activated through 
+STAT3/Pim1, but through the phosphorylation-acetylation crosstalk 
+mediated by FAK and SIRT3, as revealed in this present study. 
+Vascular calcification is an active process of mineralized crystals 
+ectopically deposited in the arterial wall or atherosclerotic plaque. In 
+this process, the osteogenic/osteoclastic balance is broken, and VSMCs 
+undergo osteogenic phenotype transdifferentiation in response to 
+calcification stimulation signals [43]. Meanwhile, the increase in 
+pro-calcified factors and the decrease in inhibitory factors further 
+accelerate the evolution of calcification [44]. Due to the metabolic 
+disorders in DM, the stimulation factors and signals of vascular calcifi­
+cation are more complex compared with those in non-diabetic disorders. 
+Previous studies have shown that vascular calcification in DM can be 
+classified into medial and intimal calcification according to its distri­
+bution [2] or macro- and micro-calcification according to its 
+morphology [3]. These calcifications occur simultaneously in diabetic 
+arteries, but their regulatory mechanisms are markedly different, which 
+directly reflects the complexity of diabetic vascular calcification. 
+Therefore, we screened the DEGs between vascular calcification in 
+diabetic and non-diabetic disorders with RNA-seq of the mouse aorta 
+media and analyzed the functional enrichment based on DEGs results. 
+Since AGEs were previously confirmed to promote calcification, we 
+mainly focused on the DEGs in the KEGG ‘AGE-RAGE signaling pathway 
+in diabetic complications’. Combined with previous studies and our 
+validation experiments, we identified the key regulatory role of NFATc1 
+in promoting vascular calcification in DM. 
+The NFAT family was first identified in T cells, and it is associated 
+with T cell antigen receptor signaling [45]. The NFAT family had 5 
+isoforms (NFAT1-5) [46], and NFATc1 (also known as NFAT2) was a key 
+regulator in the terminal differentiation of osteoclasts [47]. Meanwhile, 
+Goettsch et al. reported that the NFATc1 signal could also promote 
+osteogenic differentiation of VSMCs [48]. Therefore, NFATc1 is a unique 
+molecule in the switch between osteoclast differentiation and osteogenic 
+differentiation. Interestingly, Goettsch et al. found that OM promoted 
+VSMCs independent of NFATc1. We also found that knockdown of 
+NFATc1 in cells/mice could not completely eliminate calcification, 
+which may be due to the effects of OM on VSMCs. The role of NFATc1 in 
+the regulation of the osteogenesis-osteoclastic balance attracted our 
+attention and we also verified the up regulation of NFATc1 in human 
+anterior tibial arteries. Since we only collected 19 patients, the number 
+of clinical samples is worthy of further expansion to explore the true role 
+of NFATc1. It is known that osteogenesis and osteoclastogenesis are two 
+opposite processes. Osteoclasts are the only cells with bone resorption 
+Fig. 4. CML promotes acetylation of NFATc1 and inhibits the phosphorylation of NFATc1. 
+(A) Acetylation of NFATc1 was identified via mass spectrometry (MS). (B and C) Acetylation of NFATc1 in VSMCs exposed to osteogenic media with or without CML 
+was determined (n = 5). (D) SIRT3 was identified as NFATc1 interacting protein by MS. (E and F) SIRT3 expression in VSMCs of the control (CON) and CML groups 
+was tested (n = 5). (G) Representative immunofluorescence images of SIRT3 in VSMCs of CON and CML groups are displayed with a scale of 50 μm (n = 5). (H) 
+Interaction between SIRT3 and NFATc1 was verified with immunoprecipitation. (I) NFATc1 protein sequence at K549 site was aligned. (J) After transferring to 
+NFATc1-WT or NFATc1-K549R plasmid, NFATc1 acetylation was detected in VSMCs treated with siNC or siSIRT3 (n = 5). (K) NFATc1 acetylation was measured after 
+NFATc1-WT or NFATc1-K549R plasmid with or without flag-SIRT3 plasmid was transfected into VSMCs (n = 5). (L-N) Serine (Ser)/threonine (Thr) phosphorylation 
+and tyrosine (Tyr) phosphorylation of NFATc1 in the CON group and CML group were determined (n = 5). (O) After SIRT3 siRNA (siSIRT3) or flag-SIRT3 plasmid 
+was transferred into VSMCs, acetylation and phosphorylation of NFATc1 were detected (n = 5). (P) CML regulates NFATc1 acetylation and phosphorylation 
+via SIRT3. 
+Z. Sun et al.                                                                                                                                                                                                                                      
+
+Atherosclerosis 377 (2023) 43–59
+54
+Fig. 5. FAK is a phosphorylated kinase of NFATc1. 
+(A) The interaction between FAK and NFATc1 was identified by mass spectrometry. (B) Immunoprecipitation was performed to verify the interaction between FAK 
+and NFATc1. (C) FAK was set as a kinase to predict its phosphorylation site on NFATc1. (D) NFATc1 protein sequence was aligned to determine the conservation of 
+Y270. (E) After NFATc1-WT or NFATc1-Y270F plasmid was transferred, the phosphorylation of NFATc1 in VSMCs was detected in the presence or absence of Y15 (n 
+= 5). (F) The Tyr phosphorylation and acetylation of NFATc1 and phosphorylated FAK in the whole cell lysate (WCL) were detected in VSMCs treated with CML or 
+Y15+CML (n = 5). (G) After NFATc1-WT or NFATc1-Y270F or NFATc1-K549R plasmid was transferred into VSMCs, the Tyr phosphorylation and acetylation of 
+NFATc1 were determined (n = 5). (H) The balance between acetylation and phosphorylation of NFATc1 is maintained by SIRT3 and FAK. CML breaks this balance 
+and promotes the acetylation of NFATc1 via downregulating SIRT3. 
+Z. Sun et al.                                                                                                                                                                                                                                      
+
+Atherosclerosis 377 (2023) 43–59
+55
+(caption on next page) 
+Z. Sun et al.                                                                                                                                                                                                                                      
+
+Atherosclerosis 377 (2023) 43–59
+56
+activity. Our previous study has investigated the role of NFATc1 in 
+mediating diabetic vascular calcification from the perspective of osteo­
+clasts [49]. We found that CML promoted differentiation of macro­
+phages into osteoclasts, but the bone resorption activity of these 
+osteoclasts was inhibited by NFATc1-GNPTAB signal. The impaired 
+function of osteoclasts eventually led to the evolution of diabetic 
+vascular calcification. Our this study focused on the osteogenic aspect of 
+diabetic vascular calcification and found that NFATc1 was activated 
+under the stimulation of CML and promoted osteogenic differentiation 
+of vascular smooth muscle cells and vascular calcification in DM. 
+Although these two studies explain the role of NFATc1 from the 
+perspective of osteoclast and osteogenesis, they point to the same 
+calcification effect. Which factors determine whether NFATc1 promotes 
+osteoclastogenesis or osteogenesis needs further study. 
+Protein phosphorylation and dephosphorylation are regulated 
+through phosphokinase and phosphatase. Phosphorylation mainly af­
+fects the protein activity and subcellular localization, which further 
+mediates intracellular signal transmission [50]. The most common 
+phosphorylated amino acids are Ser, Thr and Tyr. Previous studies have 
+reported the Ser phosphorylation of NFATc1 [26,51], but in this study, 
+only Tyr phosphorylation of NFATc1 was changed significantly under 
+CML stimulation, rather than Ser/Thr phosphorylation. Then we found 
+novel phosphorylation of NFATc1 at Y270 with phosphorylation pre­
+diction and site mutation verification. The NFATc1 protein sequence 
+contains a nuclear localization signal K-R-K at 267-269 positions. 
+Phosphorylation at the Y270 site may affect the nuclear localization 
+signal and inhibit nuclear translocation of NFATc1. The tyrosine kinase 
+FAK plays a key role in mediating cell adhesion and migration, and it has 
+been proved to promote the migration and proliferation of VSMCs [52, 
+53]. Our previous studies also showed that CML could activate FAK in 
+foam cells [54]. However, in this study, we found that CML had no 
+significant effect on the FAK activity in VSMCs under the condition of 
+osteogenic induction. It suggested that CML + OM may not influence 
+VSMC proliferation and migration. It may also be that the activation of 
+FAK by CML counteracts the inhibition of FAK during osteogenic dif­
+ferentiation and apoptosis of VSMCs. 
+Protein acetylation mainly occurs at lysine sites, which affects pro­
+tein stability and expression [55]. In this study, we found that NFATc1 
+acetylation was significantly increased by CML; hence we focused on the 
+deacetylase of NFATc1 and found that SIRT3 played a key role in 
+regulating NFATc1 acetylation. In fact, protein acetylation is not only 
+regulated by deacetylase, but it is also affected by acetylase. Kim et al. 
+reported that the p300/cyclic adenosine monophosphate-response ele­
+ment-binding protein-associated factor could acetylate NFATc1 and in­
+crease its stability [56]. More studies are needed to confirm whether 
+acetylase is involved in the process of CML-induced NFATc1 acetylation. 
+In addition, the study by Kim et al. also revealed that HDAC5 could 
+deacetylate NFATc1 [56]. In our study, compared with NAM (a SIRT 
+inhibitor), TSA (an HDAC inhibitor) +NAM significantly increased 
+acetylation of NFATc1, suggesting that HDAC may also be the deace­
+tylase of NFATc1 in addition to SIRT, which is consistent with the study 
+by Kim et al. More importantly, we observed that compared with the 
+addition of TSA, TSA + CML significantly increased acetylation of 
+NFATc1. Also, compared with NAM, NAM + CML did not significantly 
+affect acetylation of NFATc1. Therefore, we speculate that CML regu­
+lates acetylation of NFATc1 through the SIRT family. In addition to 
+SIRT3, other members of the SIRT family play important roles in the 
+regulation of cardiovascular disease [57–59]. Chen et al. reported that 
+SIRT1 had a protective effect on abdominal aortic aneurysm [57]. Liu 
+et al. found that knockdown of SIRT1 in chronic kidney disease models 
+facilitated vascular calcification [58]. In our study, we found that CML 
+down-regulated SIRT1 and SIRT3. SIRT1 had no significant effect on 
+acetylation of NFATc1 (data not shown). SIRT3 promoted diabetic 
+vascular calcification by deacetylating NFATc1. Whether SIRT1 also 
+plays a role in CML-induced vascular calcification needs further study. 
+Protein post-translational modification crosstalk is a critical way of 
+protein function regulation [60]. The phosphorylation-acetylation 
+crosstalk has also been reported in previous studies. Zhu et al. found 
+that dephosphorylation of malic enzyme 1 (ME1) by the phosphoglyc­
+erate mutase 5 increased the acetylation of ME1 by the acetyl-CoA 
+acetyltransferase 1, thereby affecting lipogenesis and colorectal tumor­
+igenesis [28]. The present study also found that NFATc1 phosphoryla­
+tion and acetylation are antagonistic. Increased acetylation of NFATc1 
+inhibited its phosphorylation. In the study by Yang et al., they found that 
+the acetylation of Myristoylated Alanine-Rich C Kinase Substrate pro­
+moted its phosphorylation [61]. Therefore, acetylation and phosphor­
+ylation may be antagonistic or synergistic. In addition to the 
+phosphorylation-acetylation 
+crosstalk, 
+we 
+also 
+noticed 
+ubiquitin-acetylation crosstalk. Protein acetylation can affect its ubiq­
+uitination, and then regulate protein expression through the ubiquiti­
+nation proteasome system [62,63]. In our study, CML promotes NFATc1 
+expression and acetylation. In our future studies. we will further 
+investigate whether CML affects its expression through NFATc1 acety­
+lation and ubiquitination crosstalk. 
+Our study reported a novel molecular mechanism in CML-induced 
+vascular calcification in DM. CML significantly increased the activity 
+of NFATc1 via affecting acetylation-phosphorylation crosstalk. CML 
+increased the acetylation of NFATc1 at K549 via downregulating SIRT3, 
+thus antagonizing phosphorylation of NFATc1 Y270 by FAK. The 
+increased acetylation of NFATc1 mediated stabilized its function and 
+transcriptional regulatory activity. Our study provides clues for a better 
+understanding of vascular calcification in DM and ideas for the devel­
+opment of therapeutic targets. 
+Financial support 
+This work was supported by the National Natural Science Foundation 
+of China (82070455); the related Foundation of Jiangsu Province 
+(BE2022780, BK20201225, M2020016); the Open Project Program of 
+Guangxi Key Laboratory of Centre of Diabetic Systems Medicine 
+(GKLCDSM-20210101-02); Postgraduate Research & Practice Innova­
+tion Program of Jiangsu Province (SJCX21_1729). 
+Data availability 
+All relevant data are available in this paper. 
+CRediT authorship contribution statement 
+Zhen Sun: Conceptualization, Investigation, Writing – original draft, 
+Writing – review & editing. Lili Zhang: Conceptualization, Formal 
+analysis, Investigation, Writing – review & editing. Kai Yin: Investiga­
+tion, Writing – review & editing. Guangyao Zang: Visualization, 
+Investigation. Yongjiang Qian: Investigation. Xiang Mao: Conceptu­
+alization, Investigation, Writing – review & editing. Lihua Li: Writing – 
+review & editing, Funding acquisition. Qing Jing: Conceptualization, 
+Fig. 6. SIRT3 and FAK enhance nuclear translocation and transcriptional activity of NFATc1. 
+(A) Nuclear translocation of NFATc1 in VSMCs treated with siSIRT3, SIRT3 plasmids or Y15 was labeled by immunofluorescence staining and observed under a 
+confocal microscope (n = 5). Representative images are displayed. Scale bar 10 μm. Red, NFATc1. Blue, DAPI. (B) The co-localization between NFATc1 and nucleus 
+was quantified. (C and D) NFATc1 content in nuclear extracts was measured with western blot and normalized to H3. (E) The transcriptional regulatory activity of 
+NFATc1 in VSMCs was detected (n = 5). (F) GFP labeled NFATc1-WT or NFATc1-Y270F or NFATc1-K549R plasmid was transferred into VSMCs and observed with a 
+confocal microscope (n = 5). Representative images are displayed. Scale bar 10 μm. (For interpretation of the references to color in this figure legend, the reader is 
+referred to the Web version of this article.) 
+Z. Sun et al.                                                                                                                                                                                                                                      
+
+Atherosclerosis 377 (2023) 43–59
+57
+(caption on next page) 
+Z. Sun et al.                                                                                                                                                                                                                                      
+
+Atherosclerosis 377 (2023) 43–59
+58
+Writing – review & editing. Zhongqun Wang: Conceptualization, 
+Investigation, Writing – review & editing, Supervision, Funding 
+acquisition. 
+Declaration of competing interest 
+The authors declare that they have no known competing financial 
+interests or personal relationships that could have appeared to influence 
+the work reported in this paper. 
+Appendix A. Supplementary data 
+Supplementary data to this article can be found online at https://doi. 
+org/10.1016/j.atherosclerosis.2023.06.969. 
+References 
+[1] S. Ghosh, D. Luo, W. He, J. Chen, X. Su, H. Huang, Diabetes and calcification: the 
+potential role of anti-diabetic drugs on vascular calcification regression, 
+Pharmacol. Res. 158 (2020), 104861. 
+[2] Z. Sun, L. Li, L. Zhang, J. Yan, C. Shao, Z. Bao, et al., Macrophage galectin-3 
+enhances intimal translocation of vascular calcification in diabetes mellitus, Am. J. 
+Physiol. Heart Circ. Physiol. 318 (5) (2020) H1068–H1079. 
+[3] Z. Sun, Z. Wang, L. Li, J. Yan, C. Shao, Z. Bao, et al., RAGE/galectin-3 yields 
+intraplaque calcification transformation via sortilin, Acta Diabetol. 56 (4) (2019) 
+457–472. 
+[4] P. Lanzer, M. Boehm, V. Sorribas, M. Thiriet, J. Janzen, T. Zeller, et al., Medial 
+vascular calcification revisited: review and perspectives, Eur. Heart J. 35 (23) 
+(2014) 1515–1525. 
+[5] N. Lehmann, R. Erbel, A.A. Mahabadi, M. Rauwolf, S. M¨ohlenkamp, S. Moebus, et 
+al., Value of progression of coronary artery calcification for risk prediction of 
+coronary and cardiovascular events: result of the HNR study (heinz nixdorf recall), 
+Circulation 137 (7) (2018) 665–679. 
+[6] A. Ndip, F.L. Wilkinson, E.B. Jude, A.J. Boulton, M.Y. Alexander, RANKL-OPG and 
+RAGE modulation in vascular calcification and diabetes: novel targets for therapy, 
+Diabetologia 57 (11) (2014) 2251–2260. 
+[7] R. Katz, M.J. Budoff, K.D. O’Brien, N.D. Wong, K. Nasir, The metabolic syndrome 
+and diabetes mellitus as predictors of thoracic aortic calcification as detected by 
+non-contrast computed tomography in the Multi-Ethnic Study of Atherosclerosis, 
+Diabet. Med. 33 (7) (2016) 912–919. 
+[8] V. Gill, V. Kumar, K. Singh, A. Kumar, J.J. Kim, Advanced glycation end products 
+(AGEs) may Be a striking link between modern diet and health, Biomolecules 9 
+(12) (2019) 888. 
+[9] J.R. Kizer, D. Benkeser, A.M. Arnold, J.H. Ix, K.J. Mukamal, L. Djousse, et al., 
+Advanced glycation/glycoxidation endproduct carboxymethyl-lysine and 
+incidence of coronary heart disease and stroke in older adults, Atherosclerosis 235 
+(1) (2014) 116–121. 
+[10] J. Lee, J.Y. Hyon, J.Y. Min, Y.H. Huh, H.J. Kim, H. Lee, et al., Mitochondrial 
+carnitine palmitoyltransferase 2 is involved in Nε-(carboxymethyl)-lysine-mediated 
+diabetic nephropathy, Pharmacol. Res. 152 (2020), 104600. 
+[11] Y. Chen, W. Niu, Y.C. Chao, Z. He, R. Ding, F. Wu, et al., Alagebrium targets the 
+miR-27b/TSP-1 signaling pathway to rescue Nε-carboxymethyl-lysine-induced 
+endothelial dysfunction, Am J Transl Res 11 (3) (2019) 1569–1580. 
+[12] S.N. Xu, X. Zhou, C.J. Zhu, W. Qin, J. Zhu, K.L. Zhang, et al., Nε-carboxymethyl- 
+lysine deteriorates vascular calcification in diabetic atherosclerosis induced by 
+vascular smooth muscle cell-derived foam cells, Front. Pharmacol. 11 (2020) 626. 
+[13] Z. Wang, Y. Jiang, N. Liu, L. Ren, Y. Zhu, Y. An, et al., Advanced glycation end- 
+product Nε-carboxymethyl-Lysine accelerates progression of atherosclerotic 
+calcification in diabetes, Atherosclerosis 221 (2) (2012) 387–396. 
+[14] B. Wu, H.S. Baldwin, B. Zhou, Nfatc1 directs the endocardial progenitor cells to 
+make heart valve primordium, Trends Cardiovasc. Med. 23 (8) (2013) 294–300. 
+[15] F. Gunawan, A. Gentile, S. Gauvrit, D.Y.R. Stainier, A. Bensimon-Brito, Nfatc1 
+promotes interstitial cell formation during cardiac valve development in zebrafish, 
+Circ. Res. 126 (8) (2020) 968–984. 
+[16] J.J. Heit, A.A. Apelqvist, X. Gu, M.M. Winslow, J.R. Neilson, G.R. Crabtree, et al., 
+Calcineurin/NFAT signalling regulates pancreatic beta-cell growth and function, 
+Nature 443 (7109) (2006) 345–349. 
+[17] Q. He, J. Yang, G. Zhang, D. Chen, M. Zhang, Z. Pan, et al., Sanhuang Jiangtang 
+tablet protects type 2 diabetes osteoporosis via AKT-GSK3β-NFATc1 signaling 
+pathway by integrating bioinformatics analysis and experimental validation, 
+J. Ethnopharmacol. 273 (2021), 113946. 
+[18] H. Zhang, S. Liang, Y. Du, R. Li, C. He, W. Wang, et al., Inducible ATF3-NFAT axis 
+aggravates podocyte injury, J. Mol. Med. (Berl.) 96 (1) (2018) 53–64. 
+[19] W. Gu, Z. Wang, Z. Sun, Z. Bao, L. Zhang, Y. Geng, et al., Role of NFATc1 in the 
+bone-vascular Axis calcification paradox, J. Cardiovasc. Pharmacol. 75 (3) (2020) 
+200–207. 
+[20] Q. Zhao, X. Wang, Y. Liu, A. He, R. Jia, NFATc1: functions in osteoclasts, Int. J. 
+Biochem. Cell Biol. 42 (5) (2010) 576–579. 
+[21] J. Luo, Z. Yang, Y. Ma, Z. Yue, H. Lin, G. Qu, et al., LGR4 is a receptor for RANKL 
+and negatively regulates osteoclast differentiation and bone resorption, Nat. Med. 
+22 (5) (2016) 539–546. 
+[22] C. Wang, H. Xu, S. Lin, W. Deng, J. Zhou, Y. Zhang, et al., Gps 5.0: an update on the 
+prediction of kinase-specific phosphorylation sites in proteins, Dev. Reprod. Biol. 
+18 (1) (2020) 72–80. 
+[23] Y. Yang, M.R. Chung, S. Zhou, X. Gong, H. Xu, Y. Hong, et al., STAT3 controls 
+osteoclast differentiation and bone homeostasis by regulating NFATc1 
+transcription, J. Biol. Chem. 294 (42) (2019) 15395–15407. 
+[24] L. Liu, P. Zeng, X. Yang, Y. Duan, W. Zhang, C. Ma, et al., Inhibition of vascular 
+calcification, Arterioscler. Thromb. Vasc. Biol. 38 (10) (2018) 2382–2395. 
+[25] M.W. Van Dyke, Lysine deacetylase (KDAC) regulatory pathways: an alternative 
+approach to selective modulation, ChemMedChem 9 (3) (2014) 511–522. 
+[26] S.K. Eerola, N.M. Santio, S. Rinne, P. Kouvonen, G.L. Corthals, M. Scaravilli, et al., 
+Phosphorylation of NFATC1 at PIM1 target sites is essential for its ability to 
+promote prostate cancer cell migration and invasion, Cell Commun. Signal. 17 (1) 
+(2019) 148. 
+[27] Y. Carlomagno, D.C. Chung, M. Yue, M. Castanedes-Casey, B.J. Madden, 
+J. Dunmore, et al., An acetylation-phosphorylation switch that regulates tau 
+aggregation propensity and function, J. Biol. Chem. 292 (37) (2017) 15277–15286. 
+Fig. 7. SIRT3 and FAK alleviate CML induced VSMC osteogenic differentiation and calcification. 
+(A-D) The protein levels of RUNX2 and BMP2 in VSMCs were detected with Western blot and normalized to β-actin. (E and F) Calcification of VSMCs was dyed with 
+Alizarin Red S staining (E) and quantified by calcium content (F). (G) Potential NFATc1 binding motif in the promoter region of Bmp2 gene was predicted. (H) 
+Luciferase reporter assay was used to detect the targeted regulation of NFATc1 on the transcription of Bmp2. (I and J) After VSMCs were transferred with NFATc1 WT 
+or mutant (Y270F/K549R) plasmids, the protein levels of RUNX2 and BMP2 was determined (n = 5). (K) VSMC calcification of each group was stained with and 
+Alizarin Red S methods (n = 5). (L) Calcium content was measured and normalized to protein concentration (n = 5). (M) The luciferase activities were detected after 
+transduction of NFATc1-WT, NFATc1-270F or NFATc1-549R plasmids. (For interpretation of the references to color in this figure legend, the reader is referred to the 
+Web version of this article.) 
+Fig. 8. CML promotes diabetic vascular calcification via NFATc1. 
+CML increases the acetylation of NFATc1 by inhibiting SIRT3 to antagonize the 
+phosphorylation of NFATc1, which promotes the nuclear translocation and 
+transcriptional activity of NFATc1 and finally stimulates osteogenic differenti­
+ation of VSMCs. 
+Z. Sun et al.                                                                                                                                                                                                                                      
+
+Atherosclerosis 377 (2023) 43–59
+59
+[28] Y. Zhu, L. Gu, X. Lin, C. Liu, B. Lu, K. Cui, et al., Dynamic regulation of ME1 
+phosphorylation and acetylation affects lipid metabolism and colorectal 
+tumorigenesis, Mol. Cell. 77 (1) (2020) 138–149. 
+[29] L.V. Pham, A.T. Tamayo, C. Li, C. Bueso-Ramos, R.J. Ford, An epigenetic chromatin 
+remodeling role for NFATc1 in transcriptional regulation of growth and survival 
+genes in diffuse large B-cell lymphomas, Blood 116 (19) (2010) 3899–3906. 
+[30] C. Li, Z. Zheng, X. Zhang, G. Asatrian, E. Chen, R. Song, et al., Nfatc1 is a functional 
+transcriptional factor mediating nell-1-induced Runx3 upregulation in 
+chondrocytes, Int. J. Mol. Sci. 19 (1) (2018) 168. 
+[31] B.A. Willems, M. Furmanik, M.M.J. Caron, M.L.L. Chatrou, D.H.M. Kusters, T.J. 
+M. Welting, et al., Ucma/GRP inhibits phosphate-induced vascular smooth muscle 
+cell calcification via SMAD-dependent BMP signalling, Sci. Rep. 8 (1) (2018) 4961. 
+[32] W.L. Sun, N. Wang, Y. Xu, Impact of miR-302b on calcium-phosphorus metabolism 
+and vascular calcification of rats with chronic renal failure by regulating BMP-2/ 
+runx2/osterix signaling pathway, Arch. Med. Res. 49 (3) (2018) 164–171. 
+[33] M.W. Poulsen, R.V. Hedegaard, J.M. Andersen, B. de Courten, S. Bügel, J. Nielsen, 
+et al., Advanced glycation endproducts in food and their effects on health, Food 
+Chem. Toxicol. 60 (2013) 10–37. 
+[34] H. Hu, H. Jiang, H. Ren, X. Hu, X. Wang, C. Han, AGEs and chronic subclinical 
+inflammation in diabetes: disorders of immune system, Diabetes Metab Res Rev 31 
+(2) (2015) 127–137. 
+[35] M. Wortmann, A.S. Peters, M. Hakimi, D. B¨ockler, S. Dihlmann, Glyoxalase I (Glo1) 
+and its metabolites in vascular disease, Biochem. Soc. Trans. 42 (2) (2014) 
+528–533. 
+[36] M. Narda, L. Peno-Mazzarino, J. Krutmann, C. Trullas, C. Granger, Novel facial 
+cream containing carnosine inhibits formation of advanced glycation end-products 
+in human skin, Skin Pharmacol. Physiol. 31 (6) (2018) 324–331. 
+[37] K. Wouters, A.S. Cento, K.H. Gaens, M. Teunissen, J.L.J.M. Scheijen, F. Barutta, et 
+al., Deletion of RAGE fails to prevent hepatosteatosis in obese mice due to 
+impairment of other AGEs receptors and detoxifying systems, Sci. Rep. 11 (1) 
+(2021), 17373. 
+[38] I. Gonz´alez, M.A. Morales, A. Rojas, Polyphenols and AGEs/RAGE axis. Trends and 
+challenges, Food Res. Int. 129 (2020), 108843. 
+[39] J. Meloche, R. Paulin, A. Courboulin, C. Lambert, M. Barrier, P. Bonnet, et al., 
+RAGE-dependent activation of the oncoprotein Pim1 plays a critical role in 
+systemic vascular remodeling processes, Arterioscler. Thromb. Vasc. Biol. 31 (9) 
+(2011) 2114–2124. 
+[40] Z. Wang, L. Li, R. Du, J. Yan, N. Liu, W. Yuan, et al., CML/RAGE signal induces 
+calcification cascade in diabetes, Diabetol. Metab. Syndrome 8 (2016) 83. 
+[41] S.S. Wang, C. Wang, H. Chen, MicroRNAs are critical in regulating smooth muscle 
+cell mineralization and apoptosis during vascular calcification, J. Cell Mol. Med. 24 
+(23) (2020) 13564–13572. 
+[42] L. Cui, Q. Zhou, X. Zheng, B. Sun, S. Zhao, Mitoquinone attenuates vascular 
+calcification by suppressing oxidative stress and reducing apoptosis of vascular 
+smooth muscle cells via the Keap1/Nrf2 pathway, Free Radic. Biol. Med. 161 
+(2020) 23–31. 
+[43] A.L. Durham, M.Y. Speer, M. Scatena, C.M. Giachelli, C.M. Shanahan, Role of 
+smooth muscle cells in vascular calcification: implications in atherosclerosis and 
+arterial stiffness, Cardiovasc. Res. 114 (4) (2018) 590–600. 
+[44] A. Clemente, I. Traghella, A. Mazzone, S. Sbrana, C. Vassalle, Vascular and valvular 
+calcification biomarkers, Adv. Clin. Chem. 95 (2020) 73–103. 
+[45] J.P. Shaw, P.J. Utz, D.B. Durand, J.J. Toole, E.A. Emmel, G.R. Crabtree, 
+Identification of a putative regulator of early T cell activation genes, Science 241 
+(4862) (1988) 202–205. 
+[46] F. Maci´an, C. L´opez-Rodríguez, A. Rao, Partners in transcription: NFAT and AP-1, 
+Oncogene 20 (19) (2001) 2476–2489. 
+[47] H. Takayanagi, S. Kim, T. Koga, H. Nishina, M. Isshiki, H. Yoshida, et al., Induction 
+and activation of the transcription factor NFATc1 (NFAT2) integrate RANKL 
+signaling in terminal differentiation of osteoclasts, Dev. Cell 3 (6) (2002) 889–901. 
+[48] C. Goettsch, M. Rauner, C. Hamann, K. Sinningen, U. Hempel, S.R. Bornstein, et al., 
+Nuclear factor of activated T cells mediates oxidised LDL-induced calcification of 
+vascular smooth muscle cells, Diabetologia 54 (10) (2011) 2690–2701. 
+[49] L. Zhang, Z. Wang, Z. Sun, M. Pang, C. Shao, L. Li, Nε-Carboxymethyl-Lysine 
+mediates vascular calcification in diabetes caused by impaired osteoclastic 
+resorption activity through NFATc1-GNPTAB, J Cardiovasc Transl Res 16 (1) 
+(2023) 233–243. 
+[50] D. Esser, L. Hoffmann, T.K. Pham, C. Br¨asen, W. Qiu, P.C. Wright, et al., Protein 
+phosphorylation and its role in archaeal signal transduction, FEMS Microbiol. Rev. 
+40 (5) (2016) 625–647. 
+[51] H.M. Kim, L. He, S. Lee, C. Park, D.H. Kim, H.J. Han, et al., Inhibition of osteoclasts 
+differentiation by CDC2-induced NFATc1 phosphorylation, Bone 131 (2020), 
+115153. 
+[52] J.M. Murphy, K. Jeong, S.S. Lim, FAK family kinases in vascular diseases, Int. J. 
+Mol. Sci. 21 (10) (2020) 3630. 
+[53] K. Jeong, J.H. Kim, J.M. Murphy, H. Park, S.J. Kim, Y.A.R. Rodriguez, et al., 
+Nuclear focal adhesion kinase controls vascular smooth muscle cell proliferation 
+and neointimal hyperplasia through GATA4-mediated cyclin D1 transcription, Circ. 
+Res. 125 (2) (2019) 152–166. 
+[54] S. Xu, L. Li, J. Yan, F. Ye, C. Shao, Z. Sun, et al., CML/CD36 accelerates 
+atherosclerotic progression via inhibiting foam cell migration, Biomed. 
+Pharmacother. 97 (2018) 1020–1031. 
+[55] T. Narita, B.T. Weinert, C. Choudhary, Functions and mechanisms of non-histone 
+protein acetylation, Nat. Rev. Mol. Cell Biol. 20 (3) (2019) 156–174. 
+[56] J.H. Kim, K. Kim, B.U. Youn, H.M. Jin, J.Y. Kim, J.B. Moon, et al., RANKL induces 
+NFATc1 acetylation and stability via histone acetyltransferases during osteoclast 
+differentiation, Biochem. J. 436 (2) (2011) 253–262. 
+[57] H.Z. Chen, F. Wang, P. Gao, J.F. Pei, Y. Liu, T.T. Xu, et al., Age-associated sirtuin 1 
+reduction in vascular smooth muscle links vascular senescence and inflammation 
+to abdominal aortic aneurysm, Circ. Res. 119 (10) (2016) 1076–1088. 
+[58] X. Liu, A. Chen, Q. Liang, X. Yang, Q. Dong, M. Fu, et al., Spermidine inhibits 
+vascular calcification in chronic kidney disease through modulation of SIRT1 
+signaling pathway, Aging Cell 20 (6) (2021), e13377. 
+[59] W. Li, W. Feng, X. Su, D. Luo, Z. Li, Y. Zhou, et al., SIRT6 protects vascular smooth 
+muscle cells from osteogenic transdifferentiation via Runx2 in chronic kidney 
+disease, J. Clin. Invest. 132 (1) (2022), e150051. 
+[60] J. Habibian, B.S. Ferguson, The crosstalk between acetylation and 
+phosphorylation: emerging new roles for HDAC inhibitors in the heart, Int. J. Mol. 
+Sci. 20 (1) (2018) 102. 
+[61] P. Yang, C. Xu, E.A. Reece, X. Chen, J. Zhong, M. Zhan, et al., Tip60- and sirtuin 2- 
+regulated MARCKS acetylation and phosphorylation are required for diabetic 
+embryopathy, Nat. Commun. 10 (1) (2019) 282. 
+[62] L. Song, Z.Q. Luo, Post-translational regulation of ubiquitin signaling, J. Cell Biol. 
+218 (6) (2019) 1776–1786. 
+[63] Z. You, W.X. Jiang, L.Y. Qin, Z. Gong, W. Wan, J. Li, et al., Requirement for p62 
+acetylation in the aggregation of ubiquitylated proteins under nutrient stress, Nat. 
+Commun. 10 (1) (2019) 5792. 
+Z. Sun et al.                                                                                                                                                                                                                                      

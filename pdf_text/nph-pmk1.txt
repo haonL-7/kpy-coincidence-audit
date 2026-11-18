@@ -1,0 +1,1551 @@
+Sumoylation-dependent control of Pmk1 phosphorylation during
+Magnaporthe oryzae infection
+Caiyun Liu1,2*
+, Hong Hu2*, Xuan Cai2, Jintao Jiang2, Jing Zheng2, Ziruo Jiang2, Yanling Kong2, Jun Zhu2,
+Zhiyong Ren2, Jing Su1, Shen Chen1, Hao Liu2, Lu Zheng2
+, Junbin Huang2 and Xiao-Lin Chen2
+1Guangdong Provincial Key Laboratory of High Technology for Plant Protection, Plant Protection Research Institute, Guangdong Academy of Agricultural Sciences, Guangzhou, 510640,
+China; 2National Key Laboratory of Agricultural Microbiology and Provincial Key Laboratory of Plant Pathology of Hubei Province, College of Plant Science and Technology, Huazhong
+Agricultural University, Wuhan, 430070, China
+Author for correspondence:
+Xiao-Lin Chen
+E-mail: chenxiaolin@mail.hzau.edu.cn
+Received: 4 November 2024
+Accepted: 15 July 2025
+New Phytologist (2025)
+doi: 10.1111/nph.70445
+Key words: appressorium, phosphorylation,
+Pmk1-MAPK signaling, rice blast disease,
+sumoylation.
+Summary
+ Rice blast disease, caused by Magnaporthe oryzae, signiﬁcantly threatens global rice yields.
+The Pmk1-MAPK signaling pathway is crucial for the infection process, but the precise regula-
+tory mechanisms of Pmk1 remain unclear.
+ Our research reveals that sumoylation of Pmk1 is vital for its infectious function. A sumoyla-
+tion site at K347 and two small ubiquitin-related modiﬁer (SUMO)-interacting motifs (SIMs)
+in Pmk1 are highly conserved across fungi. This sumoylation, orchestrated by Smt3 and Siz1,
+reduces the phosphorylation of Pmk1 by tuning its interaction with Mst7.
+ The Pmk1 sumoylation is high in hyphae and less in conidia, and it intensiﬁes during
+appressorium maturation. It may act as a molecular brake to prevent excessive Pmk1
+phosphorylation during appressorium formation, without affecting phosphatase Pmp1 or
+the localization of Pmk1. Mutations at K347 lead to hyperphosphorylation of Pmk1 and
+Mst12,
+and
+overexpression
+of
+appressorium-related
+genes.
+The
+Dpmk1/Pmk1K347R
+mutant shows deﬁciencies in storage utilization, turgor accumulation, and septin ring
+formation.
+ Our study highlights the critical role of sumoylation dynamically balancing Pmk1 function
+via phosphorylation crosstalk, crucial for infection of M. oryzae, thus proposing a conserved
+target for antifungal strategies across fungal pathogens.
+Introduction
+Rice blast, a disease incited by the fungus Magnaporthe oryzae, is
+one of the most devastating afﬂictions, persistently endangering
+the yield and quality of rice crops (Talbot, 2003). To invade
+plant tissues, M. oryzae develops a specialized infection structure
+known as an appressorium, which employs a pressure-based
+mechanism
+to
+penetrate
+the
+lea’s
+rigid
+cuticle
+(Dagdas
+et al., 2012). Multiple signaling pathways are pivotal for the for-
+mation and maturation of the appressorium, such as the
+cAMP-PKA and Pmk1-MAPK pathways (Wilson & Tal-
+bot, 2009). Upon entering plant cells, M. oryzae develops
+pseudo-hyphal structures that interact with living host cells, deli-
+vering effector molecules to subdue the host’s immune response
+(Giraldo et al., 2013).
+The mitogen-activated protein kinase (MAPK) family, con-
+served from yeast to humans, translates various stimuli into cellu-
+lar responses. This signaling cascade includes three kinase
+families, with MAPK kinase kinase (MAPKKK) activating
+MAPK kinase (MAPKK), which then activates MAPK itself
+(Xu, 2000). MAPK pathways inﬂuence diverse cellular actions,
+such as growth, differentiation, stress response, and apoptosis. In
+fungi, three MAPK proteins similar to S. cerevisiae’s Fus3/Kss1,
+Slt2, and Hog1 are common, with M. oryzae’s Pmk1 being the
+most studied (Turra et al., 2014). The absence of Fus3/Kss1
+homologs typically results in reduced pathogenicity in all tested
+phytopathogens (Turra et al., 2014), notably in those that use
+appressoria for infection (Zhang et al., 2021). M. oryzae lacking
+Pmk1 cannot form appressoria or infect rice, even through
+wounded leaves. Pmk1 is implicated in lipid and glycogen meta-
+bolism during appressorium development, autophagy, cell divi-
+sion, and invasive movement, highlighting its role as a key
+regulator of the rice blast fungus’ pathogenicity (Wilson &
+Talbot, 2009; Oses-Ruiz et al., 2021; Cruz-Mireles et al., 2024;
+Zhang et al., 2024).
+The regulatory mechanism of Pmk1 is still largely unknown.
+A recent study in M. oryzae reveals that Pmk1-dependent phos-
+phorylation of Mst12 regulates a series of infection-related pro-
+cesses involving septin-dependent cytoskeletal re-organization,
+exocytosis, and effector gene expression (Oses-Ruiz et al., 2021).
+Interestingly, our previous study showed that Pmk1 was pre-
+dicted as a substrate of sumoylation (Liu et al., 2018); however,
+*These authors contributed equally to this work.
+ 2025 The Author(s).
+New Phytologist  2025 New Phytologist Foundation.
+New Phytologist (2025)
+1
+www.newphytologist.com
+Research
+
+its experimental evidence is still lacking, and the regulatory signif-
+icance has not yet been elucidated.
+Sumoylation is a key post-translational modiﬁcation in eukar-
+yotes, involving the attachment of small ubiquitin-related modi-
+ﬁers (SUMO) to proteins (Gareau & Lima, 2010). The process
+resembles ubiquitination, where a mature SUMO molecule,
+marked by a C-terminal glycine–glycine (GG) motif, is activated
+by the E1 enzyme (Aos1/Uba2) and then transferred to the E2
+enzyme (Ubc9). Ubc9 conjugates SUMO to speciﬁc lysine resi-
+dues in target proteins, often within a wKxE/D motif, facilitated
+by
+either
+covalent
+E2
+or
+E3
+regulation
+or
+noncovalent
+SUMO-interacting motif (SIM) interactions (Geiss-Friedlander
+& Melchior, 2007; Filosa et al., 2013). Unlike ubiquitin, which
+targets proteins for degradation, sumoylation typically modulates
+protein interactions, localization, and stability or activity, and is
+reversible by SUMO proteases, allowing for SUMO recycling
+(Geiss-Friedlander & Melchior, 2007; Filosa et al., 2013). Pro-
+teomic
+studies
+have
+identiﬁed
+numerous
+SUMO-targeted
+proteins with a range of biological functions in eukaryotes (Gar-
+eau & Lima, 2010). Sumoylation has been implicated in the
+development and pathogenicity of plant pathogenic fungi,
+including M. oryzae (Liu et al., 2018, 2021; Jian et al., 2023;
+Shao et al., 2023). Our research has shown that sumoylation is
+pivotal for appressorium maturation and invasive growth in M.
+oryzae (Liu et al., 2018), but the detailed mechanisms are not
+fully understood.
+In this study, we demonstrated that Pmk1 undergoes
+sumoylation at K347 by Smt3 and Siz1, which suppresses
+Pmk1 phosphorylation by inﬂuencing its interaction with pro-
+tein kinase Mst7. This sumoylation acts as a brake mechanism
+during appressorium formation in M. oryzae. The K347R
+mutation in Pmk1 leads to increased phosphorylation of
+Pmk1 and Mst12, resulting in hyperphosphorylation of Pmk1
+and the formation of two appressoria from one conidium.
+Additionally, the Dpmk1/Pmk1K347R mutant disrupts cellular
+processes linked to appressorium maturation, causing decreased
+appressorial penetration. Our ﬁndings reveal a novel regulatory
+mechanism where the Pmk1-MAPK signaling pathway is coor-
+dinated by the interplay of sumoylation and phosphorylation.
+This sumoylation of Pmk1 functions as a crucial brake
+mechanism for proper phosphorylation during appressorium
+formation, highlighting its essential role in the infection pro-
+cess of M. oryzae.
+Materials and Methods
+Fungal strains and growth determination
+The Magnaporthe oryzae wild-type (WT) strain P131 served as
+the parental strain. Mycelial growth for both P131 and its
+derivative strains was carried out on Oatmeal Tomato Agar
+plates at 28°C. Vegetative mycelia for protein and nucleic acid
+extraction were harvested from a liquid complete medium.
+Details of all M. oryzae transformants used in this study are
+listed in Table S1, and the plasmids of various genes are listed
+in Table S2.
+Generation of mutations in target protein
+To generate the Pmk1K347R, Pmk1DSIM1, and Pmk1DSIM2
+mutant expression vectors, ﬁrst, the Pmk1 expression plasmid
+(pGTN-Pmk1) was constructed by amplifying the whole Pmk1
+genomic gene with a 1.5-kb region of genomic DNA upstream
+of the Pmk1 initiator codon, which is known as the Pmk1 native
+promoter, and then, Pmk1K347R, Pmk1DSIM1, and Pmk1DSIM2
+were ampliﬁed from the pGTN-Pmk1 vector using speciﬁc pri-
+mers containing artiﬁcially introduced K347R, SIM1, and SIM2
+mutations (Table S3). The PCR product was cloned into the
+pGTN vector to generate pGTN-Pmk1K347R, pGTN-Pmk1-
+DSIM1, and pGTN-Pmk1DSIM2 using the Mut Express® II Fast
+Mutagenesis Kit (Vazyme, Nanjing, China). Using the same
+method, we also generated pKN-Pmk1K347R for co-transformation
+with septins in Dpmk1. Similarly, to generate the Pmk1 expression
+construct in Escherichia coli, the full coding sequences (CDS) of
+Pmk1 were ampliﬁed and cloned into the pGEX4T1 vector
+labeled as pGST-Pmk1. Next, pGST-Pmk1K347R, pGST-Pmk1-
+DSIM1,
+and
+pGST-Pmk1DSIM2
+expression
+vectors
+were
+constructed. For the yeast two-hybrid (Y2H) assay, the pGBKT7-
+Pmk1, pGBKT7-Pmk1K347R, pGBKT7-Pmk1I85A, pGBKT7-
+Pmk1DSIM1 and pGBKT7-Pmk1DSIM2 vectors were constructed.
+For Smt3(GG) mutation, we also used speciﬁc primers that artiﬁ-
+cially lost the last alanine to amplify the Smt3 exposed GG motif
+and then cloned it into the vectors, such as pGADT7 and
+pGBKT7. All the ampliﬁcation primers for these mutants are
+shown in Table S3.
+Poly-sumoylation assay in vivo and in vitro
+To determine whether Pmk1 is sumoylated by Smt3 in M. ory-
+zae, the pGTN-Pmk1 construct was transformed into both the
+WT and the Dsmt3 strains. Total protein was extracted from
+the hyphae of WT/Pmk1-GFP and Dsmt3/Pmk1-GFP strains.
+The
+Pmk1-GFP
+interacting
+proteins
+were
+puriﬁed
+using
+anti-GFP nanobody agarose beads (AlpaLifeBio, Shenzhen,
+China, KTSM1301). The sumoylation status was assessed by
+western blotting with an anti-SMT3 polyclonal antibody (bior-
+byt, orb351113), with the anti-GFP antibody (Biodragon,
+China) serving as a loading control.
+For the in vitro poly-sumoylation assay, the full-length
+cDNA of target proteins (Smt3, Pmk1, and its mutants) was
+cloned into pGEX4T1 to create a GST-tagged target protein
+construct. The SUMO E1 enzymes (Aos1 and Uba2) and
+SUMO E2 (Ubc9) were cloned into the pMal-c4X vector,
+while Smt3 was cloned into pET28a for protein expression.
+These vectors were transformed into E. coli BL21 (WeiDi,
+Shanghai,
+China),
+and
+the
+bacteria
+were
+grown
+in
+Luria-Bertani (LB) liquid medium with appropriate antibiotics
+at 37°C. At an OD600 of 0.5, 0.5 mM IPTG (Beyotime,
+Shanghai, China) was added to induce protein expression.
+After a 3-h induction, the E. coli cells were centrifuged, resus-
+pended in PBS with PMSF and a protease inhibitor cocktail,
+and lysed by ultrasonication. Total protein was extracted and
+the
+recombinant
+proteins
+were
+puriﬁed
+following
+the
+New Phytologist (2025)
+www.newphytologist.com
+ 2025 The Author(s).
+New Phytologist  2025 New Phytologist Foundation.
+Research
+New
+Phytologist
+2
+
+manufacturer’s instructions. The concentration of puriﬁed
+proteins was determined using Coomassie brilliant blue (CBB;
+Solarbio, Beijing, China) staining.
+The in vitro sumoylation reaction contained Glutathione
+S-transferases (GST)-tagged proteins, MBP-tagged proteins with
+Ubc9 and Aos1/Uba2, His-Smt3, and reaction buffer. As a nega-
+tive control, the UBC9 inhibitor 2-D08 was added to prevent
+Smt3 transfer from the Ubc9-SUMO thioester to substrates. This
+mixture was incubated for 1 h at 37°C. For SUMO chain analy-
+sis, puriﬁed His-Smt3 was incubated with Ubc9 and Aos1/Uba2,
+and GST-Pmk1 with its mutants was incubated similarly. Puriﬁ-
+cation of GST-tagged proteins was performed using GST-tag
+Puriﬁcation Resin (Solarbio, P2020), and the pull-down proteins
+were analyzed by western blot with a mouse anti-GST-Tag mAb
+(Abclonal, Wuhan, China, AE001). CBB staining and His-Tag
+mouse monoclonal antibody (Coolaber, Beijing, China) western
+blot served as controls.
+Co-immunoprecipitation assay
+The pGTN-Pmk1 construct was made as previously reported,
+and the full-length Smt3 gene was ampliﬁed from genomic DNA
+and cloned into the pKN-Flag vector. Both vectors were
+co-transformed into the WT P131 strain and also transformed
+individually. Transformants were selected for G418 resistance
+and veriﬁed using western blot with anti-GFP and anti-Flag anti-
+bodies to obtain the strains P131/Pmk1-GFP + Smt3-Flag,
+P131/Pmk1-GFP, and P131/GFP + Smt3-Flag. Total proteins
+from the transformants were extracted using a protein lysing buf-
+fer (P0013; Beyotime), then incubated with anti-GFP nanobody
+agarose beads at 4°C overnight. The beads were washed four
+times with Tris-buffered saline (TBS: 50 mM Tris–HCl,
+150 mM NaCl, pH 7.4). Proteins attached to the beads were
+eluted with 19 protein loading buffer (P0015; Beyotime) after
+boiling for 5 min and were detected using anti-GFP and
+anti-Flag antibodies.
+Yeast two-hybrid assay
+The full-length Pmk1 CDS, with and without mutations at the
+SUMO site, was cloned into the prey vector pGADT7. Mean-
+while, the Smt3 CDS and a modiﬁed version, Smt3(GG), expos-
+ing the lysine-lysine motif through speciﬁc mutagenesis (as
+detailed in generation of mutations method previously), were
+cloned into the bait vector pGBKT7. These prey-bait plasmid
+pairs were co-transformed into the yeast strain Y2H Gold follow-
+ing standard protocols. Transformants were initially selected on
+synthetic dropout (SD) plates lacking tryptophan and leucine.
+Positive colonies were then transferred to SD plates lacking tryp-
+tophan, leucine, and histidine to assess growth, an indicator of
+protein–protein interaction (Liu et al., 2022). To prevent self-
+activation, the SD-Trp-Leu-His medium (Coolaber) was supple-
+mented with inhibitors, such as 25 mM 3-aminotriazole (3-AT;
+Coolaber) and 100 ng ml1 abscisic acid (ABA; Coolaber). For
+all the Y2H assays, pGADT7-T and pGBKT7-53 were co-
+transformed
+as
+a
+positive
+control,
+and
+pGADT7-T
+and
+pGBKT7-Lam were co-transformed as negative controls.
+Bimolecular ﬂuorescence complementation assay
+The plasmid for Pmk1-nYFP/Pmk1K347R-nYFP was constructed
+by inserting the Pmk1 or Pmk1K347R gene, driven by its native
+promoter, into the pHZ65 vector, which carries a hygromycin
+resistance gene. Separately, the Smt3, Siz1, and Mst7 genes, each
+under their native promoter, were integrated into the pHZ68
+vector with a bleomycin resistance gene to create the cYFP plas-
+mid. Both plasmids were then transfected into the protoplasts of
+the P131 strain. Transformants resistant to both hygromycin and
+bleomycin were isolated and examined using a laser confocal
+microscope TCS SP8 (Leica Microsystems, Mannheim, Ger-
+many) at an excitation wavelength of 488 nm.
+Appressorium formation and collapse assays
+To assess appressorium formation, conidial suspensions were
+adjusted to a concentration of 5 9 104 spores ml1 and applied
+to a hydrophobic surface. The samples were then incubated in
+the dark at conditions optimal for M. oryzae growth for 24 h.
+Microscopic examination was conducted to count a minimum of
+300 appressoria per strain. Additionally, mature appressoria on
+the hydrophobic surface were subjected to an 8% glycerol treat-
+ment for 30 min, after which the rate of collapsing appressoria
+was determined.
+Pathogenicity tests and infection assay
+Leaf spot and spray infection assays were performed on barley and
+rice leaves to assess the pathogenicity of the M. oryzae strain. For
+rice, a conidial suspension (5 9 104 conidia ml1) was sprayed
+onto 2-wk-old seedlings (Oryza sativa cv LTH), which were then
+placed in a chamber at 28°C with 90% humidity for 24 h in the
+dark, followed by a 12 h : 12 h, light : dark cycle. Lesions were
+monitored daily and photographed. For barley, 7-d-old leaves
+(Hordeum vulgare cv E9) were sprayed with a conidial suspension
+(3 9 104 conidia ml1, 2 ml per leaf), and photographed 5 d
+post-inoculation. Each test was repeated three times, and leaves
+were collected for lesion quantiﬁcation. For infection process
+observation, a conidial suspension (1 9 105 spores ml1) was
+injected into rice sheaths. Inoculated samples were kept in a growth
+chamber at 28°C and 90% humidity, and the infection process
+was monitored at various time points using a Nikon Ni90 micro-
+scope to observe invasive hyphae penetration and expansion.
+Staining assays
+Glycogen was visualized using a KI/I2 staining solution contain-
+ing 60 mg ml1 potassium iodide (KI) and 10 mg ml1 iodine
+(I2; Thines et al., 2000), while lipid droplets were identiﬁed with
+Nile Red staining. A conidial suspension at a concentration of
+5 9 105 conidia ml1 was applied to a hydrophobic surface and
+ 2025 The Author(s).
+New Phytologist  2025 New Phytologist Foundation.
+New Phytologist (2025)
+www.newphytologist.com
+New
+Phytologist
+Research 3
+
+maintained in a growth chamber. The presence of glycogen
+and lipid droplets was examined at intervals of 0, 2, 4, 6, 8, 12,
+and 24 h post inoculation (hpi) using an epiﬂuorescence micro-
+scope (Ni90; Nikon, Tokyo, Japan).
+Phosphorylation assay
+Phosphorylated Pmk1 was detected using the Phospho-p44/42
+MAPK (Erk1/2; Thr202/Tyr204) antibody (Cell Signaling Tech-
+nology, Danvers, MA, USA), while the p44/42 MAPK (Erk1/2)
+antibody (Cell Signaling Technology) was used to detect endogen-
+ous Pmk1 expression. For the detection of Mst12 phosphorylation,
+the Mst12-3 9 HA construct was transformed into P131, Dsmt3,
+and Dpmk1/Pmk1K347R strains. Hyphal total protein was analyzed
+by western blot with anti-HA and anti-GAPDH antibodies. Pro-
+teins were separated on 8% sodium dodecyl sulfate - polyacryla-
+mide gel electrophoresis (SDS-PAGE) gels containing 5.0 mM
+Phos-tag TM AAL and 10 mM MnCl2, run at 20 mA for 4–5 h.
+Gels were washed three times in buffer with 10 mM ethylenedia-
+minetetraacetic acid (EDTA) for 10 min each, then once without
+EDTA for 10 min. Proteins were transferred to a polyvinylidene
+ﬂuoride (PVDF) membrane at 45 V overnight in a 4°C refrigera-
+tor. The membrane was probed with anti-HA antibody for western
+blot analysis. A conventional SDS-PAGE western blot with anti-
+HA antibody served as a loading control.
+For in vitro phosphorylation assays, heterologous production
+and puriﬁcation of recombinant pET28a-Flag-MEK2DD was
+performed as described (Menke et al., 2005), which could acti-
+vate GST-Pmk1 by incubation in vitro. Recombinant GST-
+Pmk1/GST-Pmk1K347R (250 ng) and Flag-MEK2DD (250 ng)
+were incubated in kinase buffer (25 mM Tris pH 7.5, 10 mM
+MnCl2, 1 mM EGTA, and 2 mM DTT) in the presence of
+1 mM ATP at 30°C for 30 min. Phosphorylated Pmk1 was
+detected as described above.
+Analysis of protein interaction predictions
+We used the AlphaFold3 tool to predict the structure of interac-
+tions between proteins and analyzed the interactions present
+using PyMol visualization (Abramson et al., 2024).
+Statistical analysis
+Statistical analyses were performed using the Microsoft Excel
+2021 (Microsoft Corp, Washington, DC, USA) or GRAPHPAD
+PRISM 9 (GraphPad Software, Washington, DC, USA). Experi-
+mental details, including the number of biological replicates and
+speciﬁc statistical methods, are provided in the corresponding ﬁg-
+ure legends. All experiments were independently repeated at least
+three times. For pairwise comparisons, statistical signiﬁcance was
+determined by two-sided unpaired Student’s t-test, while one-
+way ANOVA followed by post hoc tests was applied for multiple
+comparisons. Error bars represent the standard deviation of the
+mean. Signiﬁcance levels are indicated as follows: *, P < 0.05;
+**, P < 0.01; ***, P < 0.001; ****, P < 0.0001; and ‘ns’
+denotes no statistical signiﬁcance.
+Result
+Pmk1 is dynamically sumoylated during development and
+infection of M. oryzae
+The formation of an appressorium and invasive growth in plants
+by M. oryzae necessitates a conserved pathogenicity MAPK Pmk1
+(Xu & Hamer, 1996; Sakulkoo et al., 2018; Oses-Ruiz
+et al., 2021). Intriguingly, Pmk1 was identiﬁed as a putative
+SUMO protein in our previous study (Liu et al., 2018). To con-
+ﬁrm the sumoylation of Pmk1 in M. oryzae, the hyphae of the D
+pmk1/Pmk1-GFP strains were obtained and used to purify the
+Pmk1-GFP protein using anti-GFP agarose beads, and then the
+sumoylation of Pmk1 was detected with an anti-Smt3 antibody.
+The result indicated that the sumoylation bands of Pmk1 were
+observed, which could be removed by the SUMO protease
+(Fig. 1a).
+We also evaluated the sumoylation level of Pmk1 in different
+developmental and infection processes. Total proteins extracted
+from the hyphae (HY), conidia (CO), and appressoria (AP) of
+the Dpmk1/Pmk1-GFP strain were also puriﬁed by GFP agarose
+beads and detected by anti-Smt3 antibody. The highest sumoyla-
+tion level of Pmk1 was found in the hyphae, but it evidently
+decreased during appressorium maturation (Fig. 1b), suggesting
+a potential negative regulatory function of sumoylation on Pmk1
+during the appressorium and invasive hypha formation.
+Sequence analysis revealed that Pmk1 possesses one potential
+sumoylation site at K347 and two potential SIMs, namely SIM1
+(ILDIQ) and SIM2 (ILDVL), which were predicted by the GPS-
+SUMO online tool (http://SUMOsp.biocuckoo.org/online.php).
+Furthermore, the sumoylation sites and the potential SIM motifs
+of Pmk1 are highly conserved in different plant pathogenic fungi
+(Fig. 1c).
+Sumoylation is modiﬁed by adding multiple SUMO proteins
+onto lysine residues. To assess the structural feasibility of the
+interaction between Pmk1 and the SUMO protein Smt3, mole-
+cular docking was conducted based on the structures of Pmk1
+and Smt3, as well as E1, E2, and E3. SIMs are hydrophobic small
+segments of amino acids surrounded by acidic residues, which are
+arranged in a parallel or antiparallel b-strand. SIMs interact with
+a hydrophobic pocket on the surface of SUMO (Gareau &
+Lima, 2010), providing speciﬁcity for the interactions of SUMO-
+conjugated proteins with SUMO poly chains (Song et al., 2004;
+Kolesar et al., 2012). The interaction between Pmk1 and Smt3 is
+visualized using AlphaFold3, showing the docking of Smt3 onto
+the N-terminal region of Pmk1, which exactly happens to Ile85
+at the SIM1 site (Fig. 1d), suggesting a potential interaction
+between Pmk1 and Smt3. Moreover, the structural analysis also
+indicated that Pmk1 interacted with the E3 ligase Siz1, but did
+not directly interact with E1 (Aos1/Uba2) and E2 (Uba9;
+Fig. 1d).
+Pmk1 is sumoylated by Smt3
+To determine whether the SUMO molecule can be conjugated to
+substrate proteins in an oligomeric form, we detected the
+New Phytologist (2025)
+www.newphytologist.com
+ 2025 The Author(s).
+New Phytologist  2025 New Phytologist Foundation.
+Research
+New
+Phytologist
+4
+
+self-polymerization of Smt3. The Y2H assay demonstrated that
+Smt3 can directly interact with itself when the C-terminal digly-
+cine motif (GG) is exposed, while the interaction is abolished
+when the motif normally ends with the GGA motif (Fig. 2a),
+which is the normal ending residue of Smt3. Meanwhile, we
+transformed Smt3-Flag into P131, and the western blotting ana-
+lysis revealed that Smt3 can form oligomers, especially dimers in
+M. oryzae (Fig. 2b). Moreover, the GST-Smt3 and other SUMO
+components, including Aos1-Uba2-MBP and Ubc9-MBP, were
+expressed in E. coli and puriﬁed to incubate in vitro, and the wes-
+tern blotting analysis using an anti-GST antibody showed that a
+major GST-Smt3 band along with a series of poly bands were
+detected, indicating that GST-Smt3 may form a poly chain
+through self-sumoylation in M. oryzae (Fig. 2c).
+We further validated the interaction between Smt3 and Pmk1
+using in vivo and in vitro experiments. The Y2H experiment indi-
+cated that Pmk1 physically interacts with Smt3 when it harbors
+an
+exposed
+C-terminal
+diglycine
+(GG)
+motif
+(Fig.
+2d).
+Additionally, we co-transformed the Smt3-Flag and Pmk1-GFP
+constructs into the WT strain P131. The resulting strains were
+then subjected to a co-immunoprecipitation (Co-IP) assay, which
+conﬁrmed the in vivo interaction between Smt3-Flag and Pmk1-
+GFP (Fig. 2e). Furthermore, we fused nYFP to the N-terminal of
+Pmk1 and cYFP to the C-terminal of Smt3 and co-transformed
+these two constructs into the WT strain P131. The bimolecular
+ﬂuorescence complementation (BiFC) assay showed signiﬁcant
+interactions between Pmk1 and Smt3 in hyphae, while their
+interactions were much weaker in appressoria and conidia
+(Fig. 2f,g).
+To ascertain whether Pmk1 undergoes modiﬁcation by Smt3 in
+vivo, we introduced the Pmk1-GFP construct into both the WT
+P131 and the Dsmt3 mutant strains. The total protein extracts from
+these strains were subjected to immunoprecipitation using anti-
+GFP beads, followed by detection with an anti-Smt3 antibody.
+Fig. 1 Pmk1 is sumoylated in different
+development stages of Magnaporthe oryzae. (a)
+Western blot analysis of Pmk1 sumoylation in M.
+oryzae hyphae. Sumoylation of Pmk1 was
+assessed using a small ubiquitin-related modiﬁer
+(SUMO) protease to degrade the GFP-tagged
+Pmk1 variant. (b) Developmental stage-speciﬁc
+sumoylation of Pmk1-GFP in M. oryzae.
+Sumoylation levels were examined across various
+developmental stages. For both A and B, proteins
+were extracted from the Dpmk1/Pmk1-GFP
+strain, subjected to immunoprecipitation with
+anti-GFP magnetic beads, and detected using an
+anti-Smt3 antibody. A reference detection was
+performed using an anti-GFP antibody.
+Developmental stages are denoted as follows:
+CO for conidia, GT for germ tube, AP-4h for
+appressoria at 4 h post inoculation (hpi) and AP-
+8h for appressoria at 8 hpi. (c) Conservation of
+Pmk1 protein structure and sumoylation features.
+The predicted sumoylation site (S) and SUMO-
+interacting motifs (SIMs) in Pmk1 of M. oryzae
+are conserved among homologous proteins from
+different plant pathogenic fungi. The SIMs and
+sumoylation site are highlighted in red. (d) A
+structural snapshot of the Pmk1-SUMO
+components complex model highlighting the
+docking of Smt3 onto Pmk1 N-terminal region
+containing the SIM1 site (Ile85) using
+AlphaFold3. The color labeling of the exact
+protein is consistent with the color of its protein
+name, for example, Pmk1 is in green and Smt3 is
+in blue. An interaction model between Pmk1
+(330 Glu) and Siz1 (309 Ser and 311 Ser) is
+visualized upper. The model below shows the
+docking of Smt3 onto the N-terminal region of
+Pmk1, which includes the SIM1 site at Ile85 in
+red color. In panels (a) and (b), the numbers
+below each lane represent the normalized Smt3
+level relative to Pmk1-GFP abundance.
+ 2025 The Author(s).
+New Phytologist  2025 New Phytologist Foundation.
+New Phytologist (2025)
+www.newphytologist.com
+New
+Phytologist
+Research 5
+
+Fig. 2 In vivo and in vitro sumoylation of Pmk1 by Smt3. (a) Yeast two-hybrid (Y2H) assay of Smt3 self-interaction. Growth on selective synthetic dropout
+(SD)-L/T/H medium indicates Smt3 self-interaction. Undiluted yeast cells correspond to an OD600 = 0.6. Positive controls: pGADT7-T and pGBKT7-P53.
+Negative controls: pGADT7-T and pGBKT7-Lam. (b) Detection of Smt3 dimerization and small ubiquitin-related modiﬁer (SUMO) chain formation in
+Magnaporthe oryzae. Smt3-Flag presence conﬁrmed by anti-Flag antibody. Anti-GAPDH antibody serves as a loading control. The numbers below each lane
+represent the normalized Smt3-Flag level relative to GAPDH abundance. (c) In vitro self-sumoylation of Smt3. Puriﬁed GST-Smt3 was incubated with SUMO
+E1 and Ubc9-MBP, and detected with an anti-GST antibody. Coomassie brilliant blue (CBB) staining is shown as a loading control. The numbers below each
+lane represent the normalized GST-Smt3 level relative to CBB abundance. (d) Y2H assay of Smt3-Pmk1 interaction. Interaction conﬁrmed by growth on SD-L/
+T/H medium. Positive control: pGADT7-T and pGBKT7-53. Negative controls: pGADT7-T with pGBKT7-Lam. (e) Co-immunoprecipitation (Co-IP) of Smt3 and
+Pmk1. Proteins from M. oryzae mycelia were immunoprecipitated with anti-GFP beads and detected with anti-GFP and anti-Flag antibodies. Plasmids
+expressing GFP and Smt3-Flag, or only expressing Pmk1-GFP, were taken as a negative control. (f) Bimolecular ﬂuorescence complementation assay of Pmk1-
+Smt3 interaction. nYFP-Pmk1 and Smt3-cYFP cotransformants were observed under confocal microscopy. Negative controls: nYFP with Smt3-cYFP and nYFP-
+Pmk1 with cYFP. (g) Relative ﬂuorescence density analysis of nYFP-Pmk1 + Smt3-cYFP strains in different stages in (f). Data are presented as mean  SE from
+three independent replicates and were analyzed by one-way ANOVA followed by Tukey’s test, with asterisks indicating signiﬁcant differences (***,
+P < 0.001). (h) In vivo sumoylation of Pmk1 by Smt3. Pmk1-GFP was expressed in wild-type and Dsmt3 backgrounds. Sumoylation levels were assessed by
+anti-Smt3 antibody, with total protein levels as a reference. The numbers below each lane indicate the normalized Smt3 levels relative to the abundance of
+GAPDH and Pmk1-GFP. (i) In vitro sumoylation of Pmk1. Components were incubated at 37°C, and the reaction was puriﬁed and immunoblotted with anti-
+GST and anti-His antibodies. Controls included 2-D08 treatment and reactions with one missing component to conﬁrm sumoylation requirements. The
+numbers below each lane indicate the relative grayscale values of the SUMOylated Pmk1 bands.
+New Phytologist (2025)
+www.newphytologist.com
+ 2025 The Author(s).
+New Phytologist  2025 New Phytologist Foundation.
+Research
+New
+Phytologist
+6
+
+The western blot analysis uncovered a prominent band indicative
+of Pmk1 sumoylation, which aligned with the anticipated size of
+multiple Smt3 molecules in the WT/Pmk1-GFP strain. This ﬁnd-
+ing points toward a poly-sumoylation event of Pmk1. Conversely,
+the Dsmt3 mutant exhibited a markedly diminished level of Pmk1
+sumoylation (Fig. 2h).
+To further validate the sumoylation of Pmk1 in vitro,
+we expressed and puriﬁed the SUMO E1 enzyme complex (Aos1-
+Uba2-MBP), E2 enzyme (Ubc9-MBP), His-tagged Smt3, and the
+substrate GST-Pmk1 individually in E. coli. The western blot
+experiment demonstrated that poly-sumoylated GST-Pmk1 was
+detectable when His-Smt3 and GST-Pmk1 were co-incubated with
+the puriﬁed E1 (Aos1-Uba2) and E2 (Ubc9) enzymes. This sumoy-
+lation was notably absent in the negative control lacking SUMO
+E2 enzyme Ubc9 or when treated with 2-D08, a distinctive inhibi-
+tor of protein sumoylation (Fig. 2i). Collectively, these results sub-
+stantiate that Pmk1 is poly-sumoylated by Smt3 in M. oryzae.
+E3 ligase Siz1 is required for sumoylation of Pmk1
+Sumoylation typically necessitates the facilitation of a SUMO E3
+ligase for in vivo modiﬁcation. Given that Siz1 has been recog-
+nized as a pivotal E3 ligase for sumoylation in M. oryzae (Liu
+et al., 2018), we investigated its potential role in the recognition
+and facilitation of Pmk1 sumoylation. The interaction between
+Pmk1 and Siz1 was examined through both in vivo and in vitro
+experiments. The Y2H assay indicated no direct interaction
+between Pmk1 and Siz1 (Supporting Information Fig. S1a).
+However, the BiFC assay demonstrated that Pmk1 interacts with
+Siz1 at various stages of the infection process (Fig. S1b). To
+explore the necessity of Siz1 for Pmk1 modiﬁcation in vivo, we
+conducted an experiment where the Pmk1-GFP construct was
+integrated into both WT P131 and Dsiz1 mutant strains.
+Proteins from these strains were extracted and underwent immu-
+noprecipitation with anti-GFP beads, subsequently probed with
+an anti-Smt3 antibody. The subsequent western blot analysis
+revealed a signiﬁcant band corresponding to the sumoylation of
+Pmk1, matching the expected size for multiple Smt3 attachments
+in
+the
+WT/Pmk1-GFP
+strain,
+suggesting
+extensive
+poly-sumoylation of Pmk1. By contrast, the Dsiz1 mutant dis-
+played a signiﬁcant reduction in Pmk1 sumoylation levels
+(Fig. S1c). Additionally, to predict the spatial distance between
+Pmk1 and Siz1 protein during the Pmk1 sumoylation process
+using Alphafold3, the result showed that hydrogen bonds
+(Glu330 on Pmk1, Ser309, and Ser311 on Siz1) could be formed
+between Pmk1 and Siz1 proteins in terms of spatial distance
+(Fig. 1d). The above all indicate that there is no direct interaction
+between Pmk1 and Siz1, but they may be very spatially close and
+interact through a third party, thus ﬁnishing the sumoylation of
+Pmk1 with the assistance of the E3 ligase Siz1.
+Pmk1 is sumoylated at K347 with the assistance of SIM1
+and SIM2 domains
+To verify the sumoylation site of Pmk1 at lysine 347 and to eluci-
+date its functional signiﬁcance, we engineered a mutation con-
+verting lysine 347 to arginine, yielding the Pmk1K347R variant. In
+parallel, to ascertain the roles of the SIM1 and SIM2 motifs, we
+introduced mutations in their conserved sequences: ILDVQ was
+altered to AADAA in Pmk1DSIM1, and ILDVL was changed to
+AADAA in Pmk1DSIM2 (Fig. 1c). Y2H assays indicated that the
+Pmk1DSIM1 mutants lacked interaction with Smt3, whereas
+the Pmk1K347R and Pmk1DSIM2 mutants retained this physical
+interaction (Fig. 3a), indicating that SIM1 is probably the key
+functional interacting motif. Structural analysis showed that
+Ile85 of Pmk1 within the SIM1 domain could be important for
+Fig. 3 Essential lysine site and small ubiquitin-related modiﬁer (SUMO)-interacting motifs (SIM) for Pmk1 sumoylation. (a) Yeast two-hybrid assay of
+Pmk1-Smt3 interaction via SIM1. Growth on synthetic dropout (SD)-L/T/H medium indicates interaction via the SIM1 motif. Undiluted yeast cells
+correspond to an OD600 = 0.6. Positive control: pGADT7-T and pGBKT7-P53. Negative control: pGADT7-T and pGBKT7-Lam. (b) In vivo analysis of Pmk1
+sumoylation mediated by lysine 347 and SIM1. Proteins from Dpmk1 strains expressing various Pmk1-GFP variants were puriﬁed using anti-GFP beads and
+detected with an anti-SMT3 antibody. Anti-GFP antibody served as a loading control. The numbers below each lane indicate the normalized Smt3 levels
+relative to the abundance of Pmk1-GFP. (c) In vitro sumoylation of Pmk1 variants. Lysine 347 and SIM1 were tested for their role in sumoylation using
+puriﬁed components. Reactions were incubated at 37°C, puriﬁed using GST-tag resin, and immunoblotted with an anti-GST antibody. Negative controls
+omitted either His-Smt3 or GST-Pmk1. The numbers below each lane indicate the relative grayscale values of the SUMOylated Pmk1 bands.
+ 2025 The Author(s).
+New Phytologist  2025 New Phytologist Foundation.
+New Phytologist (2025)
+www.newphytologist.com
+New
+Phytologist
+Research 7
+
+Pmk1 and Smt3 interaction (Fig. 1c,d). To further validate this
+interaction pattern, we conducted additional Y2H assays with
+Pmk1I85A. The results showed that mutating Ile85 in the SIM1
+motif signiﬁcantly weakened the interaction between Pmk1 and
+Smt3 (Fig. S2), conﬁrming its critical role in Pmk1 and Smt3
+interaction. Furthermore, we generated strains expressing Pmk1-
+GFP, Pmk1K347R-GFP, Pmk1DSIM1-GFP, and Pmk1DSIM2-GFP
+with its native promoter by transforming the respective constructs
+into the Dpmk1 strain. Total protein extracts from the hyphae of
+these strains were subjected to immunoprecipitation using anti-
+GFP agarose beads. Western blotting analysis with an anti-Smt3
+antibody
+revealed
+that
+the
+Dpmk1/Pmk1K347R-GFP
+and
+Dpmk1/Pmk1DSIM1-GFP strains displayed a substantial decrease
+in sumoylation signals relative to the Dpmk1/Pmk1-GFP control.
+The Dpmk1/Pmk1DSIM2-GFP strain also exhibited a notable
+reduction in sumoylation levels (Fig. 3b). These ﬁndings under-
+score that the K347 residue of Pmk1was probably the sumoyla-
+tion site, as well as SIM1 was much more important for Pmk1
+interaction with Smt3 than SIM2, but this does not exclude that
+SIM2 was functional.
+To further examine the function of the K347 site and SIMs in
+the Pmk1 sumoylation process, we expressed and puriﬁed the
+recombinant
+proteins
+GST-Pmk1,
+GST-Pmk1K347R,
+GST-
+Pmk1DSIM1, and GST-Pmk1DSIM2 in E. coli. As described pre-
+viously, these puriﬁed proteins were individually incubated with
+the SUMO E1 enzyme complex (Aos1/Uba2-MBP), E2 enzyme
+(Ubc9-MBP), and His-Smt3 at 37°C for 1 h. Subsequent wes-
+tern blot analysis demonstrated that an evident sumoylation band
+was exclusively observed in the mixture containing GST-Pmk1,
+while only a very weak band was detected in the mixture contain-
+ing GST-Pmk1DSIM2. By contrast, no sumoylation was detected
+in
+mixtures
+with
+GST-Pmk1K347R
+and
+GST-Pmk1DSIM1
+(Fig. 3c). These results collectively suggest that Pmk1 is sumoy-
+lated at lysine 347 and that this modiﬁcation is reliant on the pre-
+sence of functional SIM1 and SIM2 motifs, in which SIM1 takes
+a major role.
+Sumoylation inhibits phosphorylation of Pmk1
+In order to determine whether sumoylation affects the function
+of Pmk1, we tested the effects of sumoylation on protein stability,
+subcellular localization, and phosphorylation. Protein level detec-
+tion experiments by western blot showed that sumoylation did
+not affect protein stability or degradation of Pmk1, because the
+protein content of Pmk1-GFP in Dpmk1/Pmk-GFP, Dpmk1/
+Pmk1K347R-GFP, Dpmk1/Pmk1DSIM1-GFP, Dpmk1/Pmk1DSIM2-
+GFP, and Dsmt3/Pmk1-GFP strains was almost the same
+(Fig. 4a). We then detected whether the phosphorylation level of
+Pmk1 was affected by sumoylation. Previous studies have shown
+that Pmk1 activation precedes infection-related development but
+is maintained throughout appressorium morphogenesis (Cruz-
+Mireles et al., 2024). The Pmk1 phosphorylation level in WT,
+Dpmk1/Pmk1, Dpmk1/Pmk1K347R, and Dsmt3/Pmk1 strains was
+detected with a phospho-p42/44 antibody, which is speciﬁc to
+MAP kinases Pmk1 and Mps1 (Li et al., 2017); meanwhile, a
+p44/42 MAPK (Erk1/2) antibody was used to standardize the
+expression level of Pmk1. It is shown that during the formation
+of appressorium, Pmk1 is phosphorylated within 4 h of conidial
+germination on a hydrophobic surface both in Dpmk1/Pmk1 and
+Dpmk1/Pmk1K347R strains (Fig. S3). In mycelium, the results
+showed that, compared with those in Dpmk1/Pmk1 and the WT,
+the phosphorylation level of Pmk1 was signiﬁcantly increased in
+Dpmk1/Pmk1K347R and Dsmt3/Pmk1 (Fig. 4b), suggesting that
+sumoylation probably suppressed the phosphorylation of Pmk1.
+To further verify this hypothesis, we performed sumoylation and
+phosphorylation of Pmk1 in vitro. First of all, we used a recombi-
+nant constitutively active MAPKK from tobacco (Nicotiana taba-
+cum) NtMEK2DD to activate Pmk1, as previously shown
+(Menke et al., 2005), revealing that both Pmk1 and Pmk1K347R
+could be phosphorylated in the presence of NtMEK2DD in
+kinase reaction buffer (Fig. 4c). In this case, we further observed
+that the phosphorylation of Pmk1 was progressively enhanced,
+while its sumoylation was correspondingly weakened (Fig. 4d).
+Fig. 4 Regulation of Pmk1 function by sumoylation at K347. (a) Protein stability of Pmk1-GFP in wild-type, Dsmt3, and Dpmk1/Pmk1K347R strains was
+assessed using an anti-GFP antibody. Anti-GAPDH antibody was taken as a control. (b) Phosphorylation levels of Pmk1 in the same strains were detected
+using an anti-P42/44 antibody, with anti-Pmk1antibody speciﬁcally for Magnaporthe oryzae as a control. (c) Phosphorylation assays of Pmk1 activated by
+NtMEK2DD in vitro. Puriﬁed NtMEK2DD and GST-Pmk1 were co-cultivated in reaction buffer to perform phosphorylation. Phosphorylation levels were
+detected as mentioned above. (d) Phosphorylation and sumoylation levels detection of Pmk1 in vitro. Phosphorylation and sumoylation assays were
+performed in functional reaction buffer to detect the interaction of these two modiﬁcations. The SUMOylation level of Pmk1 was evaluated using anti-GST
+antibody, while its phosphorylation level was evaluated using Anti-P44/42 antibody. (e) Co-immunoprecipitation assays conﬁrm the interaction between
+Mst7 and Pmk1 sumoylation mutations. Proteins from M. oryzae mycelia were immunoprecipitated with anti-Flag beads and detected with anti-HA and
+anti-Flag antibodies. (f) Yeast two-hybrid assay demonstrates the interaction between Mst7 and Pmk1 sumoylation mutations. Growth on SD-L/T/H
+medium indicates interaction, with pGADT7-T and pGBKT7-53 as a positive control, and pGADT7-T and pGBKT7-Lam as negative controls. Undiluted
+yeast cells correspond to an OD600 = 0.6. (g) BiFC assay shows the interaction between Mst7 and Pmk1 sumoylation mutations at the cellular level.
+Co-transformants were observed under confocal microscopy, with several negative controls included. (h) Ralative ﬂuorescence density analysis comparing
+nYFP-Pmk1+Mst7-cYFP strains and nYFP-Pmk1K347R+Mst7-cYFP strains in different stages in (g). Data represent means and standard errors from three
+replicates, with asterisks indicating signiﬁcant differences (**, P < 0.01; ***, P < 0.001). (i) Yeast two-hybrid assay for the interaction between Pmp1 and
+Pmk1 sumoylation mutations, with additional 25 mM 3-AT and 100 ng ml1 ABA to inhibit self-activation of pGADT7 and pGBKT7-Pmp1 control.
+Positive and negative controls are as described in (f). (j) Co-immunoprecipitation assays for the interaction between Pmp1 and Pmk1 sumoylation
+mutations, using the same method as in (e). (k) BiFC assay for the interaction between Pmp1 and Pmk1 sumoylation mutations, with the same imaging
+conditions and controls as in (g). (l) Ralative ﬂuorescence density analysis comparing nYFP-Pmk1+Pmp1-cYFP strain and nYFP-Pmk1K347R+Pmp1-cYFP
+strain in different stages in (k). Data represent means and standard errors from three replicates, with asterisks indicating signiﬁcant differences (*, P < 0.05;
+**, P < 0.01; ***, P < 0.001).
+New Phytologist (2025)
+www.newphytologist.com
+ 2025 The Author(s).
+New Phytologist  2025 New Phytologist Foundation.
+Research
+New
+Phytologist
+8
+
+These results collectively suggest that sumoylation would sup-
+press the phosphorylation of Pmk1.
+Sumoylation of Pmk1 prevents its interaction with protein
+kinase Mst7
+The Mst11-Mst7-Pmk1 cascade is central in the Pmk1-MAPK
+signaling pathway and is essential for appressorium formation in
+M. oryzae (Oses-Ruiz et al., 2021). We wonder whether sumoyla-
+tion could affect the interaction between Pmk1 and Mst7,
+thereby inﬂuencing Pmk1’s phosphorylation status. To test this
+possibility, the Co-IP experiments were performed to determine
+the interaction strength between Pmk1-HA and Mst7-Flag, as
+well as Pmk1K347R-GFP and Mst7-Flag, revealing an enhanced
+interaction between Pmk1K347R and Mst7 compared with the
+interaction in Pmk1 and Mst7 (Fig. 4e). The Y2H assays also
+revealed that the interaction between Pmk1 and Mst7 was signiﬁ-
+cantly enhanced by the K347R mutation and SIM1 mutation in
+Pmk1, while the SIM2 mutation of Pmk1 maintained its weak
+interaction with Mst7 (Fig. 4f). Similar results were obtained in
+conidia, despite the relatively weak interaction between the two
+proteins in this context (Fig. S4a). Additionally, under in vitro
+sumoylation conditions, the interaction between Pmk1K347R and
+Mst7 was also found to be enhanced compared with that between
+Pmk1 and Mst7 (Fig. S4b). Combining these results suggests that
+the suppressed sumoylation of Pmk1 caused by the speciﬁc lysine
+ 2025 The Author(s).
+New Phytologist  2025 New Phytologist Foundation.
+New Phytologist (2025)
+www.newphytologist.com
+New
+Phytologist
+Research 9
+
+residue or SIM1 site mutation is intricately linked to the binding
+afﬁnity between Pmk1 and Mst7.
+Further validation was achieved using a BiFC assay. This experi-
+ment demonstrated that the strains co-expressing Mst7-cYFP and
+nYFP-Pmk1K347R exhibited enhanced bright yellow ﬂuorescence
+across various developmental stages, indicative of a robust interac-
+tion. By contrast, this ﬂuorescence was weakly observed in strains
+expressing Mst7-cYFP and nYFP-Pmk1, which lack the K347R
+mutation (Fig. 4g,h). These results imply that the K347R mutation
+signiﬁcantly inﬂuences the interaction between Pmk1 and Mst7,
+potentially during the infection process of M. oryzae.
+Sumoylation prevents interaction of Pmk1 with
+phosphatase Pmp1
+The phosphatase Pmp1 is recognized as a negative regulator
+within the Pmk1-MAPK signaling pathway, playing a pivotal
+role in modulating its activity in M. oryzae. Our investigation
+postulates
+that
+sumoylation,
+while
+not
+directly
+hindering
+phosphorylation, may impede the interaction between Mst7
+and Pmk1, thus potentially creating an opportunity for Pmp1
+to engage with Pmk1 and execute dephosphorylation. To
+scrutinize this hypothesis, the Y2H assays were conducted,
+yielding unexpected results: the interaction between Pmp1
+and
+the
+Pmk1K347R
+variant
+was
+considerably
+more
+pro-
+nounced than that between Pmp1 and Pmk1 (Fig. 4i). The
+in vivo observations corroborate the notion that sumoylation
+suppresses the interaction between Pmp1 and Pmk1, rather
+than promoting it (Fig. 4j).
+Further substantiation of our ﬁndings was obtained through a
+BiFC assay. This technique revealed that strains co-expressing
+Pmp1 fused to the C-terminal of yellow-ﬂuorescent protein
+(YFP)
+(Pmp1-cYFP)
+and
+the
+N-terminal
+of
+YFP
+fused
+Pmk1K347R (nYFP-Pmk1K347R) displayed intensiﬁed bright yel-
+low ﬂuorescence throughout multiple developmental phases.
+This ﬂuorescence is a strong indicator of an enhanced interaction
+between the two proteins. Conversely, in strains expressing the
+WT Pmp1-cYFP and nYFP-Pmk1 without the K347R mutation,
+the ﬂuorescence signal was signiﬁcantly diminished (Fig. 4k,l).
+Therefore, SUMO simultaneously inhibits both phosphorylation
+and dephosphorylation processes, affecting the kinase and phos-
+phatase interactions with Pmk1.
+Structural analysis showed stronger interaction between
+Pmk1K347R and Mst7
+To further elucidate the impact of sumoylation on the interaction
+between Pmk1 and Mst7, we utilized AlphaFold 3 to predict
+the spatial interaction structure of both the Pmk1-Mst7 complex
+and Pmk1K347R-Mst7 complex. Our ﬁndings revealed a signiﬁ-
+cant increase in the number of interacting residues between
+Pmk1K347R-Mst7 complex compared with the Pmk1-Mst7 com-
+plex. Speciﬁcally, the K347R mutation appears to subtly alter the
+conformation of Pmk1, thereby facilitating a closer spatial
+approximation between Pmk1 and Mst7. For example, compared
+with Pmk1, the mutant Pmk1K347R exhibited tighter hydrogen
+bonds between its amino acid residues S256, R257, and R258
+and D275, E267, and E283 of Mst7, indicating a stronger inter-
+action (Fig. 5a,b). These discoveries imply that sumoylation at
+K347 might prevent the phosphorylation of Pmk1 by disrupting
+the interaction interface between Mst7 and Pmk1. This disrup-
+tion could, in turn, affect the signaling cascade downstream of
+Fig. 5 AlphaFold3-predicted structural molecular docking of Pmk1 and its sumoylation-deﬁcient mutant Pmk1K347R with Mst7. (a) Molecular docking of
+wild-type (WT) Pmk1 and Mst7. The docking illustrates the precise binding mode and interface between the two proteins, with a focus on selected regions.
+(b) Molecular docking of Pmk1K347R and Mst7. The docking illustrates the predicted structural interaction between the Pmk1 mutant Pmk1K347R and Mst7.
+The alteration at the sumoylation site is expected to affect the binding interface, and selected regions with changes in the interaction bonds are
+highlighted. Both (a) and (b) detail the interaction bonds within the selected regions of the Pmk1-Mst7 and Pmk1K347R-Mst7 complexes. The comparison
+provides insights into the impact of the K347R mutation on the molecular interface and the stability of the protein–protein interaction.
+New Phytologist (2025)
+www.newphytologist.com
+ 2025 The Author(s).
+New Phytologist  2025 New Phytologist Foundation.
+Research
+New
+Phytologist
+10
+
+the Pmk1-MAPK pathway, which is particularly crucial for var-
+ious biological processes in M. oryzae.
+Phosphorylation of the Pmk1 target Mst12 is increased in
+Dsmt3 and Dpmk1/Pmk1K347R
+Pmk1 can phosphorylate its downstream transcription factor
+Mst12, thereby regulating gene functions related to septin-
+dependent cytoskeletal re-organization and polarized exocytosis
+(Oses-Ruiz et al., 2021). To evaluate the inﬂuence of Pmk1
+sumoylation on its downstream transcription factor Mst12, we
+detected the phosphorylation level of Mst12 through a Phos-tag
+assay. The total proteins of the hyphae in Dpmk1/Pmk1,
+Dpmk1/Pmk1K347R, and Dsmt3/Pmk1 were extracted. Western
+blotting analysis indicated that the protein content of Mst12-
+3 9 HA is higher in Dsmt3 and Dpmk1/Pmk1K347R than in the
+WT in the case of the consistent expression level of Mst12
+(Fig. 6a), without any difference in transcription levels (Fig. 6b).
+Additionally, the phosphorylation level of Mst12-3 9 HA on
+polyacrylamide SDS-PAGE gels with Phos-tag is much stronger in
+Dsmt3 and Dpmk1/Pmk1K347R than in Dpmk1/Pmk1 (Fig. 6c),
+conﬁrming that the inhibition of phosphorylation in Pmk1 caused
+by sumoylation affected the phosphorylation of its downstream
+target.
+Further quantitative reverse transcription polymerase chain
+reaction (qRT-PCR) analysis revealed that the expression of some
+downstream targets reported to be activated by Pmk1, including
+ATG7, ATG8, ATG24, ATG29, and SEP5, was signiﬁcantly
+increased in the Dpmk1/Pmk1K347R mutants (Cruz-Mireles et al.,
+2024), such as ATG and SEP genes (Fig. 6d). The collective ﬁnd-
+ings indicate that sumoylation of Pmk1 at the K347 residue
+negatively regulates its kinase activity, leading to decreased phos-
+phorylation of the downstream transcription factor Mst12 and
+altered expression of Pmk1-activated genes, which in turn
+impacts key cellular processes and pathogenicity in M. oryzae.
+Localization of Pmk1 is not affected by sumoylation
+M. oryzae Pmk1 is found to be a key regulator of downstream
+transcription factors for regulating the expression of global genes
+during infection. It seems to accumulate in the nucleus to phos-
+phorylate some transcriptional factors that are essential for
+Fig. 6 Phosphorylation of the Magnaporthe oryzae Pmk1 target Mst12 is increased in Dsmt3 and Dpmk1/Pmk1K347R. (a) Protein level of Mst12-39HA in
+WT, Dsmt3, and Dpmk1/Pmk1K347R strains. Mst12-39HA was introduced into each strain to assess the impact of the respective mutations on Mst12-
+39HA expression levels. The numbers below each lane indicate the relative quantitative value of the HA level. (b) Relative expression level of Mst12-39HA
+in WT, Dsmt3, and Dpmk1/Pmk1K347R strains. Data are presented as mean  SE from three independent replicates and were analyzed by one-way
+ANOVA followed by Tukey’s test, ns, no signiﬁcance. (c) Phosphorylation level of Mst12 in hyphae. After transformation with Mst12-39HA into WT,
+Dsmt3, and Dpmk1/Pmk1K347R strains, total proteins were treated with a phosphatase inhibitor and separated using Mn2+-Phos-tag SDS-PAGE for
+phosphorylated species and normal SDS-PAGE. Proteins were then immunoblotted with an anti-HA antibody to detect phosphorylated forms of Mst12-
+39HA. (d) Expression level of appressoria-related genes in the wild type strain P131 and Dpmk1/Pmk1K347R. The ﬁgure shows the relative expression levels
+of genes involved in autophagy and septin ring formation, comparing the wild type strain P131 with the Dpmk1/Pmk1K347R strain to evaluate the effect of
+Pmk1 sumoylation on the transcription of these genes. Data represent means and standard errors from three replicates, with asterisks indicating signiﬁcant
+differences (*, P < 0.05; **, P < 0.01).
+ 2025 The Author(s).
+New Phytologist  2025 New Phytologist Foundation.
+New Phytologist (2025)
+www.newphytologist.com
+New
+Phytologist
+Research 11
+
+appressorium
+maturation
+(Bruno
+et
+al.,
+2004;
+Oses-Ruiz
+et al., 2021). We then investigated whether the subcellular locali-
+zation of Pmk1 is inﬂuenced by sumoylation. The subcellular
+localization of Pmk1 was observed in the strains of Dpmk1/
+Pmk1-GFP, Dpmk1/Pmk1K347R-GFP, and Dsmt3/Pmk1-GFP.
+We discovered that the percentage of nuclear-localized Pmk1 did
+not
+appear
+to
+be
+signiﬁcantly
+affected
+in
+both
+Dpmk1/Pmk1K347R-GFP and Dsmt3/Pmk1-GFP (Fig. S5a–c),
+New Phytologist (2025)
+www.newphytologist.com
+ 2025 The Author(s).
+New Phytologist  2025 New Phytologist Foundation.
+Research
+New
+Phytologist
+12
+
+suggesting that sumoylation may not affect the nuclear localiza-
+tion of Pmk1 for its role in regulating downstream targets.
+Sumoylation of Pmk1 is essential for infection of M. oryzae
+Importantly, what concerns us is whether the sumoylation of
+Pmk1 can be involved in the regulation of the biological function
+of the rice blast fungus. Biological phenotype analysis indicated
+that there was no difference in the growth rate among the
+Dpmk1/Pmk1, Dpmk1/Pmk1K347R, Dpmk1, and Dsmt3/Pmk1
+strains (Fig. S6a,b). The Dpmk1/Pmk1K347R-GFP strains exhib-
+ited darker colony morphology and increased sporulation,
+whereas the Dpmk1 strains displayed white colony morphology
+and had slightly reduced sporulation (Fig. S6a–d). We then
+examined the effect of the sumoylation of Pmk1 on the
+infection of the rice blast fungus. Conidia collected from WT,
+Dpmk1/Pmk1,
+Dpmk1/Pmk1K347R,
+Dpmk1/Pmk1DSIM1,
+Dpmk1/Pmk1DSIM2, and Dpmk1 were used to incubate the sus-
+ceptible
+barley
+and
+rice.
+In
+the
+leaf
+spray
+experiment,
+Dpmk1/Pmk1K347R and Dpmk1/Pmk1DSIM2 displayed decreased
+disease lesions compared with WT and Dpmk1/Pmk1 on barley
+(Fig. 7a,b) and rice (Fig. 7c,d), while Dpmk1/Pmk1DSIM1 and
+Dpmk1 failed to produce any leaf lesions. Similar results were also
+observed when the mycelial blocks of the above strains were
+inoculated on wounded rice leaves (Fig. 7e,f).
+To further determine why the strains with Pmk1 sumoylated
+mutations exhibited attenuated virulence, we observed the cellu-
+lar infection processes in the rice sheath. At 24 hpi, the
+Dpmk1/Pmk1DSIM1, like the Dpmk1 strain, failed to form any
+appressorium, while c. 30  0.5% of the appressoria in
+Dpmk1/Pmk1K347R formed primary IH compared with WT
+(49  1.8%), Dpmk1/Pmk1DSIM2 (49  1.8%), and the com-
+plement strain Dpmk1/Pmk1 (50  1.26%; Fig. 7g,h). At 36
+hpi, we surprisingly discovered that Dpmk1/Pmk1K347R was more
+likely to be trapped in a single plant cell but WT and the comple-
+ment strain successfully spread into neighboring cells through
+cell-to-cell movement (Fig. 7g,i). Altogether, we concluded that
+the sumoylation of Pmk1 plays a crucial role in host penetration
+and invasive hyphae growth.
+Sumoylation of Pmk1 is required for functional
+appressorium development
+The activation of the Pmk1-MAPK signaling pathway is essential
+for appressorium formation (Xu & Hamer, 1996; Oses-Ruiz
+et al., 2017). Infection process observation revealed the attenu-
+ated penetration ability of Dpmk1/Pmk1K347R, but the appressor-
+ium formation rate was not affected (Fig. S6e), suggesting
+sumoylation of Pmk1 at K347 is important for appressorial
+maturation. Interestingly, the conidia of Dpmk1/Pmk1K347R
+mutants can form appressoria on hydrophilic surfaces (Fig. 8a,b),
+and the mycelium of Dpmk1/Pmk1K347R mutants is more likely
+to form hyphopodia on hydrophobic surfaces (Fig. 8a,c).
+Furthermore, the Dpmk1/Pmk1K347R mutants also tend to form
+double appressoria in a single conidium (Fig. 8d,e). A similar
+result was found previously in the continuously activated Pmk1
+mutants (Qi et al., 2015), which is consistent with the above con-
+clusion
+that
+sumoylation
+suppresses
+the
+phosphorylation
+of Pmk1.
+After treatment of 8% glycerol for 30 min, we found there were
+63% (1.76) of appressoria collapse in Dpmk1/Pmk1K347R, much
+higher than that in P131 (32%  1.26) and the complement
+strain (37%  1.00; Fig. 8f,g). These data indicated that the accu-
+mulation
+of
+appressorial
+turgor
+was
+severely
+reduced
+in
+Dpmk1/Pmk1K347R. Glycogen and lipid droplet staining assays
+revealed that the utilization of conidial nutrient storages was much
+quicker
+during
+the
+appressoria
+maturation
+process
+of
+Dpmk1/Pmk1K347R in comparison with WT (Figs 8h,i, S7a,b).
+Accelerated nutrient utilization during the formation of appressor-
+ium may indicate defects in cellular autophagy during this process,
+so the autophagy level of ATG8-GFP during appressoria forma-
+tion was observed by ﬂuorescence microscope. The amount of
+ATG8-GFP-labeled autophagosomes was much more in the
+hyphae and appressorial formation of Dpmk1/Pmk1K347R than that
+of the WT, thus resulting in faster autophagy once induced by
+nitrogen starvation in Dpmk1/Pmk1K347R (Fig. 8j–n). These data
+conﬁrmed that one of the reasons for the weakened pathogenicity
+of Dpmk1/Pmk1K347R is the insufﬁcient accumulation of appres-
+sorial turgor caused by abnormal nutrient utilization during the
+maturation of appressorium, resulting in a decrease in penetration
+to host plants. M. oryzae appressoria normally form a septin ring
+to accumulate an actin ring for penetration (Dagdas et al., 2012);
+interestingly, the Dpmk1/Pmk1K347R mutants tended to form gran-
+ule structures but not septin rings (Fig. 8o,p), suggesting sumoyla-
+tion of Pmk1 is required for septin ring assembling.
+Discussion
+In plant pathogenic fungi, the Pmk1-MAPK signaling pathway is
+crucial for infection, particularly in the differentiation of
+Fig. 7 Sumoylation of Pmk1 regulates the virulence of Magnaporthe oryzae. (a) Disruption of Pmk1 sumoylation results in reduced virulence on barley
+leaves. Conidia from the indicated strains were sprayed onto leaves at a concentration of 3 9 104 conidia ml1, and lesions were observed at 5 d post
+inoculation (dpi). (b) The number of lesions shown in (a) was quantiﬁed. (c) Disruption of Pmk1 sumoylation leads to attenuated virulence on rice leaves.
+Conidia from the indicated strains were sprayed at a concentration of 1.5 9 105 conidia ml1, and the formation of lesions was assessed at 5 dpi. (d) The
+number of lesions shown in (b) was quantiﬁed. (e) Reduced invasive growth of Pmk1 sumoylation-disrupted strains on wounded rice leaves. Mycelia blocks
+were inoculated onto wounded leaves, and growth was observed at 4 dpi. (f) Diameters of disease lesions on wounded leaves depicted in (e) were
+measured. (g) Observation of the infection process in barley epidermal cells at 24 h post inoculation (hpi). Conidia were injected into rice leaf sheaths, and
+the infection structures were microscopically observed at 24 and 36 hpi. The bar represents 10 lm. (h) The formation ratio of primary invasive hyphae in
+rice sheaths at 24 hpi was determined. (i) The formation ratio of invasive hyphae (IH) spreading cell-to-cell in rice sheaths at 36 hpi was assessed. Data are
+presented as mean  SE from three independent replicates and were analyzed by two-way ANOVA followed by Tukey’s test, with asterisks indicating
+signiﬁcant differences (**, P < 0.01; ***, P < 0.001; ****, P < 0.0001).
+ 2025 The Author(s).
+New Phytologist  2025 New Phytologist Foundation.
+New Phytologist (2025)
+www.newphytologist.com
+New
+Phytologist
+Research 13
+
+infection structures like appressoria (Xu & Hamer, 1996; Di Pie-
+tro et al., 2001; Sakulkoo et al., 2018). Although the main com-
+ponents of this pathway are well known in various fungi, the
+regulation of its central component, Pmk1, remains unclear. Our
+study reveals the vital role of the interplay between sumoylation
+and phosphorylation in Pmk1’s function. We demonstrate that
+sumoylation suppresses Pmk1 phosphorylation, acting as a feed-
+back mechanism similar to a braking system that prevents
+New Phytologist (2025)
+www.newphytologist.com
+ 2025 The Author(s).
+New Phytologist  2025 New Phytologist Foundation.
+Research
+New
+Phytologist
+14
+
+excessive phosphorylation. This ensures the precise regulation of
+the Pmk1-MAPK signaling pathway during appressorium-
+mediated infection of M. oryzae.
+Sumoylation serves as a critical feedback mechanism for the
+Pmk1-MAPK signaling pathway in M. oryzae, ensuring precise
+regulation during appressorium formation to prevent overactiva-
+tion. This conclusion is supported by several key ﬁndings. First,
+sumoylation of Pmk1 is dynamically regulated during infection,
+being highly active in hyphae but less so during infection, indi-
+cating its adaptive regulatory role in fungal development
+(Fig. 1b). Second, sumoylation at K347 suppresses Pmk1 phos-
+phorylation by modulating its interaction with the kinase Mst7,
+as evidenced by various experimental assays (Figs 4e–h, S4a,b).
+Third, sumoylation speciﬁcally inhibits Pmk1 phosphorylation
+without affecting its subcellular localization or stability, high-
+lighting its role in ﬁne-tuning Pmk1 activity (Figs 4a–d, S5).
+Fourth, sumoylation-deﬁcient mutants exhibit increased phos-
+phorylation of downstream targets like Mst12 and overexpression
+of appressorium-related genes, demonstrating the impact of
+sumoylation on the signaling output of the Pmk1-MAPK path-
+way (Fig. 6). The conservation of sumoylation sites and motifs
+across plant pathogenic fungi suggests this regulatory mechanism
+is widespread (Fig. 1c). Sumoylation mutants show defects in
+appressorium function, including increased autophagy, reduced
+turgor accumulation, and impaired septin ring formation, which
+are critical for successful infection (Fig. 8). This control mechan-
+ism likely stops overactivation, which could cause multiple
+appressoria to form from one conidium. This is shown by the
+Dpmk1/Pmk1K347R mutant’s traits (Fig. 8a,d,e). Together, these
+ﬁndings establish sumoylation as a crucial feedback mechanism
+that prevents overactivation of the Pmk1-MAPK pathway during
+appressorium formation in M. oryzae.
+Our study suggests that sumoylation regulates Pmk1 phos-
+phorylation by changing its structure, thus inﬂuencing its interac-
+tion with the kinase Mst7. Structural analysis reveals that
+sumoylation-induced conformational changes in Pmk1 disrupt
+its interaction interface with Mst7, providing a structural basis
+for the feedback regulation (Fig. 5). We mutated the sumoylation
+site (Pmk1K347R) and found that this mutation signiﬁcantly
+enhanced the interaction between Pmk1 and Mst7 in Y2H, Co-
+IP, and BiFC assays. Removing the SUMOylation interaction
+motifs (SIM1 or SIM2) also strengthened this interaction. Struc-
+tural analysis identiﬁed Ile85 in the SIM1 domain as the interac-
+tion site between Pmk1 and Smt3, and Y2H assays with Pmk1
+mutants conﬁrmed that mutating Ile85 weakens this interaction
+(Fig.
+S2).
+Furthermore,
+the
+SUMOylation
+site
+mutation
+(Pmk1K347R) increased Pmk1 and downstream Mst12 phosphor-
+ylation, indicating that sumoylation suppresses Pmk1 phosphory-
+lation. In summary, our ﬁndings show that sumoylation of Pmk1
+at K347 suppresses its phosphorylation and that the Ile85 site in
+SIM1 is crucial for the Pmk1–Smt3 interaction, enhancing our
+understanding of this regulatory process.
+In typical cellular regulation, phosphorylation is balanced by
+phosphatase-mediated dephosphorylation. We initially hypothe-
+sized that SUMOylation of Pmk1, which restrains its phosphoryla-
+tion, might enhance its interaction with the phosphatase Pmp1
+and diminish its interaction with the kinase Mst7. However, our
+experimental ﬁndings revealed an unexpected outcome. We
+observed that SUMOylation of Pmk1 inhibits its interaction with
+both Pmp1 and Mst7 (Fig. 4e–l). This seemingly paradoxical
+result can be interpreted through structural insights. Given that
+Pmp1 and Mst7 compete for the same phosphorylation site,
+SUMOylation-induced conformational changes in Pmk1 likely
+hinder its binding to both Mst7 and Pmp1. This represents a spa-
+tial antagonism between SUMOylation and phosphorylation, dis-
+tinct from the site-based antagonism between Pmp1 and Mst7.
+In the conidial stage of M. oryzae, the Pmk1-MAPK signaling
+is not induced; both SUMOylation and Pmk1 protein levels are
+low (Fig. 1b; Li et al., 2012). Upon germination to form appres-
+soria, the Pmk1-MAPK signaling is activated; both Pmk1 levels
+and
+phosphorylation
+increase
+signiﬁcantly.
+While
+Pmp1
+functions to inhibit Pmk1 phosphorylation and prevent over-
+activation, SUMOylation’s inhibitory effect on Pmk1 phosphor-
+ylation during appressorium formation remains biologically sig-
+niﬁcant. During this critical stage, the fungus must precisely
+regulate Pmk1 activity for environmental adaptation and cell
+morphogenesis. As a post-translational modiﬁcation, we pro-
+posed that SUMOylation offers a rapid and ﬂexible regulatory
+mechanism by modulating Pmk1 activity without altering its
+abundance. Appressorium formation, a highly coordinated
+Fig. 8 Sumoylated Pmk1 regulates appressorium function in Magnaporthe oryzae. (a) Observation of hyphopodium (HP) and appressorium formation in
+Pmk1 sumoylation disruption strains on a hydrophobic surface. Arrows indicate HP. Bar, 10 lm. (b) Statistical analysis of appressorium formation rate on
+hydrophilic surfaces from observations in (a). (c) Statistical analysis of HP formation rate on hydrophobic surfaces from observations in (a).
+(d) Appressorium formation in Pmk1 sumoylation disruption strains on hydrophobic surfaces at 18 hpi. White arrow indicates appressorium. Bar, 10 lm.
+(e) Statistical analysis of appressorium formation, with AP = 1 and AP = 2 representing the number of appressoria formed per conidium. (f) Turgor
+pressure measurement in appressoria of Pmk1 sumoylated mutations after treatment with 8% glycerol. White arrows point to collapsed appressoria. Bar,
+10 lm. (g) Statistical analysis of the ratio of collapsed appressoria. (h) Quantitative analysis of lipid body formation during appressorium formation in the
+indicated strains, stained with KI/I2 solution. (i) Quantitative analysis of lipid body formation in conidia stained with Nile Red. (j) Observation of GFP-ATG8
+autophagosomes in germtube and appressoria of the strains with disrupted Pmk1 sumoylation. (k) The number of GFP-ATG8-labeled autophagosomes
+during appressorium development. (l) Observation of ATG8-GFP autophagosomes in wild-type (WT) and Dpmk1/Pmk1K347R under nitrogen starvation.
+(m) Autophagy intensity assessed by the proportion of GFP-Atg8 translocated to vacuoles. (n) Immunoblotting detection of ATG8-GFP under nitrogen
+starvation conditions, with anti-GAPDH as a loading control. The numbers below each lane indicate the ratio of free GFP to the total amount of intact
+GFP-Atg8 and free GFP. (o) Subcellular localization of septins in WT and Dpmk1/Pmk1K347R strains during appressorial formation at 24 hpi, visualized with
+Sep3-GFP and Sep5-GFP under confocal microscopy. (p) Percentage of appressoria with intact septin rings from observations in (o). Data (b, c, g, h, i, k
+and m) are presented as mean  SE from three independent replicates and were analyzed by two-way ANOVA followed by Tukey’s test, with asterisks
+indicating signiﬁcant differences (*, P < 0.05; **, P < 0.01; ***, P < 0.001).
+ 2025 The Author(s).
+New Phytologist  2025 New Phytologist Foundation.
+New Phytologist (2025)
+www.newphytologist.com
+New
+Phytologist
+Research 15
+
+process involving multiple interacting signaling pathways, may
+see SUMOylation interact with other signaling components. By
+inhibiting Pmk1 phosphorylation, SUMOylation ﬁne-tunes the
+signaling output, ensuring normal appressorium formation and
+function.
+Another Pmk1 regulatory factor is Rnc1, which stabilizes
+Pmp1 mRNA, a phosphatase that counteracts Pmk1 phosphory-
+lation (Taga et al., 2010). While Rnc1 ﬁne-tunes the pathway
+post-transcriptionally, sumoylation adds another regulatory layer.
+Unlike Rnc1, sumoylation does not directly promote depho-
+sphorylation but modulates Pmk1’s phosphorylation state by
+altering its protein structure. This modiﬁcation potentially
+disrupts the binding of kinases and phosphatases to Pmk1, inﬂu-
+encing its phosphorylation level and the subsequent activation of
+downstream factors like Mst12. We propose a model where
+Smt3 - mediated sumoylation of Pmk1 adjusts its interaction
+with Mst7, thereby inhibiting excessive phosphorylation and
+coordinating the gene expression vital for appressorium matura-
+tion and M. oryzae’s invasive growth, without relying on Pmp1’s
+dephosphorylation activity (Fig. 9).
+Sumoylation’s role in modulating phosphorylation is con-
+served across organisms, exempliﬁed by its inhibitory effect on
+mammalian AMPKa1 activation and its impact on kinase activ-
+ity and protein stability (Yan et al., 2015). Interestingly, sumoy-
+lation can also enhance kinase activity, as seen with ERK5’s
+nuclear translocation and PYK2’s autophosphorylation (Erazo
+et al., 2020), highlighting the diverse outcomes of sumoylation
+in cellular regulation. The crosstalk between sumoylation and
+phosphorylation is a well-studied phenomenon, particularly in
+the context of MAPK pathways and their inﬂuence on key tran-
+scription factors like STAT1, ATF7, c-Fos, and Elk-1 (Camu-
+zeaux et al., 2008; Yang & Sharrocks, 2010; Heo et al., 2013).
+Sumoylation generally inhibits the activity of these transcription
+factors.
+Recent research has revealed that Pmk1 regulates diverse pro-
+cesses, including nutrient utilization, appressorial ring formation,
+invasive hyphal extension, and effector protein secretion (Park
+et al., 2002; Sakulkoo et al., 2018; Cruz-Mireles et al., 2024). Our
+ﬁndings show that the K347 SUMO site mutation in Pmk1 results
+in multiple appressoria formation and reduced virulence, likely
+due to insufﬁcient nutrient reserves in conidia to support the devel-
+opment of multiple functional appressoria. Data indicate that
+genetic complementation in Δpmk1 mutants with overexpressed
+Pmk1 fails to fully restore virulence, underscoring the necessity of
+precise Pmk1 expression levels. When sumoylation is inhibited,
+Pmk1 becomes hyperactivated, leading to accelerated nutrient uti-
+lization, enhanced phosphorylation of downstream targets, and
+overexpression of downstream substrates. These observations are
+consistent with our results showing faster nutrient consumption
+during appressorium formation (Figs 8h,i, S7a,b), increased
+ATG8-labeled autophagosomes (Fig. 8j–n), and stronger phos-
+phorylation of Mst12 in the Pmk1K347R mutants (Fig. 6c).
+The Pmk1 MAPK pathway is a key focus in fungal biology
+and plant pathology due to its crucial role in plant infection. The
+high conservation of the K347 site and SIM motifs among plant
+pathogenic fungi suggests that Pmk1 sumoylation is a widespread
+regulatory mechanism with implications for various infection
+processes. While Pmk1 is a promising target for fungicides, its
+ubiquity poses challenges for developing targeted treatments.
+Our research advocates for the targeting of Pmk1’s post-
+translational modiﬁcations to enhance the efﬁcacy and speciﬁcity
+of antifungal therapies.
+Acknowledgements
+This work was supported by the National Natural Science Foun-
+dation of China (grants nos.: 32272476, 31871909 and
+32302312), the Open Research Fund of Guangdong Provincial
+Fig. 9 Proposed model for Pmk1 function
+regulated by sumoylation. Smt3-mediated
+sumoylation of Pmk1 is shown to inhibit its
+phosphorylation by inﬂuencing the interaction
+between Pmk1 and Mst7. This modulation leads
+to a ﬁne-tuned Pmk1-MAPK signaling pathway.
+Consequently, the coordinated phosphorylation
+of Mst12 facilitates the appropriate gene
+expression required for regulating appressorium
+maturation and invasive growth, which are
+essential for the infection process of
+Magnaporthe oryzae. MAPK, mitogen-activated
+protein kinase. Dashed arrows indicate indirect
+regulation, solid arrows indicate direct regulation,
+and blunt-ended arrows indicate inhibitory
+regulation.
+New Phytologist (2025)
+www.newphytologist.com
+ 2025 The Author(s).
+New Phytologist  2025 New Phytologist Foundation.
+Research
+New
+Phytologist
+16
+
+Key Laboratory of High Technology for Plant Protection
+(zhizhong2025-03) and post-doctoral innovation research posi-
+tions in Hubei Province.
+Competing interests
+None declared.
+Author contributions
+CL contributed to the conceptualization, resources, formal analy-
+sis, investigation, methodology, writing – original draft, and writ-
+ing – review and editing. HH contributed to the investigation,
+methodology, writing – original draft, and writing – review and
+editing. XC and JZ contributed to the investigation and metho-
+dology. JJ contributed to the investigation – assessed the molecu-
+lar docking. JZ, ZJ, YK and ZR contributed to the investigation.
+JS and SC contributed to the supervision, writing – review and
+editing, and resources. HL, LZ and JH contributed to the super-
+vision, and writing – review and editing. X-LC contributed to
+the conceptualization, resources, data curation, formal analysis,
+supervision, funding acquisition, visualization, writing – original
+draft, project administration, writing – review and editing. CL
+and HH contributed equally to this work.
+ORCID
+Xiao-Lin Chen
+https://orcid.org/0000-0002-5492-516X
+Caiyun Liu
+https://orcid.org/0000-0001-6825-3977
+Lu Zheng
+https://orcid.org/0000-0002-2414-1671
+Data availability
+All data collected to support this study are available in the article
+and the Supporting Information (Figs S1–S7; Tables S1–S3).
+References
+Abramson J, Adler J, Dunger J, Evans R, Green T, Pritzel A, Ronneberger O,
+Willmore L, Ballard AJ, Bambrick J et al. 2024. Accurate structure prediction
+of biomolecular interactions with AlphaFold 3. Nature 630: 493–500.
+Bruno KS, Tenjo F, Li L, Hamer JE, Xu JR. 2004. Cellular localization and role
+of kinase activity of PMK1 in Magnaporthe grisea. Eukaryotic Cell 3: 1525–
+1532.
+Camuzeaux B, Diring J, Hamard PJ, Oulad-Abdelghani M, Donzeau M,
+Vigneron M, Kedinger C, Chatton B. 2008. p38beta2-mediated
+phosphorylation and sumoylation of ATF7 are mutually exclusive. Journal of
+Molecular Biology 384: 980–991.
+Cruz-Mireles N, Oses-Ruiz M, Derbyshire P, Jegousse C, Ryder LS, Bautista
+MJA, Eseola A, Sklenar J, Tang B, Yan X et al. 2024. The phosphorylation
+landscape of infection-related development by the rice blast fungus. Cell 187:
+2557–2573.
+Dagdas YF, Yoshino K, Dagdas G, Ryder LS, Bielska E, Steinberg G, Talbot
+NJ. 2012. Septin-mediated plant cell invasion by the rice blast fungus,
+Magnaporthe oryzae. Science 336: 1590–1595.
+Di Pietro A, Garcıa-MacEira FI, Meglecz E, Roncero MI. 2001. A MAP
+kinase of the vascular wilt fungus Fusarium oxysporum is essential for root
+penetration and pathogenesis. Molecular Microbiology 39: 1140–1152.
+Erazo T, Espinosa-Gil S, Dieguez-Martınez N, Gomez N, Lizcano JM.
+2020. Sumoylation is required for ERK5 nuclear translocation and ERK5-
+mediated cancer cell proliferation. International Journal of Molecular Sciences
+21: 2203.
+Filosa G, Barabino SM, Bachi A. 2013. Proteomics strategies to identify SUMO
+targets and acceptor sites: a survey of RNA-binding proteins SUMOylation.
+Neuromolecular Medicine 15: 661–676.
+Gareau JR, Lima CD. 2010. The SUMO pathway: emerging mechanisms that
+shape speciﬁcity, conjugation and recognition. Nature Reviews. Molecular Cell
+Biology 11: 861–871.
+Geiss-Friedlander R, Melchior F. 2007. Concepts in sumoylation: a decade on.
+Nature Reviews. Molecular Cell Biology 8: 947–956.
+Giraldo MC, Dagdas YF, Gupta YK, Mentlak TA, Yi M, Martinez-Rocha AL,
+Saitoh H, Terauchi R, Talbot NJ, Valent B. 2013. Two distinct secretion
+systems facilitate tissue invasion by the rice blast fungus Magnaporthe oryzae.
+Nature Communications 4: 1996.
+Heo KS, Chang E, Takei Y, Le NT, Woo CH, Sullivan MA, Morrell C,
+Fujiwara K, Abe J. 2013. Phosphorylation of protein inhibitor of activated
+STAT1 (PIAS1) by MAPK-activated protein kinase-2 inhibits endothelial
+inﬂammation via increasing both PIAS1 transrepression and SUMO E3 ligase
+activity. Arteriosclerosis, Thrombosis, and Vascular Biology 33: 321–329.
+Jian Y, Chen X, Sun K, Liu Z, Cheng D, Cao J, Liu J, Cheng X, Wu L, Zhang F
+et al. 2023. SUMOylation regulates pre-mRNA splicing to overcome DNA
+damage in fungi. New Phytologist 237: 2298–2315.
+Kolesar P, Sarangi P, Altmannova V, Zhao X, Krejci L. 2012. Dual roles of the
+SUMO-interacting motif in the regulation of Srs2 sumoylation. Nucleic Acids
+Research 40: 7831–7843.
+Li G, Zhou X, Xu JR. 2012. Genetic control of infection-related
+development in Magnaporthe oryzae. Current Opinion in Microbiology 15:
+678–684.
+Li X, Gao C, Li L, Liu M, Yin Z, Zhang H, Zheng X, Wang P, Zhang Z. 2017.
+MoEnd3 regulates appressorium formation and virulence through mediating
+endocytosis in rice blast fungus Magnaporthe oryzae. PLoS Pathogens 13:
+e1006449.
+Liu C, Li Z, Xing J, Yang J, Wang Z, Zhang H, Chen D, Peng YL, Chen XL.
+2018. Global analysis of sumoylation function reveals novel insights into
+development and appressorium-mediated infection of the rice blast fungus.
+New Phytologist 219: 1031–1047.
+Liu C, Liu T, Lv Z, Qin M, Qu Z, Zhang Z, Li F, Chen D, Zhang X, Chen XL
+et al. 2022. A calcineurin regulator MoRCN1 is important for asexual
+development, stress response, and plant infection of Magnaporthe oryzae.
+Frontiers in Plant Science 13: 925645.
+Liu W, Triplett L, Chen XL. 2021. Emerging roles of posttranslational
+modiﬁcations in plant-pathogenic fungi and bacteria. Annual Review of
+Phytopathology 59: 99–124.
+Menke FL, Kang HG, Chen Z, Park JM, Kumar D, Klessig DF. 2005. Tobacco
+transcription factor WRKY1 is phosphorylated by the MAP kinase SIPK and
+mediates HR-like cell death in tobacco. Molecular Plant–Microbe Interactions
+18: 1027–1034.
+Oses-Ruiz M, Cruz-Mireles N, Martin-Urdiroz M, Soanes DM, Eseola AB,
+Tang B, Derbyshire P, Nielsen M, Cheema J, Were V et al. 2021.
+Appressorium-mediated plant infection by Magnaporthe oryzae is regulated by a
+Pmk1-dependent hierarchical transcriptional network. Nature Microbiology 6:
+1383–1397.
+Oses-Ruiz M, Sakulkoo W, Littlejohn GR, Martin-Urdiroz M, Talbot NJ.
+2017. Two independent S-phase checkpoints regulate appressorium-mediated
+plant infection by the rice blast fungus Magnaporthe oryzae. Proceedings of the
+National Academy of Sciences, USA 114: E237–e244.
+Park G, Xue C, Zheng L, Lam S, Xu JR. 2002. MST12 regulates infectious
+growth but not appressorium formation in the rice blast fungus Magnaporthe
+grisea. Molecular Plant - Microbe Interactions 15: 183–192.
+Qi L, Kim Y, Jiang C, Li Y, Peng Y, Xu JR. 2015. Activation of Mst11 and
+feedback inhibition of germ tube growth in Magnaporthe oryzae. Molecular
+Plant - Microbe Interactions 28: 881–891.
+Sakulkoo W, Oses-Ruiz M, Oliveira Garcia E, Soanes DM, Littlejohn GR,
+Hacker C, Correia A, Valent B, Talbot NJ. 2018. A single fungal MAP kinase
+ 2025 The Author(s).
+New Phytologist  2025 New Phytologist Foundation.
+New Phytologist (2025)
+www.newphytologist.com
+New
+Phytologist
+Research 17
+
+controls plant cell-to-cell invasion by the rice blast fungus. Science 359:
+1399–1403.
+Shao W, Sun K, Ma T, Jiang H, Hahn M, Ma Z, Jiao C, Yin Y. 2023.
+SUMOylation regulates low-temperature survival and oxidative DNA damage
+tolerance in Botrytis cinerea. New Phytologist 238: 817–834.
+Song J, Durrin LK, Wilkinson TA, Krontiris TG, Chen Y. 2004. Identiﬁcation
+of a SUMO-binding motif that recognizes SUMO-modiﬁed proteins.
+Proceedings of the National Academy of Sciences, USA 101: 14373–14378.
+Taga A, Satoh R, Ishiwata S, Kodama S, Sato A, Suzuki K, Sugiura R. 2010. In
+vitro assay of the interaction between Rnc1 protein and Pmp1 mRNA by
+afﬁnity capillary electrophoresis with a carboxylated capillary. Journal of
+Pharmaceutical and Biomedical Analysis 53: 1332–1337.
+Talbot NJ. 2003. On the trail of a cereal killer: Exploring the biology of
+Magnaporthe grisea. Annual Review of Microbiology 57: 177–202.
+Thines E, Weber RW, Talbot NJ. 2000. MAP kinase and protein kinase A-
+dependent mobilization of triacylglycerol and glycogen during appressorium
+turgor generation by Magnaporthe grisea. Plant Cell 12: 1703–1718.
+Turra D, Segorbe D, Di Pietro A. 2014. Protein kinases in plant-pathogenic
+fungi: conserved regulators of infection. Annual Review of Phytopathology 52:
+267–288.
+Wilson RA, Talbot NJ. 2009. Under pressure: investigating the biology of plant
+infection by Magnaporthe oryzae. Nature Reviews. Microbiology 7: 185–195.
+Xu JR. 2000. Map kinases in fungal pathogens. Fungal Genetics and Biology 31:
+137–152.
+Xu JR, Hamer JE. 1996. MAP kinase and cAMP signaling regulate infection
+structure formation and pathogenic growth in the rice blast fungus
+Magnaporthe grisea. Genes & Development 10: 2696–2706.
+Yan Y, Ollila S, Wong IPL, Vallenius T, Palvimo JJ, Vaahtomeri K, M€akel€a TP.
+2015. SUMOylation of AMPKa1 by PIAS4 speciﬁcally regulates mTORC1
+signalling. Nature Communications 6: 8979.
+Yang SH, Sharrocks AD. 2010. MAP kinase: SUMO pathway interactions.
+Methods in Molecular Biology 661: 343–367.
+Zhang H, Yang J, Liu M, Xu X, Yang L, Liu X, Peng Y, Zhang Z. 2024. Early
+molecular events in the interaction between Magnaporthe oryzae and rice.
+Phytopathology Research 6: 9.
+Zhang X, Wang Z, Jiang C, Xu JR. 2021. Regulation of biotic interactions and
+responses to abiotic stresses by MAP kinase pathways in plant pathogenic fungi.
+Stress Biology 1: 5.
+Supporting Information
+Additional Supporting Information may be found online in the
+Supporting Information section at the end of the article.
+Fig. S1 Siz1 is required for sumoylation of Pmk1 in Magnaporthe
+oryzae.
+Fig. S2 Yeast two-hybrid assay demonstrates the interaction
+between Pmk1I85A and Smt3(GG).
+Fig. S3 Phosphorylation levels of Pmk1 during the appressorium
+formation of M. oryzae.
+Fig. S4 Co-immunoprecipitation of Mst7 and Pmk1 sumoyla-
+tion mutations.
+Fig. S5 Subcellular localization of Pmk1 during infection in dif-
+ferent strains.
+Fig. S6 Biological phenotype analysis of experimental strains.
+Fig. S7 Glycogen and lipid utilization during appressorium
+maturation.
+Table S1 Fungal strains used in this study.
+Table S2 Plasmids used in this study.
+Table S3 Primers used in this study.
+Please note: Wiley is not responsible for the content or function-
+ality of any Supporting Information supplied by the authors. Any
+queries (other than missing material) should be directed to the
+New Phytologist Central Ofﬁce.
+Disclaimer: The New Phytologist Foundation remains neutral with regard to
+jurisdictional claims in maps and in any institutional afﬁliations.
+New Phytologist (2025)
+www.newphytologist.com
+ 2025 The Author(s).
+New Phytologist  2025 New Phytologist Foundation.
+Research
+New
+Phytologist
+18

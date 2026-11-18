@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "backend": "native",
+  "rasterEngine": "libreoffice",
+  "source": "saved",
+  "inputPath": "C:\\Users\\Administrator\\Desktop\\丙酮酰化\\六-2_宠物食品网络投诉的类型分布与处理结果（成稿）.docx",
+  "sourceSha256": "d212924363e157598fb81b80e5a9f4130c5e358deeac5267883f29932b3a0e9a",
+  "dpi": 144,
+  "pageCount": 17,
+  "images": [
+    {
+      "index": 1,
+      "page": 1,
+      "path": "C:\\Users\\Administrator\\Desktop\\丙酮酰化\\决策蒸馏_改稿\\typeset\\ref_62\\page-0001.png",
+      "width": 1191,
+      "height": 1684,
+      "rectangle": {
+        "x": 0,
+        "y": 0,
+        "width": 793.7333333333333,
+        "height": 1122.5333333333333
+      },
+      "byteLength": 140448
+    }
+  ],
+  "missingFonts": []
+}

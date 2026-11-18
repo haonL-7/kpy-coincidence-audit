@@ -1,0 +1,788 @@
+
+
+<!-- page 1 -->
+
+pubs.acs.org/JAFC                                                                                                                                       Article
+
+      Global Profiling of Lysine Succinylation Reveals Acetylation
+       Crosstalk Underlying Metabolic Regulation in Chlamydomonas
+       reinhardtii
+         Shengchao Yu,* Xiaoyun Liu, Aijie Tian, Ying Zhang, Zhiying Yue, and Zhangfeng Hu*
+
+
+                      Cite This: https://doi.org/10.1021/acs.jafc.5c12224                   Read Online
+
+
+
+                                                                                                                                                                                            sı  Supporting Information      ACCESS                Metrics & More                       Article Recommendations    *
+        articles.         ABSTRACT: Lysine succinylation  is an evolutionarily conserved post-translational modification (PTM) involved in  cellular
+            metabolic regulation. Chlamydomonas  reinhardtii, a GRAS-certified microalga and emerging chassis for biofuel and biobased
+             production, has not yet been systematically characterized for succinylation. Here, we present a comprehensive proteome-wide lysine        published(UTC).         succinylome map of Chlamydomonas and identify 2806 high-confidence succinylation sites across 791 proteins. These proteins were
+            predominantly distributed in chloroplasts, cytoplasm, and mitochondria and were significantly enriched in pathways central to    share
+            carbon and lipid metabolism. Comparative analyses revealed extensive crosstalk between succinylation and acetylation with distinct10:59:12            sequence patterns and functional preferences. Site-directed mutagenesis and enzymatic assays revealed that succinylation at K597 of
+at         Acetyl-CoA synthetase 3 (ACS3) markedly reduced enzymatic activity, with an inhibitory effect stronger than that of acetylation.2026legitimately       These findings establish succinylation as a key metabolic regulator and provide a valuable resource for advancing metabolic
+20,to        engineering in algae.
+   how     KEYWORDS:  lysine succinylation, metabolic regulation, acylation crosstalk, acetyl-CoA synthetase, Chlamydomonas reinhardtii
+  onJanuary
+on      options                                                                        pathways, including the tricarboxylic acid (TCA) cycle, carbonUNIVfor     ■INTRODUCTION                                                    fixation, and amino acid and secondary metabolite biosyn-           Chlamydomonas reinhardtii (hereinafter referred to as Chlamy-
+                                                                                              thesis. The abundance and distribution of succinylation sites           domonas)  is a unicellular green alga widely recognized as a
+                                                                                      exhibit dynamic changes in response to environmental and            promising  chassis  for synthetic biology owing to  its  well-
+             characterized  genetics, robust photosynthetic  capacity, and      developmental cues. Moreover, its interplay with acetylationJIANGHAN             extensive molecular  toolkit.1 Compared with  conventional     and other PTMs highlights a sophisticated regulatory net-
+via             microbial platforms, Chlamydomonas  exhibits superior  scal-      work.15−19 These findings suggest that succinylation partic-
+               ability  in photobioreactor-based production and has been       ipates  in coordinated regulatory processes governing plant
+            engineered  for  diverse  applications,  including  lipid-based     metabolism and  stress  responses.  Succinyl-CoA,  mainly
+             biofuel  synthesis,  environmental  bioremediation, and  the      derived from α-ketoglutarate (α-KG) via the α-KG dehydro-Downloaded             biosynthesis  of  high-value  biomolecules.2−4  Notably, both      genase complex (α-KGDHC), serves as the succinyl donor
+             chloroplast and  nuclear  engineering  platforms  have been      through enzymatic or nonenzymatic mechanisms, thus linking                                https://pubs.acs.org/sharingguidelines        successfully  developed:  the  former  enable  the  efficient       lysine succinylation directly to central metabolic flux.20 Lysine
+   See       production of therapeutic proteins, such as vaccine antigens      succinylation is reversibly regulated by specific succinyltrans-
+           and monoclonal antibodies,5,6 while the latter has optimized       ferases and desuccinylases. The key succinyltransferases mainly
+             biosynthetic  pathways  for  synthesizing  value-added com-      include α-KGDHC, general control nonrepressed protein 5
+           pounds such as astaxanthin and polyamines.7,8 Moreover, the     (GCN5), histone acetyltransferase 1 (HAT1), and carnitine
+             recognition of Chlamydomonas as a generally recognized as safe      palmitoyltransferase 1A (CPT1A).  In  addition,  the  well-
+         (GRAS) microalga by the U.S. Food and Drug Administration      characterized desuccinylases are Sirtuin 5 (SIRT5) and Sirtuin
+         (FDA)  further  highlights  its  translational  potential  in     7 (SIRT7).21 The addition of the succinyl group causes a mass
+            pharmaceutical and nutraceutical biotechnology.9 As  efforts                                                                                                shift of 100.0186 Da and generates a negative charge on the
+             intensify  to  enhance  carbon  partitioning and  improve                                                                                       lysine residue at physiological pH. The substantial structural
+            metabolic  efficiency,10−12  a  deeper  understanding  of  the                                                                                    alteration,  coupled  with  charge  inversion  induced  by
+            metabolic regulation in Chlamydomonas has become increas-
+              ingly important for rational strain engineering and sustainable
+                                                                                 Received:  September 12, 2025            biomanufacturing.
+                                                                                  Revised:   January 12, 2026              Lysine succinylation (Ksu), first identified in Escherichia coli
+                                                                               Accepted:  January 15, 2026              in 2011,13 has emerged as a widely conserved post-translational
+             modification (PTM)  across  prokaryotes and  eukaryotes.14
+           Proteome-wide analyses in multiple plant species have revealed
+              that Ksu preferentially occurs on enzymes in core metabolic
+
+
+                                           © XXXX American Chemical Society                                                                     https://doi.org/10.1021/acs.jafc.5c12224
+                                                               A                                                                                  J. Agric. Food Chem. XXXX, XXX, XXX−XXX
+
+
+<!-- page 2 -->
+
+Journal of Agricultural and Food Chemistry                            pubs.acs.org/JAFC                                     Article
+
+succinylation, indicates potentially more pronounced effects on      corresponding stress-specific medium before being reinoculated at a
+cellular functions compared  to  well-studied  lysine  acetyla-       density of 5 × 105 cells/mL into fresh  stress-specific medium for
+tion.13,22 Notably, lysine acetylation has also been identified in      another 96 h. Cell density was monitored using a hemocytometer.
+Chlamydomonas to regulate key enzymes involved in photo-       Physiological conditions were designed to represent distinct trophic
+synthesis and fatty acid metabolism, functioning as a molecular      and light regimes of Chlamydomonas. Photoautotrophic growth was
+                                                                       achieved using a medium lacking glacial acetic acid. Heterotrophicswitch during metabolic transitions.23 Although succinylation
+                                                                               cultivation was  performed  in TAP medium  under  continuoushas been implicated in regulating diverse metabolic pathways
+                                                                       darkness with shaking, whereas mixotrophic growth was conducted
+in  various  species,  its  presence and  functional  roles  in
+                                                                  under standard TAP conditions. High-light stress was applied by
+Chlamydomonas remain largely unexplored.                                                                       exposing cells to 300 μmol photons m−2 s−1, whereas heterotrophic
+  Acetyl-CoA synthetase (ACS) catalyzes the ATP-dependent                                                                  growth was induced by continuous shaking under complete darkness
+conversion  of  acetate  into  acetyl-CoA,  linking  acetate                                                                         within TAP medium. In addition, six representative abiotic stresses
+assimilation to the carbon flux distribution. ACS is an AMP-      were selected. Nitrogen deprivation was induced by replacing NH4Cl
+forming enzyme  that  catalyzes  the  two-step  activation  of      with  KCl, and  phosphorus  deprivation was  achieved  using  a
+acetate, first using ATP to form acetyl-AMP intermediate and       phosphate-free medium. Salt stress was introduced by supplementing
+then transferring the acetyl group to CoA to generate acetyl-       the TAP medium with 200 mM NaCl. Cadmium exposure was
+CoA for central carbon metabolism.24 ACS activity is tightly      conducted using 100 μM CdCl2 in a modified TAP medium (TagP),
+regulated by reversible lysine acetylation in both prokaryotic       in which the inorganic phosphates were replaced by 1 mM β-
+and eukaryotic organisms, which typically suppresses catalytic      glycerophosphate  to  avoid Cd2+−phosphate  precipitation.30  For
+function by modifying conserved  residues near the  active       microplastic exposure, 100 mg/L of 500 nm polystyrene microplastic
+site.24,25 Meanwhile, succinylation at residues K193 and K366        particles were added to TAP medium. The TAP medium contained
+has also been reported to negatively modulate ACS activity in       the following components: 20 mM Tris base, 0.62 mM K2HPO4,
+Mycobacterium  tuberculosis,26 suggesting that multiple lysine       0.41 mM KH2PO4, 7.48 mM NH4Cl, 0.406 mM MgSO4, 0.34 mM
+acylations may serve as regulatory switches in this enzyme      CaCl2, 76.5 μM ZnSO4·7H2O, 184 μM H3BO3, 25.6 μM MnCl2·
+                                                          4H2O,  6.77 μM CoCl2·6H2O,  6.29 μM CuSO4·5H2O,  0.89 μMclass. In Chlamydomonas, which  is capable of heterotrophic
+                                                       (NH4)6Mo7O24·4H2O,  17.9 μM FeSO4·7H2O,  and  134 μMgrowth using acetate as its sole carbon source, ACS plays a
+                                                        Na2EDTA·2H2O.  Additionally, 1 mL  of  glacial  acetic  acid waspivotal role in facilitating exogenous carbon assimilation and                                                               added per liter of medium as a supplemental carbon source.31
+directing the carbon flux toward the TCA cycle, fatty acid
+synthesis, and  storage compound  formation. ACS  over-      Protein Extraction, Western Blotting, and In-solution
+expression has been demonstrated  to  increase  starch and     Trypsin Digestion
+triacylglycerol accumulation, underscoring  its importance in      Algae cells under the above culture conditions were harvested by
+metabolic  regulation and  biotechnological  applications.27,28       centrifugation  at 2500g  for 3 min and washed  three times with
+However, the regulatory mechanisms governing ACS activity       phosphate-buffered saline (PBS). The cell pellets were resuspended in
+in Chlamydomonas,  particularly those mediated by PTMs,     RIPA  lysis buffer (50 mM Tris-HCl, pH 7.4; 150 mM NaCl; 1%
+remain poorly understood.                                           Triton X-100; 1% sodium deoxycholate; 0.1% SDS) containing 1×
+  To address these  gaps,  in  this  study, we  systematically       protease inhibitor cocktail (Roche). The mixture was submitted to
+investigated  the  landscape and  regulatory  roles  of  lysine       sonication (3 s on, 3 s off) for 20 min on ice by using a JY92-IIN
+succinylation in Chlamydomonas. We employed antisuccinylly-       ultrasonic  homogenizer  at 135 W  output (Ningbo  Scientz
+sine antibody  in Western blot analyses to  assess dynamic      Biotechnology Co., Ltd.). Following sonication, the remaining debris
+                                                               was removed by centrifugation at 12,000g for 20 min at 4 °C, and thechanges in protein succinylation under various physiological
+                                                                         supernatants were collected. Protein concentrations were determinedand abiotic stress conditions. We then combined high-affinity
+                                                                         using a bicinchoninic acid (BCA) assay kit (Beyotime) according to
+antisuccinyllysine antibody enrichment with liquid chromatog-
+                                                                         the manufacturer’s instructions.
+raphy−tandem mass spectrometry (LC-MS/MS) to compre-                                                                    For Western blotting, equal amounts of protein were resolved by
+hensively profile the succinylome map. Functional annotation                                                     12% sodium  dodecyl  sulfate−polyacrylamide  gel  electrophoresis
+and  comparison  with  the  acetylome  revealed  extensive                                                    (SDS−PAGE) and  transferred  onto  poly(vinylidene  difluoride)
+crosstalk between the two acylations across central metabo-     (PVDF) membranes. Membranes were blocked by 5% bull serum
+lism. Finally, site-directed mutagenesis and enzymatic assays      albumin (BSA, Sigma) and then incubated overnight at 4 °C with an
+confirmed that  lysine succinylation  directly modulated the       antisuccinyllysine rabbit recombinant monoclonal antibody (WM603,
+ACS3 activity. Collectively, this work provides a comprehen-      Micrometer Biotech, China) diluted 1:3000 (v/v). After washing,
+sive succinylation profile in Chlamydomonas and uncovers a     membranes were incubated  for 1 h  at room temperature with a
+conserved regulatory layer governing glycolysis, the TCA cycle,      horseradish  peroxidase  (HRP)-conjugated  goat  antirabbit IgG
+and  lipid metabolism,  offering  a foundation  for  precision      secondary antibody (7076, Cell Signaling Technology) at a 1:5,000
+metabolic engineering in microalgal biotechnology.                 (v/v)  dilution. The  signals were  visualized  using an enhanced
+                                                                    chemiluminescent (ECL) HRP  substrate and  detected with  the
+          AND METHODS                          Tanon 5200 imaging system (Tanon, China). In parallel, total protein
+                                                                                    profiles were assessed by Coomassie Brilliant Blue staining of SDS−■MATERIALS
+Microalgae Culture                                  PAGE gels.
+                                                            Whole cell lysates were then subjected to reduction, alkylation, andChlamydomonas reinhardtii strain 21gr [mating type plus (mt+)] (CC-
+                                                                                   tryptic digestion as described previously.32 Briefly, protein extracts1690) was originally obtained from the Chlamydomonas Resource
+Center, USA, and maintained in our laboratory. The algae were      were  first reduced with 25 mM dithiothreitol (DTT) at 37 °C for
+cultured in liquid tris-acetate-phosphate (TAP) medium at 23 °C      45 min, followed by alkylation using 50 mM iodoacetamide (IAM) for
+under continuous shaking (120 rpm), with an illumination of 80 μmol      10 min at room temperature in the dark. Subsequently, the proteins
+photons m−2 s−1 and a 14 h light/10 h dark photoperiod.29 Cultures      were  digested  overnight  at 37 °C  with  mass-spectrometry-grade
+were grown  to mid  logarithmic  phase,  then  harvested  by       trypsin (Promage) at an enzyme-to-substrate ratio of 1:100 (w/w)
+centrifugation at 2500g for 3 min and washed three times with the      and quenched with trifluoroacetic acid (TFA).
+
+                                                          B                                                           https://doi.org/10.1021/acs.jafc.5c12224
+                                                                                                                                                                                                                                      J. Agric. Food Chem. XXXX, XXX, XXX−XXX
+
+
+<!-- page 3 -->
+
+Journal of Agricultural and Food Chemistry                            pubs.acs.org/JAFC                                     Article
+
+Succinylated Peptides Enrichment and LC−MS/MS                referred to QIAGEN bioinformatics manuals. Phylogenetic analysis
+Analysis                                                       was performed using MEGA version 6.43
+Tryptic peptides were first desalted using self-packed C18 STAGE      Site-Directed Mutagenesis and Purification of ACS3
+columns and reconstituted in NETN buffer (100 mM NaCl, 1 mM     The full-length acs3 gene (CHLRE_07g353450) was amplified from
+EDTA, 50 mM Tris-HCl, and 0.5% NP-40, pH 8.0). The lysine-      Chlamydomonas cDNA using the primers acs3-sense (5′-taagaaggaga-
+succinylated peptides were selectively enriched using a Succinyllysine     tatacatatgATGCAGCGCCTCGAGGTG-3′) and acs3-antisense (5′-
+Motif Immunoaffinity Kit (WM602, Micrometer Biotech, China).     gtggtggtggtggtgctcgagCTTGCCGCGCAGCTTGAT-3′). To investi-
+After incubation, the beads were washed four times with NETN       gate the functional role of lysine succinylation at K597, site-directed
+buffer, followed by two washes with ultrahigh-purity water. Bound      mutagenesis was performed to generate three variants that mimic
+peptides were eluted with 0.1% TFA, vacuum-dried, resuspended in        distinct  acylation  states: K597R (AAG→AGG),  representing the
+0.1% formic acid, and subsequently desalted using C18 STAGE tips.32      nonacylated state; K597Q (AAG→CAG), mimicking lysine acetyla-
+  Peptide separation was carried out using a NanoElute nanoflow LC       tion; and K597E (AAG→GAG), simulating lysine succinylation. The
+system coupled online to a timsTOF Pro mass spectrometer (Bruker,      K597R, K597Q, and K597E substitutions were designed based on
+Germany) equipped with a CaptiveSpray ion source. Samples were       differences in charge, side-chain length, and geometry to approximate
+loaded onto an analytical column (IonOpticks, Australia; 25 cm × 75       the physicochemical properties of acetylated and succinylated lysine
+μm, C18, 1.6 μm particle size) and separated at a flow rate of 300 nL/       residues. This mutagenesis  strategy has been widely adopted to
+min. The mobile phases consisted of 0.1% formic acid in water (buffer       functionally  simulate  lysine  acylation  in  previous  studies.44−46
+A) and 0.1% formic acid in acetonitrile (buffer B). The gradient      Mutations were introduced by overlapping PCR using the following
+elution was programmed as follows: 0−3 min, 6% buffer B; 3−45 min,      primer  pairs: K597R-sense: 5′-CCATGCGCAGGTTGCTCAT-3′,
+linear increase from 6% to 28% buffer B; 45−50 min, ramp to 38%      K597R-antisense: 5′-ATGAGCAACCTGCGCATGG-3′, K597Q-
+buffer B; and held at 100% B from 50−60 min. Mass spectrometric       sense: 5′-CCATGCGCCAGTTGCTCAT-3′, K597Q-antisense:  5′-
+data  were  acquired  in  positive  ion mode  using  the  Parallel    ATGAGCAACTGGCGCATGG-3′, K597E-sense: 5′-CCATGCGC-
+Accumulation−Serial Fragmentation (PASEF) mode. The MS1 scan    GAGTTGCTCAT-3′,  and  K597E-antisense: 5′-ATGAG-
+range was m/z 100−1700, with an ion mobility range of 1/K0 = 0.75−     CAACTCGCGCATGG-3′. Wild-type and mutant acs3 genes were
+1.4 V·s/cm2. Accumulation and ramp times were set to 100 ms with      cloned into the pET-21b vector via homologous recombination and
+an ion utilization efficiency of 100%. The capillary voltage was 1500 V,      transformed  into  Escherichia  coli BL21 (DE3)  cells  for  protein
+with a drying gas flow rate of 3 L/min at 180 °C. Each acquisition       expression.47
+cycle included 10 PASEF MS/MS scans with a total cycle time of          Single colonies harboring wild-type or mutant plasmids were grown
+1.16 s. The charge state range was set to 0−5, dynamic exclusion was       overnight at 37 °C in 5 mL LB medium supplemented with 50 μg/mL
+applied for 0.5 min, and the ion target intensity and threshold were set       ampicillin. Cultures were diluted into fresh LB medium with the same
+to 10,000 and  2500,  respectively.  Collision-induced  dissociation       antibiotic and incubated at 37 °C until the optical density at 600 nm
+(CID) energies were set between 20 and 59 eV.                         reached 0.4:0.6. Protein expression was induced by adding 0.1 mM
+                                                                          isopropyl-β-D-1-thiogalactopyranoside (IPTG), followed by incuba-
+Database Search and Bioinformatic Analysis                       tion at 16 °C for 12 h. Cells were harvested by centrifugation at
+Raw data were searched against the Chlamydomonas reinhardtii v5.6      5,000g  for 5 min  at 4 °C, washed twice with  ice-cold PBS, and
+protein database (19,526 entries, released in 2018),33 concatenated      resuspended  in  the same  buffer.  Cell  lysis was  performed by
+with a reverse decoy database and common contaminants using       sonication (3 s on, 3 s off) for 20 min on ice with an output of
+Maxquant software (v.1.6.17.0).34 The search parameters were set as      135 W (JY92-IIN; Ningbo Scientz Biotechnology Co., Ltd.). The
+follows: enzyme  specificity was set as  full cleavage by trypsin/P,        lysates were clarified by centrifugation at 12,000g for 20 min at 4 °C,
+allowing up to four missed cleavage sites. The false discovery rate      and  the  supernatants  were  incubated  with BeyoGold  His-tag
+                                                                                Purification Resin (Beyotime) at 4 °C for 3 h with gentle shaking.(FDR) threshold was set at ≤1% for both peptide and protein levels.
+                                                                             After removing nonspecifically bound proteins using washing bufferThe precursor mass tolerance was set to 10 ppm, and the fragment
+                                                                 (20 mM Tris-HCl, 20 mM imidazole, 500 mM NaCl, pH 8.0), targetion mass tolerance was set to 0.02 Da. Carbamidomethylation of
+                                                                       His-tagged proteins were eluted using elution buffer (20 mM Tris-cysteine was specified as a fixed modification, while oxidation on
+                                                               HCl, 500 mM imidazole, 500 mM NaCl, pH 8.0). The elutions weremethionine,  deamidation  of  asparagine/glutamine (NQ),  lysine
+                                                                          desalted and  buffer-exchanged  into PBS  using  10,000 MWCOsuccinylation (Ksu), and acetylation of protein N- terminus were
+                                                                                 centrifugal filters (Millipore). Protein concentrations were determinedset as variable modifications. Finally, the modified peptides with a
+                                                                         using the BCA Protein Assay Kit (Beyotime), and the purities andscore of ≥40 and the modification sites with a localization probability
+                                                                                   integrity of the proteins were assessed by SDS-PAGE.of ≥0.75 were retained for further PTM analysis.
+   Subcellular localization of the identified proteins was predicted    ACS Activity Assay
+using WoLF PSORT.35 Sequence motif analysis was conducted with     The enzymatic  activity of ACS was evaluated by quantifying the
+pLogo,36  focusing on  six amino  acid  residues  flanking  each      production of acetyl-CoA, which was indirectly measured through a
+succinylated  lysine. To  evaluate  structural  context,  secondary      coupled enzymatic reaction involving malate dehydrogenase (MDH)
+structure prediction of both succinylated and nonsuccinylated lysine      and  citrate  synthase (CS).  In  this  system, MDH  catalyzes  the
+residues was carried out using NetSurfP.37 Functional annotations      conversion of malate and NAD+ to oxaloacetate and NADH, while CS
+were performed  via eggNOG-mapper.38  Protein  pathways were      subsequently  catalyzes  the  condensation  of  acetyl-CoA and
+annotated by referring to the Kyoto Encyclopedia of Genes and       oxaloacetate to form citrate and coenzyme A. Since the generation
+Genomes (KEGG) pathway database using the online service tool       of NADH is stoichiometrically correlated with the amount of acetyl-
+KEGG Mapper.39 Protein−protein interaction (PPI) networks were    CoA produced, the increase in absorbance at 340 nm - corresponding
+generated  using STRING  (version  12.0; minimum  required       to NADH accumulation  - serves as an indirect indicator of ACS
+interaction score = 0.400, default parameters) and evaluated by the        activity.48,49 In brief, assays were performed in a final volume of 30 μL
+NetworkAnalyzer  tool.40  Functional modules were  identified by       containing 50 mM  Tris-HCl (pH 8.0), 10 mM MgCl2, 500 μM
+KEGG pathway enrichment analysis using the ClueGO41 (version      potassium acetate, 500 μM coenzyme A, 8 mM ATP, and 5 μM of
+2.5.10)  plugin and  visualized by  Cytoscape42  (Version  3.8.2).       either wild-type or site-directed mutant ACS protein. Reactions were
+Enrichment analysis was conducted using a two-tailed Fisher’s exact        initiated by the addition of ACS and incubated at 30 °C for 10 min.
+test to assess the over-representation of modified proteins relative to      Subsequently,  acetyl-CoA  levels  in  the  reaction  mixture  were
+the complete proteome, with a Benjamini−Hochberg-corrected p-      determined using a commercial acetyl-CoA assay kit (Jianglai Biology,
+value ≤0.05 considered statistically significant. Multiple sequence      China) according to the manufacturer’s instructions. The absorbance
+alignments were generated using CLC Sequence Viewer  8.0,  as       of NADH was  recorded  at 340 nm  using  a  SpectraMax M5
+
+                                                         C                                                           https://doi.org/10.1021/acs.jafc.5c12224
+                                                                                                                                                                                                                                      J. Agric. Food Chem. XXXX, XXX, XXX−XXX
+
+
+<!-- page 4 -->
+
+Journal of Agricultural and Food Chemistry                            pubs.acs.org/JAFC                                     Article
+
+
+
+
+
+Figure 1. Global lysine succinylation profiles in Chlamydomonas under various cultural conditions. (A) Western blot analysis of global lysine
+succinylation levels in Chlamydomonas grown under different trophic and light conditions. Cells were cultured in a mixotrophic medium (TAP
++NL), a mixotrophic medium under high light (TAP+HL), a photoautotrophic medium (PA+NL), a photoautotrophic medium under high light
+(PA+HL), and a heterotrophic medium in darkness (TAP+Dark). (B) Western blot analysis of succinylation patterns in Chlamydomonas under
+different abiotic stress conditions, including nitrogen deprivation (−N), phosphate deprivation (−P), high salinity (+NaCl), cadmium stress
+(+Cd2+), and Nanomicroplastic exposure (+NPs). For all samples, total protein staining was used as a loading control to ensure equal amounts of
+total protein were loaded. Succinylated proteins were detected using a pan-antisuccinyllysine antibody. The red arrows in the figure indicate signal
+bands with significant differences.
+
+multifunction  microplate  reader  (Molecular  Devices). Enzymatic      provide a relevant framework to assess whether succinylation
+activity measurements were performed  using  three  independent       participates in energy metabolism and stress adaptation.
+biological replicates (n = 3), and data are presented as mean ±                                          We first performed immunoblotting using a pan-succinylly-
+standard deviation (SD). One-way analysis of variance (ANOVA) was                                                                      sine antibody to examine global lysine succinylation patterns in
+applied  to  assess  overall  differences among  multiple  treatments,
+                                                        Chlamydomonas  under  these  physiological  conditions. Asfollowed by Tukey’s post hoc test for pairwise comparisons.
+                                                     shown in Figure 1A, distinct succinylated protein bands were
+                                                                 detected across multiple molecular weight regions, indicating
+                                                                       that Ksu occurred broadly in Chlamydomonas. Compared with■RESULT
+Dynamic Profiling of Lysine Succinylation in                   mixotrophic growth, an overall attenuation of succinylation
+Chlamydomonas under Physiological and Stress                  signals was observed under photoautotrophic and  hetero-
+Conditions                                                        trophic conditions, with a further reduction under high-light
+                                                               treatment  (Figure  1A). Under  abiotic  stress  conditions,To explore whether lysine succinylation dynamically responds
+                                                       immunoblot  analysis  revealed  distinct  differences  in  theto environmental and metabolic perturbations, we first assessed
+                                                                     succinylation level of multiple protein bands (as indicated byglobal  succinylation  patterns  in Chlamydomonas  reinhardtii
+                                                                 the red arrows) (Figure 1B). Although these immunoblotunder representative physiological and abiotic stress conditions
+                                                                            results  are not intended  for  quantitative comparison,  theusing antisuccinyllysine Western blot  analysis. Physiological
+                                                               condition-dependent alterations of specific bands suggest thatconditions  refer  to  distinct  trophic and  light  regimes
+                                                                         lysine succinylation  is dynamically regulated in response to(photoautotrophic, heterotrophic, mixotrophic, and high light
+                                                              environmental perturbations and may  participate in  stress-cultivation)  that  reflect  the  major  metabolic  states  of
+                                                                     associated metabolic adjustment in Chlamydomonas.Chlamydomonas. In addition, six typical abiotic stresses were
+selected, including nitrogen and phosphorus deficiency,  salt     Proteome-Wide Landscape of Lysine Succinylation in
+                                                   Chlamydomonasstress, cadmium exposure, and nanomicroplastic treatment,
+which are known to perturb photosynthesis, redox balance, and    To systematically map the Ksu events in Chlamydomonas, an
+energy metabolism in algal cells. These treatments, spanning      immunoaffinity enrichment combined with a mass spectrom-
+both laboratory and natural settings of Chlamydomonas, thus      etry-based high-throughput proteomics strategy was used to
+
+                                                 D                                                           https://doi.org/10.1021/acs.jafc.5c12224
+                                                                                                                                                                                                                                      J. Agric. Food Chem. XXXX, XXX, XXX−XXX
+
+
+<!-- page 5 -->
+
+Journal of Agricultural and Food Chemistry                            pubs.acs.org/JAFC                                     Article
+
+
+
+
+
+Figure 2. Experimental workflow and reproducibility of lysine succinylome  profiling in Chlamydomonas. (A) Schematic overview of the
+succinylome analysis workflow. C. reinhardtii cells grown under different conditions were harvested, followed by total protein extraction and trypsin
+digestion.  Succinylated  peptides were enriched  using  pan-antisuccinyllysine  antibodies and analyzed by  high-resolution LC-MS/MS  for
+identification of succinylated proteins and sites. (B) Venn diagram showing the overlap of identified succinylated proteins across three independent
+biological replicates. (C) Venn diagram illustrating the distribution of identified succinylated lysine sites across three replicates.
+
+detect succinylated proteins and their corresponding succiny-     The predominance of succinylated proteins in the chloroplast
+lation sites in vivo. To obtain a comprehensive view of the     and cytosol suggested that the Ksu mark may be involved in
+condition-specific Ksu, total proteins extracted from algal cells      photosynthesis and cellular metabolism. We further analyzed
+grown under 10 different physiological and stress conditions,      the  frequency  of Ksu  in  proteins. 37.55% (297/791)  of
+as described above, were subjected  to mass spectrometry      succinylated proteins contained a single Ksu site, whereas the
+analysis. The  experimental  design and  workflow  were      majority (62.45%, 494 proteins) possessed multiple Ksu sites,
+illustrated in Figure 2A. The raw data and MaxQuant search      with 52 proteins having up to 10 or more (Figure S1D).
+results had been deposited  in  the  public iProX database      Notably, numerous  key  metabolic enzymes were  heavily
+(https://www.iprox.cn/)  with  the  accession  identifier     succinylated.  For  example,  aconitate  hydratase
+PXD066150. A  total  of 2,806  succinylation  sites on 791      (Cre01.g042750.t1.2) in the TCA cycle and phosphoglycerate
+proteins were identified with stringent restrictions (FDR ≤1%,      kinase (Cre11.g467770.t1.1) in the glycolysis/gluconeogenesis
+site localization probability ≥0.75, score ≥40), among which     pathway  contained 27 and 21 Ksu  sites,  respectively.  In
+1027 succinylation sites corresponding to 461 proteins were      addition, several heat shock proteins of the HSP70 family also
+consistently  identified  in  three  independent  biological      possessed more than 15 Ksu sites. These findings collectively
+replicates  (Figure  2B,C). The  high  degree  of  overlap      indicate that lysine succinylation  is a widespread PTM in
+highlighted  the  reproducibility and  robustness  of  the     Chlamydomonas, with potential roles in regulating the function
+experimental approach. Detailed information on all identified      of key metabolic and stress-related proteins.
+Ksu sites was provided in Table S1. The average localization
+                                                            Functional Insights into the Metabolic Relevance of
+score for Ksu sites was 65.56, and the overall absolute peptide                                                            Succinylated Proteins
+mass accuracy was −1.03 ppm (Figure S1A), confirming the
+high accuracy and reliability of the Ksu identifications in this    To gain insight into the functional landscape of Ksu, we first
+study. The majority of identified peptides (99.4%) range from     performed functional annotation of all identified succinylated
+7 to 26 amino acids in length, consistent with the typical      proteins based on the Eukaryotic Orthologous Groups (KOG)
+patterns of tryptic digestion (Figure S1B).                     and KEGG classification. As shown in Figure S2A and Table
+  Subcellular localization analysis revealed that succinylated     S2A, succinylated proteins were primarily implicated in PTMs,
+proteins predominantly localized in the chloroplast (44.75%)      ribosome-related translation, and various energy metabolisms.
+and cytoplasm (25.28%), with subsequent localization in the     Within the metabolic category, these succinylated proteins
+mitochondria (15.04%) and nucleus (5.18%) (Figure S1C).     were mainly related to energy production and conversion as
+
+                                                                 E                                                           https://doi.org/10.1021/acs.jafc.5c12224
+                                                                                                                                                                                                                                      J. Agric. Food Chem. XXXX, XXX, XXX−XXX
+
+
+<!-- page 6 -->
+
+Journal of Agricultural and Food Chemistry                            pubs.acs.org/JAFC                                     Article
+
+
+
+
+
+Figure 3. Functional enrichment analysis of lysine-succinylated proteins in Chlamydomonas. (A) GO enrichment analysis visualized as a circle plot,
+categorizing succinylated proteins into significantly overrepresented biological processes, molecular functions, and cellular components. (B) KEGG
+pathway enrichment analysis presented as a dotplot. Dot size reflects the number of modified proteins involved, and color intensity denotes
+statistical significance (adjusted p-value).
+
+
+
+
+
+Figure 4. Protein−protein interaction network analysis of succinylated proteins. The interaction network of succinylated proteins was constructed
+using STRING and visualized in Cytoscape. The significant clusters of KEGG pathway were annotated by the ClueGO plugin.
+
+
+
+                                                                  F                                                           https://doi.org/10.1021/acs.jafc.5c12224
+                                                                                                                                                                                                                                      J. Agric. Food Chem. XXXX, XXX, XXX−XXX
+
+
+<!-- page 7 -->
+
+Journal of Agricultural and Food Chemistry                            pubs.acs.org/JAFC                                     Article
+
+
+
+
+
+Figure 5. Overview of the lysine-succinylated proteins involved in central metabolic pathways of Chlamydomonas. The identified succinylated
+proteins were colored with the intensity of coloration, indicating the number of succinylation sites.
+
+well as the metabolism and transport of essential nutrient      exhibited the highest fold enrichment among  all identified
+substances, including amino acids, carbohydrates, and lipids.      pathways, suggesting  it may represent a main target of Ksu-
+KEGG-based functional categorization further revealed that     mediated regulation. Given the biochemical linkage between
+succinylated  proteins  were  predominantly  classified  to      succinylation and the metabolite succinyl-CoA, succinylation
+metabolism and  translation, showing  strong  concordance     may modulate carbon flux through feedback regulation of the
+with the results of the KOG analysis (Figure S2B and Table    TCA  cycle (Figure 3B and Table S3B). Together,  these
+S2B).                                                                functional analyses indicate that Ksu proteins have a wide
+  To further elucidate the characteristics and potential roles of      distribution of functions and are tightly associated with the
+Ksu in Chlamydomonas, we performed enrichment analyses of      regulation of energy metabolism in Chlamydomonas.
+Gene Ontology (GO) terms and the KEGG pathway for all      Interaction Networks Reveal Succinylation-Linked
+succinylated proteins. As shown in Figure 3A and Table S3A,     Metabolic Modules
+most of the succinylated proteins were predominantly enriched                                               To investigate the functional associations among succinylated
+in biological processes such as the amide biosynthetic process                                                                    proteins in Chlamydomonas, we constructed protein−protein
+(GO:0043604),  translation (GO:0006412), and  photosyn-                                                                       interaction networks of all Ksu-modified proteins via STRING
+thesis (GO:0015979).  In  terms  of  cellular  components,                                                        and visualized the interaction map by Cytoscape software. A
+succinylated proteins were mostly distributed in the cytoplasm                                                                             total of 697 Ksu proteins were successfully mapped to the
+(GO:0005737),  chloroplast (GO:0009507), and ribosome    STRING database, resulting in 16,669 predicted interactions
+(GO:0005840), in line with our prior subcellular localization      (Table S4A). The constructed network showed a density of
+results. In the context of molecular functions, succinylated      0.069 and an average node degree of 47.97, indicative of
+proteins were primarily associated with various binding and      extensive  connectivity among Ksu  proteins. To  further
+catalytic  activities (GO:0003824),  in agreement with  their      understand  the  functional  organization among  these Ksu
+involvement in biosynthetic and translational processes. KEGG      proteins  in the PPI network, KEGG pathway enrichment
+pathway analysis further revealed  significant enrichment in       analysis was performed using the ClueGO plugin Cytoscape.
+ribosome and multiple metabolic pathways, including central     As shown in Figure 4 and Table S4B, 12 significantly enriched
+carbon metabolism, various amino acid metabolism, fatty acid     pathways (p ≤0.05) were identified from prominent and
+biosynthesis, and  photosynthesis. Notably, the TCA  cycle      highly interconnected network clusters, including ribosome,
+
+                                                  G                                                           https://doi.org/10.1021/acs.jafc.5c12224
+                                                                                                                                                                                                                                      J. Agric. Food Chem. XXXX, XXX, XXX−XXX
+
+
+<!-- page 8 -->
+
+Journal of Agricultural and Food Chemistry                            pubs.acs.org/JAFC                                     Article
+
+
+
+
+
+Figure 6. Crosstalk analysis between lysine succinylation and acetylation in Chlamydomonas. The Venn diagram showed the overlap of modified
+proteins (sites) between lysine succinylation identified in this study and acetylation reported previously. Barplots illustrated the KEGG pathway
+enrichment for proteins uniquely succinylated (red), uniquely acetylated (blue), and dually modified (green), respectively.
+
+citrate cycle, oxidative phosphorylation, glycolysis/gluconeo-      phatase (SBPase), also displayed varying degrees of  lysine
+genesis,  glyoxylate and  dicarboxylate  metabolism,  carbon      succinylation. The succinylation of these rate-limiting and flux-
+fixation in photosynthetic organisms, and various amino acid      determining enzymes demonstrated lysine succinylation as a
+metabolic pathways. The dense protein interaction network        critical post-translational regulatory layer that orchestrated the
+suggests that succinylated proteins are functionally coordinated      integration and coordination of key metabolic networks. These
+and may contribute to the biological regulation of translation      findings are consistent with the previous understanding of
+and energy metabolism in Chlamydomonas.                          lysine  succinylation,14  further  supporting  its  conserved
+Key Enzymes of Central Metabolism Undergo Extensive        function in modulating metabolic pathways in Chlamydomonas.
+Succinylation                                               Co-Modification by Succinylation and Acetylation
+                                                              Highlights Metabolic RegulationExtensive evidence above revealed that Ksu-modified proteins
+were significantly associated with energy metabolism; thus, we    PTM  crosstalk, encompassing both  intra- and interprotein
+further illustrated the occurrence of succinylation by mapping       interactions, constitutes a sophisticated regulatory mechanism
+them to KEGG metabolic pathways in Chlamydomonas. As      that contributes to the functional versatility of proteins and the
+described in Figure 5, an abundance of enzymes in central      fine-tuning of diverse biological processes. This interplay may
+metabolic  pathways,  including  central carbon  metabolism,      exert coordinated or competitive effects on protein function,
+biosynthesis of amino acids, fatty acid metabolism, and the      thereby enhancing the  specificity and complexity of PTM-
+Calvin  cycle, were subjected to succinylation with varying     mediated regulation.50 To explore potential crosstalk between
+degrees.  Nearly  all  key enzymes  involved  in  glycolysis/      succinylation and acetylation, we compared our succinylome
+gluconeogenesis and the TCA cycle were succinylated, many      data  set  with  the  publicly  available  acetylome  data23  to
+of which contained more than 10 succinylation sites. These      determine the extent of proteins comodified in Chlamydomo-
+included  phosphofructokinase (PFK) and  pyruvate  kinase       nas. As shown in Figure 6 and Table S5A, a total of 305
+(PK) in glycolysis, isocitrate dehydrogenase (IDH) and α-      proteins were found to be comodified by both acetylation and
+ketoglutarate dehydrogenase (KGDH)  in  the TCA  cycle,      succinylation, accounting for 28.5% of all identified modified
+glucose-6-phosphate dehydrogenase (G6PDH) in the pentose      proteins (n = 1069).  Additionally, 396  succinylation  sites
+phosphate pathway, and acetyl-CoA carboxylase (ACC)         across 201 proteins were found to overlap with acetylation at
+comprising biotin carboxylase (BC), biotin carboxyl carrier      the same lysine residues, representing 14.1% of the total of
+protein (BCCP), and carboxyltransferase α-/β-subunit (α-CT,       identified  succinylation  sites  (Table  S5B). The  extensive
+β-CT) - in fatty acid biosynthesis. Additionally, key enzymes in      overlap indicates a  significant degree of  crosstalk between
+the Calvin  cycle, such as ribulose-1,5-bisphosphate carbox-      protein succinylation and acetylation in Chlamydomonas. To
+ylase/oxygenase (RuBisCO) and sedoheptulose-1,7-bisphos-      further assess the biological relevance of these comodifications,
+
+                                                 H                                                           https://doi.org/10.1021/acs.jafc.5c12224
+                                                                                                                                                                                                                                      J. Agric. Food Chem. XXXX, XXX, XXX−XXX
+
+
+<!-- page 9 -->
+
+Journal of Agricultural and Food Chemistry                            pubs.acs.org/JAFC                                     Article
+
+
+
+
+
+Figure 7. Cross-talk between lysine succinylation and acetylation at K597 regulated the ACS3 activity. (A) Distribution of lysine succinylation/
+acetylation sites identified in ACS3. Red arrows indicated sites where dual modifications occurred. (B) Multiple sequence alignment showing the
+conservation of K597 in ACS3 across algae and higher plants, including Chlamydomonas (C. reinhardtii), Synechocystis sp. PCC 6803 (Syn 6803),
+Chlorella vulgaris (C. vulgaris), Arabidopsis thaliana (A. thaliana), Oryza sativa (O. sativa), Zea mays (Z. mays), Brassica napus (B. napus), and
+Glycine max (G. max). (C) Structural context of the K597 site within the predicted three-dimensional model of ACS3. (D) SDS-PAGE analysis of
+purified wild-type ACS3 and site-directed mutants (K597R, K597Q, K597E). (E) Relative enzymatic activity of wild-type and ACS3 mutants. Data
+represent mean ± SD from three independent biological replicates (n = 3). Statistical significance was evaluated using one-way ANOVA followed
+by Tukey’s multiple comparison test, with ** indicating p < 0.01.
+
+KEGG pathway  enrichment  analysis was  conducted  to     Comparative Motifs and Structural Preferences of
+characterize the  biological meanings  of Ksu and Kac. As      Succinylation and Acetylation Sites
+shown in Figure 6 and Table S5C, comodified proteins were    To investigate potential sequence patterns surrounding the
+significantly enriched in the pathway related to ribosome, TCA     Ksu and Kac  sites, the pLogo was used to  visualize the
+cycle, carbon fixation in photosynthetic organisms, photosyn-       position-specific amino acid occurrences within six residues
+thesis, glycolysis/gluconeogenesis, and fatty acid biosynthesis.      flanking both termini of the modified lysines relative to the
+Proteins uniquely acetylated were more associated with fatty     background lysine content in the Chlamydomonas proteome.
+                                                           For Ksu sites, we observed a significant preference for nonpolaracid  degradation,  unsaturated  fatty  acid  biosynthesis, and
+                                                       amino acids, particularly isoleucine and valine, at the −5, −2,peroxisomes (Table S5D). While succinylation-specific targets
+                                                        and from +1 to +5 positions relative to the Ksu  sites. In
+were predominantly involved in oxidative phosphorylation and
+                                                                         contrast, the  proline or  arginine were  consistently under-
+several amino acid metabolic pathways (Table S5E). These                                                                 represented at these positions. As the lysine residue occurred
+findings  indicate  that  lysine  succinylation and  acetylation                                                        most frequently  at the +6, −6, and −4  positions,  it was
+extensively  overlap  in key metabolic pathways, forming a      suggested that there may exist atypical site-specific motifs for
+coordinated regulatory layer for central carbon metabolism,      succinylation in Chlamydomonas. The motifs IxKsu, xKsuVx,
+while  each  modification  also  exhibits  distinct  pathway     and KsuxxxxxK emerged as the most  statistically significant
+preferences.                                                   (Figure  S3A). As  for Kac  sites,  there was  an  over-
+
+                                                                                                                               I                                                            https://doi.org/10.1021/acs.jafc.5c12224
+                                                                                                                                                                                                                                      J. Agric. Food Chem. XXXX, XXX, XXX−XXX
+
+
+<!-- page 10 -->
+
+Journal of Agricultural and Food Chemistry                            pubs.acs.org/JAFC                                     Article
+
+representation for phenylalanine at the −1 and +1 positions     mutants were overexpressed as His-tagged fusion proteins and
+and tyrosine at the +1 position relative to the modified lysine.       purified using Ni-NTA resin for the activity assay (Figure 7D).
+In addition, the lysine residue tended to enrich at positions +4     The K597R  mutant,  preserving  the  positive  charge and
+and +5, while arginine and lysine were underrepresented at the      structure with unmodified lysine, retained enzymatic activity
+−1 position. Accordingly, motif analysis  identified xKacFx,     comparable to wild-type ACS3, indicating that the integrity of
+xKacYx, and xFKacx motifs as the most conserved sequences      the unmodified lysine is compatible with catalytic function. In
+for Kac sites (Figure S3B). These findings revealed distinct      contrast,  the K597Q  mutant,  which  simulated  lysine
+sequence preferences that guide the substrate specificity of Ksu       acetylation, showed a moderate reduction in ACS3 activity
+and Kac in Chlamydomonas, suggesting that the two acylations      to approximately 70% of the wild-type level. Most notably, the
+are likely mediated by different enzymatic systems. Additional    K597D mutant, introduced to mimic lysine succinylation via a
+functional validation  is required to substantiate these motif-      negatively charged side chain, exhibited a marked decline in
+based  predictions. To  further  characterize the  recognition      enzymatic activity to roughly 40% of that of wild-type ACS3
+preferences of Ksu and Kac, we also examined the structural      (Figure 7E). These results demonstrate that acylation at K597
+features associated with Ksu- and Kac-modified residues in      negatively  regulates ACS3  activity  in  a  modification-type
+Chlamydomonas. Structural analysis revealed that both lysine     dependent  manner,  with  succinylation  exerting  a more
+acetylation and succinylation preferentially occurred within α-     pronounced inhibitory effect than acetylation. Given this site-
+helices and β-strands and were more likely to be located in       specific and reversible modulation of ACS3 activity, we further
+solvent-accessible regions (Figure S3C,D). This observation      explored the potential enzymatic components governing lysine
+indicates a shared structural preference for the modification      succinylation  dynamics  in  Chlamydomonas.  Comparative
+sites, suggesting convergence in their spatial distribution within      phylogenetic analysis revealed that the sirtuin family protein
+protein structures.                                              Cre05.g234663.t1.1 clustered closely with human SIRT5, a
+                                                                 canonical  mitochondrial  desuccinylase  (Figure  S6).  This
+Crosstalk of Lysine Succinylation and Acetylation
+                                                                observation  identifies  Cre05.g234663.t1.1  as  a  potentialRegulates ACS3 Activity
+                                                                 candidate for succinylation regulation in Chlamydomonas and
+Comprehensive  lysine  succinylome  profiling  revealed  that      warrants further functional investigation.
+numerous  metabolic enzymes were  subjected  to  varying
+degrees  of  succinylation  (Figure  5),  indicating  potentiallycritical roles in regulating the core metabolic pathways. Among    ■DISCUSSION                                                                Lysine succinylation  is a highly conserved post-translational
+these enzymes, ACS3 drew particular attention because of its                                                                  modification broadly implicated in diverse biological processes,
+central function in acetate assimilation. The Chlamydomonas                                                                          particularly in metabolic regulation. However,  its landscape
+genome encodes  three AMP-forming ACS  family (Pfam:                                                       and  regulatory  roles  in Chlamydomonas  have  remained
+PF00501) homologues, including ACS1 (Cre01.g071662.t1.1),                                                           completely  unexplored.  In  this  study, we  profiled  a
+ACS2 (Cre01.g055408.t1.1), and ACS3 (Cre07.g353450.t1.2),                                                            comprehensive succinylome map of Chlamydomonas, identify-
+based on the annotations available in Phytozome v5.6.33 All                                                                   ing 2,806 Ksu sites across 791 proteins from three biological
+three proteins contain the conserved Acetyl-CoA synthetase N-                                                                             replicates.  This depth  of  coverage  markedly  exceeds  the
+terminal  domain,  the AMP-dependent  synthetase/ligase     number  of  lysine  acetylation  sites  previously  reported  in
+domain, and the AMP-binding enzyme C-terminal domain     Chlamydomonas and also surpasses the succinylome data sets
+(Figures 7A and S4A). In this study, we identified seven Ksu      reported  for  several  plant  species,  such  as  Arabidopsis,51
+sites only on ACS3. Specifically, K27 and K35 were located      wheat,17 patchouli,18 and strawberry,52 while remaining below
+within the Acetyl-coenzyme A synthetase N-terminal domain      the crop succinylome characterized in cotton16 (4427 sites on
+(residues 30−99), K136, K218, and K287 resided in the AMP-     2517 proteins) and rice53 (5502 sites on 2593 proteins). These
+dependent synthetase/ligase domain (residues 95−495), while      differences likely reflect the intrinsic variation in succinylation
+K597 and K637 were positioned within the AMP-binding     abundance among  species. Experimental  factors,  including
+enzyme C-terminal domain (residues 551−629) (Figure 7A).     genomic complexity, tissue specificity, and analytical platforms,
+Notably, four of these lysine residues (K27, K35, K218, and     may also contribute. The extensive site coverage achieved here
+K579) were  also found  to be  acetylated  in  a  previous     may also benefit from our mixed-condition sampling strategy,
+acetylome data  set,23 indicating potential crosstalk between     which  enhances  the  detection  of  low-abundance and
+lysine  succinylation and  acetylation  in ACS3.  Multiple      condition-dependent succinylation events. Collectively, these
+sequence alignment showed  that only the K597  site was      findings demonstrate  that  lysine  succinylation  is  a  highly
+evolutionarily conserved across algal and higher plant ACS     abundant and pervasive PTM in Chlamydomonas, substantially
+homologues (Figures 7B and S4B). The representative MS/     expanding  the  current  understanding  of  acylation-based
+MS  spectra  of  peptides  containing  succinylation and      regulation  in  microalgae. Moreover, Western  blot  analysis
+acetylation at the K597 site of ACS3 were shown in Figure      revealed the pronounced changes in global succinylation levels
+S5.  Structural domain  analysis  revealed  that K597 was     under different physiological and stress conditions (Figure 1),
+positioned within the α-helical region, directly involved in      indicating  that Ksu  is dynamically regulated and  laying a
+the AMP-binding domain, a critical motif for catalytic activity      foundation for further studies into its roles in environmental
+of ACS (Figure 7C). The dual acylation status and structural      responses and metabolic control.
+context of K597 suggest that this residue may serve as a critical      Our global succinylome analysis revealed that succinylated
+regulatory  site modulating ACS  activity through  reversible      proteins are broadly distributed across subcellular compart-
+lysine acylation.                                          ments and  participate  in  diverse  metabolic  processes,
+  To examine the functional consequence of K597 acylation,      consistent with findings  in other organisms. Notably, Ksu
+we performed  site-directed mutagenesis to generate ACS3      proteins were prominently enriched in mitochondrial metab-
+mutants mimicking distinct modification states. These ACS3      olism, which can be attributed to the mitochondrial origin of
+
+                                                                                     J                                                            https://doi.org/10.1021/acs.jafc.5c12224
+                                                                                                                                                                                                                                      J. Agric. Food Chem. XXXX, XXX, XXX−XXX
+
+
+<!-- page 11 -->
+
+Journal of Agricultural and Food Chemistry                            pubs.acs.org/JAFC                                     Article
+
+succinyl-CoA - the succinyl donor produced by the TCA cycle      sirtuin-mediated desuccinylation  in microalgae. Future bio-
+in eukaryotes.54 Consistent with findings in mammals,14 nearly      chemical and genetic  studies should aim to  elucidate the
+all TCA cycle enzymes in Chlamydomonas were extensively     enzymes  responsible  for maintaining  succinylation homeo-
+succinylated, suggesting that Ksu may serve as a regulator of        stasis.
+cellular  energy  status.  Supporting  this  association,  our        In conclusion, this study establishes lysine succinylation as
+enzymatic assays demonstrated  that succinylation  at K597     an important and previously uncharacterized regulatory layer
+markedly inhibited ACS3 activity (Figure 7E). Although K597      in Chlamydomonas  metabolism. By  integrating  proteomic
+is  not  located  within  the  enzyme’s  catalytic  center,  its       profiling  with  enzymatic  validation, we  demonstrate  that
+modification likely alters the local electrostatic environment,      succinylation influences central carbon pathways and exhibits
+thereby disrupting interactions with nearby residues that are     both  cooperative and  modification-specific  crosstalk  with
+essential for structural integrity or substrate binding. However,       acetylation. These insights expand the current understanding
+the lysine-to-arginine mutation (mimicking a nonmodifiable      of acylation-based regulation  in microalgae and provide a
+lysine) did not impair enzyme  activity, indicating that the      foundation  for elucidating the metabolic and physiological
+inhibition is directly due to the modification itself. Given the     consequences  of  the  succinylation-acetylation  interplay,
+central role of ACS3 in acetyl-CoA formation, these findings      ultimately guiding rational metabolic engineering.
+establish  a  potential  regulatory  link between  site-specific
+succinylation and acetyl-CoA  availability. Nevertheless, the                CONTENTphysiological consequences of this modification for carbon flux    ■ASSOCIATED*sı  Supporting Information
+and downstream  biosynthetic  pathways  remain  to  be
+                                                   The Supporting Information  is  available  free of charge  at
+elucidated in Chlamydomonas.
+                                                                   https://pubs.acs.org/doi/10.1021/acs.jafc.5c12224.
+ PTM crosstalk is increasingly recognized as a key regulatory
+layer that enhances metabolic  flexibility.50 Our comparative            Figure S1: Quality assessment and basic characterization
+succinylome−acetylome analysis reveals that lysine succinyla-             of the lysine succinylome in Chlamydomonas; Figure S2:
+tion and  acetylation  exhibit both overlapping and  distinct            Functional classification, including KOG and KEGG, of
+modification patterns across metabolic pathways, suggesting a            succinylated  proteins  identified  in Chlamydomonas;
+layered acylation-based regulation in the central metabolism of            Figure S3: Comparative analysis of lysine succinylation
+Chlamydomonas (Figure 6). The coexistence of cooperative          and  acetylation  sites  in Chlamydomonas;  Figure S4:
+and distinct regulatory metabolic targets raises an important           Sequence characterization of ACS in Chlamydomonas;
+question of how the  cell integrates these layers to achieve            Figure  S5: The  representative MS/MS  spectra  of
+precise metabolic control. The distinct sequence motifs of            peptides  containing  succinylation and  acetylation  at
+succinylated and acetylated lysines suggest that the two PTMs            the K597 site of ACS3 in Chlamydomonas; Figure S6:
+may be mediated by  different enzymatic systems, thereby            Phylogenetic analysis of three SRT2-type proteins from
+enabling selective and conditionally dependent regulation of          Chlamydomonas and the representative  sirtuin family
+metabolic processes. Such motif-based divergence provides a          members (PDF)
+mechanistic basis for Chlamydomonas to differentially deploy           Table  S1: Summary  of  all  identified  succinylation
+these  acylations,  allowing  precise  regulation  of  specific            proteins and  sites  in Chlamydomonas;  Table  S2:
+metabolic branches while maintaining coordinated control of            Functional  classification  of  succinylated  proteins  in
+central  pathways. As  illustrated  in  our  enzymatic  assays,           Chlamydomonas; Table S3: Functional enrichment of
+acylation at K597 modulates ACS3 activity in a modification-            succinylated proteins in Chlamydomonas; Table S4: PPI
+specific  manner,  with  succinylation  exerting  a  stronger             analysis of succinylated proteins identified in Chlamydo-
+inhibitory effect than acetylation in vitro (Figure 7E). Future           monas; Table  S5:  Crosstalk  analysis between  lysine
+identification of the enzymes governing the acylation states of             succinylation and acetylation in Chlamydomonas (XLSX)
+K597 will be crucial for elucidating how succinylation and
+acetylation synergistically regulate the carbon flux and broader                                                     INFORMATION
+physiological metabolism in Chlamydomonas.                                 ■AUTHORCorresponding Authors  Despite  the  extensive  landscape  of  lysine  succinylation
+revealed in this study, a key limitation is that the enzymatic       Shengchao Yu −Institute of Microalgae Synthetic Biology and
+mechanism governing succinylation dynamics in Chlamydomo-          Green Manufacturing, College of Life Sciences, Jianghan
+nas remains largely unexplored. In contrast to mammals, where            University, Wuhan 430056, China;   orcid.org/0000-
+lysine succinylation is regulated by defined succinyltransferases          0003-1881-5817; Email: yushengchao@jhun.edu.cn
+and reversed by sirtuin-type desuccinylases,21 no correspond-       Zhangfeng Hu −Institute of Microalgae Synthetic Biology and
+ing enzymes have yet been functionally characterized in plants          Green Manufacturing, College of Life Sciences, Jianghan
+or  microalgae. However, accumulating evidence  implicates            University, Wuhan 430056, China; Email: huzhangfeng@
+sirtuin  family members  as promising  desuccinylases. Two          jhun.edu.cn
+sirtuin genes (SRT1 and SRT2) have been annotated  in
+                                                        AuthorsArabidopsis and rice, with AtSRT2 localizing to mitochondria
+and  functioning  as  a  deacetylase.55 The Chlamydomonas       Xiaoyun Liu −Institute of Microalgae Synthetic Biology and
+genome  harbors  three SRT2-type  genes  (Cre05.g234663,          Green Manufacturing, College of Life Sciences, Jianghan
+Cre12.g524650,  and  Cre10.g462200), among  which             University, Wuhan 430056, China;   orcid.org/0000-
+Cre05.g234663.t1.1  phylogenetically  clusters  closely  with          0002-5740-9777
+human SIRT5, a  well-established mitochondrial desucciny-          Aijie Tian −Institute of Microalgae Synthetic Biology and
+lase56 (Figure S6). Although this analysis does not establish an          Green Manufacturing, College of Life Sciences, Jianghan
+enzymatic function,  it provides an evolutionary rationale for             University, Wuhan 430056, China
+
+                                                         K                                                           https://doi.org/10.1021/acs.jafc.5c12224
+                                                                                                                                                                                                                                      J. Agric. Food Chem. XXXX, XXX, XXX−XXX
+
+
+<!-- page 12 -->
+
+Journal of Agricultural and Food Chemistry                            pubs.acs.org/JAFC                                     Article
+
+  Ying Zhang −Institute of Microalgae Synthetic Biology and          cell  factory: Chlamydomonas  reinhardtii  chloroplast.  Bioresour.
+     Green Manufacturing, College of Life Sciences, Jianghan           Bioprocess 2022, 9 (1), 83.
+      University, Wuhan 430056, China                               (7) Perozeni, F.; Baier, T. Current Nuclear Engineering Strategies in
+                                                                         the Green Microalga Chlamydomonas reinhardtii. Life 2023, 13 (7),  Zhiying Yue −Institute of Microalgae Synthetic Biology and
+                                                              No. 1566, DOI: 10.3390/life13071566.     Green Manufacturing, College of Life Sciences, Jianghan
+                                                                     (8) Perozeni, F.; Cazzaniga, S.; Baier, T.; Zanoni, F.; Zoccatelli, G.;
+      University, Wuhan 430056, China                                                                        Lauersen, K. J.; Wobbe, L.; Ballottari, M. Turning a green alga red:
+Complete contact information is available at:                        engineering astaxanthin biosynthesis by intragenic pseudogene revival
+https://pubs.acs.org/10.1021/acs.jafc.5c12224                          in Chlamydomonas reinhardtii. Plant Biotechnol.  J. 2020, 18 (10),
+                                                              2053−2067.
+Author Contributions                                              (9)  Masi,  A.;  Leonelli,  F.;  Scognamiglio,  V.;  Gasperuzzo,  G.;
+                                                                        Antonacci, A.; Terzidis, M. A. Chlamydomonas reinhardtii: A Factory
+S.Y., X.L., and Z.H. designed the experiment and supervised       of Nutraceutical and Food Supplements for Human Health. Molecules
+the  research.  S.Y.,  X.L.,  A.T., and  Y.Z.  performed  the      2023, 28 (3), No. 1185, DOI: 10.3390/molecules28031185.
+experiments. S.Y., X.L., and Z.Y. analyzed the data. S.Y., X.L.,       (10) Sato, N.; Toyoshima, M. Dynamism of Metabolic Carbon Flow
+and Z.H. wrote the manuscript. All authors contributed to the       of Starch and Lipids in Chlamydomonas debaryana. Front. Plant Sci.
+article and approved the submitted version.                        2021, 12, No. 646498.
+Notes                                                              (11) Boyle, N. R.; Morgan,  J. A. Flux balance analysis of primary
+                                                                  metabolism in Chlamydomonas reinhardtii. BMC Syst. Biol. 2009, 3,
+The authors declare no competing financial interest.                    4.
+                                                                    (12) Johnson, X.; Alric, J. Central carbon metabolism and electron
+                                                                            transport in Chlamydomonas reinhardtii: metabolic constraints for■ACKNOWLEDGMENTS                                      carbon partitioning between oil and starch. Eukaryot. Cell 2013, 12This work was supported by the National Natural Science
+                                                                               (6), 776−793.Foundation of China (Grant No. 32170702) and the key
+                                                                    (13) Zhang, Z.; Tan, M.; Xie, Z.; Dai,  L.; Chen,  Y.; Zhao, Y.
+Project  of HuBei  Provincial  Natural  Science  Foundation                                                                                Identification  of  lysine  succinylation  as  a new  post-translational
+(Grant No. 2025AFA060). We  sincerely  thank  Professor                                                                            modification. Nat. Chem. Biol. 2011, 7 (1), 58−63.
+Feng Ge  (Institute  of  Hydrobiology, CAS)  for  technical       (14) Weinert, B. T.; Schölz, C.; Wagner, S. A.; Iesmantavicius, V.;
+assistance.                                                                Su,  D.;  Daniel,  J.  A.; Choudhary, C. Lysine  succinylation  is  a
+                                                                            frequently occurring modification in prokaryotes and eukaryotes and
+                                                                              extensively overlaps with acetylation. Cell Rep. 2013, 4 (4), 842−851.■ABBREVIATIONS                                             (15) Meng, X.; Mujahid, H.; Zhang, Y.; Peng, X.; Redoña, E. D.;Ksu, lysine succinylation; PTM, post-translational modifica-
+                                                          Wang,  C.;  Peng,  Z. Comprehensive  Analysis  of  the  Lysinetion; ACS, acetyl-CoA synthetase; GRAS, generally recognized
+                                                                  Succinylome and  Protein  Co-modifications  in  Developing  Rice
+as  safe; FDA,  food and  drug  administration; α-KG,  α-                                                                          Seeds. Mol. Cell. Proteomics 2019, 18 (12), 2359−2372.
+ketoglutarate; α-KGDHC,  α-ketoglutarate  dehydrogenase                                                                    (16) Chen, B.; Wang, Z.; Jiao, M.; Zhang, J.; Liu, J.; Zhang, D.; Li,
+complex; TCA,  tricarboxylic  acid; LC-MS/MS,  liquid        Y.; Wang, G.; Ke, H.; Cui, Q.; Yang, J.; Sun, Z.; Gu, Q.; Wang, X.;
+chromatography−tandem mass  spectrometry; TAP,  tris-ac-     Wu,  J.; Wu, L.; Zhang, G.; Wang, X.; Ma, Z.; Zhang, Y. Lysine 2-
+etate-phosphate;  PBS,  phosphate-buffered  saline; BCA,      Hydroxyisobutyrylation- and  Succinylation-Based  Pathways  Act
+bicinchoninic  acid; SDS-PAGE, sodium  dodecyl  sulfate−       Inside Chloroplasts to Modulate Plant Photosynthesis and Immunity.
+polyacrylamide gel electrophoresis; BSA, bull serum albumin;      Adv. Sci. 2023, 10 (27), No. e2301803.
+HRP, horseradish peroxidase; ECL, enhanced chemilumines-       (17) Zhang, Y.; Wang, G.; Song, L.; Mu, P.; Wang, S.; Liang, W.;
+cent; DDT,  dithiothreitol; IAM,  iodoacetamide; TFA,       Lin, Q. Global analysis of protein lysine succinylation profiles in
+trifluoroacetic  acid; CID,  collision-induced  dissociation;     common wheat. BMC Genomics 2017, 18 (1), 309.
+                                                                    (18) Wang, X.; Chen, X.; Li, J.; Zhou, X.; Liu, Y.; Zhong, L.; Tang,FDR, false discovery rate; PPI, protein−protein interaction;
+                                                                                     Y.; Zheng, H.; Liu,  J.; Zhan, R.; Chen, L. Global analysis of lysine
+KEGG, kyoto encyclopedia of genes and genomes; GO, gene                                                                             succinylation in patchouli plant leaves. Hortic. Res. 2019, 6, 133.
+ontology; IPTG,  isopropyl-β-D-1-thiogalactopyranoside;                                                                    (19) You, H.; Li, S.; Chen, Y.; Lin, J.; Wang, Z.; Dennis, M.; Li, C.;
+MDH, malate dehydrogenase; CS, citrate synthase                  Yang, D. Global proteome and lysine succinylation analyses provide
+                                                                                 insights  into the secondary metabolism  in  Salvia  miltiorrhiza.  J.
+                                                                           Proteomics 2023, 288, No. 104959.■REFERENCES(1) Kong,  F.; Yamaoka,  Y.; Ohama, T.; Lee,  Y.; Li-Beisson, Y.       (20) Yang, Y.; Gibson, G. E. Succinylation Links Metabolism to
+Molecular Genetic Tools and Emerging Synthetic Biology Strategies       Protein Functions. Neurochem. Res. 2019, 44 (10), 2346−2359.
+to Increase Cellular Oil Content in Chlamydomonas reinhardtii. Plant       (21)  Fu,  Y.;  Yu,   J.;  Li,  F.;  Ge,  S.  Oncometabolites  drive
+Cell Physiol. 2019, 60 (6), 1184−1196.                                   tumorigenesis by enhancing protein acylation: from chromosomal
+ (2) Bellido-Pedraza, C. M.; Torres, M. J.; Llamas, A. The Microalgae      remodelling to nonhistone modification.  J. Exp.  Clin. Cancer Res.
+Chlamydomonas  for Bioremediation and Bioproduct Production.      2022, 41 (1), 144.
+Cells 2024, 13 (13), No. 1137, DOI: 10.3390/cells13131137.             (22) Sabari, B. R.; Zhang, D.;  Allis, C. D.; Zhao, Y. Metabolic
+ (3) Scaife, M. A.; Nguyen, G.; Rico, J.; Lambert, D.; Helliwell, K. E.;       regulation of gene expression through histone acylations. Nat. Rev.
+Smith, A. G. Establishing Chlamydomonas reinhardtii as an industrial      Mol. Cell Biol. 2017, 18 (2), 90−101.
+biotechnology host. Plant J. 2015, 82 (3), 532−546.                     (23) Füßl, M.; König, A. C.; Eirich, J.; Hartl, M.; Kleinknecht, L.;
+ (4) Arora, K.; Kumar, P.; Bose, D.; Li, X.; Kulshrestha, S. Potential      Bohne, A. V.; Harzen, A.; Kramer, K.; Leister, D.; Nickelsen,  J.;
+applications of algae in biochemical and bioenergy sector. 3 Biotech       Finkemeier, I. Dynamic light- and acetate-dependent regulation of the
+2021, 11 (6), 296.                                                proteome and lysine acetylome of Chlamydomonas. Plant  J. 2022,
+ (5) Dyo, Y. M.; Purton, S. The algal chloroplast as a synthetic      109 (1), 261−277.
+biology platform for production of therapeutic proteins. Microbiology       (24) Qin, C.; Graf, L. G.; Striska, K.; Janetzky, M.; Geist, N.; Specht,
+2018, 164 (2), 113−121.                                                      R.; Schulze,  S.; Palm, G.  J.; Girbardt,  B.; Dörre,  B.; Berndt,  L.;
+ (6) Ma,  K.;  Deng,  L.; Wu,  H.;  Fan,   J. Towards  green      Kemnitz, S.; Doerr, M.; Bornscheuer, U. T.; Delcea, M.; Lammers, M.
+biomanufacturing of high-value recombinant proteins using promising      Acetyl-CoA synthetase activity  is enzymatically regulated by lysine
+
+                                                                    L                                                           https://doi.org/10.1021/acs.jafc.5c12224
+                                                                                                                                                                                                                                      J. Agric. Food Chem. XXXX, XXX, XXX−XXX
+
+
+<!-- page 13 -->
+
+Journal of Agricultural and Food Chemistry                            pubs.acs.org/JAFC                                     Article
+
+acetylation using acetyl-CoA or acetyl-phosphate as donor molecule.       (36) O’Shea, J. P.; Chou, M. F.; Quader, S. A.; Ryan, J. K.; Church,
+Nat. Commun. 2024, 15 (1), No. 6002.                               G. M.; Schwartz, D. pLogo: a probabilistic approach to visualizing
+ (25)  Sofeo, N.; Winkelman, D.  C.; Leung,  K.; Nikolau,  B.  J.      sequence motifs. Nat. Methods 2013, 10 (12), 1211−1212.
+Modulation of plant acetyl-CoA synthetase activity by post-transla-       (37) Høie, M. H.; Kiehl, E. N.; Petersen, B.; Nielsen, M.; Winther,
+tional lysine acetylation. Front. Mol. Biosci. 2023, 10, No. 1117921.        O.; Nielsen, H.; Hallgren, J.; Marcatili, P. NetSurfP-3.0: accurate and
+ (26) Yang, M.; Wang, Y.; Chen, Y.; Cheng, Z.; Gu, J.; Deng, J.; Bi,        fast prediction of protein  structural features by protein language
+L.; Chen, C.; Mo, R.; Wang, X.; Ge, F. Succinylome analysis reveals      models and deep learning. Nucleic Acids Res. 2022, 50 (W1), W510−
+the involvement of lysine succinylation in metabolism in pathogenic     W515.
+Mycobacterium tuberculosis. Mol. Cell. Proteomics 2015, 14 (4), 796−       (38) Cantalapiedra, C. P.; Hernández-Plaza, A.; Letunic, I.; Bork, P.;
+811.                                                               Huerta-Cepas,   J. eggNOG-mapper  v2:  Functional  Annotation,
+ (27) Rengel, R.; Smith, R. T.; Haslam, R. P.; Sayanova, O.; Vila, M.;      Orthology Assignments, and Domain Prediction at the Metagenomic
+León, R. Overexpression of acetyl-CoA synthetase (ACS) enhances       Scale. Mol. Biol. Evol. 2021, 38 (12), 5825−5829.
+the biosynthesis of neutral lipids and starch in the green microalga       (39) Kanehisa, M.; Sato, Y. KEGG Mapper for inferring cellular
+Chlamydomonas reinhardtii. Algal Res. 2018, 31, 183−193.                functions from protein sequences. Protein Sci. 2020, 29 (1), 28−35.
+ (28) Ramanan, R.; Kim, B. H.; Cho, D. H.; Ko, S. R.; Oh, H. M.;       (40) Szklarczyk, D.; Kirsch, R.; Koutrouli, M.; Nastou, K.; Mehryary,
+Kim, H. S. Lipid droplet synthesis is limited by acetate availability in        F.; Hachilif, R.; Gable, A. L.; Fang, T.; Doncheva, N. T.; Pyysalo, S.;
+starchless mutant of Chlamydomonas reinhardtii. FEBS Lett. 2013,       Bork, P.; Jensen, L. J.; von Mering, C. The STRING database in 2023:
+587 (4), 370−377.                                                        protein-protein  association  networks and  functional  enrichment
+ (29) Li, L.; Tian, G.; Peng, H.; Meng, D.; Wang, L.; Hu, X.; Tian,       analyses for any sequenced genome of interest. Nucleic Acids Res.
+C.; He, M.; Zhou, J.; Chen, L.; Fu, C.; Zhang, W.; Hu, Z. New class of      2023, 51 (D1), D638−D646.
+transcription factors controls flagellar assembly by recruiting RNA       (41) Bindea, G.; Mlecnik, B.; Hackl, H.; Charoentong, P.; Tosolini,
+polymerase II in Chlamydomonas. Proc. Natl. Acad. Sci. U.S.A. 2018,      M.; Kirilovsky, A.; Fridman, W. H.; Pagès, F.; Trajanoski, Z.; Galon, J.
+115 (17), 4435−4440.                                         ClueGO: a Cytoscape plug-in to decipher functionally grouped gene
+ (30) Collard, J. M.; Matagne, R. F. Isolation and genetic analysis of      ontology and pathway annotation networks. Bioinformatics 2009, 25
+Chlamydomonas  reinhardtii  strains  resistant  to cadmium.  Appl.       (8), 1091−1093.
+Environ. Microbiol. 1990, 56 (7), 2051−2055.                           (42) Shannon, P.; Markiel, A.; Ozier, O.; Baliga, N. S.; Wang, J. T.;
+ (31) Gorman, D. S.; Levine, R. P. Cytochrome f and plastocyanin:      Ramage, D.; Amin, N.; Schwikowski, B.; Ideker, T. Cytoscape: a
+their sequence in the photosynthetic electron transport chain of      software  environment  for  integrated  models  of  biomolecular
+Chlamydomonas reinhardi. Proc. Natl. Acad. Sci. U.S.A. 1965, 54 (6),       interaction networks. Genome Res. 2003, 13 (11), 2498−2504.
+1665−1669.                                                         (43) Kumar, S.; Stecher, G.; Li, M.; Knyaz, C.; Tamura, K. MEGA
+ (32) Jia, K.; Yang, M.; Liu, X.; Zhang, Q.; Cao, G.; Ge, F.; Zhao, J.      X:  Molecular  Evolutionary  Genetics  Analysis  across Computing
+Deciphering  the  structure,  function, and mechanism  of  lysine       Platforms. Mol. Biol. Evol. 2018, 35 (6), 1547−1549.
+acetyltransferase cGNAT2 in cyanobacteria. Plant Physiol. 2024, 194       (44) Yan, W.; Xie, C.; Sun, S.; Zheng, Q.; Wang, J.; Wang, Z.; Man,
+(2), 634−661.                                                      C. H.; Wang, H.; Yang, Y.; Wang, T.; Shi, L.; Zhang, S.; Huang, C.;
+ (33) Merchant, S. S.; Prochnik, S. E.; Vallon, O.; Harris, E. H.;      Xu, S.; Wang, Y. P. SUCLG1 restricts POLRMT succinylation to
+Karpowicz, S. J.; Witman, G. B.; Terry, A.; Salamov, A.; Fritz-Laylin,      enhance mitochondrial biogenesis and leukemia progression. EMBO J.
+L. K.; Maréchal-Drouard, L.; Marshall, W. F.; Qu, L. H.; Nelson, D.      2024, 43 (12), 2337−2367.
+R.; Sanderfoot, A. A.; Spalding, M. H.; Kapitonov, V. V.; Ren, Q.;       (45) Xu, Q.; Liu, Q.; Chen, Z.; Yue, Y.; Liu, Y.; Zhao, Y.; Zhou, D.
+Ferris, P.; Lindquist, E.; Shapiro, H.; Lucas, S. M.; Grimwood,  J.;       X.  Histone  deacetylases  control  lysine  acetylation  of  ribosomal
+Schmutz,  J.; Cardol, P.; Cerutti, H.; Chanfreau, G.; Chen, C. L.;       proteins in rice. Nucleic Acids Res. 2021, 49 (8), 4613−4628.
+Cognat, V.; Croft, M. T.; Dent, R.; Dutcher,  S.; Fernández,  E.;       (46) Liu, X.; Yang, M.; Wang, Y.; Chen, Z.; Zhang, J.; Lin, X.; Ge, F.;
+Fukuzawa,  H.;  González-Ballester,  D.;  González-Halphen,  D.;      Zhao, J. Effects of PSII Manganese-Stabilizing Protein Succinylation
+Hallmann, A.; Hanikenne, M.; Hippler, M.; Inwood, W.; Jabbari,     on Photosynthesis in the Model Cyanobacterium Synechococcus sp.
+K.; Kalanon, M.; Kuras, R.; Lefebvre, P. A.; Lemaire, S. D.; Lobanov,    PCC 7002. Plant Cell Physiol. 2018, 59 (7), 1466−1482.
+A.  V.; Lohr, M.; Manuell,  A.; Meier,  I.; Mets,  L.;  Mittag, M.;       (47) Liu, X.; Yang, M.; Liu, Y.; Ge, F.; Zhao,  J. Structural and
+Mittelmeier, T.; Moroney, J. V.; Moseley, J.; Napoli, C.; Nedelcu, A.       Functional Insights into a Lysine Deacylase in the Cyanobacterium
+M.; Niyogi, K.; Novoselov, S. V.; Paulsen, I. T.; Pazour, G.; Purton, S.;      Synechococcus sp. PCC 7002. Plant Physiol. 2020, 184 (2), 762−776.
+Ral, J. P.; Riaño-Pachón, D. M.; Riekhof, W.; Rymarquis, L.; Schroda,       (48) Brown, T. D. K.; Jones-Mortimer, M. C.; Kornberg, H. L. The
+M.; Stern, D.; Umen,  J.; Willows, R.; Wilson, N.; Zimmer, S. L.;      enzymic  interconversion  of  acetate and  acetyl-coenzyme A  in
+Allmer,  J.; Balk,  J.; Bisova, K.; Chen, C.  J.; Elias, M.; Gendler, K.;       Escherichia coli. J. Gen. Microbiol. 1977, 102 (2), 327−336.
+Hauser, C.; Lamb, M. R.; Ledford, H.; Long, J. C.; Minagawa, J.; Page,       (49) van den Berg, M. A.; de Jong-Gubbels, P.; Kortland, C. J.; van
+M. D.; Pan,  J.; Pootakham, W.; Roje, S.; Rose, A.; Stahlberg, E.;       Dijken, J. P.; Pronk, J. T.; Steensma, H. Y. The two acetyl-coenzyme
+Terauchi, A. M.; Yang, P.; Ball, S.; Bowler, C.; Dieckmann, C. L.;    A synthetases of Saccharomyces  cerevisiae  differ with respect to
+Gladyshev, V. N.; Green, P.; Jorgensen, R.; Mayfield, S.; Mueller-       kinetic properties and transcriptional regulation. J. Biol. Chem. 1996,
+Roeber, B.; Rajamani, S.; Sayre, R. T.; Brokstein, P.; Dubchak,  I.;      271 (46), 28953−28959.
+Goodstein, D.; Hornick,  L.; Huang, Y. W.;  Jhaveri,  J.; Luo,  Y.;       (50)  Leutert,  M.;  Entwisle,  S. W.;  Villén,   J. Decoding  Post-
+Martínez, D.; Ngau, W. C.;  Otillar,  B.; Poliakov, A.; Porter, A.;       Translational  Modification  Crosstalk With  Proteomics. Mol.  Cell
+Szajkowski, L.; Werner, G.; Zhou, K.; Grigoriev, I. V.; Rokhsar, D. S.;       Proteomics 2021, 20, No. 100129.
+Grossman, A. R. The Chlamydomonas genome reveals the evolution       (51) Ding, Y.; Liu, Y.; Yang, K.; Zhao, Y.; Wen, C.; Yang, Y.; Zhang,
+of key animal and plant functions. Science 2007, 318 (5848), 245−     W. Proteomic Analysis of Lysine Acetylation and Succinylation to
+250.                                                                          Investigate the Pathogenicity of Virulent Pseudomonas syringae pv.
+ (34)  Cox,   J.; Mann, M. MaxQuant  enables  high  peptide      tomato DC3000 and  Avirulent  Line Pseudomonas  syringae  pv.
+identification rates, individualized p.p.b.-range mass accuracies and      tomato DC3000 avrRpm1 on Arabidopsis thaliana. Genes 2024, 15
+proteome-wide protein quantification. Nat. Biotechnol. 2008, 26 (12),       (4), No. 199, DOI: 10.3390/genes15040499.
+1367−1372.                                                         (52) Fang, X.; Xin, Y.; Sheng, Z.; Liu, H.; Jiang, A.; Wang, F.; Yang,
+ (35) Horton, P.; Park, K. J.; Obayashi, T.; Fujita, N.; Harada, H.;          J.; Xi, X.; Zha, Q.; Zhang, L.; Dai, L.; Yan, C.; Chen, J. Systematic
+Adams-Collier, C. J.; Nakai, K. WoLF PSORT: protein localization       Identification and Analysis of Lysine Succinylation in Strawberry
+predictor. Nucleic Acids Res. 2007, 35, W585−W587.                      Stigmata. J. Agric. Food Chem. 2018, 66 (50), 13310−13320.
+
+                                        M                                                           https://doi.org/10.1021/acs.jafc.5c12224
+                                                                                                                                                                                                                                      J. Agric. Food Chem. XXXX, XXX, XXX−XXX
+
+
+<!-- page 14 -->
+
+Journal of Agricultural and Food Chemistry                            pubs.acs.org/JAFC                                     Article
+
+ (53) Zhou, H.; Finkemeier, I.; Guan, W.; Tossounian, M. A.; Wei,
+B.; Young, D.; Huang, J.; Messens, J.; Yang, X.; Zhu, J.; Wilson, M.
+H.;  Shen, W.;  Xie,  Y.;  Foyer, C. H.  Oxidative  stress-triggered
+interactions between the succinyl- and acetyl-proteomes of rice leaves.
+Plant, Cell Environ. 2018, 41 (5), 1139−1153.
+ (54)  Sreedhar,  A.;  Wiese,  E.  K.;  Hitosugi,  T. Enzymatic and
+metabolic regulation of lysine succinylation. Genes Dis. 2020, 7 (2),
+166−171.
+ (55) Bruscalupi, G.; Di Micco, P.;  Failla, C. M.; Pascarella, G.;
+Morea, V.; Saliola, M.; De Paolis, A.; Venditti,  S.; Mauro, M. L.
+Arabidopsis  thaliana  sirtuins  control  proliferation and  glutamate
+dehydrogenase activity. Plant Physiol. Biochem. 2023, 194, 236−245.
+ (56) Ke, Z.; Shen, K.; Wang, L.; Xu, H.; Pan, X.; Qian, Z.; Wen, Y.;
+Lv, T.; Zhang, X.; Song, Y. Emerging roles of mitochondrial sirtuin
+SIRT5 in succinylation modification and cancer development. Front.
+Immunol. 2025, 16, No. 1531246.
+
+
+
+
+
+                                                 N                                                           https://doi.org/10.1021/acs.jafc.5c12224
+                                                                                                                                                                                                                                      J. Agric. Food Chem. XXXX, XXX, XXX−XXX

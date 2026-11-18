@@ -34,11 +34,11 @@ def main():
 
     legends = re.findall(r"\*\*(?:Supplementary )?Figure [0-9S]+\.", text)
     if len(legends) != 5:
-        problems.append("expected 5 figure legends, found %d: %s" % (len(legends), legends))
+        problems.append("expected 6 figure legends, found %d: %s" % (len(legends), legends))
 
     tables = re.findall(r"\*\*Table [0-9S]+\.", text)
-    if len(tables) != 4:
-        problems.append("expected 4 table captions, found %d" % len(tables))
+    if len(tables) != 5:
+        problems.append("expected 5 table captions, found %d" % len(tables))
 
     abstract = re.search(r"## Abstract\n\n(.+?)\n", text)
     if abstract:
@@ -51,7 +51,7 @@ def main():
         for p in problems:
             print("  -", p)
         return 1
-    print("manuscript guard: ok (sections 10, Results 1-5, legends 5, tables 4, abstract %d words, longest line %d)"
+    print("manuscript guard: ok (sections 10, Results 1-5, legends 5, tables 5, abstract %d words, longest line %d)"
           % (n, longest))
     return 0
 

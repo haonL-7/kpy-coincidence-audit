@@ -1,0 +1,133 @@
+[
+ {
+  "paper": "01_Sitosari_BBRC_2023",
+  "doi": "10.1016/j.bbrc.2023.01.033",
+  "ok": false,
+  "how": "",
+  "log": [
+   "https://sci-hub.st -> blocked(CF/验证页,需浏览器过验证)",
+   "https://sci-hub.ee -> blocked(CF/验证页,需浏览器过验证)",
+   "https://sci-hub.ru -> blocked(CF/验证页,需浏览器过验证)",
+   "https://sci-hub.ee -> blocked(CF/验证页,需浏览器过验证)",
+   "https://www.sci-hub.ren -> blocked(CF/验证页,需浏览器过验证)",
+   "https://sci-hub.usualwant.com -> blocked(CF/验证页,需浏览器过验证)",
+   "https://sci-hub.al -> no-pdf-link",
+   "https://sci-hub.box -> unreachable(HTTPError)",
+   "https://sci-hub.hkvisa.net -> unreachable(URLError)",
+   "https://sci.bban.top -> unreachable(HTTPError)",
+   "https://sci-hub.org.cn -> no-pdf-link"
+  ]
+ },
+ {
+  "paper": "02_Liang_VetMicro_2026",
+  "doi": "10.1016/j.vetmic.2026.110871",
+  "ok": false,
+  "how": "",
+  "log": [
+   "https://sci-hub.st -> no-pdf-link",
+   "https://sci-hub.ee -> blocked(CF/验证页,需浏览器过验证)",
+   "https://sci-hub.ru -> blocked(CF/验证页,需浏览器过验证)",
+   "https://sci-hub.ee -> blocked(CF/验证页,需浏览器过验证)",
+   "https://www.sci-hub.ren -> blocked(CF/验证页,需浏览器过验证)",
+   "https://sci-hub.usualwant.com -> blocked(CF/验证页,需浏览器过验证)",
+   "https://sci-hub.al -> unreachable(TimeoutError)",
+   "https://sci-hub.box -> unreachable(HTTPError)",
+   "https://sci-hub.hkvisa.net -> unreachable(URLError)",
+   "https://sci.bban.top -> unreachable(HTTPError)",
+   "https://sci-hub.org.cn -> no-pdf-link"
+  ]
+ },
+ {
+  "paper": "03_Xu_CancerLett_2026",
+  "doi": "10.1016/j.canlet.2026.218650",
+  "ok": false,
+  "how": "",
+  "log": [
+   "https://sci-hub.st -> blocked(CF/验证页,需浏览器过验证)",
+   "https://sci-hub.ee -> blocked(CF/验证页,需浏览器过验证)",
+   "https://sci-hub.ru -> blocked(CF/验证页,需浏览器过验证)",
+   "https://sci-hub.ee -> blocked(CF/验证页,需浏览器过验证)",
+   "https://www.sci-hub.ren -> blocked(CF/验证页,需浏览器过验证)",
+   "https://sci-hub.usualwant.com -> blocked(CF/验证页,需浏览器过验证)",
+   "https://sci-hub.al -> no-pdf-link",
+   "https://sci-hub.box -> unreachable(HTTPError)",
+   "https://sci-hub.hkvisa.net -> unreachable(URLError)",
+   "https://sci.bban.top -> unreachable(HTTPError)",
+   "https://sci-hub.org.cn -> no-pdf-link"
+  ]
+ },
+ {
+  "paper": "04_Bao_JASMS_2024",
+  "doi": "10.1021/jasms.4c00366",
+  "ok": true,
+  "how": "cached",
+  "log": []
+ },
+ {
+  "paper": "05_Zhao_ChemResTox_2024",
+  "doi": "10.1021/acs.chemrestox.3c00298",
+  "ok": false,
+  "how": "",
+  "log": [
+   "https://sci-hub.st -> blocked(CF/验证页,需浏览器过验证)",
+   "https://sci-hub.ee -> blocked(CF/验证页,需浏览器过验证)",
+   "https://sci-hub.ru -> blocked(CF/验证页,需浏览器过验证)",
+   "https://sci-hub.ee -> blocked(CF/验证页,需浏览器过验证)",
+   "https://www.sci-hub.ren -> blocked(CF/验证页,需浏览器过验证)",
+   "https://sci-hub.usualwant.com -> blocked(CF/验证页,需浏览器过验证)",
+   "https://sci-hub.al -> no-pdf-link",
+   "https://sci-hub.box -> unreachable(HTTPError)",
+   "https://sci-hub.hkvisa.net -> unreachable(URLError)",
+   "https://sci.bban.top -> unreachable(HTTPError)",
+   "https://sci-hub.org.cn -> no-pdf-link"
+  ]
+ },
+ {
+  "paper": "06_Yuan_JPR_2026",
+  "doi": "10.1021/acs.jproteome.5c01243",
+  "ok": false,
+  "how": "",
+  "log": [
+   "https://sci-hub.st -> blocked(CF/验证页,需浏览器过验证)",
+   "https://sci-hub.ee -> unreachable(URLError)",
+   "https://sci-hub.ru -> blocked(CF/验证页,需浏览器过验证)",
+   "https://sci-hub.ee -> unreachable(URLError)",
+   "https://www.sci-hub.ren -> blocked(CF/验证页,需浏览器过验证)",
+   "https://sci-hub.usualwant.com -> blocked(CF/验证页,需浏览器过验证)",
+   "https://sci-hub.al -> unreachable(URLError)",
+   "https://sci-hub.box -> unreachable(HTTPError)",
+   "https://sci-hub.hkvisa.net -> unreachable(URLError)",
+   "https://sci.bban.top -> unreachable(HTTPError)",
+   "https://sci-hub.org.cn -> no-pdf-link"
+  ]
+ },
+ {
+  "paper": "07_Chai_MolNeurobiol_2024",
+  "doi": "10.1007/s12035-024-03995-y",
+  "ok": true,
+  "how": "https://sci-hub.st / pdf-via-embed",
+  "log": [
+   "https://sci-hub.st -> pdf-via-embed"
+  ]
+ },
+ {
+  "paper": "08_Demir_AminoAcids_2023",
+  "doi": "10.1007/s00726-023-03266-5",
+  "ok": true,
+  "how": "https://sci-hub.st / pdf-via-embed",
+  "log": [
+   "https://sci-hub.st -> pdf-via-embed"
+  ]
+ },
+ {
+  "paper": "09_Wei_Oncogene_2025",
+  "doi": "10.1038/s41388-025-03450-9",
+  "ok": true,
+  "how": "https://sci-hub.ru / pdf-via-embed",
+  "log": [
+   "https://sci-hub.st -> blocked(CF/验证页,需浏览器过验证)",
+   "https://sci-hub.ee -> unreachable(URLError)",
+   "https://sci-hub.ru -> pdf-via-embed"
+  ]
+ }
+]

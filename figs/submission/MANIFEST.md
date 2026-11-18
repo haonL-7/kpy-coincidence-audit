@@ -7,7 +7,8 @@ PDF for review, TIFF (600 dpi, LZW, RGB) for production.
 |---|---|---|---|
 | `Fig1.pdf` / `Fig1.tif` | Figure 1 | (a) how each reference set samples lysines; (b) observed vs expected under A, B, D; (c) reference set C; (d) catalogue coverage by protein class | 7.00 x 3.95 in |
 | `Fig2.pdf` / `Fig2.tif` | Figure 2 | (a) annotation density across the 63 proteins; (b) multi-modification rate by acylation against catalogue size | 7.00 x 2.80 in |
-| `Fig3.pdf` / `Fig3.tif` | Figure 3 | three-item reporting protocol: claim, three controls, interpretable or not | 7.00 x 1.90 in |
+| `Fig3.pdf` / `Fig3.tif` | Figure 3 | pooled fold against within-protein odds ratio for the nine catalogued acylations and pyruvylation | 3.60 x 3.15 in |
+| `Fig4.pdf` / `Fig4.tif` | Figure 4 | three-item reporting protocol: claim, three controls, interpretable or not | 7.00 x 1.90 in |
 | `FigS1.pdf` / `FigS1.tif` | Supplementary Figure S1 | structural context: RSA and pLDDT distributions, multi-modification rate by exposure, within-protein paired comparison | 7.00 x 2.30 in |
 | `FigS2.pdf` / `FigS2.tif` | Supplementary Figure S2 | curated UniProt evidence by class, query included (filled) and query excluded (open) | 3.40 x 2.00 in |
 | `TOC_Graphic.pdf` / `.tif` | TOC graphic | the journal maximum | 3.25 x 1.75 in |

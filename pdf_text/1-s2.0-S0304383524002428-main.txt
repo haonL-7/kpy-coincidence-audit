@@ -1,0 +1,1083 @@
+Cancer Letters 591 (2024) 216849
+Available online 16 April 2024
+0304-3835/© 2024 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-
+nc-nd/4.0/).
+Original Articles 
+Cross-talk between BCKDK-mediated phosphorylation and 
+STUB1-dependent ubiquitination degradation of BCAT1 promotes 
+GBM progression 
+Wei Wang a,1, Youwei Li e,a,1, Liu Tang a, Yue Shi a, Wensheng Li a, Ling Zou a, Liyuan Zhang a, 
+Yue Cheng a, Zheng Yuan a, Feng Zhu b,c,d,**, Qiuhong Duan a,b,c,d,* 
+a Department of Biochemistry and Molecular Biology, School of Basic Medicine, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, Hubei, 
+430030, China 
+b Translational Medicine Center, Huaihe Hospital of Henan University, Kaifeng, Henan, 475000, China 
+c The Zhongzhou Laboratory for Integrative Biology, Zhengzhou, Henan, 450000, China 
+d Medical and Industry Crossover Research Institute of Medical College, Henan University, Kaifeng, Henan, 475000, China 
+e Department of Pain Management, Affiliated ZhongDa Hospital, School of Medicine, Southeast University, Nanjing, Jiangsu, 210009, China   
+A R T I C L E I N F O  
+Keywords: 
+BCAT1 
+BCKDK 
+STUB1 
+Post-translational modifications 
+GBM 
+A B S T R A C T  
+Branched-chain amino acid transferase 1 (BCAT1) is highly expressed in multiple cancers and is associated with 
+poor prognosis, particularly in glioblastoma (GBM). However, the post-translational modification (PTM) 
+mechanism of BCAT1 is unknown. Here, we investigated the cross-talk mechanisms between phosphorylation 
+and ubiquitination modifications in regulating BCAT1 activity and stability. We found that BCAT1 is phos­
+phorylated by branched chain ketoacid dehydrogenase kinase (BCKDK) at S5, S9, and T312, which increases its 
+catalytic and antioxidant activity and stability. STUB1 (STIP1 homology U-box-containing protein 1), the first we 
+found and reported E3 ubiquitin ligase of BCAT1, can also be phosphorylated by BCKDK at the S19 site, which 
+disrupts the interaction with BCAT1 and inhibits its degradation. In addition, we demonstrate through in vivo and 
+in vitro experiments that BCAT1 phosphorylation inhibiting its ubiquitination at multiple sites is associated with 
+GBM proliferation and that inhibition of the BCKDK-BCAT1 axis enhances the sensitivity to temozolomide (TMZ). 
+Overall, we identified novel mechanisms for the regulation of BCAT1 modification and elucidated the importance 
+of the BCKDK-STUB1-BCAT1 axis in GBM progression.   
+1. Introduction 
+Branched-chain amino acid (BCAA) metabolism regulates tumor cell 
+reprogramming mediating the progression of multiple cancers [1–3]. 
+Branched-chain amino acid transaminase (BCAT) mediates the catabo­
+lism of BCAAs to produce glutamate, which is further synthesized into 
+glutamine, a critical nutrient for glioblastoma (GBM) cell growth [4,5]. 
+BCAT has two isoforms, BCAT1 and BCAT2, located in the cytoplasm 
+and mitochondria, respectively. BCAT2 is widely expressed [6], whereas 
+BCAT1 is mostly distributed in the nervous system, and an increasing 
+number of studies have shown that BCAT1 is highly expressed in many 
+tumors, particularly GBM, and is associated with cancer progression and 
+poor prognosis [7–10]. It has been shown that BCAT1 is clearly 
+expressed in IDH1(Isocitrate Dehydrogenase 1)WT, but not in the ma­
+jority of IDH1Mut gliomas. As there is abundant methylation within the 
+promoter region of BCAT1 in IDH1Mut gliomas, whereas suppression of 
+BCAT1 blocks glutamate synthesis and leads to reduced aggressiveness 
+in glioma [8]. Further studies showed that BCAT1 could maintain the 
+poorly differentiated characteristics of glioblastoma cells and contrib­
+utes to the immunosuppressive tumor microenvironment, which was 
+expected to be a marker of tumour progression and prognosis [11]. 
+Existing BCAT1-related regulatory mechanisms mainly focus on the 
+transcriptional level, including the upstream transcription factors c-Myc 
+* Corresponding author. 
+** Corresponding author. 
+E-mail addresses: 489622753@qq.com (W. Wang), 1140594413@qq.com (Y. Li), 1490753262@qq.com (L. Tang), 1281842566@qq.com (Y. Shi), 2628220830@ 
+qq.com (W. Li), 1092130572@qq.com (L. Zou), 1315754495@qq.com (L. Zhang), 969127768@qq.com (Y. Cheng), 915835684@qq.com (Z. Yuan), fengzhu@hust. 
+edu.cn (F. Zhu), duanqhwz@henu.edu.cn (Q. Duan).   
+1 These authors contributed equally. 
+Contents lists available at ScienceDirect 
+Cancer Letters 
+journal homepage: www.elsevier.com/locate/canlet 
+https://doi.org/10.1016/j.canlet.2024.216849 
+Received 15 January 2024; Received in revised form 18 March 2024; Accepted 1 April 2024   
+
+Cancer Letters 591 (2024) 216849
+2
+[12], SMAD5 [13], MSI2 [14], PBX3 [15], and some miRNAs [16] and 
+lncRNAs [17]. And targeted inhibition of FLT3 also inhibits BCAT1 
+expression [18]. Transcriptional regulation greatly influences the 
+expression of BCAT1, but the mechanisms of BCAT1 itself at the 
+post-translational modification (PTM) level have not yet been 
+investigated. 
+Protein PTMs are essential for the maintenance of normal cellular 
+activities [19,20]. Phosphorylation and ubiquitination are the most 
+common types of PTMs that can affect protein biological function by 
+changing structures, protein interactions, stability or location, and their 
+aberrant regulation has been associated with the development of certain 
+diseases and cancers [21–23]. Branched-chain α-keto acid dehydroge­
+nase kinase (BCKDK), a key enzyme in BCAA catabolism, is expressed in 
+a variety of tumors and may serve as an emerging serine/threonine (S/T) 
+kinase target in cancer [24–29]. Our recent study found that BCKDK is 
+highly expressed in GBM and promotes the proliferation of tumor cells 
+(unpublished), but whether there is a correlation between BCAT1 and 
+BCKDK remains unknown. STIP1 homology and U-box-containing pro­
+tein 1 (STUB1) is a co-chaperone of heat shock protein 70 (HSP70) and 
+an E3 ligase that has been demonstrated to be a therapeutic target for a 
+variety of neurological disorders and plays an important role in aging, 
+autophagy, and cancer progression [30,31]. The expression of STUB1 in 
+GBM has a dual function, with high expression in U87 and U251 cells 
+promoting gliomagenesis [32], while also inhibiting the progression of 
+GBM by targeting the degradation of EGFR and c-Myc [33,34]. There­
+fore, exploration of other substrates of STUB1 is necessary to fully un­
+derstand its role in GBM. 
+Here, we first identified that BCKDK is a direct upstream kinase of 
+BCAT1 that interacts with and phosphorylates BCAT1 at S5/S9/T312 to 
+increase its catalytic and antioxidant activity and stability. We also 
+confirmed that STUB1 is a novel E3 ligase of BCAT1 and is phosphory­
+lated by BCKDK. BCKDK-mediated phosphorylation of BCAT1 inhibits 
+its ubiquitination degradation by STUB1 and promotes the growth of 
+GBM. In addition, inhibition of the BCKDK-BCAT1 axis significantly 
+enhanced the sensitivity to TMZ and inhibited GBM progression in vitro 
+and in vivo. Altogether, this study emphasizes the importance of the 
+novel BCKDK-STUB1-BCAT1 signaling axis in GBM treatment. 
+2. Materials and methods 
+2.1. Cell culture 
+The 5 human glioma cell lines A172, H4, Hs683, U118MG, and 
+U87MG and the human embryonic renal cell line HEK293T were 
+laboratory-owned. The GBM cell line GWH04 [35] and mouse glioma 
+cell line GL261 were kind gifts from Prof. Dongsheng Guo (Neurosurgery 
+Laboratory, Tongji Hospital). All cell lines were cultured with DMEM 
+(Gibco, Grand Island, NY) containing 10 % fetal bovine serum (FBS, 
+Gibco) at 37 ◦C in a humidified 5 % CO2 incubator. 
+2.2. Plasmids and cell lines establishment 
+The psPAX2, pMD2.G, pLKO.1, lentiCRISPR V2, pLVX-Luc-GFP, 
+pCold-GST-BCAT1 (70KD), pcDNA3.1-BCAT1-His (43KD), and pCMV- 
+BCKDK-Flag (47KD), plasmids were obtained from our own labora­
+tory. pCMV3-STUB1-Myc (37KD) was purchased from Sinobiological 
+(HG12496-CM). pcDNA3.1-HA-Ub-WT/K48 only/K63 only were gifts 
+from Prof. Binbin Ding (School of Basic Medicine, Huazhong University 
+of Science and Technology). pHAGE-Myc-BCAT1-WT/3A/3D (48KD), 
+pcDNA3.1-BCAT1-3A-His 
+(43KD), 
+pCold-GST-BCAT1-3A 
+(70KD), 
+pET23a-His-STUB1-WT/S19A (35KD), pCold-GST-STUB1-FL/△TPR/ 
+△U-box (62KD, 48KD, 53KD), pCMV-STUB1-H260Q-Myc (37KD) and 
+pcDNA3.1-BCAT1-K mutant-His plasmids (43KD) were cloned with a 
+Mut Express II Fast Mutagenesis Kit V2 (Vazyme), and the cloning 
+primers are listed in Supplemental Table 1. 
+For silencing genes, shRNAs and sgRNA (see Supplemental Table 2) 
+were designed and cloned and inserted into the pLKO.1 vector to obtain 
+the corresponding plasmids. Lentiviral particles were produced in 
+HEK293T cells transfected with a mixture of plasmid DNA and lentiviral 
+vectors (psPAX2 and pMD2. G) with Simple-Fect (Signaling Dawn 
+Biotechnology, Wuhan). The culture medium containing the lentiviruses 
+was collected 48 h after transfection and filtered through a 0.22 μm filter 
+to remove cell debris. The filtered supernatant was added to the cell 
+cultures with polybrene (10 μg/mL) and selected with puromycin 
+(APExBio. Houston, USA) for at least 3 days. 
+For overexpressing genes, transfection Methods: GL261 and U87MG 
+cells were transiently transfected with pLVX-Luc-GFP and screened with 
+G418 for at least 2 weeks to obtain the GL261/U87MG-Luc cell lines. 
+Viral Infection Method: The target DNA sequences were cloned and 
+inserted into the pHAGE vector (such as pHAGE-Myc-BCAT1-WT/3A/ 
+3D/K2R/K19R/K107R/K305R and pHAGE-Myc-BCKDK-Flag), and a 
+stable cell line was established by lentiviral packaging (as before). 
+2.3. Quantitative PCR 
+Total RNA was isolated from cells with TRIzol (Sigma, USA), a 
+HiScript II 1st Strand cDNA Synthesis Kit (Vazyme) was used for RNA 
+reverse transcription, and the target gene was amplified for 1.5 mins for 
+20, 25 and 30 cycles. A CFX96 Real-time PCR system (Bio-Rad) was uti­
+lized for qPCR detection. The primers for BCAT1 were as follows: forward: 
+GTGGAGTGGTCCTCAGAG; reverse: GCTGACACCCATTATCTAC. 
+2.4. Western blotting (WB) and co-immunoprecipitation (IP) assay 
+For WB, cells were lysed with cell lysis buffer (Biosharp), cell lysates 
+were ultrasonicated at 20 % power for 30 s on ice, followed by centri­
+fugation, and loading buffer was added to the obtained supernatant and 
+heated at 95 ◦C for 10 mins. For IP, HEK293T cells transiently trans­
+fected with the plasmids for 48 h or GBM cells were lysed in Co-IP buffer 
+and ultrasonicated at only 5 % power, and the whole supernatant was 
+incubated with the corresponding antibody and protein A/G (Santa 
+Cruz) at 4 ◦C for 12 h on a shaker. Samples were washed with PBS 
+containing 0.1 % Triton-100 at least 3 times, followed by the addition of 
+2 × loading buffer at 95 ◦C for 10 mins. The samples were resolved in a 
+10 % SDS‒PAGE gel and subjected to immunoblotting. Antibodies for 
+WB are listed in Supplemental Table 3. 
+2.5. Bacterial expression and in vitro pull-down assay 
+Bacteria of pCold-GST-BCAT1 WT or 3A were grown at 37 ◦C to an 
+absorbance of 0.6–0.8 at A600 nm, and then 0.5 mM IPTG was added and 
+rotated at 16 ◦C overnight to an absorbance of 1.2–1.4 at A600 nm. 
+Bacteria of pET23a-His-STUB1 were grown at 37 ◦C to an absorbance of 
+1.2–1.4 at A600 nm. The GST-BCAT1 protein and His-STUB1 protein were 
+purified using Glutathione SepharoseTM 4B (GE Healthcare Bio- 
+Sciences AB SE-75184 Uppsala, Sweden) and Ni-NTA Agarose 
+Abbreviations 
+BCAA 
+branched-chain amino acid 
+BCAT 
+branched-chain amino acid transferase 
+GBM 
+glioblastoma 
+BCKDK 
+branched chain ketoacid dehydrogenase kinase 
+IDH1 
+Isocitrate Dehydrogenase 1 
+PTM 
+post-translational modification 
+TMZ 
+temozolomide 
+STUB1 
+STIP1 homology U-box-containing protein 1 
+ROS 
+reactive oxygen species  
+W. Wang et al.                                                                                                                                                                                                                                  
+
+Cancer Letters 591 (2024) 216849
+3
+(Genscript, L00250), respectively. The purified protein was incubated 
+with the cell lysates and then rotated overnight at 4 ◦C. Unbound pro­
+teins were removed after several washes in cold washing buffer, fol­
+lowed by the addition of 2 × loading buffer and heating at 95 ◦C for 10 
+mins. The samples were detected by WB. 
+2.6. IP-kinase assay and IP mass spectrometry 
+Active BCKCK was prepared by IP according to the following steps: 
+HEK293T cells were transfected with pCMV-BCKDK-Flag for 48 h, 
+stimulated with 80 ng/mL EGF for 30 mins and harvested for IP of active 
+BCKDK using Flag antibody. The inactive human GST-BCAT1-WT/3A 
+proteins were purified by Glutathione SepharoseTM 4B from bacteria 
+(as before), and the concentrations were measured using the Bradford 
+method and grayscale scanning. Active BCKDK and 3 μg of inactive 
+BCAT1 proteins were incubated in 1 × kinase buffer in the presence of 
+100 μM ATP at 37 ◦C for 2 h. Then, phosphorylated BCAT1 was detected 
+by WB using the p-Ser or p-Thr antibody, and the phosphorylated sites 
+were subsequently analyzed using Thermo’s Q X Active Plus liquid mass 
+spectrometry system (SpecAlly Life Technology). The enriched proteins 
+and sites in the kinase assay sample are listed in Supplemental Table 4. 
+2.7. Detection of apoptosis 
+Cells were seeded in 6-well plates and treated with inhibitors or TMZ 
+for 48 h. Cells together with dead cells in the supernatant were collected 
+and incubated with PI (Beyotime, C1062S) for 15 mins at 37 ◦C away 
+from light. A BD-FACSAria™ Fusion was used for flow cytometry ana­
+lyses. Data were analyzed and presented using FlowJo V10. 
+2.8. Reactive oxygen Species(ROS) assay 
+Cells were incubated with a final concentration of 10 μM DCFH-DA 
+for 20 mins in a 37 ◦C incubator, then digested and collected after 3 
+washes with serum-free medium, and the levels of ROS in the cells were 
+detected using BD-FACSAria™ Fusion with FITC parameters. Data were 
+analyzed and presented using FlowJo V10 and GraphPad Prism 9. 
+2.9. Immunofluorescent (IF) staining 
+Cells were seeded in cover glass (Sigma, USA), fixed in 4 % para­
+formaldehyde for 30 mins, permeabilized in Triton X-100 for 30 mins, 
+and incubated at room temperature with 5 % bovine serum albumin 
+(BSA) for 30 mins. Then, the samples were washed and incubated with 
+primary antibody in a wet box at 4 ◦C overnight, washed and incubated 
+with Alexa Fluor 488 (green for BCKDK) or Alexa Fluor 546 (red for 
+BCAT1 or STUB1)-conjugated secondary antibody at room temperature 
+in a wet box for 2 h. The nucleus was stsained with DAPI. The images 
+were observed and collected under a fluorescence microscope (ZEISS 
+Axioscope 5). 
+2.10. Immunohistochemical (IHC) and hematoxylin and eosin (H&E) 
+staining 
+Paraffin-embedded mouse brain tissue sections were baked for 3 h at 
+60 ◦C and subjected to microwave treatment in citrate buffer for antigen 
+retrieval. Next, the sections were incubated with 3 % H2O2 for 15 mins, 
+blocked with 3 % BSA for 1 h and incubated with primary antibodies 
+(Ki67) overnight at 4 ◦C and secondary antibodies for 15 mins. H&E 
+staining was used for histological examination of the main organs 
+(brains, livers, kidneys) of tumor-bearing mice. The whole regions of 
+each tumor specimen were observed with an Olympus Imaging System 
+Microscope and collected by NDP software. view2. 
+2.11. Cycloheximide (CHX) chase assay 
+When the cells grew to approximately 80 % confluency, the medium 
+was changed to serum-free medium, and the cells were cultured for 12 h. 
+Then, 100 μg/mL CHX (Sigma, C1988) or 80 ng/mL EGF was added to 
+the medium to block new protein synthesis. Cells were harvested at a 
+range of time points for WB to detect the target protein levels. Half-life 
+(t1/2) curves were drafted by GraphPad Prism 9 software. 
+2.12. BCAT1 transaminase activity assay 
+HEK293T cells transiently transfected with BCAT1-Myc and A172- 
+BCAT1 stable cell lines were stimulated with EGF for 30 mins before 
+harvesting. Active BCAT1 was obtained by IP with Myc antibody, and 
+the corresponding concentration was measured by the Bradford method 
+and grayscale scanning. BCAT1 activity assays were performed in 96- 
+well plates. Each well of a 200 μL reaction system contained 100 mM 
+Tris (pH 7.4), 50 μM pyridoxal phosphate (Shanghai Yuanye), 5 mM 
+NAD+ (Shanghai Yuanye), 5 mM DTT (Sigma), 5 mM L-leucine 
+(Shanghai Yuanye), 100 μg GLDH1 (glutamate dehydrogenase 1) 
+enzyme (Sigma), 5 mM α-ketoglutarate (Sigma) and approximately 100 
+ng BCAT1. The transamination reaction was initiated by the addition of 
+the BCAT1 sample, and the rate of NADH formation was immediately 
+subjected to kinetic, spectrophotometric quantification of A340 nm to 
+assess BCAT1 enzyme activity. Readings were acquired after incubation 
+at 37 ◦C for 1 h. 
+2.13. In vitro growth curve analysis (MTT assay) 
+Cells (6 × 103/well) were seeded in 96-well plates for 24, 48, 72 and 
+96 
+h. 
+Subsequently, 
+3-(4,5-dimethylthiazol-2-yl)-2,5-diphenylte­
+trazolium bromide (MTT) (Sigma) was added to each well and incubated 
+for 4 h. Then, 150 μL dimethyl sulfoxide (DMSO) was added, and the 
+absorbance value was measured at a wavelength of A490 nm on an 
+enzyme immunoassay analyzer (Bio-Rad) when the crystal was fully 
+dissolved. 
+2.14. Colony formation assay 
+Cells (2000 cells/well) were seeded in 6-well plates and cultured in 
+37 ◦C, 5 % CO2 incubator for 2–3 weeks. The medium was changed every 
+5 days. After the cells grew to an appropriate density, the cell colonies 
+were washed twice with PBS, fixed with 4 % paraformaldehyde for 30 
+mins, stained with 0.1 % crystal violet for 30 mins, washed once with 
+PBS, and were taken pictures after drying. 
+2.15. Soft agar colony formation assay 
+In a 6-well plate, 3 ml of agar mix (0.5 % Bacto-agar, 10 % FBS, 0.33 
+% Eagle’s Basic Medium, 20 μg/mL gentamycin) was added to each well 
+as bottom agar, 1 ml of agar and cell suspension mixture (containing 
+0.33 % Bacto-agar, 8000 cells/well) were used as the top agar and 
+cultured at 37 ◦C, 5 % CO2 for 3–5 weeks. 1 mL medium was replenished 
+every 5 days and colonies were observed under the microscope and 
+photographed. 
+2.16. Phosphoproteomic analysis 
+Stable isotope labeling of amino acids in HCT116 shBCKDK (SILAC) 
+cells was performed based on phosphorylated proteomic experiments, as 
+previously described [25]. Each fraction was subjected to phosphopep­
+tide enrichment, the specific peptides were selected for in-solution 
+digestion and liquid chromatography-tandem mass spectrometry (LC‒ 
+MS/MS), and the MS data were analyzed. 
+W. Wang et al.                                                                                                                                                                                                                                  
+
+Cancer Letters 591 (2024) 216849
+4
+(caption on next page) 
+W. Wang et al.                                                                                                                                                                                                                                  
+
+Cancer Letters 591 (2024) 216849
+5
+2.17. Structural analysis and molecular docking of protein 
+The crystal structure of BCAT1 (AF-P54687-F1) and STUB1 (AF- 
+Q9UNE7-F1) were downloaded from AlphaFold (https://alphafold. 
+com/) database and imported into Pymol 2.3.0 to remove water of 
+crystallization, small molecules, etc. The interaction prediction between 
+BCAT1 and STUB1 were docked with HDOCK (http://hdock.phys.hust. 
+edu.cn/). Pymol 2.3.0 was used to analyze the interaction patterns of 
+the docking results. 
+2.18. EdU cell proliferation assay 
+Cells (1 × 105/well) were seeded in 12-well plates and cultured for 
+24 h after adding different inhibitors. Then, 500 μL EdU reagent 
+(Beyotime, C0075S) was added to each well and incubated for 4 h. After 
+three washes with PBS, the cells were fixed in 4 % paraformaldehyde for 
+30 mins, permeabilized in Triton X-100 for 30 mins, and then incubated 
+with the click-reaction reagent for 30 mins at room temperature in the 
+dark. Nuclei were stained with Hoechst 33342 (1000 × , C0075S-6) 
+reagent. The images were observed and collected under a fluorescence 
+microscope (ZEISS Axioscope 5). 
+2.19. Glioma intracranial mouse models 
+Four-week-old BALB/c-nu and C57BL/6 mice (Beijing Vital River 
+Laboratory) from the same batch were randomized into different groups. 
+A total of 5 μL (3 × 104/μL) glioma cells (GL261-Luc for C57BL/6 mice 
+and U87MG-Luc for BALB/c-nu mice) were implanted into the right 
+frontal lobe of the intracranial mouse to construct the orthotopic 
+transplanted tumor models. To directly observe tumor growth, 150 mg/ 
+kg D-Luciferin (Shanghai Yuanye) was injected intraperitoneally into 
+anesthetized mice, and tumor growth images were acquired by an in vivo 
+imaging system (IVIS) after 3 mins. All mice were imaged weekly and 
+killed when neurological symptoms occurred. 
+The experimental protocol complied with the Hubei Provincial 
+Regulations on the Administration of Laboratory Animals and the Reg­
+ulations of the Laboratory Animal Ethics Committee of HUST, and was 
+approved by the Laboratory Animal Ethics Committee of Tongji Medical 
+College of HUST. 
+2.20. Bioinformatics analysis 
+The BCAA metabolic regulation and cell proliferation-related scores 
+based on 3 datasets (TCGA, CGGA and IVY) from the Reactome and GO 
+databases were obtained using the R language and ssGSEA scorin (see 
+Table 5). 
+2.21. Statistical analysis 
+All statistical analyses for the comparison were performed using 
+unpaired t-test or one-way analysis of variance (ANOVA). Pearson’s r 
+test was used to examine the correlation of two variables. Bar graphs 
+(GraphPad Prism 9) are presented as the means ± s.d., with statistical 
+significance at *P < 0.05, **P < 0.01, ***P < 0.001. The log-rank test 
+was used to analyze the survival data, with statistical significance at *P 
+< 0.05, **P < 0.01, ***P < 0.001, and ****P < 0.0001. 
+3. Results 
+3.1. BCKDK up-regulates the protein expression of BCAT1 in GBM 
+Abnormalities in BCAA metabolism are strongly associated with 
+GBM growth [36,37]. The analysis revealed a correlation between the 
+expression of two key molecules of BCAA metabolism (BCKDK & 
+BCAT1) in the TCGA-GBM database (Fig. 1A). For further confirmation, 
+genes associated with the regulation of BCAA metabolism, cell prolif­
+eration, and tumor grading in the three GBM databases (TCGA, CGGA, 
+and IVY) were analyzed and classified into two clusters of high and low 
+expression based on the ssGSEA score (Supplementary Fig. 1A). Subse­
+quently, we performed a Venn analysis of these clusters (Supplementary 
+Figs. 1B–D) and obtained 14 common genes (Fig. 1B). Among these 
+genes, BCAT1 and BCKDK, key BCAA catabolism enzymes, changed in 
+the same trend (Fig. 1C and Supplementary Fig. 1E) and were highly 
+expressed in GBM compared to LGG (Fig. 1D) and showed a positive 
+correlation (Fig. 1E and Supplementary Fig. 1F). We also detected the 
+expression of BCAT1 and BCKDK in 6 glioma cells by WB and found that 
+the protein levels of both were consistent (Fig. 1F). Fig. 1G shows that 
+BCAT1 and BCKDK were colocalized in GBM cells. To further clarify the 
+correlation between BCKDK and BCAT1, we observed that the protein 
+but not the mRNA level of BCAT1 was significantly reduced in 
+sgBCKDK-or BT2 (BCKDK inhibitor)-treated cells (Fig. 1H, Supplemen­
+tary Figs. 1G and H) and increased in BCKDK-overexpressing cells 
+(Fig. 1I). These results indicated that BCKDK can upregulate the 
+expression of BCAT1 at the level of protein rather than transcript, but 
+the detailed mechanism still has to be clarified. 
+3.2. BCAT1 phosphorylation by BCKDK promotes GBM growth by 
+increasing its enzymatic and antioxidant activities 
+BCKDK, as a S/T protein kinase, can influence the biological function 
+of substrates through phosphorylation, such as MEK(27), BCKDHA [38], 
+ACL [39], and PDC [40]. Here, we tested a hypothesis that BCKDK could 
+directly phosphorylate BCAT1 to improve its function. First, the results 
+from IP and pull-down assays revealed that BCKDK could bind with 
+BCAT1 (Fig. 2A and Supplementary Figs. 2A and B) in vitro. Next, in vitro 
+IP-kinase assay results showed that BCKDK directly phosphorylated 
+BCAT1 (Fig. 2B). S5, S9, and T312 on BCAT1 were identified as specific 
+phosphorylation sites of BCKDK by mass spectrometry (MS) (Fig. 2C), 
+and these sites have some genetic conservation (Supplementary Fig. 2C). 
+Based on the MS results, we then expressed and purified mutant BCAT1 
+Fig. 1. BCKDK up-regulates the protein expression of BCAT1 in GBM 
+(A) Volcano plots showing gene expression in TCGA GBM dataset (n = 409). Blue dots: downregulated genes; red dots: upregulated genes. -Log10P > 8 was considered 
+statistically significant. 
+(B) Venn diagram showing the intersection of GBM profiles from the three databases (TCGA, CGGA and Ivy) with genes corresponding to genes that promote BCAA 
+metabolism, pro-tumor proliferation, and high-grade glioma phenotypes (left), as well as the specific distribution of these 14 intersecting genes (right). 
+(C) Scatter plots showing the correlation between BCKDK (top) and BCAT1 (bottom) with BCAA metabolism and proliferation in the TCGA GBM database, 
+respectively. The dark grey area indicates the 95 % CI. 
+(D) Scatter plot showing mRNA levels of BCKDK versus BCAT1 in different grades of gliomas in the TCGA database (LGG: low-grade glioma, GBM: high-grade 
+glioma). 
+(E) Scatter plots showing a significant correlation between BCAT1 and BCKDK in the GBM patient data sets. X- and Y-axes show normalised expression. Statistical 
+analysis is based on linear regression. 
+(F) WB analysis of protein levels of BCKDK and BCAT1 in different glioma cell lines. 
+(G) U118MG and U87MG cells were fixed and stained for BCKDK (green), BCAT1 (red) and DAPI. Scale bar = 100 μm 
+(H) and (I) BCKDK knockdown (H) and overexpression cell lines (I) collected for analyses by WB. 
+WB analyses of (F)–(I) are representative pictures of three independent experiments. 
+W. Wang et al.                                                                                                                                                                                                                                  
+
+Cancer Letters 591 (2024) 216849
+6
+(caption on next page) 
+W. Wang et al.                                                                                                                                                                                                                                  
+
+Cancer Letters 591 (2024) 216849
+7
+(S5A, S9A and T312A, also BCAT1-3A) as the substrate of active BCKDK 
+for an in vitro kinase assay. Fig. 2D shows that the phosphorylation level 
+of BCAT1-3A was significantly lower than that of BCAT1-WT. The above 
+results demonstrated that BCKDK is a direct kinase of BCAT1 and 
+phosphorylates it at the S5, S9 and T312 sites in vitro. 
+To verify the biological effects of phosphorylated BCAT1 at the S5, 
+S9 and T312 sites, BCAT1-WT, -3A (constitutively nonphosphorylated) 
+and -3D (mimic phosphorylated) mutant plasmids were transiently 
+transfected into HEK293T cells, and BCAT1 was purified by IP using a 
+Myc antibody for subsequent enzyme activity assays. The results showed 
+that BCAT1-3A had the lowest activity, while BCAT1-3D had the highest 
+activity (Fig. 2E) among the three types, and the same results were 
+observed in stable cell lines (Supplementary Fig. 2D). BCAT1 has a 
+strong antioxidant effect due to its CXXC motifs and reduced ROS con­
+tent [41]. The results also showed that BCAT1-3A has the weakest 
+antioxidant ability (Fig. 2F). Next, we demonstrated that the cells with 
+BCAT1-3D grew faster than those with WT or 3A by colony formation 
+assay (Fig. 2G) and MTT (Supplementary Fig. 2D). Subsequently, we 
+validated the function of phosphorylation sites in vivo and found that 
+tumors with BCAT1-3D exhibited significantly faster growth than those 
+with BCAT1-3A, and BCAT1-3D transplantation had a worse prognosis 
+(Fig. 2H–J). These results all indicated that BCKDK-mediated BCAT1 
+phosphorylation at the S5, S9 and T312 sites promotes GBM growth by 
+increasing enzymatic and antioxidant activities. 
+3.3. Phosphorylation of BCAT1 inhibits its ubiquitination degradation 
+Phosphorylation modifications have been reported to influence 
+protein stability by regulating ubiquitination [42–45]. Therefore, we 
+first investigated whether BCKDK regulates the t1/2 of BCAT1 by CHX 
+assay. 
+The 
+results 
+showed 
+that 
+the 
+t1/2 
+of 
+BCAT1 
+in 
+BCKDK-overexpressing A172 cells was significantly longer than that in 
+control cells (Fig. 3A), which indicated that BCKDK could increase the 
+stability of BCAT1. To date, no ubiquitination modification of BCAT1 
+has been reported. Based on KEGG enrichment analysis of the BCAT1 
+gene in the TCGA database, BCAT1 was found to be associated with the 
+ubiquitin-mediated proteolysis pathway (Supplementary Fig. 3A). Next, 
+we confirmed that BCAT1 can be ubiquitinated and exists in K48- and 
+K63-linked ubiquitination forms in HEK293T cells by cotransfecting the 
+HA-Ub plasmid (Supplementary Fig. 3B). Furthermore, the ubiquitina­
+tion level of BCAT1 was detected by IP with an anti-Myc antibody by 
+cotransfecting HA-Ub, BCKDK-Flag, and Myc-BCAT1 into HEK293T cells 
+for 48 h. Fig. 3B shows that the ubiquitination level of BCAT1 in the 
+cotransfected BCKDK group was the lowest, which confirmed that 
+BCKDK could inhibit the ubiquitination of BCAT1. The same results were 
+observed in BCAT1-3A- and 3D-overexpressing cells. BCAT1-3A t1/2 was 
+shorter than that of BCAT1-WT and BCAT1-3D (Fig. 3C–E), and the 
+ubiquitination level of BCAT1-3A was more pronounced (Fig. 3D–F). 
+Together, 
+these 
+results 
+demonstrated 
+that 
+BCKDK-mediated 
+phosphorylation of BCAT1 at the S5, S9, and T312 sites protect it from 
+ubiquitination degradation, thereby enhancing its stability. 
+3.4. STUB1 is the E3 ubiquitin ligase of BCAT1 
+To identify the ubiquitin ligase (E3) that mediates ubiquitination of 
+BCAT1, BCAT1-His complexes were purified by IP from HEK293T cell 
+lysates exogenously transfected with BCAT1-His and analyzed by MS. 
+According to proteins identified from the BCAT1-His IP group only or 
+≥3-fold (ratio) compared with the control group, we identified four E3s 
+that were associated with BCAT1 from all 3 biological replicates 
+(Fig. 4A). Among them, the expression of STUB1 was negatively corre­
+lated with BCAT1 in all grades of gliomas based on the CGGA database 
+(Supplementary Fig. 4A). To confirm whether STUB1 is an E3 ligase of 
+BCAT1, we observed that STUB1 could interact with BCAT1 by endog­
+enous/exogenous IP and pull-down experiments (Fig. 4B and C, Sup­
+plementary Figs. 4B and C), and compared to BCAT1-WT and 3D, STUB1 
+had the strongest binding capacity to BCAT1-3A (Supplementary 
+Fig. 4D). Through protein interaction domain mapping, we designed and 
+constructed a truncated STUB1 prokaryotic expression vector and found 
+that BCAT1 physically interacted with STUB1 through its N-terminal 
+TPR domain by pull-down experiments (Fig. 4D). Molecular docking 
+experiments also demonstrated the physical binding of the TPR struc­
+tural domain to BCAT1 (Fig. 4E). Then, we also found that the protea­
+some inhibitor MG132 could restore BCAT1 expression in STUB1- 
+overexpressing cells, but the autophagy inhibitor chloroquine (CQ) 
+could not (Fig. 4F), which suggested that STUB1 facilitates 
+ubiquitination-mediated degradation of BCAT1 via a proteasomal 
+pathway. We further observed that the BCAT1 concentration was 
+attenuated in a dose-dependent manner in STUB1-overexpressing 
+HEK293T cells (Fig. 4G) and had a long t1/2 of 3–9 h in shSTUB1 
+U118MG cells (Fig. 4H). We further confirmed that STUB1 primarily 
+increased K48-linked ubiquitination of BCAT1 rather than the K63- 
+linked form (Fig. 4I) and that mutant STUB1-H260Q (no E3 catalytic 
+activity) reduced BCAT1 K48-linked ubiquitination (Fig. 4J). Together, 
+these data suggested that STUB1 is E3 ligase of BCAT1 and mediated 
+K48-linked ubiquitination degradation of BCAT1 through TPR domain 
+binding. 
+3.5. STUB1 mediates ubiquitination degradation of BCAT1 to inhibit 
+GBM progression 
+To clarify the STUB1-mediated specific K48-linked ubiquitination 
+sites of BCAT1, according to the prediction on the websites (http://g 
+psuber.biocuckoo.cn/index.php, https://www.phosphosite.org/), there 
+are 12 possible lysine (K) sites of BCAT1. Therefore, we constructed the 
+corresponding K site-mutated plasmids (Fig. 5A) and cotransfected them 
+with only Ub-K48 into HEK293T cells. Detecting the ubiquitination level 
+of K-mutant BCAT1-His by pulldown assay with Ni-NTA found that 
+Fig. 2. BCAT1 phosphorylation by BCKDK promotes GBM growth by increasing its activity 
+(A) The whole lysate of U118MG cells was subjected to anti-BCKDK and IgG co-IP, followed by WB analyses. 
+(B) BCKDK-Flag was transfected in HEK293T cells, which were stimulated with EGF (80 ng/mL, 30 mins) before cell collection, and active BCKDK was obtained by IP 
+with anti-Flag, followed by kinase assay using GST-BCAT1 as substrate. 
+(C) The annotated LC-MS/MS spectrum of the phosphopeptide containing the S5, S9, T312 phosphorylated residue of BCAT1 is shown. 
+(D) Kinase assay phosphorylation signal detection with p-Ser and p-Thr antibodies using active BCKDK (as above) as upstream kinase and GST-BCAT1-WT/3A as 
+substrate. 
+(E) Anti-Myc was co-precipitated on HEK293T cells transiently transfected with BCAT-WT/3A/3D plasmid, and the enzyme activity reaction was performed and 
+assayed separately after determining the concentration of each group (left). The same was done in the stable A172 stable overexpression cell line (right). 
+(F) 10 μmol/L DCFH-DA treatment of stable overexpressing cell lines A172 (left) and GL261 (right), and flow cytometry was performed to detect reactive oxygen 
+species levels and statistically analyzed. 
+(G) Colony formation assay in A172/H4-Myc-BCAT1-WT/3A/3D cell lines with images acquired after 14 days. 
+(H) The representative bioluminescence images of C57BL/6 mice with tumors derived from GL261-Myc-BCAT-3A/3D on day 14 and day 21 (n = 5 mice per group). 
+The three mice in the WT group were unchanged. 
+(I) H&E-stained coronal brain sections of representative tumor xenograft (n = 5 mice/group) and the quantified results. Scale bar: 2.5 mm 
+(J) Kaplan–Meier survival curves of mice shown in (H). 
+W. Wang et al.                                                                                                                                                                                                                                  
+
+Cancer Letters 591 (2024) 216849
+8
+Fig. 3. Phosphorylation of BCAT1 inhibits its ubiquitination degradation 
+(A) Degradation of BCAT1 was assessed by CHX treatment in A172-BCKDK stably cell lines and controls after different times of treatment by CHX (left). Right, 
+quantification of the BCAT1 intensity. 
+(B) The ubiquitination of the BCAT1 were analyzed by WB in HEK293T cells transfected with indicated plasmids. 
+(C) Degradation of BCAT1 in A172-BCAT1-WT and 3A stable cell lines was assessed by CHX treatment in response to EGF (80 ng/mL, 30 mins) stimulation. Right: 
+quantification of BCAT1 intensity. 
+(D) Degradation of BCAT1 was assessed by CHX treatment in A172-BCAT1-WT and 3D stably cell lines and controls. Right, quantification of the BCAT1 intensity. 
+(E) and (F) The ubiquitination of the BCAT1 were analyzed by WB in HEK293T cells transfected with indicated plasmids. 
+All WB analyses were presented as mean ± SEM and representative pictures of three independent experiments. 
+W. Wang et al.                                                                                                                                                                                                                                  
+
+Cancer Letters 591 (2024) 216849
+9
+(caption on next page) 
+W. Wang et al.                                                                                                                                                                                                                                  
+
+Cancer Letters 591 (2024) 216849
+10
+multiple K sites of BCAT1 can be ubiquitinated except K222 and K360 
+(Fig. 5B). Also, the t1/2 of BCAT1 was increased after mutation of several 
+of these K sites. To further clarify the STUB1-mediated K sites of BCAT1, 
+we cotransfected STUB1 together with K-mutant BCAT1-His plasmids 
+into HEK293T cells and found that multiple sites (K2, 19, 26, 74, 107, 
+305, 346) can be modified by STUB1 (Fig. 5C). These sites were 
+evolutionarily conserved (Supplementary Fig. 5A). According to the 
+principle of protein spatial structure proximity, we selected K2, K19, 
+K305 (close to S5, S9, T312, respectively) and K107 (farther away in 
+terms of spatial distance) for further biological function research. First, 
+we constructed mutants of these 4 sites and established stable cell lines 
+in GL261 and A172 cells (Supplementary Fig. 5B). The results showed 
+that the proliferation ability of cells expressing mutant BCAT1 (K2R, 
+K19R, K107R, and K305R) increased, as shown by soft agar (Fig. 5D, 
+Supplementary Fig. 5C) and colony formation assays (Fig. 5E). Addi­
+tionally, transplanted GL261 tumors with K mutants grew significantly 
+faster than those with WT in the brains of C57BL/6 mice (Fig. 5F and G, 
+Supplementary Figs. 5D and E). Mice with GL261 expressing K mutants 
+of BCAT1 had a worse prognosis (Fig. 5H). Overall, STUB1 promotes 
+BCAT1 ubiquitination and degradation through the K2, 19, 107 and 305 
+sites to inhibit GBM progression and improve the prognosis of GBM. 
+3.6. BCKDK-mediated phosphorylation of STUB1 at S19 disrupts the 
+interaction with BCAT1 
+It was shown that both S/T protein kinases PKG (protein kinase G) 
+and CDK5 (cyclin-dependent kinase 5) phosphorylate STUB1 at S19 and 
+thus influence the development of cardiac and neuronal systemic dis­
+eases [46,47]. Therefore, we wanted to determine whether BCKDK 
+could phosphorylate STUB1 while simultaneously phosphorylating 
+BCAT1. According to two independent IP-MS and SILAC + IP-MS ex­
+periments, phosphorylated peptides of STUB1 at S19 were detected in 
+IP-BCKDK (Fig. 6A, Supplemental Table 6) and SILAC samples 
+(Fig. 6B–Supplemental Table 6). The results indicated that BCKDK could 
+directly phosphorylate STUB1 at S19. Subsequently, IF and IP confirmed 
+that BCKDK and STUB1 were colocalized and interacted with each other 
+in cells (Fig. 6C–E and Supplementary Figs. 6A–C). The expression of 
+BCKDK was positively correlated with that of STUB1 (Supplementary 
+Figs. 6D–F). Further IP kinase assays showed that phosphorylated 
+STUB1 levels increased in the WT group and decreased in the S19A 
+group (Fig. 6F). These data validated that BCKDK was able to bind with 
+and phosphorylate STUB1 at S19. 
+Previous studies have shown that STUB1 phosphorylation at S19 
+does not affect its E3 ligase activity but promotes dissociation from its 
+substrate [47]. We also obtained the same results by IP experiments in 
+which EGF-stimulated BCKDK did not decrease its level of 
+autoubiquitination (Supplementary Fig. 6G) but suppressed STUB1 
+binding with BCAT1, especially with BCAT1-3A (Fig. 6G). Moreover, the 
+capacity of the S19A mutant STUB1 to interact with BCAT1 also 
+decreased when BCKDK was activated by EGF (Fig. 6H). Taken together, 
+BCKDK is a novel kinase of STUB1 and inhibits the interaction between 
+STUB1 and BCAT1 by both phosphorylation modifications. 
+3.7. Inhibition of BCKDK and BCAT1 enhances TMZ therapeutic 
+sensitivity in GBM 
+BCKDK was found to be a candidate marker for TMZ resistance in 
+GBM treatment [48]. To assess the therapeutic effect of inhibiting the 
+BCKDK-STUB1-BCAT1 signaling axis in combination with TMZ for GBM, 
+U118MG or GWH04 cells treated with BT2, GABA (BCAT1 inhibitor), 
+and TMZ alone or in combination were observed by colony formation, 
+soft agar and EdU assays. The results showed that the triple combination 
+significantly inhibited GBM cell proliferation (Fig. 7A–C, Supplementary 
+Fig. 7A) and induced apoptosis (Fig. 7D, Supplementary Figs. 7B and C) 
+compared with the other groups. We further evaluated the drug com­
+bination therapeutic effects of GBM in vivo through an intracranial 
+model. The TMZ, BT2 and GABA combination significantly inhibited the 
+growth of tumors compared with either drug alone (Fig. 7F–G, Supple­
+mentary Fig. 7D) and improved the prognosis of mice, which had longer 
+survival (Fig. 7H). Moreover, these drugs did not lead to hepatic or renal 
+impairment damage in mice (Supplementary Fig. 7E). These results 
+suggested that targeting the BCKDK-BCAT1 axis is an effective thera­
+peutic strategy to ameliorate the TMZ response in GBM. 
+4. Discussion 
+Increasing findings have demonstrated that altered BCAA meta­
+bolism affects tumor growth and progression, and that BCAAs affect 
+tumor growth differently depending on the type of tumor tissue (even 
+with the same tumor driver gene) [3,49]. During tumor growth, BCA 
+provides nitrogen for the de novo synthesis of nucleotides and amino 
+acids; its decomposition provides carbon for the synthesis of other 
+molecules and provides energy to cells by promoting TCA cycle and 
+oxidative phosphorylation; secondly, BCA metabolism can affect the 
+levels of metabolites-derived cofactors such as α -ketoglutaric acid (α 
+-KG) and glutamate (Glu), thus activating signaling pathways to reshape 
+epigenetic inheritance and helping cancer cells survive [1]. Therefore, 
+an in-depth understanding of the role of BCAAs and their catabolism in 
+cancer pathogenesis and exploring the abnormal expression of molecu­
+lar expression during BCAA metabolism and the mechanism of action 
+can contribute to the study of cancer therapeutic strategies and 
+interventions. 
+Fig. 4. STUB1 is the E3 ubiquitin ligase of BCAT1 
+(A) The diagram shows the experimental process for the MS-based interactome analysis of BCAT1, the E3 ligases in our dataset are shown below. 
+(B) HEK293T cells overexpressing BCAT1-His and/or STUB1-Myc were co-precipitated with anti-Myc antibody followed by WB analyses. 
+(C) The whole lysate of U118MG cells was subjected to anti-BCAT1 and IgG co-IP, followed by WB analyses. 
+(D) Diagrammatic representation of STUB1 and its truncated forms. HEK293T cells transfected with Myc-BCAT1 were co-incubated with full-length or truncated GST- 
+STUB1, respectively. Cell extracts were collected for WB analyses. 
+(E) Structural model of the protein–protein interaction between STUB1 (blue) and BCAT1 (green). ASN-116, ARG-85, GLU-77, TYR-63, GLN-75, THR-54, and ARG-51 
+of STUB1 form hydrogen bonds with TYR-90, ASN-226, PHE-232, TRP-214, TYR-210, TYR-249, and GLU-251 of BCAT1 with hydrogen bond lengths of 3.5 Å, 2.7 Å, 
+2.6 Å, 2.4 Å, 3.0 Å, 3.1 Å, and 2.9 Å, respectively; the above residues may be the ones in which the two play an active role. 
+(F) HEK293T cells transiently transfected with STUB1 or controls were treated with MG132 (10 μM) and CQ (50 μM) for 2 h. BCAT1 levels in cell extracts were 
+detected by WB analyses. 
+(G) WB analysis of BCAT1 levels after transfected with the indicated doses of STUB1-Myc plasmids. The quantification plot was based on scanning greyscale analysis 
+and the relative protein levels were normalised to the control. 
+(H) Knockdown of STUB1 increases the stability of BCAT1. Control or shSTUB1 cells were treated with CHX for the indicated time. BCAT1 levels in cell extracts were 
+detected by WB analyses. 
+(I) Co-precipitation with anti-Myc antibody in control and STUB1-Myc transfected groups. Then WB analysis was performed to detect the level of ubiquitination of 
+BCAT1 K48 and k63 linked. 
+(J) STUB1-WT and H260Q mutant transfected groups were co-precipitated with anti-Myc antibody. Then WB analysis was performed to detect the ubiquitination 
+level of BCAT1. 
+WB analyses of D and F-G were representative pictures of three independent experiments and presented as mean ± SEM. 
+W. Wang et al.                                                                                                                                                                                                                                  
+
+Cancer Letters 591 (2024) 216849
+11
+Fig. 5. STUB1 mediates ubiquitination degradation of BCAT1 to inhibit GBM progression 
+(A) The table showing predicted ubiquitinated lysine sites for BCAT1 based on multiple sites. 
+(B) Levels of ubiquitination corresponding to BCAT1 in HEK293T cells transfected with different BCAT1-K mutant plasmids. 
+(C) HEK293T cells transfected with STUB1-Myc and different BCAT1-K mutant plasmids were co-precipitated with Ni-NTA. The ubiquitination level of BCAT1 was 
+detected by WB. 
+(D) Soft agar assay on BCAT1-WT and four K mutant cell lines after 7 and 21 days. Images of the soft agar were collected after staining with crystal violet (below). 
+(E) Colony formation assay in BCAT1-WT and four K mutant cell lines after 14 days. 
+(F) and (G) The representative bioluminescence images of C57BL/6 mice with tumors derived from GL261-Myc-BCAT1-WT and K mutants (F). WT group mice were 
+not replaced. Day 14 bioluminescence images (G). (n = 7 mice/group). 
+(H) Kaplan–Meier survival curves of mice shown in (F). 
+WB analyses of B and C were representative pictures of three independent experiments. 
+W. Wang et al.                                                                                                                                                                                                                                  
+
+Cancer Letters 591 (2024) 216849
+12
+Fig. 6. BCKDK-mediated phosphorylation of STUB1 at S19 disrupts the interaction with BCAT1 
+(A) The table showing STUB1 and corresponding phosphorylation sites detected in two independent IP BCKDK kinase assay-MS results. 
+(B) The table showing the detection of the phosphorylated protein STUB1 downstream of BCKDK and the corresponding sites by SILAC-MS technique. 
+(C) U118MG cells were fixed and stained for BCKDK (green), STUB1 (red) and DAPI. Scale bar = 100 μm. 
+(D) The whole lysate of U118MG cells was subjected to anti-BCKDK and IgG co-IP, followed by WB analyses. 
+(E) BCKDK and STUB1 interact. HEK293T cells overexpressing BCKDK-Flag and/or STUB1-Myc were co-precipitated with anti-Flag antibody followed by WB. 
+(F) Kinase assay phosphorylation signal detection with p-Ser antibody using active BCKDK (as above) as upstream kinase and STUB1-WT/S19A-His as substrate. 
+(G) HEK293T cells transfected with STUB1-Myc and BACT1-WT/3A-His together with or without BCKDK-Flag. Cell extracts were subjected to IP analysis using anti- 
+Myc antibody and IB analysis using the indicated antibodies. 
+(H) HEK293T cells transfected with STUB1-WT/S19A-Myc and BACT1-His together with or without BCKDK-Flag. Cell extracts were subjected to IP analysis using 
+anti-Myc antibody and IB analysis using the indicated antibodies. 
+WB analyses of D-H were representative pictures of three independent experiments. 
+W. Wang et al.                                                                                                                                                                                                                                  
+
+Cancer Letters 591 (2024) 216849
+13
+(caption on next page) 
+W. Wang et al.                                                                                                                                                                                                                                  
+
+Cancer Letters 591 (2024) 216849
+14
+Metabolic reprogramming of cancer cells is common in all malig­
+nancies, including GBM [50]. Among them, the marked up-regulation of 
+BCAA metabolism in GBM provides a reliable basis for clinical staging, 
+differential diagnosis, and treatment [51,52]. BCAT1 mediates BCAA 
+catabolism and is specifically highly expressed in GBM, thereby pro­
+moting cancer progression [8,53]. However, the existing modulation of 
+BCAT1 is mainly at the transcriptional level, and the mechanism of 
+modification regulation of BCAT1 expression has not been reported. In 
+this study, we identified two novel modifications, BCAT1 phosphoryla­
+tion and ubiquitination, and clarified the cross-talk mechanism regu­
+lating its activity and stability. First, we found that S5, S9, and T312 of 
+BCAT1 were phosphorylated by BCKDK by an in vitro kinase assay to 
+increase its enzymatic activity, antioxidant activity and stability. The E3 
+ubiquitin ligase STUB1 of BCAT1 was further screened by IP-MS, and its 
+ubiquitination site was clarified. We also found that BCKDK was able to 
+phosphorylate STUB1 to disrupt its binding to the substrate BCAT1, 
+thereby increasing BCAT1 stability and promoting GBM progression. In 
+conclusion, we identified the importance of the BCKDK-STUB1-BCAT1 
+axis, highlighting a novel mechanism of BCAT1 regulation through the 
+cross-talk of multiple modifications during GBM development. 
+Increasing evidence suggests that elevated activity or high expres­
+sion of BCAT1 triggered by multiple mechanisms can promote the pro­
+gression of a variety of tumors [54]. The BCAT1E61A mutation was 
+found to be present in gastric cancer tissue, which can promote BCAT1 
+activity and is associated with cancer progression [55]. On the other 
+hand, transcription factors such as c-Myc [12] and MSI2 [14] can 
+directly bind BCAT1 and promote its transcript levels to facilitate 
+nasopharyngeal cancer and myeloid leukemia progression. Additionally, 
+miRNAs (such as miR-98–5p [16], miR-124–3p [56], miR-203 [17], 
+miR-218 [57], miR-506 [58]) can be directly targeted to inhibit BCAT1 
+mRNA levels in esophageal cancer, gastric cancer, hepatocellular cancer 
+and glioma. The histone lysine methyltransferase DOT1L up-regulates 
+the expression of BCAT1 through the conversion of histone H3 
+methylation in breast cancer cells [59]. All of these mechanisms are 
+regulated at the level of BCAT1 transcription. Here, our study first re­
+veals the new regulatory mechanisms of BCAT1 at the level of PTMs. 
+First, we found that BCAT1 can be phosphorylated at S5, S9, and T312 
+and identified BCKDK as a direct upstream kinase of BCAT1. BCAT1 
+phosphorylation could increase its catalytic and antioxidant activity and 
+stability. Second, we demonstrated that BCAT1 could be ubiquitinated 
+at multiple K sites by at least two linked forms, especially K2, K19, and 
+K305 adjacent to S5, S9, and T312, and STUB1 was one of the E3 ligases 
+that mediated BCAT1 K48-linked ubiquitination. Either phosphorylation 
+or ubiquitination of BCAT1 affected GBM growth and therapeutic 
+sensitivity. In addition, we found different forms of ubiquitination (e.g., 
+ubiquitin‒proteasome pathway or autophagy‒lysosome pathway) at 
+different K sites of BCAT1, which implies that there may be other forms 
+of modification mechanisms that can influence BCAT1 function. 
+Phosphorylation and ubiquitination are the most common PTMs of 
+proteins in eukaryotes. It has been shown that cross-talk between 
+phosphorylation and ubiquitination seriously impacts cell biological 
+behavior and is considered a perfect disease therapeutic strategy. ERK- 
+mediated phosphorylation of the BAG3 S377 site promotes its 
+FBXO22-ubiquitinated 
+degradation 
+to 
+enhance 
+tumor 
+growth, 
+suggesting that inhibition of BAG3 phosphorylation or FBXO22 
+expression may contribute to tumor therapy [42]. AMPK-dependent 
+phosphorylation at T222 ablates insulin-induced gene (Insig) interac­
+tion with E3 ubiquitin ligase gp78 and represses its ubiquitination and 
+degradation; therefore, AMPK can be activated by drugs such as met­
+formin and A769662 to stabilize Insig to reduce hepatocyte lipid accu­
+mulation [60]. These phenomena are consistent with our finding that 
+BCKDK-dependent phosphorylation ablates the interaction of BCAT1 
+with STUB1 and represses its ubiquitination and degradation. In addi­
+tion, we unexpectedly found that BCKDK-mediated phosphorylation at 
+S19 also ablates STUB1 interference with BCAT1 and increases the sta­
+bility of BCAT1. Augmentation of BCAT1 stability and activity leads to 
+GBM growth. BCAT1 and STUB1 were uncovered to be two novel ef­
+fectors of BCKDK in addition to BCKDHA [38], MEK [27], ACL [39], and 
+PDC [40]. These findings expand the diversity and scope of BCKDK 
+regulatory mechanisms and further elucidate the important role of the 
+BCKDK-STUB1-BCAT1 axis in GBM development and its potential as a 
+targeted therapy. 
+Protease-targeted chimeras (PROTACs) are a new technology that 
+inhibits protein function by hijacking ubiquitin E3 ligase for protein 
+degradation. In recent years, PROTACs have been shown to achieve 
+clinical therapeutic effects through a ligand for recruiting E3 ligase, a 
+linker, and another ligand to bind to the target protein for degradation 
+[61]. Many small-molecule PROTACs, such as CRBN [62], VHL [63], 
+IAPs [64], MDM2 [65], DCAF15 [66] and RNF114-based [67] PRO­
+TACs, have been explored not only in cancer diseases but also in other 
+diseases, including cardiovascular diseases, immune diseases, neurode­
+generative diseases, and viral infections. We demonstrated that STUB1 is 
+the E3 ubiquitin ligase of BCAT1, and thus, the development of a set of 
+BCAT1 PROTACs holds great promise for cancer prevention and 
+treatment. 
+Limitations of the study 
+Although our study demonstrated the phosphorylation and ubiq­
+uitination sites and corresponding biological functions of BCAT1, we did 
+not successfully prepare anti-BCAT1-specific antibodies recognized 
+corresponding to the ubiquitination and phosphorylation sites used for 
+cellular research and clinical diagnosis. The mechanism by which 
+BCKDK positively regulates STUB1 expression needs to be further clar­
+ified (Supplementary Figs. 6D–F), and whether STUB1 can in turn 
+ubiquitinate BCKDK needs to be demonstrated in more experiments. 
+Furthermore, our studies were observed only in GBM, and the broader 
+implications of this mechanism need to be further explored in other 
+cancer types and for diseases. Finally, we affirm the efficacy of targeting 
+the BCKDK-BCAT1 axis in the treatment of GBM in mice, but more in vivo 
+experiments are needed to determine the clinical safety of this 
+combination. 
+In summary, we discovered a novel regulatory mechanism of BCAT1 
+by cross-talk between phosphorylation and ubiquitination and provide a 
+promising therapeutic intervention for GBM (see Graphical Abstract, by 
+Figdraw). 
+Fig. 7. Inhibition of BCKDK and BCAT1 enhances TMZ therapeutic sensitivity in GBM 
+(A) Inhibitors alone or in combination treatment of U118MG cells for colony formation assay with images acquired after 14 days. 
+(B) Inhibitors were used to treat U118MG cells alone or in combination for soft agar assay with images acquired after 21 days. 
+(C) EdU assay after 48 h of treatment of U118MG cells with inhibitors alone or in combination. 
+(D) Inhibitors alone or in combination were performed to treat U118MG cells for 48 h. Cell lysates were subjected to WB analysis using the indicated antibodies. 
+(E) Schematic illustration of the in vivo experimental workflow. 
+(F) and (G) Representative bioluminescence images. Effects of BT2, GABA and TMZ alone or in combination on tumor growth in BALB/c-nu mice harboring U87MG- 
+Luc derived tumors. i. p.: intraperitoneal. 
+(H) Kaplan–Meier survival curves of mice shown in (F). 
+The drug concentrations in groups A-D were BT2 (B: 160 μM), GABA (G: 20 mM), TMZ (T: 350 μM), The control group (−) treated with DMSO. WB analyses of D were 
+representative pictures of three independent experiments. 
+W. Wang et al.                                                                                                                                                                                                                                  
+
+Cancer Letters 591 (2024) 216849
+15
+CRediT authorship contribution statement 
+Wei Wang: Writing – review & editing, Writing – original draft, 
+Visualization, Project administration, Formal analysis, Data curation, 
+Conceptualization. Youwei Li: Conceptualization, Data curation, 
+Investigation, Visualization. Liu Tang: Visualization, Conceptualiza­
+tion, Data curation. Yue Shi: Data curation, Conceptualization. Wen­
+sheng Li: Software, Data curation. Ling Zou: Visualization, Software. 
+Liyuan Zhang: Data curation. Yue Cheng: Conceptualization. Zheng 
+Yuan: Conceptualization. Feng Zhu: Writing – review & editing, Vali­
+dation, Resources, Methodology, Investigation, Funding acquisition, 
+Formal analysis, Conceptualization. Qiuhong Duan: Supervision, 
+Project administration, Methodology, Investigation, Funding acquisi­
+tion, Formal analysis, Data curation, Conceptualization, Validation, 
+Writing – review & editing. 
+Declaration of competing interest 
+The authors declare that they have no known competing financial 
+interests or personal relationships that could have appeared to influence 
+the work reported in this paper. 
+Acknowledgements 
+This paper is supported by National Natural Science Foundation of 
+China (NSFC) under grant No.81972762. Youwei Li is supported by the 
+Talent Development Project foundation from The Affiliated Zhongda 
+Hospital of Southeast University (grant number: CZXM-GSP-RC70). The 
+authors would like to thank the other members of the Feng Zhu’s Lab for 
+their assistance and suggestions. We thank the laboratory of Hui Wang 
+(School of Basic Medicine, Huazhong University of Science and Tech­
+nology) for providing assistance. We thank for the technical support by 
+the Huazhong University of Science & Technology Analytical & Testing 
+center, Medical sub-center. We thank Yizi Liu (Purdue, Wuhan, China) 
+for providing analytical guidance related to the mass spectrometry re­
+sults. We would like to thank the editor and the reviewers for their useful 
+feedback that improved this paper. 
+Appendix A. Supplementary data 
+Supplementary data to this article can be found online at https://doi. 
+org/10.1016/j.canlet.2024.216849. 
+References 
+[1] S. Sivanand, M.G. Vander Heiden, Emerging roles for branched-chain amino acid 
+metabolism in cancer, Cancer Cell 37 (2) (2020) 147–156. 
+[2] R.E. Ericksen, S.L. Lim, E. McDonnell, W.H. Shuen, M. Vadiveloo, P.J. White, et al., 
+Loss of BCAA catabolism during carcinogenesis enhances mTORC1 activity and 
+promotes tumor development and progression, Cell Metabol. 29 (5) (2019) 
+1151–11565 e6. 
+[3] H. Peng, Y. Wang, W. Luo, Multifaceted role of branched-chain amino acid 
+metabolism in cancer, Oncogene 39 (44) (2020) 6747–6756. 
+[4] J.L. Caniglia, A. Jalasutram, S. Asuthkar, J. Sahagun, S. Park, A. Ravindra, et al., 
+Beyond glucose: alternative sources of energy in glioblastoma, Theranostics 11 (5) 
+(2021) 2048–2057. 
+[5] M. Obara-Michlewska, M. Szeliga, Targeting glutamine addiction in gliomas, 
+Cancers 12 (2) (2020). 
+[6] R.K. Bledsoe, P.A. Dawson, S.M. Hutson, Cloning of the rat and human 
+mitochondrial branched chain aminotransferases (BCATm), Biochim. Biophys. Acta 
+1339 (1) (1997) 9–13. 
+[7] I.W. Chang, W.J. Wu, Y.H. Wang, T.F. Wu, P.I. Liang, H.L. He, et al., BCAT1 
+overexpression is an indicator of poor prognosis in patients with urothelial 
+carcinomas of the upper urinary tract and urinary bladder, Histopathology 68 (4) 
+(2016) 520–532. 
+[8] M. Tonjes, S. Barbus, Y.J. Park, W. Wang, M. Schlotter, A.M. Lindroth, et al., 
+BCAT1 promotes cell proliferation through amino acid catabolism in gliomas 
+carrying wild-type IDH1, Nat. Med. 19 (7) (2013) 901–908. 
+[9] Y.H. Zheng, W.J. Hu, B.C. Chen, T.H. Grahn, Y.R. Zhao, H.L. Bao, et al., BCAT1, a 
+key prognostic predictor of hepatocellular carcinoma, promotes cell proliferation 
+and induces chemoresistance to cisplatin, Liver Int. 36 (12) (2016) 1836–1847. 
+[10] Y. Xu, W. Yu, T. Yang, M. Zhang, C. Liang, X. Cai, et al., Overexpression of BCAT1 
+is a prognostic marker in gastric cancer, Hum. Pathol. 75 (2018) 41–46. 
+[11] P. Boskovic, N. Wilke, K.H. Man, P. Lichter, L. Francois, B. Radlwimmer, BCAT1 
+regulates glioblastoma cell plasticity and contributes to immunosuppression, 
+Neuro Oncol. (2023). 
+[12] W. Zhou, X. Feng, C. Ren, X. Jiang, W. Liu, W. Huang, et al., Over-expression of 
+BCAT1, a c-Myc target gene, induces cell proliferation, migration and invasion in 
+nasopharyngeal carcinoma, Mol. Cancer 12 (2013) 53. 
+[13] Z. Zhu, A. Achreja, N. Meurs, O. Animasahun, S. Owen, A. Mittal, et al., Tumour- 
+reprogrammed stromal BCAT1 fuels branched-chain ketoacid dependency in 
+stromal-rich PDAC tumours, Nat. Metab. 2 (8) (2020) 775–792. 
+[14] A. Hattori, M. Tsunoda, T. Konuma, M. Kobayashi, T. Nagy, J. Glushka, et al., 
+Cancer progression by reprogrammed BCAA metabolism in myeloid leukaemia, 
+Nature 545 (7655) (2017) 500–504. 
+[15] X. He, Y. Xu, D. Huang, Z. Yu, J. Yu, L. Xie, et al., P2X1 enhances leukemogenesis 
+through PBX3-BCAT1 pathways, Leukemia 37 (2) (2023) 265–275. 
+[16] P. Zhan, X. Shu, M. Chen, L. Sun, L. Yu, J. Liu, et al., miR-98-5p inhibits gastric 
+cancer cell stemness and chemoresistance by targeting branched-chain 
+aminotransferases 1, Life Sci. 276 (2021) 119405. 
+[17] D. Ji, C. Jiang, L. Zhang, N. Liang, T. Jiang, B. Yang, et al., LncRNA CRNDE 
+promotes hepatocellular carcinoma cell proliferation, invasion, and migration 
+through regulating miR-203/BCAT1 axis, J. Cell. Physiol. 234 (5) (2019) 
+6548–6560. 
+[18] X. Pan, Y. Chang, G. Ruan, F. Wei, H. Jiang, Q. Jiang, et al., Prognostic impact of 
+FLT3-ITD mutation on NPM1(+) acute myeloid leukaemia patients and related 
+molecular mechanisms, Br. J. Haematol. 203 (2) (2023) 212–223. 
+[19] S. Wang, A.O. Osgood, A. Chatterjee, Uncovering post-translational modification- 
+associated protein-protein interactions, Curr. Opin. Struct. Biol. 74 (2022) 102352. 
+[20] A. Patwardhan, N. Cheng, J. Trejo, Post-translational modifications of G protein- 
+coupled receptors control cellular signaling dynamics in space and time, 
+Pharmacol. Rev. 73 (1) (2021) 120–151. 
+[21] M. Huse, J. Kuriyan, The conformational plasticity of protein kinases, Cell 109 (3) 
+(2002) 275–282. 
+[22] T. Pawson, Specificity in signal transduction: from phosphotyrosine-SH2 domain 
+interactions to complex cellular systems, Cell 116 (2) (2004) 191–203. 
+[23] V. Singh, M. Ram, R. Kumar, R. Prasad, B.K. Roy, K.K. Singh, Phosphorylation: 
+implications in cancer, Protein J. 36 (1) (2017) 1–6. 
+[24] D. Biswas, L. Slade, L. Duffley, N. Mueller, K.T. Dao, A. Mercer, et al., Inhibiting 
+BCKDK in triple negative breast cancer suppresses protein translation, impairs 
+mitochondrial function, and potentiates doxorubicin cytotoxicity, Cell Death Dis. 7 
+(1) (2021) 241. 
+[25] Q. Tian, P. Yuan, C. Quan, M. Li, J. Xiao, L. Zhang, et al., Phosphorylation of 
+BCKDK of BCAA catabolism at Y246 by Src promotes metastasis of colorectal 
+cancer, Oncogene 39 (20) (2020) 3980–3996. 
+[26] M. Zhai, Z. Yang, C. Zhang, J. Li, J. Jia, L. Zhou, et al., APN-mediated 
+phosphorylation of BCKDK promotes hepatocellular carcinoma metastasis and 
+proliferation via the ERK signaling pathway, Cell Death Dis. 11 (5) (2020) 396. 
+[27] P. Xue, F. Zeng, Q. Duan, J. Xiao, L. Liu, P. Yuan, et al., BCKDK of BCAA catabolism 
+cross-talking with the MAPK pathway promotes tumorigenesis of colorectal cancer, 
+EBioMedicine 20 (2017) 50–60. 
+[28] K. Yang, C. Xu, H. Sun, Z. Xuan, Y. Liu, J. Li, et al., Branched-chain keto-acid 
+dehydrogenase kinase regulates vascular permeability and angiogenesis to 
+facilitate tumor metastasis in renal cell carcinoma, Cancer Sci. 114 (11) (2023) 
+4270–4285. 
+[29] C. Xu, K. Yang, Z. Xuan, J. Li, Y. Liu, Y. Zhao, et al., BCKDK regulates breast cancer 
+cell adhesion and tumor metastasis by inhibiting TRIM21 ubiquitinate talin1, Cell 
+Death Dis. 14 (7) (2023) 445. 
+[30] Y. Liu, H. Zhou, X. Tang, STUB1/CHIP: new insights in cancer and immunity, 
+Biomed. Pharmacother. 165 (2023) 115190. 
+[31] S. Zhang, Z.W. Hu, C.Y. Mao, C.H. Shi, Y.M. Xu, CHIP as a therapeutic target for 
+neurological diseases, Cell Death Dis. 11 (9) (2020) 727. 
+[32] T. Xu, Q. Zhou, J. Zhou, Y. Huang, Y. Yan, W. Li, et al., Carboxyl terminus of 
+Hsp70-interacting protein (CHIP) contributes to human glioma oncogenesis, 
+Cancer Sci. 102 (5) (2011) 959–966. 
+[33] J. Hou, Q. Deng, J. Zhou, J. Zou, Y. Zhang, P. Tan, et al., CSN6 controls the 
+proliferation and metastasis of glioblastoma by CHIP-mediated degradation of 
+EGFR, Oncogene 36 (8) (2017) 1134–1144. 
+[34] I. Paul, S.F. Ahmed, A. Bhowmik, S. Deb, M.K. Ghosh, The ubiquitin ligase CHIP 
+regulates c-Myc stability and transcriptional activity, Oncogene 32 (10) (2013) 
+1284–1295. 
+[35] F. Cheng, X. Wan, B. Wang, Y. Li, P. Peng, S. Xu, et al., Establishment and 
+characteristics of GWH04, a new primary human glioblastoma cell line, Int. J. 
+Oncol. 61 (5) (2022). 
+[36] B. Zhang, Y. Chen, X. Shi, M. Zhou, L. Bao, K.J. Hatanpaa, et al., Regulation of 
+branched-chain amino acid metabolism by hypoxia-inducible factor in 
+glioblastoma, Cell. Mol. Life Sci. 78 (1) (2021) 195–206. 
+[37] L.S. Silva, G. Poschet, Y. Nonnenmacher, H.M. Becker, S. Sapcariu, A.C. Gaupel, et 
+al., Branched-chain ketoacids secreted by glioblastoma cells via MCT1 modulate 
+macrophage phenotype, EMBO Rep. 18 (12) (2017) 2172–2185. 
+[38] T. Murakami, M. Matsuo, A. Shimizu, Y. Shimomura, Dissociation of branched- 
+chain alpha-keto acid dehydrogenase kinase (BDK) from branched-chain alpha- 
+keto acid dehydrogenase complex (BCKDC) by BDK inhibitors, J. Nutr. Sci. 
+Vitaminol. 51 (1) (2005) 48–50. 
+[39] P.J. White, R.W. McGarrah, P.A. Grimsrud, S.C. Tso, W.H. Yang, J.M. Haldeman, et 
+al., The BCKDH kinase and phosphatase integrate BCAA and lipid metabolism via 
+regulation of ATP-citrate lyase, Cell Metabol. 27 (6) (2018) 1281–12893 e7. 
+W. Wang et al.                                                                                                                                                                                                                                  
+
+Cancer Letters 591 (2024) 216849
+16
+[40] L. Heinemann-Yerushalmi, L. Bentovim, N. Felsenthal, R.C. Vinestock, N. Michaeli, 
+S. Krief, et al., BCKDK regulates the TCA cycle through PDC in the absence of PDK 
+family during embryonic development, Dev. Cell 56 (8) (2021) 1182–11894 e6. 
+[41] J. Hillier, G.J. Allcott, L.A. Guest, W. Heaselgrave, A. Tonks, M.E. Conway, et al., 
+The BCAT1 CXXC motif provides protection against ROS in acute myeloid 
+leukaemia cells, Antioxidants 11 (4) (2022). 
+[42] P. Liu, X. Cong, S. Liao, X. Jia, X. Wang, W. Dai, et al., Global identification of 
+phospho-dependent SCF substrates reveals a FBXO22 phosphodegron and an ERK- 
+FBXO22-BAG3 axis in tumorigenesis, Cell Death Differ. 29 (1) (2022) 1–13. 
+[43] L. Du, Z. Su, S. Wang, Y. Meng, F. Xiao, D. Xu, et al., EGFR-induced and c-src- 
+mediated CD47 phosphorylation inhibits TRIM21-dependent polyubiquitylation 
+and degradation of CD47 to promote tumor immune evasion, Adv. Sci. (2023) 
+e2206380. 
+[44] W. Wei, Z.Y. Zhang, B. Shi, Y. Cai, H.S. Zhang, C.L. Sun, et al., METTL16 promotes 
+glycolytic metabolism reprogramming and colorectal cancer progression, J. Exp. 
+Clin. Cancer Res. 42 (1) (2023) 151. 
+[45] Y. Wang, K. Wang, J. Fu, Y. Zhang, Y. Mao, X. Wang, et al., FRK inhibits 
+glioblastoma progression via phosphorylating YAP and inducing its ubiquitylation 
+and degradation by Siah1, Neuro Oncol. 24 (12) (2022) 2107–2120. 
+[46] M.J. Ranek, C. Oeing, R. Sanchez-Hodge, K.M. Kokkonen-Simon, D. Dillard, M. 
+I. Aslam, et al., CHIP phosphorylation by protein kinase G enhances protein quality 
+control and attenuates cardiac ischemic injury, Nat. Commun. 11 (1) (2020) 5237. 
+[47] C. Kim, N. Yun, J. Lee, M.B. Youdim, C. Ju, W.K. Kim, et al., Phosphorylation of 
+CHIP at Ser20 by Cdk5 promotes tAIF-mediated neuronal death, Cell Death Differ. 
+23 (2) (2016) 333–346. 
+[48] D. Li, J. Yan, K. Li, Q. Yang, L. Bian, B. Lin, et al., Identification of potential glioma 
+drug resistance target proteins based on ultra-performance liquid chromatography- 
+mass spectrometry differential proteomics, PeerJ 11 (2023) e16426. 
+[49] J.R. Mayers, M.E. Torrence, L.V. Danai, T. Papagiannakopoulos, S.M. Davidson, M. 
+R. Bauer, et al., Tissue of origin dictates branched-chain amino acid metabolism in 
+mutant Kras-driven cancers, Science 353 (6304) (2016) 1161–1165. 
+[50] A. Wolf, S. Agnihotri, A. Guha, Targeting metabolic remodeling in glioblastoma 
+multiforme, Oncotarget 1 (7) (2010) 552–562. 
+[51] C. la Fougere, B. Suchorska, P. Bartenstein, F.W. Kreth, J.C. Tonn, Molecular 
+imaging of gliomas with PET: opportunities and limitations, Neuro Oncol. 13 (8) 
+(2011) 806–819. 
+[52] E.H. Panosyan, J.L. Lasky, H.J. Lin, A. Lai, Y. Hai, X. Guo, et al., Clinical 
+aggressiveness of malignant gliomas is linked to augmented metabolism of amino 
+acids, J. Neuro Oncol. 128 (1) (2016) 57–66. 
+[53] H.R. Cho, H. Jeon, C.K. Park, S.H. Park, K.M. Kang, S.H. Choi, BCAT1 is a new MR 
+imaging-related biomarker for prognosis prediction in IDH1-wildtype glioblastoma 
+patients, Sci. Rep. 7 (1) (2017) 17740. 
+[54] J. Wang, W. Wang, F. Zhu, Q. Duan, The role of branched chain amino acids 
+metabolic disorders in tumorigenesis and progression, Biomed. Pharmacother. 153 
+(2022) 113390. 
+[55] L. Qian, N. Li, X.C. Lu, M. Xu, Y. Liu, K. Li, et al., Enhanced BCAT1 activity and 
+BCAA metabolism promotes RhoC activity in cancer progression, Nat. Metab. 5 (7) 
+(2023) 1159–1173. 
+[56] B. Zeng, X. Zhang, J. Zhao, Z. Wei, H. Zhu, M. Fu, et al., The role of DNMT1/hsa- 
+miR-124-3p/BCAT1 pathway in regulating growth and invasion of esophageal 
+squamous cell carcinoma, BMC Cancer 19 (1) (2019) 609. 
+[57] W. Zhu, Y. Shao, Y. Peng, MicroRNA-218 inhibits tumor growth and increases 
+chemosensitivity to CDDP treatment by targeting BCAT1 in prostate cancer, Mol. 
+Carcinog. 56 (6) (2017) 1570–1577. 
+[58] F. Ye, R. Xu, Y. Ge, Y. Zheng, X. Liu, P. Deng, et al., LINC00963 confers oncogenic 
+properties in glioma by regulating the miR-506/BCAT1 Axis, Cancer Manag. Res. 
+12 (2020) 2339–2351. 
+[59] D. Oktyabri, A. Ishimura, S. Tange, M. Terashima, T. Suzuki, DOT1L histone 
+methyltransferase regulates the expression of BCAT1 and is involved in sphere 
+formation and cell migration of breast cancer cell lines, Biochimie 123 (2016) 
+20–31. 
+[60] Y. Han, Z. Hu, A. Cui, Z. Liu, F. Ma, Y. Xue, et al., Post-translational regulation of 
+lipogenesis via AMPK-dependent phosphorylation of insulin-induced gene, Nat. 
+Commun. 10 (1) (2019) 623. 
+[61] Z.W. Wang, Y. Liu, X. Zhu, PhotoPROTACs: a novel Biotechnology for cancer 
+treatment, Trends Cell Biol. 30 (10) (2020) 749–751. 
+[62] X. Qu, H. Liu, X. Song, N. Sun, H. Zhong, X. Qiu, et al., Effective degradation of 
+EGFR(L858R+T790M) mutant proteins by CRBN-based PROTACs through both 
+proteosome and autophagy/lysosome degradation systems, Eur. J. Med. Chem. 218 
+(2021) 113328. 
+[63] C.J. Diehl, A. Ciulli, Discovery of small molecule ligands for the von Hippel-Lindau 
+(VHL) E3 ligase and their use as inhibitors and PROTAC degraders, Chem. Soc. Rev. 
+51 (19) (2022) 8216–8257. 
+[64] Z. Ma, Y. Ji, Y. Yu, D. Liang, Specific non-genetic IAP-based protein erasers 
+(SNIPERs) as a potential therapeutic strategy, Eur. J. Med. Chem. 216 (2021) 
+113247. 
+[65] J. Hines, S. Lartigue, H. Dong, Y. Qian, C.M. Crews, MDM2-Recruiting PROTAC 
+offers superior, synergistic antiproliferative activity via simultaneous degradation 
+of BRD4 and stabilization of p53, Cancer Res. 79 (1) (2019) 251–262. 
+[66] L. Li, D. Mi, H. Pei, Q. Duan, X. Wang, W. Zhou, et al., In vivo target protein 
+degradation induced by PROTACs based on E3 ligase DCAF15, Signal Transduct. 
+Targeted Ther. 5 (1) (2020) 129. 
+[67] M. Luo, J.N. Spradlin, L. Boike, B. Tong, S.M. Brittain, J.M. McKenna, et al., 
+Chemoproteomics-enabled discovery of covalent RNF114-based degraders that 
+mimic natural product function, Cell Chem. Biol. 28 (4) (2021) 559–566 e15. 
+W. Wang et al.                                                                                                                                                                                                                                  

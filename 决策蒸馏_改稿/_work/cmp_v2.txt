@@ -1,0 +1,129 @@
+original: draft.orig.md
+revised:  draft_v2.md
+
+== Invariants (must be unchanged unless the change is intended and reported) ==
+  numbers                            CHANGED (149 -> 155)
+    removed or changed:
+      01  x2  [line 85: ...室. 数字农业农村发展规划（2019—2025年）[EB/OL]. (2020->>01<<-20)[2026-10-20]. https://www.moa.gov.cn...; line 95: ...农村部：预计2023年生猪养殖规模化率将超过68%[EB/OL]. (2024->>01<<-23)[2026-10-20]. https://m.gmw.cn/2024-...]
+      10  x1  [line 25: ...续蒸馏进AI模型的流程[9]，也提出了“一次收集经验、离线固化权重”的技术路径[>>10<<]；但它默认专家意见可以聚合，没有为专家之间的分歧预留处理机制。; line 85: ...划（2019—2025年）[EB/OL]. (2020-01-20)[2026->>10<<-20]. https://www.moa.gov.cn/govpublic/F...]
+      20  x1  [line 85: ...数字农业农村发展规划（2019—2025年）[EB/OL]. (2020-01->>20<<)[2026-10-20]. https://www.moa.gov.cn/go...; line 85: ...019—2025年）[EB/OL]. (2020-01-20)[2026-10->>20<<]. https://www.moa.gov.cn/govpublic/FZJH...]
+      2023  x2  [line 9: ...也有系统综述与实证研究给出量化支持[2-5]。从产业面看，规模化的推进速度不慢：>>2023<<年全国生猪养殖规模化率预计超过68%，比上年提升约3个百分点[6]；成本结构上，...; line 93: ...养殖MY公司智能化养殖价值链成本管优化研究[D]. 杨凌: 西北农林科技大学, >>2023<<. DOI: 10.27409/d.cnki.gxbnu.2023.002796...]
+      23  x2  [line 95: ...：预计2023年生猪养殖规模化率将超过68%[EB/OL]. (2024-01->>23<<)[2026-10-20]. https://m.gmw.cn/2024-01/...; line 95: ...)[2026-10-20]. https://m.gmw.cn/2024-01/>>23<</content_1303640502.htm.]
+      3  x1  [line 9: ...规模化的推进速度不慢：2023年全国生猪养殖规模化率预计超过68%，比上年提升约>>3<<个百分点[6]；成本结构上，饲料占生猪养殖总成本的60%–70%[7]，料肉比每...; line 21: ...”的判断拆解为咳嗽频次、声纹频谱、活动量等可计算特征，声纹模型使疫病预警提前2至>>3<<天[8]。但单点蒸馏有明确局限：单一厂长的经验带有个人偏差，经验一旦固化，又可能...]
+      68%  x2  [line 9: ...-5]。从产业面看，规模化的推进速度不慢：2023年全国生猪养殖规模化率预计超过>>68%<<，比上年提升约3个百分点[6]；成本结构上，饲料占生猪养殖总成本的60%–70%...; line 95: [6] 光明网. 农业农村部：预计2023年生猪养殖规模化率将超过>>68%<<[EB/OL]. (2024-01-23)[2026-10-20]. https...]
+    added:
+      04  x1  [line 107: ...打造AI“老兽医” 推动养猪业迈入智能阶段[N/OL]. 科技日报, 2026->>04<<-29[2026-11-07]. https://www.stdaily.com...; line 107: .... https://www.stdaily.com/web/gdxw/2026->>04<</29/content_510139.html.]
+      07  x2  [line 103: ...4年农业农村发展成就[EB/OL]. (2024-12-25)[2026-11->>07<<]. https://www.ntv.cn/content/1/392/9913...; line 107: ...业迈入智能阶段[N/OL]. 科技日报, 2026-04-29[2026-11->>07<<]. https://www.stdaily.com/web/gdxw/2026...]
+      1  x1  [line 9: ...。数字化系统（ERP、生产管理软件、物联网平台）在规模场的应用已由政策持续推动[>>1<<]。其成本红利也有系统综述与实证研究给出量化支持[2-5]。从产业面看，规模化的...; line 51: ...管理。机制可以拆成三层来看，传统系统与宏集智能体的对比、机制流程及边界条件见图 >>1<<。]
+      11  x2  [line 27: ...性判断简单平均会抹去少数决策者掌握的尾部信息，群体中最优的个体往往优于群体平均[>>11<<]。不过这一警告停留在判断聚合的统计层面，没有进入蒸馏的流程设计。离群判断怎样被...; line 59: ...稳健的初始学习目标。群体决策研究也表明，等权平均在专家判断聚合中通常是稳健方法[>>11<<]。但平均意味着向中间收敛。成本管控最好的做法，常常出在偏离平均值的那几个人身上...]
+      12  x1  [line 29: ...综述量化了数字技术的成本红利[2-3]，也指出了数据质量与互操作性的结构性障碍[>>12<<]。但它没有把“人的经验如何被系统承接”当作一个设计问题。; line 43: ...种差异形成的数据口径差异，以及系统间互操作性不足，是限制数字化效果的结构性障碍[>>12<<]。如果系统分不清“A厂长方法好”和“A厂条件好”，离群值同步就会把错的方法更快...]
+      2  x1  [line 9: ...模场的应用已由政策持续推动[1]。其成本红利也有系统综述与实证研究给出量化支持[>>2<<-5]。从产业面看，规模化的推进速度不慢。2024年全国生猪养殖规模化率预计超过...; line 9: ...生猪养殖规模化率预计超过70%（年出栏500头以上规模养殖场口径），比上年提升约>>2<<个百分点[6]。成本结构上，饲料占生猪养殖总成本的60%–70%，这是行业机构口...]
+      2024  x1  [line 9: ...也有系统综述与实证研究给出量化支持[2-5]。从产业面看，规模化的推进速度不慢。>>2024<<年全国生猪养殖规模化率预计超过70%（年出栏500头以上规模养殖场口径），比上年...; line 99: ...生产成本影响研究：以华盛奶牛养殖专业合作社为例[D]. 泰安: 山东农业大学, >>2024<<.]
+      2026  x2  [line 93: ...农村发展规划（2019—2025年）[EB/OL]. (2020-01-20)[>>2026<<-10-20]. https://www.moa.gov.cn/govpubli...; line 97: ...hnologies and their impact[J]. Animals, >>2026<<, 16(8): 1244.]
+      25  x1  [line 67: 产业实践同样如此。数影科技“FPF 未来猪场”公布的企业口径数据显示，其服务的 >>25<< 万头母猪体系客户综合成本比原体系低 0.4 元/斤。“母猪养殖在线”使企业管理...; line 103: [6] 农视网. 2024年农业农村发展成就[EB/OL]. (2024-12->>25<<)[2026-11-07]. https://www.ntv.cn/conten...]
+      29  x1  [line 107: ...I“老兽医” 推动养猪业迈入智能阶段[N/OL]. 科技日报, 2026-04->>29<<[2026-11-07]. https://www.stdaily.com/we...; line 107: ...ttps://www.stdaily.com/web/gdxw/2026-04/>>29<</content_510139.html.]
+      392  x1  [line 103: ...26-11-07]. https://www.ntv.cn/content/1/>>392<</991392652.html.]
+      500  x1  [line 9: ...面看，规模化的推进速度不慢。2024年全国生猪养殖规模化率预计超过70%（年出栏>>500<<头以上规模养殖场口径），比上年提升约2个百分点[6]。成本结构上，饲料占生猪养殖...]
+      70%  x1  [line 9: ...-5]。从产业面看，规模化的推进速度不慢。2024年全国生猪养殖规模化率预计超过>>70%<<（年出栏500头以上规模养殖场口径），比上年提升约2个百分点[6]。成本结构上，...; line 9: ...口径），比上年提升约2个百分点[6]。成本结构上，饲料占生猪养殖总成本的60%–>>70%<<，这是行业机构口径[7]。料肉比每变动一点，都会直接落在批次成本上。但系统上线与...]
+      991392652  x1  [line 103: ...1-07]. https://www.ntv.cn/content/1/392/>>991392652<<.html.]
+  citations                          CHANGED (44 -> 45)
+    removed or changed:
+      [2026-10-20]  x1  [line 85; line 95]
+    added:
+      [2026-11-07]  x2  [line 103; line 107]
+  math                               unchanged (0 segments)
+
+  RESULT: differences found; revert each unintended one and list intended ones in the report
+
+== Conservation warnings (do not affect the exit status) ==
+  qualifiers and concessions: 15 -> 15
+  capitalized terms not in the original: 0
+  quoted strings not in the original: 0
+  sentences: 48 of 141 unchanged; 13 changed, 45 merged or split, 94 added, 34 removed  (--changes lists them)
+
+== AI-tell candidates (draft_v2.md) ==
+  zh_boilerplate                  1 -> 0   (中文套话与空泛表述)
+  zh_figurative                   1 -> 1   (比喻或流行语，改用字面表述)
+      line 107: [8] 讯飞和光>>打造<<AI“老兽医” 推动养猪业迈入智能阶段[N/OL]. 科技日报, 2026-04-29[2...
+  zh_emphasis                     2 -> 2   (空洞强调与连接词堆叠)
+      line 15: >>需要说明的是<<，“统合经营的公司”与“宏集智能体”都是本文为分析机制而构建的设定，并非已投放市场的既有产...
+      line 89: ...设计中观察和修正。不同品种、不同规模与数字化基础的养殖场，机制各环节的适用性也需分别讨论。>>此外<<，平均基线与离群验证之间的权重如何随组织成熟度调整，此处只给出定性判断，定量刻画留待后续研...
+  [verify] zh_scope               9 -> 8  稳健 x6, 最优 x2
+  zh_contrast                     3 -> 0   (翻案腔（chinese.md 规则 11.1）；被推翻的观点确有出处时保留)
+  zh_cue_colon                    1 -> 0   (提示语加冒号（chinese.md 规则 11.2）)
+  [verify] zh_translationese      2 -> 2  当个体只因自己答案的准确性受奖时， x1, 当奖励与集体表现挂钩时， x1
+
+== Evidence placeholders to fill ==
+  count 0 -> 0
+  none
+
+== Coined labels (SKILL.md Rule 2; keep established terms, replace or report the rest) ==
+  no definition or citation: 10 -> 11
+      分析机制                           x1  line 15: 需要说明的是，“统合经营的公司”与“宏集智能体”都是本文为>>分析机制<<而构建的设定，并非已投放市场的既有产品。
+      能体机制                           x1  line 21: 这正是宏集智>>能体机制<<设计的出发点。
+      处理机制                           x1  line 25: 但它默认专家意见可以聚合，没有为专家之间的分歧预留>>处理机制<<。
+      仍无机制                           x1  line 27: 离群判断怎样被验证、何时纳入、何时排除，>>仍无机制<<可循。
+      流程框架                           x1  line 31: ...用“平均基线→离群验证→归因控制”的机制设计，把群体决策的统计警告接入经验蒸馏的>>流程框架<<，并以畜牧场景的归因困难作为约束条件。
+      母猪体系                           x1  line 67: 数影科技“FPF 未来猪场”公布的企业口径数据显示，其服务的 25 万头>>母猪体系<<客户综合成本比原体系低 0.4 元/斤。
+      比原体系                           x1  line 67: ...PF 未来猪场”公布的企业口径数据显示，其服务的 25 万头母猪体系客户综合成本>>比原体系<<低 0.4 元/斤。
+      三层机制                           x1  line 73: 上述>>三层机制<<能否成立，取决于上一章列出的三项条件。
+      属于机制                           x1  line 89: 本文>>属于机制<<设计层面的理论分析。
+      所提框架                           x1  line 89: 宏集智能体是本文构建的机制模型，>>所提框架<<未经实地试点检验。
+      管理机制                           x2  line 3: 它的效果取决于数据质量、经验判断能否被系统承接以及组织>>管理机制<<是否配套。
+  NEW in the revision (edit discipline: nothing added; revert unless the original names it):
+      三层机制                           line 73: 上述>>三层机制<<能否成立，取决于上一章列出的三项条件。
+
+== Sentence patterns (candidates; see SKILL.md Rule 4) ==
+  adjacent sentences with one skeleton (4.3)                 2 -> 18 adjacent pairs; runs of 3+ listed
+      line 3: 归因控制缺位，错误经验会被加速扩散。 | 激励对齐缺位，打分退化为礼貌性表态。 | 权责边界缺位，AI只能提出建议而无法驱动执行。
+      line 37: 只有利用而无探索，组织会收敛于平庸。 | 只有探索而无利用，组织又无从积累。 | 宏集智能体的机制设计，就是把这两件事排进同一套流程。
+      line 65: 厂长们要评价的是“在我场条件下，这个归因是否成立”。 | 至于“这个方法听起来好不好”，不构成评价。 | 没有归因控制的经验扩散，比不扩散更危险。
+  clauses with 2+ 顿号 (4.5, keep content lists)               15 -> 15
+      line 3: 养殖场成本管控依赖料肉比、日增重、批次成本、死淘率等指标
+      line 9: 养殖场成本管控的核心指标通常包括料肉比、日增重、批次成本和死淘率
+      line 9: 饲料、兽药、人工、折旧等投入按批次归集
+      line 9: 数字化系统（ERP、生产管理软件、物联网平台）在规模场的应用已由政策持续推动[1]
+      line 15: 文中引用的企业实践（中粮家佳康、正大集团、数影科技）均来自公开报道
+      line 21: 把老兽医“听咳嗽知健康”的判断拆解为咳嗽频次、声纹频谱、活动量等可计算特征
+      line 21: 又可能跟不上品种、饲料、行情和疫病条件的变化
+      line 27: 离群判断怎样被验证、何时纳入、何时排除
+      line 37: 也可能源于品种、栏舍、气候等条件优势
+      line 45: 它应是他贡献了多少经过跨场验证、可归因、可复制的有效方法
+      line 57: 把场长对环境、饲喂、鸡群状态的判断沉淀到智能体
+      line 65: 也可能是因为品种、栏舍、地域气候等条件更优
+      line 69: 只交代有哪些答案、由谁在什么条件下给出、被谁复用后是否仍然成立
+      line 77: 数据质量、经验判断能否被系统承接、组织管理机制是否配套
+      line 79: 管什么、数据从哪来、离群值如何归因、分享如何激励、决策失误谁负责
+  paragraph opens with a comment, no referent (4.7)          0 -> 0
+  consecutive paragraphs opening with a signpost (4.8)       0 -> 0
+  paragraphs crowded with semicolons or asides (Rule 3)      7 -> 1
+      line 5: 4 semicolon(s), 0 aside(s): 关键词：决策蒸馏；组织学习；成本管控；宏集智能体；边界条件
+  line ending in a colon before a list (4.2; verify)         0 -> 0
+  ordinal headings, 3+ in a row (4.6; not manuscript numbering) 1 -> 1
+      line 7: 一、问题背景（现状数据）：系统上线与成本改善之间的落差 | 二、原因与技术机理：经验判断无法进入系统 | 三、现存难点：分歧、归因与激励 | 四、对策建议：宏集智能体的机制设计 | 五、个人判断
+
+== Dashes used as punctuation ==
+  count 9 -> 1
+  line 57 [single U+2014 (keep only as a 连接号 for a span such as 北京—上海)]: ...”，把场长对环境、饲喂、鸡群状态的判断沉淀到智能体，“让一个场长管好100个场”，并以L1>>—<<L5分级规划成熟度[13]。它没有回答的正是前述问题。多位场长的判断怎样聚合、分歧怎样校准...
+
+== Sentences ==
+  over 90 characters: 30 -> 15
+      line 93 (149 characters): [1] 农业农村部, 中央网络安全和信息化委员会办公室. 数字农业农村发展规划（2019—2025年）[EB/OL]. (2020-01-20)[2026-10-20]. https://www...
+      line 95 (191 characters): [2] PAPADOPOULOS G, PAPANTONATOU M Z, UYAR H, et al. Economic and environmental benefits of digit...
+      line 97 (131 characters): [3] DAO S D, GOSTAR A K, TENNAKOON R, et al. Modernizing livestock operations: smart feedlot tech...
+      line 103 (101 characters): [6] 农视网. 2024年农业农村发展成就[EB/OL]. (2024-12-25)[2026-11-07]. https://www.ntv.cn/content/1/392/9913926...
+      line 105 (93 characters): [EB/OL]. (2026-05-19)[2026-10-20]. https://www.caaa.cn/html/fw/market/zhu/2026/0519/23756.html.
+      line 107 (126 characters): [8] 讯飞和光打造AI“老兽医” 推动养猪业迈入智能阶段[N/OL]. 科技日报, 2026-04-29[2026-11-07]. https://www.stdaily.com/web/gd...
+      line 109 (156 characters): [9] GAO J, ZHANG Y, CHEN Y, et al. Agent-in-the-loop to distill expert knowledge into artificial ...
+      line 111 (132 characters): [10] GOU C, TU H, FANG Y, et al. Sample-efficient learning from agent experience[EB/OL]. (2026)[2...
+      line 113 (117 characters): [11] MANNES A E, SOLL J B, LARRICK R P. The wisdom of select crowds[J]. Journal of Personality an...
+      line 115 (224 characters): [12] BAHLO C, DAHLHAUS P, THOMPSON H, et al. The role of interoperable data standards in precisio...
+      line 119 (147 characters): [14] LI Y, MIAO Y, KRISHNAN R, et al. JEV-as-a-judge: accept when confident, escalate when unsure...
+      line 121 (117 characters): [15] 全球农食产业领袖在“农业达沃斯”论坛共话AI+养猪新成果[EB/OL]. (2025-10-17)[2026-10-20]. https://www.farmer.com.cn/202...
+      line 123 (102 characters): [16] MARCH J G. Exploration and exploitation in organizational learning[J]. Organization Science,...
+      line 125 (158 characters): [17] LORENZ J, RAUHUT H, SCHWEITZER F, et al. How social influence can undermine the wisdom of cr...
+      line 127 (143 characters): [18] BAZAZI S, VON ZIMMERMANN J, BAHRAMI B, et al. Self-serving incentives impair collective deci...
+
+== Structure ==
+  top-level headings in main text: 1
+  ONE CHILD: "五、个人判断" (line 75) has a single subdivision "研究局限"

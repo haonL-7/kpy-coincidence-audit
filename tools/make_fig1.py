@@ -74,7 +74,7 @@ ax0.text(X[0],1.9,"filled ticks = lysines entering the comparison set;  pale tic
 
 axes=[fig.add_subplot(gs[1,i]) for i in range(3)]
 ax=axes[0]
-rows=[("A  pooled",*mA,14754/66790,"P = 1e-5"),("B  histone",*mH,371/756,"P = 0.011"),
+rows=[("A  pooled",*mA,14754/66790,"P = 1.1e-5"),("B  histone",*mH,371/756,"P = 0.0089"),
       ("B  non-histone",*mN,14383/66034,"P = 0.044"),("D  histone",*mH,8.0/10,"P = 0.351"),
       ("D  non-histone",*mN,4.8/13,"P = 0.293")]
 ys=np.arange(len(rows))[::-1]

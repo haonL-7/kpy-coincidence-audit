@@ -1,0 +1,11 @@
+IMG:
+<w:p w14:paraId="694AF336"><w:pPr><w:keepNext/><w:keepLines/><w:widowControl/><w:snapToGrid w:val="0"/><w:spacing w:before="120" w:after="60" w:line="360" w:lineRule="auto"/><w:ind w:left="0"/><w:jc w:val="center"/></w:pPr><w:r>[[DRAWING]]</w:r></w:p>
+
+P2:
+<w:p w14:paraId="726A29DD"><w:pPr><w:keepNext/><w:keepLines/><w:widowControl/><w:snapToGrid w:val="0"/><w:spacing w:before="0" w:after="60" w:line="360" w:lineRule="auto"/><w:ind w:left="0"/><w:jc w:val="center"/></w:pPr><w:r><w:rPr><w:rFonts w:hint="eastAsia" w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:eastAsia="宋体" w:cs="Times New Roman"/><w:b/><w:sz w:val="21"/><w:szCs w:val="21"/></w:rPr><w:t>图1 主粮价格带结构的抽样与判读框架</w:t></w:r></w:p>
+
+P3:
+<w:p w14:paraId="47A8A5D6"><w:pPr><w:keepLines/><w:widowControl/><w:snapToGrid w:val="0"/><w:spacing w:before="0" w:after="60" w:line="360" w:lineRule="auto"/><w:ind w:left="0"/><w:jc w:val="left"/></w:pPr><w:r><w:rPr><w:rFonts w:hint="eastAsia" w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:eastAsia="宋体" w:cs="Times New Roman"/><w:b w:val="0"/><w:sz w:val="21"/><w:szCs w:val="21"/></w:rPr><w:t>图注：本图为分析框架，不含样本数据；箭头表示从类目列表页经剔除、折算、编码到矩阵判读的步骤。</w:t></w:r></w:p>
+
+P4:
+<w:p w14:paraId="689B2B52"><w:pPr><w:keepNext/><w:keepLines/><w:widowControl/><w:snapToGrid w:val="0"/><w:spacing w:before="240" w:after="120" w:line="360" w:lineRule="auto"/><w:ind w:left="0"/><w:jc w:val="left"/><w:outlineLvl w:val="0"/></w:pPr><w:r><w:rPr><w:rFonts w:hint="eastAsia" w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:eastAsia="黑体" w:cs="Times New Roman"/><w:b/><w:sz w:val="28"/><w:szCs w:val="28"/></w:rPr><w:t>三、现存难点</w:t></w:r></w:p>

@@ -24,6 +24,8 @@ def cells_for(Y, kpy_mode=False):
             if y:
                 nsite += 1
             others = len(v) - (1 if y else 0)
+            if y and others == 0:
+                continue          # Y-only lysines carry Y, so they cannot serve as comparison
             q = y and others >= 1
         o = others >= 2
         c = strata[s[0]]

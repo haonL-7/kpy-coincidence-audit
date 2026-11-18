@@ -1,0 +1,847 @@
+
+
+<!-- page 1 -->
+
+pubs.acs.org/JAFC                                                                                                                                       Article
+
+      Deciphering the Atlas of Protein Acetylation,
+       2‑Hydroxyisobutyrylation, and Malonylation in Developing Cassava
+      Roots
+             Lili Fu,∥Yan Yan,∥Kaisen Huo,∥Weiwei Tie, Jinghao Yang, Deguan Tan, Wei Hu,* and Zehong Ding*
+
+
+                      Cite This: https://doi.org/10.1021/acs.jafc.5c14441                   Read Online
+
+
+
+                                                                                                                                                                                            sı  Supporting Information      ACCESS                Metrics & More                       Article Recommendations    *
+        articles.         ABSTRACT: Lysine  acetylation (Kac), 2-hydroxyisobutyrylation (Khib), and malonylation (Kma) represent three  recently(UTC).              identified posttranslational modifications (PTMs) that regulate plant development and stress resilience. Herein, we constructed the
+                  first global proteomic atlas of Kac, Khib, and Kma modifications in developing cassava roots, identifying 11,253 Kac, 18,326 Khib,        published           and 4068 Kma sites across 5165, 4832, and 1815 proteins, respectively. The PTM-modified proteins were involved in sucrose/starch07:03:03
+            metabolism, glycolysis/gluconeogenesis, pentose phosphate pathway, TCA  cycle, and  lignin biosynthesis, with the majorityatshare
+2026           exhibitingtranscriptionmultiplefactorsPTMwere co-occurrence.also identified, Hundredsof which a offewmodifiedproteinsproteinsdisplayedassociatedsignificantwithtype-specificstress response,modificationhormonepreferences.metabolism,Finally,and
+9,          the regulatory roles of Kac-, Khib-, and Kma-modified proteins in root development and stress responses were discussed, leading to a          legitimately       proposed mechanistic model for PTM-mediated regulation in cassava. These findings provide novel insights for elucidating the
+  to       molecular mechanisms of PTM-driven regulation in plants.February
+onhow     KEYWORDS: cassava, posttranslational modification, lysine acetylation, lysine 2-hydroxyisobutyrylation, lysine malonylation,
+TECHon        modification preference
+&      options
+SCIfor                                                                          gluconeogenesis, pentose phosphate pathway, and tricarboxylic       ■INTRODUCTION                                             acid (TCA) cycle, as indicated by the profiles of Kac, Khib, and             Protein posttranslational modifications (PTMs) involve theUNIV             covalent addition or removal of chemical moieties on amino    Kma in many plants, including poplar, rice, sugarcane, and
+             acid residues, modulating protein functions through dynamic        birch.1,3,9,10 In poplar, Liao et al.9 pinpointed 7594 Kac sites
+             regulation  of  enzymatic  activity,  subcellular  localization,      across 3281 modified proteins participating in sugar and fatty
+             protein  stability, and protein−protein  interactions.1 Lysine      acid metabolism, glycolysis/gluconeogenesis, and TCA cycle,SHANDONG           acetylation (Kac)  is  catalyzed by  lysine  acetyltransferases     and underscored the significance of Kac in bud dormancy
+via        (KATs)  that  transfer  acetyl groups from acetyl-CoA onto       release.  In  birch, Sun  et  al.1  detected  15,064  acetylated
+               lysine, and this process can be reversed by lysine deacetylases                                                                               peptides within 4393 proteins that were enriched in the TCA
+           (KDACs).2 Lysine 2-hydroxyisobutyrylation (Khib) enables                                                                                         cycle,  pentose  phosphate  pathway, and  nucleotide  sugar
+             the formation of hydrogen bonds between the modified lysine
+                                                                                     biosynthesis, and  discovered  that Kac modulated droughtDownloadedhttps://pubs.acs.org/sharingguidelines       and other molecules via its hydroxyl group. Both in vitro and in
+                                                                                           stress responses by regulating those metabolic and transcrip-   See         vivo studies demonstrate that histone acetyltransferases trigger
+                                                                                       tional  pathways.  In  developing  rice  seeds, Meng  et  al.3           Khib reaction, while histone deacetylases are responsible for
+             lysine  de-2-hydroisobutyrylation.3,4  Lysine  malonylation       identified 9916 Khib  sites on 2512 proteins and revealed
+          (Kma) involves the addition of a carboxyl group to lysine,      that Khib  preferentially  targeted  proteins  participating  in
+             generating  a  negatively  charged  residue  with  substantial      glycolysis/gluconeogenesis, the TCA cycle, and starch biosyn-
+              structural changes. Malonyl-CoA acts as a substrate in Kma       thesis. In Nostoc flagelliforme, Wang et al.10 identified 421 Kma
+              reactions, while  certain histone  deacetylases  (e.g., SIRT5)       sites across 236 modified proteins and demonstrated  that
+             function as potent demalonylase.5 These PTMs play a wide      malonylation of Calvin cycle and gluconeogenesis proteins
+            range of regulatory roles in plant growth, development, and      contributed to the adaptation to drought stress. These findings
+            adaptive  responses  to  various  environmental  stresses.6,7                                                                        demonstrated that Kac, Khib, and Kma played a crucial role in
+            Histone modifications  initially dominate PTM research due
+             to their pivotal roles in chromatin remodeling and transcrip-
+                                                                                 Received:  October 27, 2025              tional regulation.6 However, the advent of 4D proteomics
+                                                                                  Revised:   January 26, 2026            technology has expanded PTM analysis beyond histones to
+                                                                               Accepted:  January 30, 2026            nonhistone  proteins,  including  ribosomal  proteins,  tran-
+              scription factors (TFs), and metabolic enzymes.2,8
+              Kac, Khib, and Kma play an essential role in regulating
+             proteins involved in sucrose/starch metabolism, glycolysis/
+
+
+                                           © XXXX American Chemical Society                                                                     https://doi.org/10.1021/acs.jafc.5c14441
+                                                               A                                                                                  J. Agric. Food Chem. XXXX, XXX, XXX−XXX
+
+
+<!-- page 2 -->
+
+Journal of Agricultural and Food Chemistry                            pubs.acs.org/JAFC                                     Article
+
+plant growth, development, and stress response by regulating       conditions. Two months  after  planting, developing storage roots
+proteins involved in the above central carbon metabolisms.        were  harvested from  three  separate  plants around  9:00  a.m.,
+  Kac  can  also  regulate  proteins  involved  in hormone       constituting one  biological  replicate. A  total  of  three  biological
+                                                                                  replicates were collected. The samples were promptly frozen in liquidmetabolism and TFs.6,11 Deacetylation of osLOX14, a pivotal
+                                                                         nitrogen and stored at −80 °C until they were analyzed.
+enzyme involved in jasmonic acid (JA) biosynthesis, enhanced
+its protein stability. As a result, it facilitated JA accumulation      Protein Extraction, Western Blotting, and Enzyme
+                                                            Digestionand bolstered broad-spectrum antiviral defense in rice.12 In a
+comparable manner, deacetylation of AtWRKY53 reduced its     The cassava samples were utilized to perform Kac, Khib, and Kma
+DNA-binding ability and transcriptional activity, consequently      modificationomics analyses at Jingjie PTM Biolab (Hangzhou) Ltd.
+dampening the salt stress response in plants.13 Unlike Kac, less      with  three  biological  replicates.  Protein  extraction and  trypsin
+is known about the regulation of Khib and Kma in hormone-       digestion were carried out using an optimized protocol as previously
+                                                                                 described.5,11and TFs-related proteins.
+                                                                         Total proteins extracted from each sample underwent 12% sodium
+  Apart from a single regulatory PTM, there also exist PTMs                                                                    dodecyl  sulfate-polyacrylamide  gel  electrophoresis (SDS-PAGE).
+that operate in coordinated manners, particularly those PTMs       Subsequently, the purified proteins of each sample were prepared
+(including Kac, Khib, and Kma) that compete to modify the       for immune-detection. The primary antiacetyllysine antibody (PTM-
+same lysine residue.14 Such PTM crosstalk typically functions     105RM, PTM Biolabs), the anti-2-hydroxyisobutyryllysine antibody
+as a precise regulatory mechanism to adjust cellular responses     (PTM-802, PTM  Biolabs), and  the  antimalonyllysine  antibody
+to even the most subtle environmental changes.15 As of now,      (PTM-901, PTM Biolabs) were applied for Kac, Khib, and Kma
+the nature of the crosstalk among Kac, Khib, and Kma in plants       detection,  respectively. Peroxidase-conjugated goat antimouse IgG
+remains poorly understood. Moreover, the preference of these      secondary antibodies (31430 and 31460, Pierce, Rockford, IL) were
+                                                                   used for Kac/Kma and Khib at a 1:10,000 (v/v) dilution, respectively.PTMs in proteins  is unknown, although a few studies have
+                                                         The LAS-3000 Imaging System (Fujifilm Co., Tokyo, Japan) was used
+been  performed  focusing on  the  conserved  sites and                                                                           to capture signals following the manufacturer’s recommendations.
+proteins.11,16
+                                                                      Affinity Enrichment  Cassava (Manihot esculenta) stands as a highly significant
+starchy root crop, serving as a staple food source for over 800     To enrich Kac-, Khib-, or Kma-modified peptides, tryptic peptides
+million people worldwide.17 Cassava  is typically propagated       dissolved in NETN buffer (comprising 100 mM NaCl, 50 mM Tris-
+                                                               HCl, 1 mM EDTA, 0.5% NP-40, pH 8.0) were incubated at 4 °Cthrough stem cuttings, from which fibrous roots emerge and
+                                                                         overnight with gentle shaking alongside prewashed antiacetyllysinegradually develop into root tubers that become visible around
+                                                              (PTM-104), anti-2-hydroxyisobutyryllysine (PTM-804), or antimalo-the  eighth week  after  planting.18 Following  root  bulking,                                                                               nyllysine (PTM-904) beads, respectively. Subsequently, the beads
+carbohydrates produced in the leaves are transported to the                                                                 underwent four washes with NETN buffer and two washes with H2O.
+roots,  with  a  significant  increase  in  root  width  through     The bound peptides were then eluted from the beads using 0.1%
+secondary growth.19 Thus, the development of cassava roots        trifluoroacetic acid. The eluted fractions were pooled and vacuum-
+during the bulking stage is of paramount importance for its       dried. For LC-MS/MS analysis, the peptides obtained were desalted
+production.20 Over the past decade, numerous omics studies      with C18  ZipTips  (Millipore),  adhering  to  the  manufacturer’s
+have been  carried out  to  identify key genes and  crucial       protocols.
+pathways associated with root development,21,22 postharvest     LC-MS/MS Analysis
+physiological  deterioration,23  arbuscular  mycorrhizal  fungi                                                         The tryptic peptides were solubilized in solvent A (0.1% formic acid
+(AMF),24 polyethylene glycol (PEG) treatment,25 cold,26,27      and 2% acetonitrile/in water) and introduced directly onto a custom-
+and  drought  stress.28,29 However,  the  omics  concerning        built reversed-phase analytical column (25 cm in length, 100 μm i.d.).
+protein  posttranscriptional  modifications,  particularly  Kac,     The mobile phase was a combination of solvents A and B, where
+Khib, and Kma, which regulate sucrose/starch metabolism       solvent B contained 0.1% formic acid dissolved in acetonitrile. The
+and thereby influence starch accumulation, have not yet been       peptides were fractionated using a gradient elution profile as follows:
+conducted in cassava.                                      0−18 min, 6−22%B; 18−22 min, 22−30%B; 22−26 min, 30−80%B;
+                                                         26−30 min, 80%B. This separation was performed at a steady flow  In this work, we report the first global proteomic profiles of
+                                                                                 rate of 450 nL/min utilizing a NanoElute UHPLC system (Bruker
+Kac, Khib, and Kma modifications in developing cassava roots,
+                                                                            Daltonics). The peptides were directed into a capillary source and
+identifying a significant overlap among these three modifica-                                                                    then  analyzed  with  a timsTOF Pro 2 mass  spectrometer. An
+tions. The PTM-modified  proteins  were  predominantly       electrospray voltage of 1.65 kV was applied. Both precursor ions
+involved  in  sucrose/starch  metabolism,  central  carbon      and  their fragments were detected with the TOF detector. The
+metabolism  (including  glycolysis/gluconeogenesis,  pentose     timsTOF Pro was configured to operate in data-independent parallel
+phosphate pathway, TCA cycle, and pyruvate metabolism),      accumulation serial fragmentation (dia-PASEF) mode. The full mass
+lignin biosynthesis, stress response, hormone metabolism, and      spectrometry scan range was established as 100−1700 (MS/MS scan
+transcription factors. The regulatory roles of Kac-, Khib-, and      range) and 8PASEF (MS/MS mode). MS/MS scans were acquired
+                                                                                  for each cycle. The MS/MS scan range was designated as 425−1025,Kma-modified proteins in cassava root development and biotic
+                                                                      with an isolation window of 25 m/z.
+and abiotic stress responses are extensively discussed. These
+findings provide useful insights for elucidating the molecular     Database Searching
+mechanisms of PTM-driven regulation in cassava.               The initial DIA data were analyzed by utilizing Spectronaut (ver. 18)
+                                                                              software. The MS/MS spectra were searched against the cassava
+          AND METHODS                                  protein database (version 6.1) and concatenated with the reverse■MATERIALS                                                decoy database to discard contaminations. Trypsin/P was designatedPlant Materials                                                                              as the cleavage enzyme, allowing up to four missed cleavages. The
+The cassava variety “R5,” which boasts a high starch content in its       peptide length was set at a minimum of seven amino acid residues.
+storage roots, was used in this study. Cassava plants were cultivated in     The mass tolerance for precursor ions was established at 20 ppm.11
+the  experimental  farm  of  the  Chinese Academy  of  Tropical      Carbamidomethyl on Cys  residues was  designated  as  a  fixed
+Agricultural  Sciences  in Danzhou,  China,  under  standard  field       modification. Acetylation on the protein N-terminus, oxidation on
+
+                                                          B                                                           https://doi.org/10.1021/acs.jafc.5c14441
+                                                                                                                                                                                                                                      J. Agric. Food Chem. XXXX, XXX, XXX−XXX
+
+
+<!-- page 3 -->
+
+Journal of Agricultural and Food Chemistry                            pubs.acs.org/JAFC                                     Article
+
+
+
+
+
+Figure 1. Global identification and characteristics of Kac, Khib, and Kma in cassava roots. (A) Kac, Khib, and Kma profiles in cassava roots revealed
+by Western blotting. Molecular weight is labeled on the left. M, size marker. CBB, the sodium dodecyl sulfate-polyacrylamide gel electrophoresis
+(SDS-PAGE) stained with Coomassie Brilliant Blue. (B−D) LC-MS/MS spectrum database search analysis summary for Kac, Khib, and Kma in
+cassava roots. (E−G) Distribution of Kac, Khib, and Kma proteins based on the number of modification sites. (H−J) Distribution of Kac, Khib,
+and Kma proteins based on the modified rate in a protein. (K−M) Subcellular localization of identified Kac, Khib, and Kma proteins. (N)
+Subcellular location of the Kac, Khib, and Kma coexisting in the same proteins.
+
+Met, and acetylation/2-hydroxyisobutyrylation/malonylation on Lys      Genes and Genomes (KEGG), and Pfam v35.0 were  utilized to
+were defined as variable modifications. The false discovery rate of the       functionally annotate the identified proteins modified by Kac, Khib, or
+protein, peptide, and modified sites was set to 1%. The raw data have
+                                                          Kma. The subcellular localization of identified proteins was predicted
+been  deposited  in  the  iProX  database under  the  accession  of
+IPX0014780000.                                                        using  the WoLF PSORT  software.30 The  motif  characteristics
+                                                                   surrounding  modified  sites  were  analyzed  using  the  Motif-XBioinformatics Analysis
+                                                                               software.31 The background data set was generated by extracting all
+The complete MS spectra were utilized to quantify the number of
+                                                                             possible unmodified peptides of the appropriate length (i.e., ± 10 aa)
+proteins and modified peptides according to the average ratio of
+peptide pairs. A few databases, including Clusters of Orthologous       centered on the same residue type from the  full  project-specific
+Groups (COG/KOG), Gene Ontology (GO), Kyoto Encyclopedia of      proteome.  Functional  enrichment  of  identified  proteins was
+
+                                                         C                                                           https://doi.org/10.1021/acs.jafc.5c14441
+                                                                                                                                                                                                                                      J. Agric. Food Chem. XXXX, XXX, XXX−XXX
+
+
+<!-- page 4 -->
+
+Journal of Agricultural and Food Chemistry                            pubs.acs.org/JAFC                                     Article
+
+
+
+
+
+Figure 2. Characterization of Kac, Khib, and Kma sites and the overlapping of modified proteins. (A) Heatmap of the amino acids flanking the Kac,
+Khib, and Kma sites from ten amino acids downstream to ten amino acids upstream. (B) Overrepresented motifs for ten amino acids surrounding
+the Kac, Khib, and Kma sites. The top three motifs with the highest motif score are shown. (C) Overlapping sites of Kac, Khib, and Kma. (D)
+Overlapping proteins of Kac, Khib, and Kma. (E) A representative protein (APL1) showing the overlap of Kac, Khib, and Kma sites.
+
+determined by Fisher’s exact test. Functional terms exhibiting fold        In total, 11,253 Kac sites, 18,326 Khib sites, and 4068 Kma
+enrichment >1.5 and P-value <0.05 were regarded as significant.            sites were identified across 5165, 4832, and 1815 proteins,
+Expression Profiles of Kac-, Khib-, or Kma-Modified Genes      respectively  (Figure 1B−D). Of  the 5165  Kac-modified
+To investigate the expression profiles of genes corresponding to the       proteins, a very large proportion (90.18%) contained fewer
+Kac-, Khib-, or Kma-modified proteins involved in sucrose/starch      than five Kac sites, while 507 proteins contained at least five
+metabolism, central carbon metabolisms, lignin biosynthesis, stress     Kac sites (Figure 1E). Similarly, of the 4832 Khib-modified
+response, hormone metabolism, and transcription factors, multiple                                                        and 1815 Kma-modified proteins, 73.72 and 89.42% carried
+transcriptomic  data  sets  referring  to  storage  root  development,
+                                                                fewer than five modification sites, respectively (Figure 1F,G).arbuscular mycorrhizal fungi (AMF), PEG treatment, drought stress,
+and cold stress were analyzed (Table S1).                             Notably, the proportion of proteins containing more than ten
+  Clean reads were mapped to the cassava reference genome (version      modified sites was greatly higher in Khib (8.24%) compared
+6.1) using HISAT2 v2.1.032 and then assembled by Stringtie v1.3.432      with Kac (1.08%) and Kma (1.49%).
+with default parameters. Gene expression levels were calculated as      The frequencies of Kac, Khib, and Kma in a protein were
+fragments per kilobase per million mapped reads (FPKM). The                                                                        also measured. The  statistics revealed that 90.84% of Kac,
+expression of genes was row-normalized and further visualized using
+                                                        72.83% of Khib, and 88.26% of Kma proteins carried fewerpheatmap  software.  Differentially expressed genes were  identified
+using DESeq2,33 setting the parameters of |log2(fold-change)| >1 and      than 20% of their lysines modified. However, 24, 128, and ten
+false discovery rate <0.05. The associations between Kac, Khib, and      modified proteins contained Kac, Khib, and Kma frequency
+Kma modifications and storage root development or stress responses      exceeding 50%, respectively (Figure 1H−J).
+were determined by a Chi-squared test.                                   Subcellular localization was analyzed to determine which
+                                                                             cellular areas would be affected by the Kac, Khib, and Kma
+                                                                    modifications. A  striking  similarity was  observed  in  the■RESULTSGlobal Profiling of Protein Kac, Khib, and Kma in Cassava       subcellular  localization  of  Kac-,  Khib-, and Kma-modified
+                                                                      proteins: they were predominantly localized in the chloroplast,The proteins extracted from developing cassava roots were
+analyzed  to  examine  whether  Kac,  Khib,  and Kma      cytoplasm, and nucleus, whereas only a few were located in the
+modifications could be detected. Western blotting showed     plasma membrane,  mitochondria,  extracellular, and  others
+that the band patterns differed significantly from Kac, Khib, or      (Figure 1K−M and  Table  S2).  Notably,  the  proteins
+Kma signals (Figure 1A), indicating that Kac, Khib, and Kma      simultaneously containing Kac, Khib, and Kma modifications
+represent distinct modification systems and are widely present      preferred to locate in the cytoplasm (36.40%), followed by the
+in cassava.                                                           chloroplast (30.75%), and nucleus (13.08%, Figure 1N).
+
+                                                 D                                                           https://doi.org/10.1021/acs.jafc.5c14441
+                                                                                                                                                                                                                                      J. Agric. Food Chem. XXXX, XXX, XXX−XXX
+
+
+<!-- page 5 -->
+
+Journal of Agricultural and Food Chemistry                            pubs.acs.org/JAFC                                     Article
+
+
+
+
+
+Figure 3. Modification of Kac, Khib, and Kla on histone proteins. (A) Overlapping sites of Kac, Khib, and Kma in histone proteins. (B)
+Overlapping histone proteins modified by Kac, Khib, and Kma. (C) Kac, Khib, and Kma sites identified in histone H2A, H2B, and H4 from cassava,
+sugarcane, and rice. Modified lysines are highlighted in red. The numbers below represent their positions in histone proteins. Note that the
+modification information on histone H3 is unavailable in sugarcane.
+
+Characterization of Kac, Khib, and Kma Modification         Khib  site, enrichment was observed  only  in downstream
+The amino acid sequences surrounding the Kac, Khib, and      positions (from +1 to +10). Cysteine (C) was significantly
+Kma sites were analyzed (Figure 2A). Overall, alanine (A),      enriched in proximal positions (from −6 to +6) around the
+lysine (K), valine (V), and arginine (R) were significantly     Kac and Kma site, but not enriched flanking the Khib site.
+enriched flanking the Kac, Khib, and Kma sites. Glycine (G)       Similarly,  tyrosine (Y) and  histidine (H) were  enriched
+also showed enrichment flanking these three PTMs but with      surrounding the Kac site, but not enriched surrounding the
+different positional preferences: it was preferably enriched in     Khib and Kma sites.
+upstream (from −10 to −1) and downstream (from +1 to      The overrepresented amino acid motifs flanking the Kac,
++10) positions flanking the Kac and Kma site, whereas for the      Khib, and Kma sites were also analyzed (Figure 2B). In total,
+
+                                                                 E                                                           https://doi.org/10.1021/acs.jafc.5c14441
+                                                                                                                                                                                                                                      J. Agric. Food Chem. XXXX, XXX, XXX−XXX
+
+
+<!-- page 6 -->
+
+Journal of Agricultural and Food Chemistry                            pubs.acs.org/JAFC                                     Article
+
+
+
+
+
+Figure 4. Functional enrichment analysis of Khib proteins. (A) COG/KOG annotation of Khib-modified proteins. (B,C) GO and KEGG
+enrichment analyses of Khib-modified proteins, respectively. The above analyses of Kac- and Kma-modified proteins are presented in Figures S1
+and S2.
+
+57,  50, and 14  significantly  overrepresented  motifs were        all three PTMs, whereas histone H2A was exclusively modified
+identified for Kac, Khib, and Kma, respectively, with 16 Kac     by Kac (Figure 3C). On histone H2B, K24, and K61 were
+motifs, one Khib motif, and zero Kma motifs exhibiting a fold     commonly modified by Kac, Khib, and Kma in cassava. On
+increase >5.0 (Table S3). Notably, about half of the Kac motifs      histone H3, K24, K57, K80, and K123 were comodified by
+were enriched with leucine (L), isoleucine (I), H, Y, or V at     Khib and Kma, whereas K28 and K38 were comodified by Kac
+position +1, whereas over 60% of Khib motifs included at least     and Khib. On histone H4, K32, and K80 were comodified by
+one K residue flanking the modified lysine site. Collectively,     Khib and Kma, while only K92 was modified by both Kac and
+these findings unveil overrepresented motifs and preferred      Khib.
+residues  pertaining  to PTMs  in  cassava,  offering  valuable       Sequence alignment revealed that H2AK3ac, H2AK6ac, and
+characteristics for predicting PTM sites.                      H2AK12ac, as well as H4K5ac, H4K8ac, H4K12ac, H4K16ac,
+Overlap of Kac, Khib, and Kma Modification                 and H4K91ac, exhibited complete conservation among cassava,
+                                                                   sugarcane, and rice (Figure 3C). However, Kac modifications
+Overlap of Kac, Khib, and Kma modifications was analyzed to
+                                                     on histone H2B exhibited lower conservation compared to
+reveal whether these modifications would co-occur on the
+                                                                  histone H2A and H4, as only a limited number of Kac sites
+same lysine site or within the same protein. In total, 1239
+                                                           were conserved between  cassava and  rice (H2BK6ac and
+proteins and 1162 lysine sites were concurrently modified by
+                                                    H2BK11ac) or between sugarcane and rice (H2BK40ac andall three PTMs (Figure 2C,D). In contrast, fewer proteins
+                                                      H2BK43ac),  with no  shared  sites between  cassava andexhibited comodification by Kac and Kma (161 proteins) or
+                                                                sugarcane (Figure 3C). H3K27ac, H3K36ac, and H3K37acKhib and Kma (258 proteins), whereas a larger number (1886
+                                                                        also exhibited conservation between cassava and rice, althoughproteins) displayed concurrent Kac and Khib modifications at
+                                                                 the modification information about histone H3 was unavailablethe same  lysine  sites.  Additionally, 1879, 1449, and 157
+                                                                        in sugarcane. Three Khib sites on histone H4 (H4K31hib,proteins were exclusively modified by Kac, Khib, and Kma,
+                                                        H4K79hib, and H4K91hib) were conserved among cassava,respectively, at 6429, 12,383, and 1001 sites, suggesting a wider
+                                                                   sugarcane, and rice, whereas no shared sites were observed onregulatory impact of Kac and Khib compared to Kma.
+                                                                  histone H2B, further supporting lower conservation on histone ADP glucose pyrophosphorylase 1 (APL1) played a key role
+                                            H2B relative to histone H4. Although no shared Kma sitesin starch accumulation and served as a representative protein
+comodified by Kac, Khib, and Kma (Figure 2E). A total of five     were observed due to the absence of Kma data in sugarcane
+Kac, 14 Khib, and four Kma sites were identified in APL1, of     and  rice,  this study provides valuable resources  for future
+which K415 was modified by  all three modifications. These      investigations into Kma conservation across plant species.
+findings indicate that individual lysine residues in cassava can        Together,  these  shared  modification  sites on  histones
+undergo  various PTMs,  potentially  enabling  coordinated      suggest  that Kac and Khib  are  evolutionarily  conserved
+regulation of protein functions.                                between cassava and other  plants, implying  their potential
+                                                              involvement in the biological functions of cassava.Conservation of Kac, Khib, and Kma Sites on Histones
+                                                            Functional Enrichment of Kac, Khib, and Kma Proteins
+Histone  modifications  are  crucial  in  shaping  epigenetic
+regulation and influencing gene expression. In this work, a    To explore the biological functions of PTMs in nonhistone
+total of 23 histones were identified with Kac, Khib, or Kma on       proteins, COG/KOG functional annotation, GO enrichment,
+119 modification sites (Figure 3A,B and Table S4). Among     and KEGG enrichment were analyzed for the Kac, Khib, and
+these, five histones exhibited concurrent modifications by Kac,    Kma proteins, respectively.
+Khib, and Kma; four were modified by both Kac and Khib, and     COG/KOG annotation revealed that Kac-, Khib-, and Kma-
+two were modified by Khib and Kma. Notably, no histones      modified proteins participated in many kinds of biological
+displayed  comodification by Kac and Kma.  Specifically,      processes, mainly including carbohydrate metabolism, energy
+histones H2B, H3, and H4 were simultaneously modified by      production and  conversion,  posttranslational  modification,
+
+                                                                  F                                                           https://doi.org/10.1021/acs.jafc.5c14441
+                                                                                                                                                                                                                                      J. Agric. Food Chem. XXXX, XXX, XXX−XXX
+
+
+<!-- page 7 -->
+
+Journal of Agricultural and Food Chemistry                            pubs.acs.org/JAFC                                     Article
+
+
+
+
+
+Figure 5. Kac-, Khib-, and Kla-modified proteins function in energy metabolisms. The energy metabolisms include sucrose and starch metabolism,
+glycolysis/gluconeogenesis, pentose phosphate pathway, TCA cycle, and pyruvate metabolism. The proteins commonly modified by Kac, Khib, and
+Kma are indicated by yellow circles, while the proteins modified by at least one of Kac, Khib, and Kma are indicated by gray circles. The pink, light-
+green, and blue dots represent Kac, Khib, and Kma modification, respectively.
+
+signal  transduction,  translation, and RNA  processing and      supporting  a  high  coordination between Kac and Khib
+modification (Figures 4A, S1A, and S2A). GO enrichment      modifications in sucrose and starch metabolism. Conversely,
+suggested  that  these  Kac,  Khib, and Kma  proteins were      only  three  proteins (INV2, HK2, and ISA1)  exhibited
+involved in peptide transport, dicarboxylic acid metabolism,      modifications by Kac, Khib, and Kma  individually. These
+the TCA metabolic process, and pyruvate metabolism (Figures      findings  reveal  an  extensive and  coordinated  regulatory
+4B, S1B, and S2B). KEGG enrichment demonstrated that     mechanism  involving  Kac,  Khib, and Kma  in  proteins
+these Kac, Khib, and Kma proteins were enriched in the TCA      associated with sucrose and starch metabolism in cassava.
+cycle, pyruvate metabolism, glycolysis/gluconeogenesis, fruc-      Kac, Khib, and Kma Proteins Participated in
+tose and mannose  metabolism, and  pentose  phosphate      Glycolysis/gluconeogenesis, Pentose Phosphate Pathway,
+pathway (Figure 4C, S1C, and S2C).                     TCA Cycle, and Pyruvate Metabolism
+  Together, these findings provide useful guidance to further
+                                                                   Glycolysis/gluconeogenesis, the pentose phosphate pathway,explore  the  potential  roles  of  Kac,  Khib,  and Kma
+                                                                 the TCA cycle, and pyruvate metabolism are central carbonmodifications in relevant pathways in cassava.
+                                                             metabolisms of cellular processes, jointly maintaining energy
+Kac, Khib, and Kma Proteins Participated in Sucrose and                                                                     supply, biosynthesis, and redox balance.
+Starch Metabolism
+                                                                  In total, 22 proteins relevant to glycolysis and gluconeo-
+Sucrose and  starch metabolism  are  essential  for growth/      genesis were modified by Kac, Khib, or Kma in cassava (Figure
+development and starch accumulation in cassava storage roots.     5 and Table S6). Among these, 12 proteins covering nearly the
+A total of 29 proteins related to sucrose and starch metabolism     whole glycolysis/gluconeogenesis pathways were comodified
+were modified by Kac, Khib, or Kma in cassava (Figure 5 and     by  Kac,  Khib, and Kma. Seven  proteins  (GPI1, PFP1,
+Table S5). Among these, five proteins (SUS3, SUS4, FK4a,    GAPDH3, GPMI2, ENO2, PK3, and PK4) were modified by
+FK4b, and HK1) related to sucrose degradation, three proteins     both Kac and Khib. Conversely, only one protein each was
+(APL1, APL3, and SBE2a) involved in starch synthesis, and      modified by Kac and Kma (PK5), Kac (GPI2), or Khib
+three proteins (SEX4, PHS1, and PHS2) relevant to starch     (ENO3).
+degradation were concurrently modified by Kac, Khib, and     A total of 12 proteins relevant to the pentose phosphate
+Kma. Remarkably, of the remaining 18 proteins, 13 (including     pathway were modified by Kac, Khib, or Kma in cassava
+SPP related to sucrose synthesis, cINV1 related to sucrose      (Figure 5 and Table S6). Of which, five proteins (G6PD1,
+degradation, SS1-SS4, GBSS1, DBE1, and SBE2b involved in     PGL1, PGD1, PGD2, and TKT1) were comodified by Kac,
+starch synthesis, and AMY1, AMY3, DPE1, and DPE2 involved      Khib, and Kma, while three (G6PD2, PGL2, and RPE) were
+in starch degradation) were comodified by both Kac and Khib,      modified by both Kac and Khib. Two proteins (G6PD3 and
+
+                                                  G                                                           https://doi.org/10.1021/acs.jafc.5c14441
+                                                                                                                                                                                                                                      J. Agric. Food Chem. XXXX, XXX, XXX−XXX
+
+
+<!-- page 8 -->
+
+Journal of Agricultural and Food Chemistry                            pubs.acs.org/JAFC                                     Article
+
+
+
+
+
+Figure 6. Kac-, Khib-, and Kla-modified proteins function in lignin biosynthesis, abiotic and biotic stress, hormone metabolism, and transcription
+factors. (A) Lignin biosynthesis pathways. The proteins participating in lignin biosynthesis are indicated in blue. (B−F) The Kac-, Khib-, and Kla-
+modified proteins participating in lignin biosynthesis, abiotic stress, biotic stress, hormone metabolism, and transcription factors, respectively. The
+pink, light-green, and blue dots represent Kac, Khib, and Kma modification, respectively, while the white dot indicates neither of Kac, Khib, and
+Kma modification.
+
+RPI) were modified by Kac alone, and one each was modified      modified by Kac and Khib, two (PDH4 and DLAT3) by Kac
+by Khib and Kma (PGD3) or Khib (G6PD4).                  and Kma, and only one (ADH2) by Kac alone.
+  In  total, 26  proteins  relevant  to  the TCA  cycle were       Taken together, these findings suggest that Kac, Khib, and
+                                            Kma play a pivotal role in regulating energy metabolism inmodified by either Kac, Khib, or Kma in cassava (Figure 5 and
+                                                                        cassava, with the majority of proteins undergoing modificationTable S6). Fourteen proteins covering the whole TCA cycle
+                                                         by at least two of these PTMs.
+pathways were comodified by Kac, Khib, and Kma. Besides,
+                                                               Kac, Khib, and Kma Proteins Participated in Ligninfour proteins (MDH3, ACL1, IDH3, SCL1) were modified by
+                                                              Biosynthesis
+Kac and Khib, one (FUM1) by Kac and Kma, and two
+(OGDH4 and MDH4) by Khib and Kma. Conversely, five      Lignin serves as a key structural component of the plant cell
+                                                                             wall, conferring mechanical strength  for plant growth andproteins were exclusively modified by Kac (IDH4 and MDH1)
+                                                              development.
+or Khib (ACL3, SCL2, SDH3), respectively.
+                                             A total of 23 proteins, covering the entire lignin biosynthesis
+ A total of 19 proteins relevant to pyruvate metabolism were
+                                                               pathway, were modified by Kac, Khib, or Kma in cassava
+modified by Kac, Khib, or Kma in cassava (Figure 5 and Table                                                                 (Figure 6A,B and Table S7). Of which, seven proteins (PAL1c,
+S6). Of which, 13  proteins  covering  the whole  pyruvate     C3H, COMT, CAD4a, CAD4b, CAD6, and CAD9b) were
+metabolism pathways were comodified by Kac, Khib, and Kma.      comodified by Kac, Khib, and Kma. Six proteins (PAL1a, C4H,
+In addition, three proteins (PDH3, PDC3, and ADH3) were    CCoAOMT3, CCoAOMT4, 4CL1, CCR1b) were modified by
+
+                                                 H                                                           https://doi.org/10.1021/acs.jafc.5c14441
+                                                                                                                                                                                                                                      J. Agric. Food Chem. XXXX, XXX, XXX−XXX
+
+
+<!-- page 9 -->
+
+Journal of Agricultural and Food Chemistry                            pubs.acs.org/JAFC                                     Article
+
+both Kac and Khib, one (4CL2) by Kac and Kma, and two       identified and implicated in diverse biological processes.9,11,16
+(PAL1b, PAL2) by Khib and Kma. Additionally, six proteins     However, to date, no comprehensive research has specifically
+(F5H, CCoAOMT1, 4CL3, CCR1a, CAD1, CAD9a) were      focused on Kac, Khib, and Kma modifications in cassava, an
+exclusively  modified  by  Kac,  while  only one  protein      applicable model plant for understanding tropical plants in
+(CCoAOMT2) was exclusively modified by Khib.                  functional genomes.
+Kac, Khib, and Kma Proteins Participated in Stress               In this work, we performed the first genomewide multilevel
+Metabolism, Hormone, and Transcription Factors                 atlas  of Kac, Khib, and Kma modifications  in developing
+                                                                    cassava roots. A total of 11,253 Kac, 18,326 Khib, and 4068
+A total of 43 proteins relevant to biotic and abiotic stress were
+                                            Kma modifications were identified across 5165, 4832, and
+modified by Kac, Khib, or Kma in cassava (Figure 6C,D and
+                                                       1815 proteins, respectively. These findings support a wider
+Table  S8). Among  these,  three  biotic  stress (ATLP1a,                                                             impact of Kac and Khib than Kma in plants.16 Similar toATLP1b, RPP8a) and eight abiotic stress (STT3A, HSA32,
+                                                                  observations in sugarcane,  rice, and Nannochloropsis oceani-CLPB4, HSP90.1b, HSP91, Hsc70a, CR88a, CR88b) proteins                                                                                      ca,5,11,35 a very large portion of cassava Kac, Khib, and Kmawere comodified by Kac, Khib, and Kma. Of the 17 proteins
+                                                                    proteins contained fewer than five modified sites, with less thanwith dual modifications, 16 were modified by Kac and Khib.
+                                                20%  of  their  lysines  modified  in  a  protein.  SubcellularNotably, 96% of abiotic stress proteins were modified by Khib,
+                                                                         localization revealed that Kac, Khib, and Kma proteins werewhereas  all  biotic  stress  proteins were modified by  Kac,
+                                                           abundant in the chloroplast, cytoplasm, and nucleus, aligningindicating distinct modification preferences of different PTMs
+                                                               with previous findings for Kac and Khib in sugarcane and Kmabetween the biotic and abiotic stress pathways.
+                                                                        in maize.11,36  In total, 58 proteins involved in hormone metabolism were
+                                             A total of 57, 50, and 14 significantly overrepresented Kac,modified by Kac, Khib, or Kma in cassava (Figure 6E and
+                                                                Khib, and Kma motifs were identified (Figure 2). Particularly,Table S8). The categories with the most modified proteins
+                                                                         lysine residues were most prominently enriched flanking thewere ABA (16), jasmonate (14), brassinosteroid  (8), and
+                                                                Kac, Khib, and Kma modification sites, in accord with previouscytokinin  (8). A few  proteins involved  in ABA  synthesis
+                                                                     reports  in  sugarcane.11  Interestingly,  cysteine  residue was(ABA2g), jasmonate synthesis (AOS2, AOC3, LOX1a, and
+                                                                            significantly enriched in proximal positions (from −6 to +6)LOX2b),  brassinosteroid  synthesis (SMT1, DWF1, and
+                                                                      flanking the Kac site in this work, a pattern not observed inDWF5),  ethylene  synthesis (ACO1), and  auxin  signaling
+                                                                sugarcane or Nannochloropsis oceanica,11,35 indicating species-(CAND1 and BIG) were comodified by Kac, Khib, and Kma.
+                                                                            specific divergence in Kac motifs.The majority of jasmonate- and auxin-related proteins were
+                                                                     Proteins  are  often  subject  to  multiple PTMs  that canmodified by both Kac and Khib, while most gibberellin- and
+                                                                        reciprocally  influence  each  other.14  This might be morecytokinin-related proteins were exclusively modified by Kac
+                                               common and competitive among Kac, Khib, and Kma, as theyand Khib, respectively. Conversely, half of the ABA-related
+                                                        compete  for the modification of the same lysine residues.proteins were modified by Kac, while the other half were
+                                               Among the 7029 proteins modified by Kac, Khib, or Kma,modified by Khib. These findings suggested  distinct PTM
+                                                                     nearly half were comodified by at least two of these PTMsmodification preferences across different hormone pathways.
+                                                                 (Figure 2B), indicating extensive crosstalk among Kac, Khib, A total of 70 TF-related proteins were modified by Kac,
+                                                        and Kma modifications in cassava, as previously reported inKhib, or Kma in cassava (Figure 6F and Table S8). The
+                                                                 other plants.14categories with the most modified proteins were C2H2 zinc
+                                                               Histone modifications are crucial in regulating plant growth,finger (15), WRKY (12), and C3H zinc finger (10), followed
+                                                              development, and stress responses.37,38 In this work, a total ofby G2-like (6), MYB (6), and ARR (6). Interestingly, only
+                                                       23 histones were modified with Kac, Khib, or Kma in cassava.three TF  proteins (AGD13, KHZ2c, and KHZ2d) were
+                                                   The majority of Kac modifications occurred at the N-terminalcomodified by Kac, Khib, and Kma. Similar to stress- and
+                                                                                       tails of histones, whereas Khib and Kma modifications werehormone-related proteins, TF proteins also displayed PTM
+                                                              predominantly found at the C-terminal tails (Figure 3C), inmodification  preferences  across  distinct  categories.  All
+                                                              accordance with previous reports in sugarcane and poplar.9,11identified WRKY and ARR family proteins were exclusively
+                                                         Three Kac sites on histone H2A (H2AK3ac, H2AK6ac, andmodified by Kac and Khib,  respectively. In  contrast,  the
+                                                      H2AK12ac), and five Kac sites (H4K5ac, H4K8ac, H4K12ac,majority of Triple-Helix proteins were exclusively modified by
+                                                     H4K16ac, and H4K91ac)  along  with  three Khib  sitesKma. Most proteins related to the C2H2 zinc finger, C3H zinc
+                                                         (H4K31hib, H4K79hib, and H4K91hib) on  histone H4,finger, and MYB family were modified by Kac, with nearly half
+                                                           were conserved among cassava, sugarcane, and rice, indicatingof them being Khib-modified.
+                                                                       their  evolutionary  conservation and  potential  roles  in  Collectively, the findings suggest that Kac-, Khib-, and Kma-
+                                                                      regulating enzyme activities of energy metabolism proteins.6modified proteins participate in regulating stress metabolism,
+                                                          However, no shared Kac or Khib  sites were detected onhormone, and  transcription  factors,  exhibiting  distinct
+                                                                  histone H2B (Figure 3C),  likely due to the  fact that themodification preferences across their subcategories or subpath-
+ways.                                                           modification  sites  in H2B  were  species-dependent and
+                                                                          different sequence variants played important roles in regulating
+                                                                 responses to environmental stresses.38,39 Notably, compared to■DISCUSSION                                                   rice  and  sugarcane,  a  few  Kac-modified (H2BK28ac,
+Characteristics of Kac, Khib, and Kma in Developing         H2BK29ac, H2BK60ac)  or  Khib-modified (H3K23hib,
+Cassava Roots                                                        H3K27hib, H3K37hib) sites were only detected in cassava,
+PTMs are capable of effectively modulating protein function      indicating a possibility of cassava-specific functions for these
+and hold significant importance in plant growth, development,      modifications. Unlike Kac and Khib, no shared Kma sites were
+and environmental stress responses.6,34 Novel lysine acylation       identified on histones, owing to limited comparative data in
+modifications,  including  Kac,  Khib, and Kma, have been      sugarcane and rice (Figure 3C). Nevertheless, our findings
+
+                                                                                                                               I                                                            https://doi.org/10.1021/acs.jafc.5c14441
+                                                                                                                                                                                                                                      J. Agric. Food Chem. XXXX, XXX, XXX−XXX
+
+
+<!-- page 10 -->
+
+Journal of Agricultural and Food Chemistry                            pubs.acs.org/JAFC                                     Article
+
+
+
+
+
+Figure 7. Expression patterns of genes corresponding to modified proteins during storage root development. These genes participate in sucrose and
+starch metabolism, glycolysis/gluconeogenesis, pentose phosphate pathway, TCA cycle, pyruvate metabolism, and lignin biosynthesis. The genes
+differentially expressed during seven developmental stages (S1−S7) are suffixed with a star (*).
+
+provide  valuable  insights  for  future  exploration  of Kma      sucrose-starch metabolism proteins were identified as being
+conservation across plants.                                      modified by Kac, Khib, or Kma in developing cassava roots
+  Histone PTMs functionally interact with each other and      (Figure 5 and Table S5). Of which, APL1, GBSS1, and ISA1
+have attracted widespread attention. In yeast and mammals,     were crucial players in starch accumulation in cassava,47 in
+H4K8hib cooperated with Kac to orchestrate various cellular      accord with the  roles  of  their homologues  in  rice  starch
+processes by regulating gene expression.40,41 In Arabidopsis,      synthesis by Kac, Khib, and Kma modifications.46 TIR1 and
+Khib functioned in concert with H3Kac to modulate gene     FLS1, which functioned in starch accumulation and cassava
+transcription and cellular metabolism for plant adaptation to       yield,48,49 were  also modified by Kac (Figure S3). PTMs
+heat  stress or dark-induced  starvation.42,43 In our current      regulate  protein  functions by modulating  their enzymatic
+study, 11 histones exhibited concurrent modifications by at       activity, protein  stability, protein−protein  interactions, and
+least two of Kac, Khib, or Kma. The potential crosstalk and      subcellular localization, thereby influencing the expression of
+functional interplay among different modifications on these     downstream genes.14,50,51 To investigate the potential role of
+histones remain unknown and require further investigation.        these modified sucrose/starch proteins in root development,
+                                                  we analyzed the expression levels of their corresponding genes
+Kac, Khib, and Kma Regulate Cassava Root Development
+                                                                    across seven development stages of cassava storage roots. Thevia Sucrose/starch Metabolism,
+                                                                            results revealed a significant association (χ2 P-value = 0.0004)Glycolysis/gluconeogenesis, and Pentose Phosphate
+                                                          between Kac, Khib, and Kma modifications and storage rootPathway
+                                                              development, as 24 out of those 29 genes exhibited differential
+In addition to histone proteins, accumulating evidence has      expression (Figure 7).
+demonstrated  that  nonhistone  proteins undergo  extensive        Glycolysis/gluconeogenesis, TCA cycle, pentose phosphate
+PTMs and play  critical roles in starch biosynthesis, energy     pathway, and  pyruvate  metabolism  are  central  carbon
+metabolism, hormone signaling, and stress responses.6,11          metabolisms  closely  linked  to  sucrose/starch  metabolism,
+  PTMs have been linked to grain development and starch       jointly  providing  energy  required  for  plant  growth and
+biosynthesis, with  crucial  acetylated  proteins  identified  as      development.52  Proteins  relevant  to  these  pathways  have
+regulators of these processes in wheat and rice.44,45 Notably, in     been  reported  to  undergo  Kac,  Khib,  Kla,  or Kma
+rice developing seeds, a total of 14, 17, seven, ten, and two      modifications in multiple species, including sugarcane, poplar,
+starch metabolism proteins were modified by Kac, Khib, Kma,     and  rice, thereby influencing plant growth, bud dormancy
+phosphorylation, and  succinylation,  respectively.46  Cassava       release, and seed development.5,9,11 Remarkably, in Arabidopsis
+storage roots are  starch-rich, with starch contents  steadily      mitochondria, each catalytic step of the TCA cycle contained
+accumulating during root development.21 In  this work, 29       at  least one Kac-modified enzyme.53 In this work, tens of
+
+                                                                                     J                                                            https://doi.org/10.1021/acs.jafc.5c14441
+                                                                                                                                                                                                                                      J. Agric. Food Chem. XXXX, XXX, XXX−XXX
+
+
+<!-- page 11 -->
+
+Journal of Agricultural and Food Chemistry                            pubs.acs.org/JAFC                                     Article
+
+
+
+
+
+Figure 8. Expression patterns of genes corresponding to modified proteins under AMF, PEG, drought, and cold treatment. These genes participate
+in biotic and abiotic stress (A), hormone metabolism (B), and transcription factors (C). The genes differentially expressed under at least one of
+AMF, PEG, drought, and cold treatment are suffixed with a star (*). AMF, arbuscular mycorrhizal fungi; PEG, polyethylene glycol. ck, control; t1,
+isolate B1; t2, isolate DAOM197198; drt, drought.
+
+proteins  related  to  these  four  energy  metabolisms were       roots. Further analysis of gene expression levels across seven
+modified by Kac, Khib, or Kma, with the majority undergoing      developmental stages of cassava storage roots revealed that
+at least two modifications (Figure 5). It is noteworthy that 12,      Kac, Khib, and Kma modifications were significantly associated
+14, and 13 proteins covering the whole pathways of glycolysis/      with storage root development through proteins involved in
+gluconeogenesis, TCA cycle, and pyruvate metabolism were      glycolysis/gluconeogenesis  (χ2  P-value =  0.033) and  the
+commonly modified by Kac, Khib, and Kma (Figure 5). These      pentose phosphate pathway (χ2 P-value = 0.021). However,
+results suggested extensive crosstalk among Kac, Khib, and     no significant associations were observed for proteins related to
+Kma modifications in energy metabolism in cassava, in accord      the TCA cycle (χ2 P-value = 0.695), pyruvate metabolism (χ2
+with previous reports in other species.14,15                         P-value = 0.491), or lignin biosynthesis (χ2 P-value = 0.532).
+  Lignin, a primary structural component of the secondary cell     While  these  observed  associations  provided  preliminary
+wall, plays a crucial role in ensuring normal plant growth and       insights, the absence of direct causal evidence underscored
+development.54 In this work, 23 proteins covering the whole      the need for further experimental validation.
+lignin biosynthesis pathway were modified by Kac, Khib, or        Together, these findings suggest that Kac, Khib, and Kma
+Kma, indicating a major contribution of these PTMs in cassava     occur  widely  in  multiple  carbon  metabolic  pathways
+
+                                                         K                                                           https://doi.org/10.1021/acs.jafc.5c14441
+                                                                                                                                                                                                                                      J. Agric. Food Chem. XXXX, XXX, XXX−XXX
+
+
+<!-- page 12 -->
+
+Journal of Agricultural and Food Chemistry                            pubs.acs.org/JAFC                                     Article
+
+
+
+
+
+Figure 9. A proposed mode on how protein PTMs function in cassava. Kla, lysine lactylation; Kbu, lysine butylation; Kac, lysine acetylation; Khib,
+lysine 2-hydroxyisobutyrylation; Kma, lysine malonylation; Ksu, lysine succinylation; Kcr, lysine crotonylation.
+
+influencing cassava root development by regulating enzyme     PEG, drought, or cold stress responses in cassava (Figure 8B,C
+metabolisms. Moreover, the modification of central carbon     and Table S8).
+metabolic proteins by Kac, Khib, and Kma may represent a      Among these, ABA and JA were the top two categories with
+conserved regulatory mechanism across diverse species.6           the most modified proteins, in accord with the  significant
+                                                             importance of these two hormones in abiotic stress tolerance.56Kac, Khib, and Kma Participate in Biotic and Abiotic
+Stresses through Stress-, Hormone-, and TF-Related         Of  the  eight  modified LOX members  involved  in JA
+Proteins                                                              biosynthesis, six (LOX1b, LOX1c, LOX2a, LOX2b, LOX2d,
+                                                        and LOX5) were differentially expressed under various biotic
+PTMs  are  recently  recognized  as  a  rapid and  versatile                                                        and abiotic treatments, suggesting their potential involvement
+regulatory mechanism that enables plants to adapt to various                                                                        in  stress responses  via Kac, Khib, or Kma modification.12
+biotic and  abiotic  stresses.1,6,34  Lots  of  stress-responsive                                                                     Besides, each two homologues of AtDREB2A (DREB2A1 and
+proteins, including heat shock proteins, reactive oxygen species                                                DREB2A2) and MeWRKY20 (WRKY20a and WRKY20b)
+proteins, glutathione peroxidase, superoxide dismutase, and                                                           were  exclusively modified by Kac (Figure  6). AtDREB2A
+pathogenesis-related proteins, exhibited  acetylation, hydrox-                                                                  expression was highly  sensitive to drought  stress and was
+yisobutyrylation,  or  malonylation  under  multiple  stress                                                                 upregulated by ABA treatment.57 Overexpression of AtDRE-
+conditions.1,10,55  Deacetylation  of  heat  shock  protein 90    B2A in transgenic Arabidopsis plants resulted in significant
+(HSP90) under drought  stress strengthened  its interaction     drought  stress  tolerance.58 The  drought-responsive
+with client proteins, improving drought resistance in plants.44    MeWRKY20 regulated ABA accumulation by inducing the
+In this work, 19 biotic stress- and 24 abiotic stress-related      expression  of ABA  biosynthesis  genes,  thereby enhancing
+proteins were modified by Kac, Khib, or Kma in cassava (Table      drought tolerance of cassava plants.59 These findings strongly
+S8). Interestingly, 16 out of the 24 abiotic stress members      indicated a major contribution of hormone- and TF-related
+belonged to heat shock proteins, which played a significant role      proteins in biotic and abiotic stresses via Kac, Khib, and Kma
+in drought stress in cassava.25 Further analysis revealed that      modifications.
+Kac, Khib, and Kma modifications were significantly associated        Multiple PTMs have been shown to co-occur on both
+with multiple stresses (including AMF, PEG, drought, and      histones and nonhistone proteins, including those involved in
+cold) through proteins involved in biotic stress (χ2 P-value =      energy  metabolism,  transcription  factors, and  stress  re-
+0.039) and abiotic  stress (χ2 P-value = 7.09−e06). These       sponses.11,16 However, the modification preferences of distinct
+findings strongly suggest a major contribution of stress-related    PTM types have been poorly characterized. In this work, we
+proteins in biotic and abiotic stresses via Kac, Khib, and Kma     found that different PTMs preferred to modify proteins in
+modifications.                                                            specific subcategories. In hormone metabolisms, the majority
+  Hormones and  transcription  factors (TFs)  are  critical      of proteins related to jasmonate and auxin were modified by
+players in regulating plant  biotic and abiotic  stresses, and     both Kac and Khib, while most proteins relevant to gibberellin
+hundreds of proteins relevant to hormone metabolism and TFs     and cytokinin were  exclusively modified by Kac or Khib,
+have been  identified  to be  modified by  multiple PTMs      respectively (Figure 6E). In transcription factor proteins,  all
+including Kac, Khib, and Kma in plants.9,11 Lysine acetylation       identified proteins related to the WRKY and ARR families
+of hormone-associated  proteins modulated  plant hormone     were exclusively modified by Kac and Khib, respectively, while
+signaling pathways, thereby influencing plant growth and stress      the majority of Triple-Helix proteins were exclusively modified
+response.6 For example, deacetylation of OsLOX14, a key     by Kma (Figure 6F). This study represents the first report on
+enzyme participating in JA biosynthesis, increased its protein      the  modification  preferences  of  diverse PTMs  in  plants,
+stability, thereby promoting JA accumulation and enhancing       offering a novel  perspective  for  elucidating the molecular
+broad-spectrum antiviral defense in rice.12 Similarly, deacety-     mechanisms underlying PTM-mediated regulation.
+lation of AtWRKY53 inhibited its DNA-binding capacity and       Taken together, the study deciphered a comprehensive atlas
+transcriptional  activity,  thereby  suppressing  the  salt  stress      of protein acetylation, 2-hydroxyisobutyrylation, and malony-
+response in plants.13 In this work, a total of 58 hormone-       lation in cassava and suggested possible roles of these modified
+related and 70 TF-related proteins were modified by Kac,      proteins  in  root  development and  biotic/abiotic  stress.
+Khib, or Kma, and a majority of them were involved in AMF,     Moreover, a proposed mode on how protein PTMs function
+
+                                                                    L                                                           https://doi.org/10.1021/acs.jafc.5c14441
+                                                                                                                                                                                                                                      J. Agric. Food Chem. XXXX, XXX, XXX−XXX
+
+
+<!-- page 13 -->
+
+Journal of Agricultural and Food Chemistry                            pubs.acs.org/JAFC                                     Article
+
+in cassava was depicted (Figure 9). However, the underlying     Authors
+mechanisms have not been uncovered and they require further           Lili Fu −State Key Laboratory of Tropical Crop Breeding,
+investigation.                                                                      Institute of Tropical Bioscience and Biotechnology, Sanya
+                                                                       Research Institute, Coconut Research Institute, Chinese
+            CONTENT                                                            Academy of Tropical Agricultural Sciences, Haikou 571101,■ASSOCIATED*sı  Supporting Information                                        China; Hainan Key Laboratory for Protection and
+The Supporting Information  is  available  free of charge  at            Utilization of Tropical Bioresources, Hainan Institute for
+https://pubs.acs.org/doi/10.1021/acs.jafc.5c14441.                      Tropical Agricultural Resources, Chinese Academy of
+                                                                         Tropical Agricultural Sciences, Haikou 571101, China     Summary of RNA-seq accessions used for expression
+                                                        Yan Yan −State Key Laboratory of Tropical Crop Breeding,      assay  in  root development and  biotic/abiotic  stress
+                                                                                      Institute of Tropical Bioscience and Biotechnology, Sanya      (Table S1); subcellular localization of modified proteins
+                                                                       Research Institute, Coconut Research Institute, Chinese     and the number of Kac, Khib, and Kma sites in each
+                                                            Academy of Tropical Agricultural Sciences, Haikou 571101,      protein (Table S2); overrepresented motifs flanking the
+                                                                   China; Hainan Key Laboratory for Protection and      Kac,  Khib, and Kma  sites  in  cassava  (Table  S3);
+                                                                               Utilization of Tropical Bioresources, Hainan Institute for     summary of Kac-, Khib-, and Kma-modified  sites on
+                                                                         Tropical Agricultural Resources, Chinese Academy of      histone proteins (Table S4); summary of Kac-, Khib-,
+                                                                         Tropical Agricultural Sciences, Haikou 571101, China     and Kma-modified proteins related to sucrose and starch
+                                                               Kaisen Huo −State Key Laboratory of Tropical Crop     metabolism (Table S5); summary of Kac-, Khib-, and
+                                                                            Breeding, Institute of Tropical Bioscience and Biotechnology,     Kma-modified proteins related to glycolysis/gluconeo-
+                                                               Sanya Research Institute, Coconut Research Institute, Chinese       genesis, pentose phosphate pathway, TCA cycle, and
+                                                            Academy of Tropical Agricultural Sciences, Haikou 571101,      pyruvate metabolism (Table S6); summary  of Kac-,
+                                                                   China; Hainan Key Laboratory for Protection and      Khib-, and Kma-modified  proteins  related  to  lignin
+                                                                               Utilization of Tropical Bioresources, Hainan Institute for      biosynthesis (Table S7); summary of Kac-, Khib-, and
+                                                                         Tropical Agricultural Resources, Chinese Academy of     Kma-modified  proteins  related  to  stress metabolism,
+                                                                         Tropical Agricultural Sciences, Haikou 571101, China     hormone, and transcription factors (Table S8) (XLSX)
+                                                          Weiwei Tie −State Key Laboratory of Tropical Crop      Functional enrichment analysis of Kac proteins (Figure
+                                                                            Breeding, Institute of Tropical Bioscience and Biotechnology,      S1); functional enrichment analysis of Kma proteins
+                                                               Sanya Research Institute, Coconut Research Institute, Chinese      (Figure S2); modification sites of a few known proteins
+                                                            Academy of Tropical Agricultural Sciences, Haikou 571101,       participating in starch accumulation and cassava yield
+                                                                   China; Hainan Key Laboratory for Protection and      (Figure S3) (PDF)
+                                                                               Utilization of Tropical Bioresources, Hainan Institute for
+                                                                         Tropical Agricultural Resources, Chinese Academy of
+          INFORMATION
+                                                                         Tropical Agricultural Sciences, Haikou 571101, China■AUTHORCorresponding Authors                                                                 Jinghao Yang −State Key Laboratory of Tropical Crop
+  Wei Hu −State Key Laboratory of Tropical Crop Breeding,            Breeding, Institute of Tropical Bioscience and Biotechnology,
+     Institute of Tropical Bioscience and Biotechnology, Sanya            Sanya Research Institute, Coconut Research Institute, Chinese
+     Research Institute, Coconut Research Institute, Chinese             Academy of Tropical Agricultural Sciences, Haikou 571101,
+    Academy of Tropical Agricultural Sciences, Haikou 571101,          China; Hainan Key Laboratory for Protection and
+    China; Hainan Key Laboratory for Protection and                     Utilization of Tropical Bioresources, Hainan Institute for
+     Utilization of Tropical Bioresources, Hainan Institute for              Tropical Agricultural Resources, Chinese Academy of
+     Tropical Agricultural Resources, Chinese Academy of                  Tropical Agricultural Sciences, Haikou 571101, China
+     Tropical Agricultural Sciences, Haikou 571101, China;          Deguan Tan −State Key Laboratory of Tropical Crop
+    Hainan Key Laboratory for Biosafety Monitoring and                  Breeding, Institute of Tropical Bioscience and Biotechnology,
+    Molecular Breeding in Off-Season Reproduction Regions, Key         Sanya Research Institute, Coconut Research Institute, Chinese
+    Laboratory of Biology and Genetic Resources of Tropical            Academy of Tropical Agricultural Sciences, Haikou 571101,
+     Crops, Institute of Tropical Bioscience and Biotechnology,             China; Hainan Key Laboratory for Protection and
+     Chinese Academy of Tropical Agricultural Sciences, Haikou             Utilization of Tropical Bioresources, Hainan Institute for
+    571101, China; Email: huwei2010916@126.com                    Tropical Agricultural Resources, Chinese Academy of
+  Zehong Ding −State Key Laboratory of Tropical Crop                Tropical Agricultural Sciences, Haikou 571101, China
+     Breeding, Institute of Tropical Bioscience and Biotechnology,                                                        Complete contact information is available at:
+    Sanya Research Institute, Coconut Research Institute, Chinese                                                                   https://pubs.acs.org/10.1021/acs.jafc.5c14441
+    Academy of Tropical Agricultural Sciences, Haikou 571101,
+    China; Hainan Key Laboratory for Protection and            Author Contributions
+     Utilization of Tropical Bioresources, Hainan Institute for                                                                            ∥L.F., Y.Y. and K.H. contributed equally to this work. W.H.,
+     Tropical Agricultural Resources, Chinese Academy of
+                                                              Z.D. and D.T. conceived and designed the study. L.F., Y.Y.,
+     Tropical Agricultural Sciences, Haikou 571101, China;
+                                                                  K.H., W.T. and  J.Y. performed the omics experiments and
+    Hainan Key Laboratory for Biosafety Monitoring and
+                                                                analyzed the data. L.F., Z.D., and W.H. drafted and revised the
+    Molecular Breeding in Off-Season Reproduction Regions, Key
+                                                                 manuscript. All authors read and approved the final manu-
+    Laboratory of Biology and Genetic Resources of Tropical
+                                                                                script.
+     Crops, Institute of Tropical Bioscience and Biotechnology,
+                                                      Funding     Chinese Academy of Tropical Agricultural Sciences, Haikou
+    571101, China;   orcid.org/0000-0002-6953-7995;           This work was supported by the National Natural Science
+    Email: dingzehong@itbb.org.cn                            Foundation  of China (32260486),  the Hainan  Provincial
+
+                                        M                                                           https://doi.org/10.1021/acs.jafc.5c14441
+                                                                                                                                                                                                                                      J. Agric. Food Chem. XXXX, XXX, XXX−XXX
+
+
+<!-- page 14 -->
+
+Journal of Agricultural and Food Chemistry                            pubs.acs.org/JAFC                                     Article
+
+Natural Science Foundation of China (325RC815), the Project       (15) Vu, L. D.; Gevaert, K.; De Smet,  I. Protein language: post-
+of  State Key  Laboratory  of  Tropical Crop  Breeding       translational modifications talking to each other. Trends Plant  Sci.
+(NKLTCBCXTD08, NKLTCB-ZX05),  the Key  Research      2018, 23 (12), 1068−1080.
+                                                                    (16) Meng, X.; Baine,  J. M.; Yan, T.; Wang, S. Comprehensiveand  Development  Program  of  Hainan  Province
+                                                                                 analysis of lysine lactylation in rice (Oryza sativa) grains. J. Agric. Food
+(ZDYF2022XDNY259), and  the  Central  Public-Interest
+                                                               Chem. 2021, 69 (29), 8287−8297.
+Scientific  Institution  Basal  Research Fund  for  Chinese                                                                    (17) Ogbonna, A. C.; Braatz de Andrade, L. R.; Rabbi, I. Y.; Mueller,
+Academy of Tropical Agricultural Sciences (1630052023004,                                                                              L. A.; Jorge de Oliveira, E.; Bauchet, G. J. Large-scale genome-wide
+1630052023016, 1630052022008).                                      association study, using historical data, identifies conserved genetic
+Notes                                                                       architecture of cyanogenic glucoside content in cassava (Manihot
+                                                                           esculenta Crantz) root. Plant J. 2021, 105 (3), 754−770.
+The authors declare no competing financial interest.                (18) Lowe, S. B.; Mahon, J.; Hunt, L. Early development of cassava
+                                                                (Manihot esculenta). Can. J. Bot. 1982, 60 (12), 3040−3048.
+                                                                    (19) El-Sharkawy, M. A. Cassava biology and physiology. Plant Mol.■REFERENCES                                                                 Biol. 2004, 56 (4), 481−501. (1) Sun, S.; Han, X.; Wang, J.; Liu, M.; Wu, S.; Wu, D.; Wang, Y.                                                                    (20) Yang,  J.; An, D.; Zhang, P. Expression profiling of cassava
+Lysine  acetylation  modulates  drought  stress  responses  in  birch                                                                            storage roots reveals an active process of glycolysis/gluconeogenesis.
+(Betula platyphylla) through metabolic and transcriptional pathway                                                                                                                      J. Integr. Plant Biol. 2011, 53 (3), 193−211.
+regulation. Plant J. 2025, 121 (3), No. e17260.                                                                    (21) Ding, Z.; Fu, L.; Tie, W.; Yan, Y.; Wu, C.; Dai, J.; Zhang, J.; Hu,
+ (2) Xia, L.; Kong, X.; Song, H.; Han, Q.; Zhang, S. Advances in
+                                                      W. Highly dynamic,  coordinated, and  stage-specific  profiles  are
+proteome-wide analysis of plant lysine acetylation. Plant Commun.
+                                                                           revealed by a multi-omics integrative analysis during tuberous root
+2022, 3 (1), No. 100266.
+                                                                 development in cassava. J. Exp. Bot. 2020, 71 (22), 7003−7017.
+ (3) Meng, X.; Xing, S.; Perez, L. M.; Peng, X.; Zhao, Q.; Redona, E.
+                                                                    (22) Fu, L.; Ding, Z.; Tie, W.; Yang, J.; Yan, Y.; Hu, W. Integrated
+D.; Wang,  C.;  Peng,  Z. Proteome-wide  analysis  of  lysine  2-
+                                                                 metabolomic and transcriptomic analyses reveal novel insights of
+hydroxyisobutyrylation in developing rice (Oryza sativa) seeds. Sci.
+                                                                     anthocyanin biosynthesis on color formation in cassava tuberous
+Rep. 2017, 7 (1), No. 17486.
+                                                                                  roots. Front. Nutr. 2022, 9, No. 842693.
+ (4) Dai, L.; Peng, C.; Montellier, E.; Lu, Z.; Chen, Y.; Ishii, H.;
+                                                                    (23) Yan, Y.; Li, M.; Ding, Z.; Yang, J.; Xie, Z.; Ye, X.; Tie, W.; Tao,
+Debernardi, A.; Buchou, T.; Rousseaux, S.; Jin, F.; Sabari, B. R.; Deng,
+                                                                                 X.; Chen, G.; Huo,  K.; Ma,  J.; Ye,  J.; Hu, W. The  regulation
+Z.;  Allis,  C.  D.;  Ren,  B.;  Khochbin,  S.;  Zhao,  Y.  Lysine  2-
+                                                             mechanism of ethephon-mediated delaying of postharvest physio-hydroxyisobutyrylation  is a widely distributed active histone mark.
+                                                                                    logical deterioration in cassava storage roots based on quantitativeNat. Chem. Biol. 2014, 10 (5), 365−370.
+                                                                       acetylproteomes analysis. Food Chem. 2024, 458, No. 140252. (5) Mujahid, H.; Meng, X.; Xing, S.; Peng, X.; Wang, C.; Peng, Z.
+                                                                    (24) Mateus, I. D.; Masclaux, F. G.; Aletti, C.; Rojas, E. C.; Savary,Malonylome  analysis  in  developing  rice (Oryza  sativa)  seeds
+                                                                                 R.; Dupuis, C.; Sanders, I. R. Dual RNA-seq reveals large-scale non-suggesting that protein lysine malonylation  is well-conserved and
+                                                                     conserved genotype x genotype-specific genetic reprograming andoverlaps with acetylation and succinylation substantially. J. Proteomics
+                                                                      molecular crosstalk in the mycorrhizal symbiosis. ISME  J. 2019, 132018, 170, 88−98.
+                                                                               (5), 1226−1238. (6) Jin, X.; Li, X.; Teixeira da Silva,  J. A.; Liu, X. Functions and
+                                                                    (25) Fu, L.; Ding, Z.; Han, B.; Hu, W.; Li, Y.; Zhang, J. Physiologicalmechanisms of non-histone protein acetylation in plants.  J. Integr.
+                                                                              investigation and  transcriptome  analysis  of  polyethylene  glycolPlant Biol. 2024, 66 (10), 2087−2101.
+                                                                (PEG)-induced dehydration stress in cassava. Int.  J. Mol. Sci. 2016, (7) Millar, A. H.; Heazlewood, J. L.; Giglione, C.; Holdsworth, M. J.;
+Bachmair, A.; Schulze, W. X. The scope, functions, and dynamics of      17 (3), No. 283.
+                                                                    (26) Zeng, C.; Ding, Z.; Zhou, F.; Zhou, Y.; Yang, R.; Yang, Z.;posttranslational protein modifications. Annu. Rev. Plant Biol. 2019,
+70, 119−151.                                                  Wang, W.; Peng, M. The discrepant and similar responses of genome-
+ (8) Cui, X.; Dard, A.; Reichheld,  J. P.; Zhou, D. X. Multifaceted      wide transcriptional profiles between drought and cold stresses in
+functions of histone deacetylases in stress response. Trends Plant Sci.       cassava. Int. J. Mol. Sci. 2017, 18 (12), No. 2668.
+2023, 28 (11), 1245−1256.                                           (27) Li, S.; Yu, X.; Cheng, Z.; Zeng, C.; Li, W.; Zhang, L.; Peng, M.
+ (9) Liao, X.; Li, Y.; Hu, Z.; Lin, Y.; Zheng, B.; Ding,  J. Poplar       Large-scale analysis of the cassava transcriptome reveals the impact of
+acetylome profiling reveals lysine acetylation dynamics in seasonal       cold stress on alternative splicing. J. Exp. Bot. 2020, 71 (1), 422−434.
+bud dormancy release. Plant Cell Environ. 2021, 44 (6), 1830−1845.       (28) Koundinya, A.; Muthusamy, S. K.; Ajeesh, B.; Mohan, C.;
+ (10) Wang, M.; Zhu, Q.; Yao, N.; Liang, W.; Ma, X.; Li, J.; Li, X.;      Sreekumar, J.; Pulapet, S.; Markkandan, K.; Sheela, M. Elucidation of
+Wang, L.; Liang, W. The enzyme lysine malonylation of calvin cycle      novel drought-responsive genes from tuber transcriptome of cassava
+and gluconeogenesis regulated glycometabolism in Nostoc  flagelli-      under water deficit stress. S. Afr. J. Bot. 2024, 169, 255−267.
+forme to adapt to drought  stress.  Int.  J. Mol.  Sci. 2023, 24 (9),       (29) Fu, L.; Ding, Z.; Tie, W.; Yan, Y.; Hu, W.; Zhang, J. Large-scale
+No. 8446.                                                RNAseq  analysis  reveals new  insights  into  the  key  genes and
+ (11) Wu, Q.; Li, Z.; Yang, J.; Xu, F.; Fu, X.; Xu, L.; You, C.; Wang,       regulatory networks of anthocyanin biosynthesis during development
+D.;  Su,  Y.; Que,  Y. Deciphering  the  atlas  of  post-translational      and stress in cassava. Ind. Crop. Prod. 2021, 169, No. 113627.
+modification  in  sugarcane.  J.  Agric. Food Chem. 2023, 71  (26),       (30) Horton, P.; Park, K. J.; Obayashi, T.; Fujita, N.; Harada, H.;
+10004−10017.                                                          Adams-Collier, C.  J.; Nakai, K. WoLF PSORT: protein localization
+ (12) Yang, Z.; Du, J.; Tan, X.; Zhang, H.; Li, L.; Li, Y.; Wei, Z.; Xu,       predictor. Nucleic Acids Res. 2007, 35, W585−W587.
+Z.;  Lu,  Y.; Chen,  J.;  Sun,  Z.  Histone  deacetylase OsHDA706       (31) Cheng, A.; Grant, C. E.; Noble, W. S.; Bailey, T. L. MoMo:
+orchestrates rice broad-spectrum antiviral immunity and is impeded       discovery  of  statistically  significant  post-translational modification
+by a viral effector. Cell Rep. 2024, 43 (3), No. 113838.                     motifs. Bioinformatics 2019, 35 (16), 2774−2782.
+ (13) Zheng, Y.; Ge, J.; Bao, C.; Chang, W.; Liu, J.; Shao, J.; Liu, X.;       (32) Pertea, M.; Kim, D.; Pertea, G. M.; Leek, J. T.; Salzberg, S. L.
+Su, L.; Pan, L.; Zhou, D. X. Histone deacetylase HDA9 and WRKY53       Transcript-level expression  analysis of RNA-seq experiments with
+transcription factor are mutual antagonists in regulation of plant stress     HISAT, StringTie and Ballgown. Nat. Protoc. 2016, 11 (9), 1650−
+response. Mol. Plant 2020, 13 (4), 598−611.                            1667.
+ (14) Narita, T.; Weinert, B.  T.; Choudhary, C. Functions and       (33) Love, M.  I.; Huber, W.; Anders, S. Moderated estimation of
+mechanisms of non-histone protein acetylation. Nat. Rev. Mol. Cell       fold change and dispersion for RNA-seq data with DESeq2. Genome
+Biol. 2019, 20 (3), 156−174.                                                       Biol. 2014, 15 (12), 550.
+
+                                                 N                                                           https://doi.org/10.1021/acs.jafc.5c14441
+                                                                                                                                                                                                                                      J. Agric. Food Chem. XXXX, XXX, XXX−XXX
+
+
+<!-- page 15 -->
+
+Journal of Agricultural and Food Chemistry                            pubs.acs.org/JAFC                                     Article
+
+ (34) Soni, K. K.; Gurjar, K.; Ranjan, A.; Sinha, S.; Srivastava, M.;       (51) Hou, J.; Zheng, X.; Ren, R.; Shi, Q.; Xiao, H.; Chen, Z.; Yue,
+Verma, V. Post-translational modifications control the signal at the      M.; Wu,  Y.; Hou, H.;  Li, L. The histone deacetylase 1/GSK3/
+crossroads of plant-pathogen interactions. J. Exp. Bot. 2024, 75 (22),     SHAGGY-like kinase 2/BRASSINAZOLE-RESISTANT 1 module
+6957−6979.                                                                controls lateral root formation in rice. Plant Physiol. 2022, 189 (2),
+ (35) Ouyang, L.; You, W.; Poetsch, A.; Wei, L. Global profiling of      858−873.
+protein phosphorylation, acetylation, and β-hydroxybutyrylation in       (52)  Fernie,  A.  R.;  Carrari,  F.;  Sweetlove,  L.   J.  Respiratory
+Nannochloropsis  oceanica.  J.  Agric. Food Chem. 2024, 72  (47),      metabolism: glycolysis, the TCA cycle and mitochondrial electron
+26248−26262.                                                                transport. Curr. Opin. Plant Biol. 2004, 7 (3), 254−261.
+ (36) Xu, M.;  Tian,  X.; Ku,  T.; Wang,  G.; Zhang,  E. Global       (53) König, A.-C.; Hartl, M.; Boersema, P. J.; Mann, M.; Finkemeier,
+identification and systematic analysis of lysine malonylation in maize          I. The mitochondrial lysine acetylome of Arabidopsis. Mitochondrion
+(Zea mays L.). Front. Plant Sci. 2021, 12, No. 728338.                  2014, 19, 252−260.
+ (37) Millán-Zambrano, G.; Burton, A.; Bannister, A. J.; Schneider, R.       (54) Ke, S.; Luan, X.; Liang, J.; Hung, Y. H.; Hsieh, T. F.; Zhang, X.
+Histone post-translational modifications - cause and consequence of      Q. Rice OsPEX1, an extensin-like protein, affects lignin biosynthesis
+genome function. Nat. Rev. Genet. 2022, 23 (9), 563−580.              and plant growth. Plant Mol. Biol. 2019, 100 (1−2), 151−161.
+ (38) Talbert, P. B.; Henikoff, S. Environmental responses mediated       (55) Zhang, N.; Wang, S.; Tian, H.; Li, S.; Liu, L.; Li, J.; Chen, D.;
+by histone variants. Trends Cell Biol. 2014, 24 (11), 642−650.            Zhao, S.; Yan, X.; Niaz, M.; Zhao, L.; Ren, Y.; Chen, F. Functions of
+ (39) Kawashima, T.; Lorkovic, Z.  J.; Nishihama, R.; Ishizaki, K.;       lysine 2-hydroxyisobutyrylation and future perspectives on  plants.
+Axelsson, E.; Yelagandula, R.; Kohchi, T.; Berger, F. Diversification of       Proteomics 2023, 23 (19), No. e2300045.
+histone H2A variants during plant evolution. Trends Plant Sci. 2015,       (56) Li, S.; Zhao, P.; Yu, X.; Liao, W.; Peng, M.; Ruan, M. Cell
+20 (7), 419−425.                                                             signaling during drought and/or cold stress in cassava. Trop. Plants
+ (40) Huang, H.; Luo, Z.; Qi, S.; Huang, J.; Xu, P.; Wang, X.; Gao, L.;      2022, 1 (1), 47−53.
+Li, F.; Wang, J.; Zhao, W.; Gu, W.; Chen, Z.; Dai, L.; Dai, J.; Zhao, Y.       (57) Kim, J. S.; Mizoi, J.; Yoshida, T.; Fujita, Y.; Nakajima, J.; Ohori,
+Landscape of the regulatory elements for lysine 2-hydroxyisobutyr-       T.;  Todaka,  D.;  Nakashima,  K.;  Hirayama,  T.;  Shinozaki,  K.;
+ylation pathway. Cell Res. 2018, 28 (1), 111−125.                       Yamaguchi-Shinozaki, K. An ABRE promoter sequence  is involved
+ (41) Huang, J.; Luo, Z.; Ying, W.; Cao, Q.; Huang, H.; Dong, J.; Wu,       in osmotic stress-responsive expression of the DREB2A gene, which
+Q.; Zhao, Y.; Qian, X.; Dai, J. 2-Hydroxyisobutyrylation on histone      encodes a transcription factor regulating drought-inducible genes in
+H4K8  is  regulated by  glucose  homeostasis  in  Saccharomyces       Arabidopsis. Plant Cell Physiol. 2011, 52 (12), 2136−2146.
+cerevisiae. Proc. Natl. Acad. Sci. U.S.A. 2017, 114 (33), 8782−8787.        (58) Sakuma, Y.; Maruyama, K.; Osakabe, Y.; Qin, F.; Seki, M.;
+ (42) Zhou, X.; Fan, Y.; Zhu, X.; Zhao, R.; He, J.; Li, P.; Shang, S.;       Shinozaki, K.; Yamaguchi-Shinozaki, K. Functional analysis of an
+Goodrich, J.; Zhu, J. K.; Zhang, C. J. SANT proteins modulate gene       Arabidopsis  transcription  factor, DREB2A,  involved  in  drought-
+expression by coordinating histone H3KAc and Khib  levels and       responsive gene expression. Plant Cell 2006, 18 (5), 1292−1309.
+regulate plant heat tolerance. Plant Physiol. 2024, 196 (2), 902−915.       (59) Wei, Y.; Liu, W.; Hu, W.; Yan, Y.; Shi, H. The chaperone
+ (43) Zheng, L.; Li, C.; Ma, X.; Zhou, H.; Liu, Y.; Wang, P.; Yang, H.;     MeHSP90 recruits MeWRKY20 and MeCatalase1 to regulate drought
+Tamada, Y.; Huang, J.; Wang, C.; Hu, Z.; Wang, X.; Wang, G.; Li, H.;        stress resistance in cassava. New Phytol. 2020, 226 (2), 476−491.
+Hu, J.; Liu, X.; Zhou, C.; Zhang, Y. Functional interplay of histone
+lysine 2-hydroxyisobutyrylation and acetylation in Arabidopsis under
+dark-induced starvation. Nucleic Acids Res. 2021, 49 (13), 7347−7360.
+ (44) Zhu, G. R.; Yan, X.; Zhu, D.; Deng, X.; Wu, J. S.; Xia, J.; Yan, Y.
+M. Lysine acetylproteome profiling under water deficit reveals key
+acetylated proteins involved in wheat grain development and starch
+biosynthesis. J. Proteomics 2018, 185, 8−24.
+ (45) Wang, Y.; Hou, Y.; Qiu, J.; Li, Z.; Zhao, J.; Tong, X.; Zhang, J.
+A quantitative acetylomic analysis of early seed development in rice
+(Oryza sativa L. Int. J. Mol. Sci. 2017, 18 (7), No. 1376.
+ (46) Tappiban, P.; Ying, Y.; Xu, F.; Bao,  J. Proteomics and post-
+translational modifications of starch biosynthesis-related proteins in
+developing seeds of rice. Int. J. Mol. Sci. 2021, 22 (11), No. 5901.
+ (47) Ding, Z.; Fu, L.; Chen, G.; Yan, Y.; Tie, W.; Meng, X.; Yang, J.;
+Qiu, X.; Zhang, J.; Hu, W. Coordinated transcriptional regulation of
+carbohydrate-related pathways contributes to the difference of starch
+accumulation between starchy cassava and sugary cassava. Carbohydr.
+Polym. 2025, 354, No. 123314.
+ (48) Ding, Z.; Fu, L.; Wang, B.; Ye, J.; Ou, W.; Yan, Y.; Li, M.; Zeng,
+L.; Dong, X.; Tie, W.; Ye, X.; Yang, J.; Xie, Z.; Wang, Y.; Guo, J.;
+Chen, S.; Xiao, X.; Wan, Z.; An, F.; Zhang, J.; Peng, M.; Luo, J.; Li, K.;
+Hu, W. Metabolic GWAS-based dissection of genetic basis underlying
+nutrient quality variation and domestication of cassava storage root.
+Genome Biol. 2023, 24 (1), 289.
+ (49) Hu, W.; Ji, C.; Liang, Z.; Ye, J.; Ou, W.; Ding, Z.; Zhou, G.;
+Tie, W.; Yan, Y.; Yang, J.; Ma, L.; Yang, X.; Wei, Y.; Jin, Z.; Xie, J.;
+Peng, M.; Wang, W.; Guo, A.; Xu, B.; Guo, J.; Chen, S.; Wang, M.;
+Zhou, Y.; Li, X.; Li, R.; Xiao, X.; Wan, Z.; An, F.; Zhang, J.; Leng, Q.;
+Li,  Y.;  Shi, H.; Ming,  R.;  Li, K. Resequencing  of 388  cassava
+accessions  identifies  valuable  loci and  selection  for  variation  in
+heterozygosity. Genome Biol. 2021, 22 (1), 316.
+ (50) Zhang, H.; Zhao,  Y.; Zhou, D. X. Rice NAD+-dependent
+histone deacetylase OsSRT1 represses glycolysis and regulates the
+moonlighting function of GAPDH as a transcriptional activator of
+glycolytic genes. Nucleic Acids Res. 2017, 45 (21), 12241−12255.
+
+                                               O                                                           https://doi.org/10.1021/acs.jafc.5c14441
+                                                                                                                                                                                                                                      J. Agric. Food Chem. XXXX, XXX, XXX−XXX

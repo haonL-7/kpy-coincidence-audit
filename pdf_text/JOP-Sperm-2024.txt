@@ -1,0 +1,1063 @@
+Journal of Proteomics 303 (2024) 105213
+Available online 24 May 2024
+1874-3919/© 2024 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies.
+Global proteomic analyses of lysine acetylation, malonylation, 
+succinylation, and crotonylation in human sperm reveal their involvement 
+in male fertility 
+Yan Tian a,1, Hao Wang b,1, Tingting Pan a, Xiaonian Hu a, Jing Ding a, Ying Chen a, Jia Li a, 
+Houyang Chen c,d,*, Tao Luo a,d,* 
+a Institute of Biomedical Innovation and School of Basic Medical Sciences, Jiangxi Medical College, Nanchang University, Nanchang 330031, Jiangxi, China 
+b Department of Urology, The First Affiliated Hospital, Hengyang Medical School, University of South China, Hengyang 421001, Hunan, China 
+c Reproductive Medical Center, Jiangxi Maternal and Child Health Hospital, Nanchang 330006, Jiangxi, China 
+d Jiangxi Key Laboratory of Reproductive Health, Nanchang 330006, Jiangxi, China   
+A R T I C L E I N F O  
+Keywords: 
+Asthenoteratozoospermia 
+Asthenozoospermia 
+Male infertility 
+Metabolic pathways 
+Post-translational modifications 
+Proteomics 
+A B S T R A C T  
+Protein lysine modifications (PLMs) are hotspots of post-translational modifications and are involved in many 
+diseases; however, their role in human sperm remains obscure. This study examined the presence and functional 
+roles of a classical PLM (lysine acetylation, Kac) and three novel PLMs (lysine malonylation, Kmal; lysine suc­
+cinylation, Ksucc; lysine crotonylation, Kcr) in human sperm. Immunoblotting and immunofluorescence assays 
+revealed modified proteins (15–150 kDa) in the tails of human sperm. An immunoaffinity approach coupled with 
+liquid chromatography/tandem mass spectrometry revealed 1423 Kac sites in 680 proteins, 196 Kmal sites in 
+118 proteins, 788 Ksucc sites in 251 proteins, and 1836 Kcr sites in 645 proteins. These modified proteins 
+participate in a variety of biological processes and metabolic pathways. Crosstalk analysis demonstrated that 
+proteins involved in the sperm energy pathways of glycolysis, oxidative phosphorylation, the citrate cycle, fatty 
+acid oxidation, and ketone body metabolism were modified by at least one of these modifications. In addition, 
+these modifications were found in 62 male fertility-related proteins that weave a protein-protein interaction 
+network associated with asthenoteratozoospermia, asthenozoospermia, globozoospermia, spermatogenic failure, 
+hypogonadotropic hypogonadism, and polycystic kidney disease. Our findings shed light on the functional role of 
+PLMs in male reproduction. 
+Significance: Protein lysine modifications (PLMs) are hotspots of posttranslational modifications and are involved 
+in many diseases. This study revealed the presence of a classical PLM (lysine acetylation) and three novel PLMs 
+(lysine malonylation, lysine succinylation, and lysine crotonylation) in human sperm tails. The modified proteins 
+participate in a variety of biological processes and metabolic pathways. In addition, these modifications were 
+found in 62 male infertility-associated proteins and could serve as potential diagnostic markers and therapeutic 
+targets for male infertility.   
+1. Introduction 
+Infertility is a major health challenge globally, and one in six adults 
+currently suffer from infertility [1]. In China, one-quarter of couples 
+under reproductive age suffer infertility [2]. Studies indicate that male 
+factors account for approximately 50% of infertility cases [3]. The ul­
+timate executor of male reproduction is sperm, which fertilizes the egg, 
+thus initiating the life cycle. The quantity and quality of sperm are 
+essential for male fertility and are under complicated and precise 
+regulation. Abnormalities in these processes may cause male infertility 
+[4]. Therefore, it is meaningful to study the molecular mechanisms of 
+spermatogenesis and sperm function to uncover the pathogenesis of 
+male infertility and develop possible treatments. 
+Post-translational modifications (PTMs) are efficient mechanisms 
+* Corresponding authors at: Institute of Biomedical Innovation and School of Basic Medical Sciences, Jiangxi Medical College, Nanchang University, Nanchang 
+330031, Jiangxi, China; Reproductive Medical Center, Jiangxi Maternal and Child Health Hospital, Nanchang 330006, Jiangxi, China. 
+E-mail addresses: chenhouyang2007@163.com (H. Chen), luotao@ncu.edu.cn (T. Luo).   
+1 These authors contributed equally to this work. 
+Contents lists available at ScienceDirect 
+Journal of Proteomics 
+journal homepage: www.elsevier.com/locate/jprot 
+https://doi.org/10.1016/j.jprot.2024.105213 
+Received 23 April 2024; Received in revised form 17 May 2024; Accepted 23 May 2024   
+
+Journal of Proteomics 303 (2024) 105213
+2
+that diversify protein functions, regulate cellular processes, and 
+dynamically coordinate signaling networks [5]. Because proteins cannot 
+be synthesized in sperm, PTMs of existing proteins are the key mecha­
+nisms involved in regulating protein function [6]. A well-studied PTM in 
+mammalian sperm is phosphorylation. The signaling cascade induced by 
+phosphorylation is an important means to regulate spermatogenesis, 
+sperm motility, sperm capacitation, sperm hyperactivation, and the 
+acrosome reaction of sperm [7–11]. Although lysine is a hot topic of 
+PTMs and protein lysine modifications (PLMs) are important PTMs that 
+regulate cell function, the roles of PLMs in sperm are poorly known. Four 
+classical PLMs, lysine methylation, acetylation (Kac), ubiquitylation, 
+and SUMOylation, have been identified in human sperm and are 
+involved in the regulation of spermatogenesis and sperm function 
+[5,6,12–15]. In recent years, dozens of novel PLMs have been identified, 
+such as 2-hydroxyisobutyrylation (Khib), glutarylation (Kglu), succiny­
+lation (Ksucc), crotonylation (Kcr), and malonylation (Kmal) [16,17]. In 
+our recent study, we found that Khib and Kglu are present in human 
+sperm and play roles in the regulation of human sperm motility [18,19]. 
+In addition, higher levels of Khib and lower levels of Kglu were detected 
+in the sperm of asthenozoospermic men than in those of normozoo­
+spermic men [18,19]. These results suggest that PLMs are important for 
+the regulation of sperm functions. 
+Compared with Kac, which adds two carbons (–COCH3) to lysine, 
+Kmal, Ksucc, and Kcr introduce bulkier acyl groups to lysine: three 
+(–COCH2COO−), 
+four 
+(–COCH2CH2COO−), 
+and 
+four 
+carbons 
+(–COCHCHCH3), respectively [16,17]. In addition, Kmal and Ksucc are 
+acidic PLMs that introduce acidic carboxylic groups and change the 
+charge on lysine from +1 to −1 under physiological pH [16,17]. These 
+changes in protein charge are similar to those in protein phosphoryla­
+tion. It is conceivable that Kmal, Ksucc, and Kcr have more profound 
+impacts on protein structure and function than Kac. The global malo­
+nylome, succinylome, and crotonylome of human somatic cells revealed 
+that these PLMs are important for regulating cellular metabolism in 
+pathophysiological states [20–22]. These modified proteins are involved 
+in energy metabolism, including fatty acid metabolism, oxidative 
+phosphorylation, glycolysis, and the tricarboxylic acid cycle [20–22]. 
+Since these energy metabolism pathways are also important for sperm 
+functions, Kmal, Ksucc, and Kcr may participate in the regulation of 
+sperm function [23]. However, global proteomic analyses of lysine 
+acetylation, malonylation, succinylation, and crotonylation have not 
+been performed in human sperm. In this study, we used an immu­
+noaffinity approach coupled with liquid chromatography/tandem mass 
+spectrometry (LC-MS/MS) to globally characterize acetylation, succi­
+nylation, crotonylation, and malonylation, as well as their crosstalk, in 
+human sperm. These results may provide new insight into the functional 
+roles of novel PLMs in human sperm. 
+2. Materials and methods 
+2.1. Main reagents 
+Anti-acetyllysine mouse mAb (PTM-101), anti-acetyllysine antibody- 
+conjugated agarose beads (PTM-104), anti-succinyllysine mouse mAb 
+(PTM-419), anti-succinyllysine antibody-conjugated agarose beads 
+(PTM-402), anti-malonyllysine rabbit pAb (PTM-901), and anti- 
+malonyllysine antibody-conjugated agarose beads (PTM-904), anti- 
+crotonyllysine rabbit pAb (PTM-501), and anti-crotonyllysine anti­
+body-conjugated agarose beads (PTM-503) were purchased from PTM 
+BioLabs Inc. (Hangzhou, China). Horseradish peroxidase-conjugated 
+goat anti-rabbit, horseradish peroxidase-conjugated goat anti-mouse, 
+DyLight 488-conjugated goat anti-rabbit (or mouse), and DyLight 488- 
+conjugated goat anti-mouse antibodies were purchased from Thermo 
+Fisher Scientific Inc. (Waltham, MA, USA). The 4% paraformaldehyde, 
+phosphate-buffered saline, Triton X-100, and 10% normal goat serum 
+were purchased from Solarbio Science & Technology Co., Ltd. (Beijing, 
+China). The 4′,6-Diamidino-2-phenylindole, sodium dodecyl sulfate, 
+dithiothreitol, trypsin, iodoacetamide, trifluoroacetic acid, formic acid, 
+and acetonitrile were obtained from Sigma-Aldrich Chemical Co. (St. 
+Louis, MO, USA). The protease inhibitor cocktail, trichostatin A, and 
+nicotinamide were purchased from MedchemExpress LLC. (Monmouth 
+Junction, NJ, USA). 
+2.2. Semen sample collection and treatment 
+After 3–5 days of sexual abstinence, semen samples were obtained 
+from young volunteers who visited the reproductive medical center at 
+Jiangxi Maternal and Child Health Hospital (Nanchang, China) via 
+masturbation. Ten normozoospermic men were recruited for this study. 
+The fertile men with normal semen quality were classified as normo­
+zoospermic men according to the World Health Organization laboratory 
+manual for the examination and processing of human semen (fifth edi­
+tion, http://www.who.int/reproductivehealth/publications/infertility/ 
+9789241547789/en/). The semen parameters are shown in Table S1. 
+2.3. Protein preparation 
+Sperm from each normozoospermic man were first treated with so­
+matic cell lysis buffer (0.2% sodium dodecyl sulfate and 0.5% Triton X- 
+100 in phosphate-buffered saline) to eliminate residual somatic cells. 
+After treatment, the sperm were sonicated on ice using a high-intensity 
+ultrasonic processor (Scientz, Ningbo, China) in 4 volumes of lysis buffer 
+(8 mol/L urea, 1× protease inhibitor cocktail, 3 μM trichostatin A, 50 
+mM nicotinamide, and 2 mM EDTA). The remaining debris was removed 
+by centrifugation at 12,000g at 4 ◦C for 10 min. Finally, the supernatant 
+was collected and the protein concentration was determined with a 
+bicinchoninic acid assay kit (Thermo Fisher Scientific Inc.) according to 
+the manufacturer’s instructions. In total, sperm proteins were isolated 
+from 10 normozoospermic men and subjected to immunoblotting assay, 
+trypsin digestion, and immunoaffinity enrichment. 
+2.4. Immunoblotting assay 
+Thirty micrograms of protein were taken from each normozoosper­
+mic protein sample and pooled together to obtain a protein pool. Sub­
+sequently, 20 μg of protein from the protein pool was used for 
+immunoblotting assays as previously described [18,19]. The dilution 
+was 1:1000 for the anti-acetyllysine mouse mAb, the anti-succinyllysine 
+mouse mAb, the anti-malonyllysine rabbit pAb, and the anti- 
+crotonyllysine rabbit pAb. The dilutions were 1:10000 for the horse­
+radish peroxidase-conjugated goat anti-rabbit (or mouse) antibody. 
+2.5. Immunofluorescence assay 
+Immunofluorescence staining was conducted according to our pre­
+viously published methods [18,19]. The sperm samples were fixed with 
+4% paraformaldehyde in phosphate-buffered saline, permeabilized with 
+0.2% Triton X-100 in phosphate-buffered saline and blocked with 10% 
+normal goat serum in phosphate-buffered saline. The sperm were then 
+incubated with rabbit IgG (negative control), an anti-acetyllysine mouse 
+mAb, an anti-succinyllysine mouse mAb, an anti-malonyllysine rabbit 
+pAb, or an anti-crotonyllysine rabbit pAb at a dilution of 1:100 over­
+night. Subsequently, the sperm were stained with DyLight 488-conju­
+gated goat anti-rabbit (or mouse) secondary antibody (1:200 dilution) 
+and 0.5 μM 4′,6-diamidino-2-phenylindole for 1 h. The stained sperm 
+were imaged using a Nikon A1 confocal laser microscope (Nikon Co. 
+Ltd., Tokyo, Japan). 
+2.6. Trypsin digestion and immunoaffinity enrichment 
+Four milligrams of protein were taken from each normozoospermic 
+protein sample, pooled together, and evenly divided into 4 groups, each 
+containing 10 mg of protein. The protein in each group was reduced 
+Y. Tian et al.                                                                                                                                                                                                                                     
+
+Journal of Proteomics 303 (2024) 105213
+3
+with 5 mM dithiothreitol for 30 min at 56 ◦C and alkylated with 11 mM 
+iodoacetamide for 15 min at room temperature in darkness. The treated 
+protein was then diluted by adding 100 mM NH4HCO3 to a urea con­
+centration <2 mol/L. Finally, the protein was digested by trypsin at 1:50 
+trypsin-to-protein (w/w) for the first digestion overnight and at 1:100 
+trypsin-to-protein (w/w) for a second 4-h digestion. 
+The tryptic peptides were fractionated by high pH reverse-phase 
+HPLC. A thermo Betasil C18 column (5 μm particles, 10 mm ID, 250 
+mm length) was used. Briefly, peptides were first separated with a 
+gradient of 8% to 32% acetonitrile (pH 9.0) over 60 min into 60 frac­
+tions. Then, the peptides were combined into fractions and dried by 
+vacuum centrifugation. 
+To enrich the modified peptides, 4 mg of digested peptide was dis­
+solved in immunoprecipitation buffer (100 mM NaCl, 1 mM EDTA, 50 
+mM Tris-HCl, 0.5% NP-40, pH 8.0). The modified peptides were 
+immunoprecipitated by 80 μL of anti-acetyllysine antibody-conjugated 
+agarose beads, anti-succinyllysine antibody-conjugated agarose beads, 
+anti-crotonyllysine antibody-conjugated agarose beads, and anti- 
+malonyllysine antibody-conjugated agarose beads. The bound peptides 
+were eluted from the beads with 0.1% trifluoroacetic acid. The eluted 
+fractions were combined and vacuum-dried. For LC-MS/MS analysis, the 
+resulting peptides were desalted with C18 ZipTips (Millipore) according 
+to the manufacturer’s instructions. 
+2.7. LC–MS/MS analysis 
+The enriched peptides were dissolved in 0.1% formic acid (solvent A) 
+and directly loaded onto a homemade reversed-phase analytical column 
+(15 cm length, 75 μm i.d.). The gradient was increased from 9% to 25% 
+(0.1% formic acid in 98% acetonitrile) for 24 min, 25% to 40% in 10 
+min, increased to 80% in 3 min, and then held at 80% for 3 min, all at a 
+constant flow rate of 800 nL/min, on an EASY-nLC 1000 ultrahigh- 
+pressure liquid chromatography system (Thermo Fisher Scientific Inc.). 
+The peptides were subjected to nanospray ionization followed by 
+tandem mass spectrometry (MS/MS) in a Q Exactive™ Plus (Thermo 
+Fisher Scientific Inc.) coupled online to an ultrahigh-pressure liquid 
+chromatography system. The electrospray voltage applied was 2.0 kV. 
+Peptide precursor ions and their secondary fragments were detected and 
+analyzed with a high-resolution Orbitrap. The m/z scan range was 350 to 
+1800 for full scan, and intact peptides were detected in the Orbitrap at a 
+resolution of 70,000. Peptides were then selected for MS/MS using a 
+normalized collision energy setting of 30, and the fragments were 
+detected in the Orbitrap at a resolution of 17,500. The data acquisition 
+mode used a data-dependent acquisition procedure that alternated be­
+tween one mass spectrometry scan and 20 MS/MS scans. The automatic 
+gain control was set to 5E4. The signal threshold was set to 5000 ions/s. 
+The maximum injection time was set to 200 ms. The dynamic exclusion 
+time of MS/MS scanning was set to 15 s to avoid repeated parent ion 
+scanning. 
+2.8. Database search 
+The MS/MS data were processed using the MaxQuant search engine 
+(v1.5.2.8, https://www.maxquant.org/) [24]. Tandem mass spectra 
+were searched against the Homo_sapiens_9606_SP_20190513 database 
+(20,422 sequences). Trypsin/P was specified as a cleavage enzyme 
+allowing up to 4 missing cleavages. The minimum length of the peptide 
+was 7 amino acid residues, and the maximum number of peptide mod­
+ifications was set to 5. The mass tolerance for precursor ions was set as 
+20 ppm in the first search and 5 ppm in the main search, and the mass 
+tolerance for fragment ions was set as 0.02 Da. Fixed modifications were 
+specified as carbamidomethylation on cysteine. For methionine oxida­
+tion, Kac, Kmal, Ksucc, and Kcr were defined as variable modifications. 
+The false discovery rate for protein identification and peptide-spectrum 
+matching were adjusted to 1%, and the minimum score for modified 
+peptides was set to >40. 
+2.9. Bioinformatics analyses 
+The models of sequences containing amino acids at specific positions 
+of acetyl-21-mers, malonyl-21-mers, crotonyl-21-mers, and succinyl-21- 
+mers (ten amino acids upstream and downstream of the site) in all 
+protein sequences were analyzed using the online software MoMo with 
+the Motif-X algorithm (https://meme-suite.org/meme/tools/momo) 
+[25] and iceLogo [26]. The secondary structure and surface accessibility 
+of the amino acids were predicted by NetSurfP software (https://ser 
+vices.healthtech.dtu.dk/services/NetSurfP-3.0/) [27]. The subcellular 
+location of the identified proteins was predicted using WoLF PSORT 
+(http://www.genscript.com/psort/wolf_psort.html). 
+Gene 
+Ontology 
+(GO)-annotated proteomes were derived from the UniProt-GOA data­
+base (http://www.ebi.ac.uk/GOA/) and predicted using InterProScan 
+(http://www.ebi.ac.uk/interpro/) [28]. The modified proteins were 
+classified by GO annotation based on the categories of biological pro­
+cess, cellular component, and molecular function. The Kyoto Encyclo­
+pedia of Genes and Genomes (KEGG) database (https://www.genome. 
+jp/kegg/) was used to annotate the protein pathways [29]. Inter­
+ProScan and the InterPro domain database (http://www.ebi.ac.uk/ 
+interpro/) were used to annotate protein domain signatures [28]. 
+Enrichment analysis was applied based on a two-tailed Fisher’s exact 
+test, considering all quantified proteins as the background dataset. A 
+corrected p value <0.05 was considered significant. The protein-protein 
+interaction information of the studied proteins was retrieved from the 
+IntAct molecular interaction database (http://www.ebi.ac.uk/intact/) 
+by their gene symbols or STRING software (http://string-db.org/) [30]. 
+The results were downloaded in the XGMML format and imported into 
+Cytoscape software (http://www.cytoscape.org/, version 3.2.1) to 
+visualize and further analyze functional protein-protein interaction 
+(PPI) networks. Furthermore, the degree of each protein was calculated 
+to evaluate the importance of the protein in the PPI network. 
+3. Results 
+3.1. Kmal, Ksucc, and Kcr mainly occur in proteins located in the tail of 
+human sperm 
+In this study, we performed immunoblotting and immunofluores­
+cence assays to examine whether human sperm proteins were modified 
+by Kmal, Ksucc, and Kcr. Since previous studies have shown that human 
+sperm proteins were modified by Kac [12,13], we also examined Kac in 
+human sperm as a positive control. A series of acetylated proteins 
+(15–150 kDa) were detected in human sperm and were mainly located in 
+the tails of human sperm (Fig. 1A), which confirmed previous results 
+[12,13]. In addition, malonylated, succinylated, and crotonylated pro­
+teins were also detected in human sperm (Fig. 1B–D). Although the 
+molecular weights of these modified proteins ranged from 15 kDa to 
+150 kDa, the immunoblotting pattern showed respective characteristics 
+corresponding to the different PLMs (Fig. 1B–D). Interestingly, the 
+modified proteins were mainly located in the sperm tail, predominantly 
+in the sperm midpiece. 
+3.2. Global mapping of modified proteins and sites in human sperm 
+To better characterize the roles of Kac, Kmal, Ksucc and Kcr in 
+human sperm, we comprehensively investigated Kac, Kmal, Ksucc and 
+Kcr in human sperm by acetylome, malonylome, succinylome and cro­
+tonylome analyses using an immunoaffinity approach coupled to LC- 
+MS/MS. MS quality control revealed that the length of most peptides 
+was between 7 and 20 amino acids, and the mass error of most of the 
+spectra was within 10 ppm (Fig. S1), indicating that the sample prepa­
+ration and high precision characteristics of MS were met. In total, 1423 
+sites in 680 proteins, 196 sites in 118 proteins, 788 sites in 251 proteins, 
+and 1836 sites in 645 proteins were identified in the acetylome (Fig. 2A 
+and Table S2), malonylome (Fig. 2B and Table S3), succinylome (Fig. 2C 
+Y. Tian et al.                                                                                                                                                                                                                                     
+
+Journal of Proteomics 303 (2024) 105213
+4
+and Table S4), and crotonylome (Fig. 2D and Table S5), respectively. 
+The number of modified sites ranged from 1 to 23 for Kac (Fig. 2E), from 
+1 to 17 for Kmal (Fig. 2F), from 1 to 31 for Ksucc (Fig. 2G), and from 1 to 
+42 for Kcr (Fig. 2H). Among the modified proteins, the proportion of 
+proteins with only one modified site was greatest: 57% were acetylated 
+proteins (Fig. 2E), 73% were malonylated proteins (Fig. 2F), 41% were 
+succinylated proteins (Fig. 2G), and 50% were crotonylated proteins 
+(Fig. 2H). 
+3.3. Sequence properties of modified proteins in human sperm 
+To understand the sequence properties of the modified proteins in 
+human sperm, we used the Motif-X algorithm to analyze the motif 
+characteristics of the modified sites. Among the modified peptides, we 
+identified eight motifs for 881 acetylated sites (Fig. 3A and Table S6), 
+one motif for 79 succinylated sites (Fig. 3B and Table S7), and 12 motifs 
+for 1317 crotonylated sites (Fig. 3C and Table S8). However, no 
+conserved motif was identified by Motif-X for Kmal. The consensus se­
+quences of the modified proteins were visualized by iceLogo. Nonpolar 
+hydrophobic amino acids (glycine, isoleucine, leucine, phenylalanine, 
+tryptophan, and valine), polar neutral amino acids (asparagine, serine, 
+threonine, and tyrosine), and alkaline amino acids (lysine, arginine, and 
+histidine) were clustered near the Kac sites (Fig. S2A). Near the Kmal 
+sites, there are nonpolar hydrophobic amino acids (glycine, isoleucine, 
+leucine, phenylalanine, and tryptophan), polar neutral amino acids 
+(asparagine, serine, and tyrosine), and alkaline amino acids (lysine, 
+arginine, and histidine) (Fig. S2B). Nonpolar hydrophobic amino acids 
+(alanine, isoleucine, leucine, proline, tryptophan, and valine), polar 
+neutral amino acids (asparagine and cystine), and alkaline amino acids 
+(lysine, arginine, and histidine) were clustered near the Ksucc sites 
+(Fig. S2C). The conserved amino acids near Kcr sites include nonpolar 
+hydrophobic amino acids (alanine, glycine, leucine, methionine, 
+phenylalanine, and valine), polar neutral amino acids (asparagine, 
+glutarnine, and tyrosine), alkaline amino acids (lysine, arginine, and 
+histidine), and acidic amino acids (glutamic acid and aspartic acid) 
+(Fig. S2D). In addition, the heatmap of the enriched motif neighboring 
+the four types of modified sites confirmed the results visualized by ice­
+Logo (Fig. S2E–H). Furthermore, the secondary structure preferences of 
+the modified proteins were also analyzed. The results showed that 
+compared with nonmodified lysine, Kac was more likely to occur in the 
+β-strand structure and the surface of the proteins (Fig. 3D), and Kmal 
+was also more likely to occur in the β-strand structure (Fig. 3E). How­
+ever, no secondary structure preferences of succinylated proteins were 
+found (Fig. 3F), while Kcr is unlikely to appear in the β-strand structure 
+but is likely to occur in the α-helix and coil structure and the surface of 
+the modified proteins (Fig. 3G). 
+3.4. Functional classification of modified proteins in human sperm 
+Subcellular location analyses showed that the acetylated proteins 
+were mainly located in the cytoplasm (38%), mitochondria (30%), nu­
+cleus (14%), and extracellular components (10%) (Fig. 4A and 
+Table S9). As shown in Fig. 4B and Table S10, malonylated proteins were 
+mainly located in the cytoplasm (54%), nucleus (15%), and mitochon­
+dria (13%). Succinylated proteins were mainly located in mitochondria 
+(64%), the cytoplasm (22%), the nucleus (6%), and extracellular com­
+ponents (5%) (Fig. 4C and Table S11). As shown in Fig. 4D and 
+Table S12, crotonylated proteins were mainly located in the cytoplasm 
+(45%), extracellular components (15%), mitochondria (13%), nucleus 
+(13%), and plasma membrane (7%). Gene Ontology (GO) level 2 
+annotation analyses revealed that four modified proteins were enriched 
+in biological processes, such as cellular process, single-organism process, 
+metabolic process, biological regulation, response to stimulus, cellular 
+component organization or biogenesis, localization, and multicellular 
+organismal process (Fig. 4E–H and Tables S13–16). According to the 
+cellular component annotation, the four modified proteins were mainly 
+classified as cell, organelle, membrane-enclosed lumen, extracellular 
+region, membrane, or macromolecular complex (Fig. 4I–L and 
+Fig. 1. The presence and localization of four protein lysine modifications in human sperm. 
+(A-D) The presence and localization of lysine acetylation (Kac), malonylation (Kmal), succinylation (Ksucc), and crotonylation (Kcr) in human sperm were examined 
+by immunoblotting and immunofluorescence assays. Immunoblotting and immunofluorescence assays revealed modified proteins (15–150 kDa) in the tails of human 
+sperm. The green color shows the localization of the four modifications in human sperm. CBS: Coomassie brilliant blue staining. DAPI: 4′,6-diamidino-2-phenylindole. 
+The experiments were replicated 3 times. Bar: 5 μm. (For interpretation of the references to color in this figure legend, the reader is referred to the web version of 
+this article.) 
+Y. Tian et al.                                                                                                                                                                                                                                     
+
+Journal of Proteomics 303 (2024) 105213
+5
+Tables S13–16). In addition, four modified proteins were mainly clas­
+sified as having molecular functions, such as binding and catalytic ac­
+tivity (Fig. 4M–P and Tables S13–16). 
+3.5. Functional enrichment of modified proteins in human sperm 
+Enrichment analysis of all the modified proteins determined whether 
+the modified proteins had a significant enrichment trend in some 
+functional types. In the cellular component ontology, acetylated pro­
+teins were enriched in the mitochondrial matrix, mitochondrion, mito­
+chondrial part, myelin sheath, cytoplasmic part, mitochondrial 
+membrane, mitochondrial envelope, and mitochondrial inner mem­
+brane (Fig. 5A and Table S17). Malonylated proteins were enriched in 
+the myelin sheath, extracellular exosome, extracellular vesicle, extra­
+cellular organelle, extracellular region part, cytosol, vesicle, and cilium 
+(Fig. 5B and Table S18). The succinylated proteins were enriched in 
+Fig. 2. Global mapping of four modified proteins and sites in human sperm. 
+The acetylated, malonylated, succinylated, and crotonylated proteins and sites were identified by an immunoaffinity approach coupled to liquid chromatography/ 
+tandem mass spectrometry. In this study, 10 normozoospermic men were subjected to four proteomics. Sperm protein was isolated from each man. Four milligrams of 
+protein were taken from each normozoospermic protein sample, pooled together, and evenly divided into 4 groups, each containing 10 mg of protein. The protein 
+was subjected to trypsin digestion, immunoaffinity enrichment, and liquid chromatography/tandem mass spectrometry. A summary of the four lysine acylomes 
+(A–D) and the number of modified sites per protein (E-H) are shown. 
+Y. Tian et al.                                                                                                                                                                                                                                     
+
+Journal of Proteomics 303 (2024) 105213
+6
+Fig. 3. Sequence properties of four modified proteins in human sperm. 
+(A-C) Motif analyses of lysine-acylated human proteins were performed using the online software MoMo with the Motif-X algorithm. The height of each letter refers 
+to the frequency of that amino acid residue in that position. The central K refers to the acylated lysine. (D–F) The secondary structure and surface accessibility of the 
+lysine acylated amino acids were predicted by NetSurfP software. The significant difference (p value) between modified lysine (Lys) and unmodified lysine was 
+analyzed by the Mann–Whitney U test. 
+Y. Tian et al.                                                                                                                                                                                                                                     
+
+Journal of Proteomics 303 (2024) 105213
+7
+mitochondria, mitochondrial parts, the mitochondrial inner membrane, 
+the organelle inner membrane, the mitochondrial envelope, the oxido­
+reductase complex, the cytoplasmic part, and the organelle envelope 
+(Fig. 5C and Table S19). Crotonylated proteins were enriched in extra­
+cellular exosome, extracellular vesicle, extracellular organelle, vesicle, 
+extracellular region part, extracellular region, myelin sheath, and 
+cytoplasmic part (Fig. 5D and Table S20). 
+In terms of molecular function, the acetylated proteins were enriched 
+in catalytic activity, cofactor binding, unfouled protein binding, small 
+molecule binding, oxidoreductase activity, anion binding, and ribonu­
+cleotide binding (Fig. 5A and Table S17). Malonylated proteins were 
+enriched in binding functions, such as nucleoside phosphate binding, 
+nucleotide binding, and ATP binding (Fig. 5B and Table S18). The suc­
+cinylated proteins were enriched in oxidoreductase activity, catalytic 
+activity, electron carrier activity, NAD binding, small molecule binding, 
+and hydrolyase activity (Fig. 5C and Table S19). Crotonylated proteins 
+were also enriched in binding functions, such as unfolded protein 
+binding, cadherin binding, protein binding, cell adhesion molecule 
+binding, enzyme binding, RNA binding, and carbohydrate derivative 
+binding (Fig. 5D and Table S20). 
+According to the biological process ontology, acetylated, malony­
+lated, and succinylated proteins were enriched in many metabolic pro­
+cesses, such as carboxylic acid metabolic process, oxoacid metabolic 
+process, small molecule metabolic process, nucleotide metabolic pro­
+cess, nucleoside metabolic process, and energy metabolism (Fig. 5A–C 
+and Tables S17–19). Crotonylated proteins were enriched in neutrophil 
+degranulation, neutrophil activation, granulocyte activation, regulation 
+of cellular amino acids, leukocyte degranulation, myeloid cell activa­
+tion, regulated exocytosis, and pyruvate metabolic processes (Fig. 5D 
+and Table S20). 
+From protein domain analysis, the NAD(P)-binding domain, ClpP/ 
+crotonase-like domain, heat shock protein domains, dynein heavy 
+chain domains, GroEL-like domains, biotin/lipoyl attachment, single 
+hybrid motif, ATPases associated with diverse cellular activities (AAA+) 
+ATPase domain, acyl-CoA dehydrogenase/oxidase, lactate/malate de­
+hydrogenase, thioredoxin-like fold, and nucleophile amniohydrolases 
+were identified for Kac proteins (Fig. 5E and Table S21). Malonylated 
+proteins were enriched in protein domains such as GroEL-like domains, 
+the NAD(P)-binding domain, lactate/malate dehydrogenase, heat shock 
+protein domains, the mitochondrial carrier domain, the AAA+ ATPase 
+domain, phosphoglycerate kinase, glyceraldehyde 3-phosphate dehy­
+drogenase, the A-kinase anchor, RII binding, WHEP-TRS, and RNA 
+binding (Fig. 5F and Table S22). The domains of succinylated proteins, 
+such as the NAD(P)-binding domain, ClpP/crotonase-like domain, acyl- 
+CoA dehydrogenase/oxidase, aminoacyl-tRNA synthetase, biotin/lipoyl 
+attachment, 
+single 
+hybrid 
+motif, 
+dehydrogenase, 
+aldehyde 
+Fig. 4. Functional classification of four modified proteins in human sperm. 
+(A-D) Subcellular location analyses of lysine-acetylated, malonylated, succinylated, and crotonylated proteins were performed using WoLF PSORT. Gene Ontology 
+level 2 annotation analyses of four modified proteins were derived from the UniProt-GOA database and predicted using InterProScan according to biological pro­
+cesses (E-H), cellular components (I-L), and molecular functions (M-P). 
+Y. Tian et al.                                                                                                                                                                                                                                     
+
+Journal of Proteomics 303 (2024) 105213
+8
+dehydrogenase domain, and mitochondrial carrier domain, were 
+enriched (Fig. 5G and Table S23). Crotonylated proteins were enriched 
+in protein domains such as GroEL-like domains, heat shock protein do­
+mains, the NAD(P)-binding domain, the 14–3-3 domain, lactate/malate 
+dehydrogenase, the proteasome alpha-subunit, the EF-hand domain, the 
+AAA+ ATPase domain, the lysozyme-like domain, the band 7 domain, 
+the thioredoxin-like fold, disulfide isomerase, and WHEP-TRS (Fig. 5H 
+and Table S24). 
+According to KEGG pathway enrichment, we found that four modi­
+fied proteins are involved in substantial and energy metabolism, such as 
+amino acid synthesis, the citrate cycle, pyruvate metabolism, carbon 
+metabolism, oxidative phosphorylation, and glycolysis/gluconeogenesis 
+(Fig. 5I–L and Tables S25–28). 
+3.6. Crosstalk of Kac, Kmal, Ksucc, and Kcr in human sperm 
+By overlapping the identified Kac, Kmal, Ksucc, and Kcr proteins and 
+sites, we found that all four modifications occurred in 27 proteins 
+(Fig. 6A and Table S29) and 8 sites (Fig. 6B and Table S30). Biological 
+process crosstalk among Kac, Kmal, Ksucc, and Kcr showed that 43 
+biological processes were enriched for the four modified proteins 
+(Fig. 6C). Among these biological processes, acetylated proteins were 
+predominantly enriched in the nucleobase-containing small molecule 
+metabolic process, oxidation–reduction process, monocarboxylic acid 
+metabolic process, carboxylic acid metabolic process, oxoacid metabolic 
+process, organic acid metabolic process, cofactor metabolic process, and 
+nucleoside phosphate metabolic process (Fig. 6C). Malonylated proteins 
+were more enriched in purine-related metabolic processes, phosphorus 
+metabolic processes, and coenzyme metabolic processes than were the 
+other three modified proteins (Fig. 6C). In addition, ATP synthesis 
+coupled proton transport, ATP biosynthetic process, glyoxylate meta­
+bolic process, fatty acid-related processes, purine-related metabolic 
+processes, aerobic respiration, nucleotide metabolic process, and small 
+molecule catabolic process were enriched in succinylated proteins 
+(Fig. 6C). Crotonylated proteins were predominantly enriched in 
+exocytosis, myeloid leukocyte-related processes, pyruvate metabolic 
+processes, localization, neutrophil-related processes, granulocyte acti­
+vation, and regulation of cellular amino acid metabolic processes 
+(Fig. 6C). 
+Analysis of the crosstalk among Kac, Kmal, Ksucc, and Kcr in terms of 
+cellular components revealed that 19 cellular components were 
+enriched among the four modified proteins (Fig. 6D). Among these 
+cellular components, the acetylated proteins were predominantly 
+located in the mitochondria and cytoplasm, while the malonylated 
+Fig. 5. Functional enrichment of four modified proteins in human sperm. 
+(A-D) Gene Ontology enrichment analyses of lysine-acetylated, malonylated, succinylated, and crotonylated proteins were performed according to biological pro­
+cesses, cellular components, and molecular functions. (E-H) Protein domain enrichment analyses of lysine-acetylated, malonylated, succinylated, and crotonylated 
+proteins in human sperm were performed using InterProScan and the InterPro domain database. (I-L) Kyoto Encyclopedia of Genes and Genomes pathway 
+enrichment analyses of lysine-acetylated, malonylated, succinylated, and crotonylated proteins in human sperm. Enrichment analysis was applied based on a two- 
+tailed Fisher’s exact test, considering all quantified proteins as the background dataset. A corrected p value <0.05 was considered significant. 
+Y. Tian et al.                                                                                                                                                                                                                                     
+
+Journal of Proteomics 303 (2024) 105213
+9
+proteins were predominantly located in the cytosol and cilium (Fig. 6D). 
+The succinylated proteins were mainly located in the mitochondria, 
+organelle envelope, organelle inner membrane, oxidoreductase com­
+plex, and cytoplasm, while the crotonylated proteins were mainly 
+located in the extracellular, myelin sheath, and cytoplasm (Fig. 6D). 
+Crosstalk analysis of the molecular functions of Kac, Kmal, Ksucc, 
+and Kcr revealed that 26 molecular functions were enriched among the 
+four modified proteins (Fig. 6E). Among these molecular functions, the 
+acetylated proteins were predominantly enriched in purine nucleotide 
+binding, cofactor binding, oxidoreductase activity, small molecule 
+binding, anion binding, ribonucleotide binding, catalytic activity, and 
+unfolded protein binding (Fig. 6E). Malonylated proteins were more 
+enriched in purine nucleoside binding, ribonucleoside binding, nucleo­
+side binding, ATP binding, nucleotide binding, purine ribonucleoside 
+triphosphate binding, and nucleoside phosphate binding (Fig. 6E). In 
+addition, hydrolyase activity, oxidoreductase activity, electron carrier 
+activity, hydrogen ion transmembrane transporter activity, catalytic 
+activity, and NAD binding were mainly enriched in succinylated pro­
+teins (Fig. 6E). Crotonylated proteins were predominantly enriched in 
+RNA binding, carbohydrate derivative binding, enzyme binding, cell 
+adhesion molecule binding, cadherin binding, and protein binding 
+involved in protein folding (Fig. 6E). 
+Crosstalk of KEGG pathway analysis revealed that 45 Kac, Kmal, 
+Ksucc, and Kcr pathways were enriched in the four modified proteins 
+(Fig. 6F). Among these pathways, acetylated proteins were predomi­
+nantly enriched in fatty acid biosynthesis, peroxisomes, Huntington 
+disease, the glucagon signaling pathway, biosynthesis of amino acids, 
+central carbon metabolism in cancer, the hypoxia inducible factor-1 
+signaling pathway, glycolysis/gluconeogenesis, and the citrate cycle 
+(Fig. 6F). Malonylated proteins were more enriched in the NOD-like 
+receptor signaling pathway, longevity regulating pathway, legion­
+ellosis pathway, influenza A pathway, estrogen signaling pathway, cal­
+cium signaling pathway, and toxoplasmosis pathway (Fig. 6F). In 
+addition, amino acid metabolism pathways, metabolic pathways, car­
+diac muscle contraction, fatty acid metabolic pathways, glyoxylate and 
+dicarboxylate metabolism, the citrate cycle, and oxidative phosphory­
+lation were enriched in succinylated proteins (Fig. 6F). Crotonylated 
+proteins were predominantly enriched in the proteasome, vasopressin- 
+regulated water reabsorption, protein processing in the endoplasmic 
+reticulum, ribosome, cysteine and methionine metabolism, Epstein–Barr 
+Fig. 6. Crosstalk of lysine acetylation, malonylation, succinylation, and crotonylation in human sperm. 
+Venn diagrams showing the crosstalk of lysine-acetylated, malonylated, succinylated, and crotonylated proteins (A) and sites (B) in human sperm. Enrichment 
+analyses of crosstalk between lysine-acetylated, malonylated, succinylated, and crotonylated proteins were performed for biological process (C), cellular component 
+(D), molecular function (E), Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway (F), and protein domain (G) terms. 
+Y. Tian et al.                                                                                                                                                                                                                                     
+
+Journal of Proteomics 303 (2024) 105213
+10
+virus infection, and glycolysis/gluconeogenesis (Fig. 6F). 
+Crosstalk among Kac, Kmal, Ksucc, and Kcr on protein domains 
+revealed that 63 protein domains were enriched in four modified pro­
+teins (Fig. 6G). Among these protein domains, acetylated proteins were 
+predominantly enriched in the NAD(P)-binding domain, dynein heavy 
+chain domains, and aminoacyl-tRNA synthetase (Fig. 6G). Malonylated 
+proteins were more enriched in the porin domain, RNA-binding domain, 
+RII binding domain, A-kinase anchor, translin domain, glyceraldehyde 
+3-phosphate dehydrogenase domain, and phosphoglycerate kinase 
+domain (Fig. 6G). In addition, the FAD/NAD(P)-binding domain, de­
+hydrogenase domain, thiolase-like domain, pyridine nucleotide- 
+disulfide oxidoreductase domain, 2-oxoacid dehydrogenase acyl­
+transferase 
+domain, 
+aldehyde 
+dehydrogenase-related 
+domain, 
+aminoacyl-tRNA synthetase domain, and acyl-CoA dehydrogenase- 
+related domain were mainly enriched in succinylated proteins (Fig. 6G). 
+Crotonylated proteins were predominantly enriched in the WHEP-TRS 
+domain, 14–3-3 domain, disulfide isomerase, band 7 domain, trans­
+lation protein, beta-barrel domain, lysozyme-like domain, ATPase, AAA 
++ -type, core, EF-hand domain, thioredoxin domain, proteasome 
+component domain, and heat shock protein 70 kDa domains (Fig. 6G). 
+3.7. Modified proteins in energy metabolic pathways in human sperm 
+Global proteome analyses of human somatic cells revealed that Kac, 
+Kmal, Ksucc, and Kcr are involved in energy metabolism [20–22]. Since 
+these energy metabolism pathways are also important for sperm 
+Fig. 7. Modified proteins in energy metabolic pathways in human sperm. 
+Energy metabolism is also important for sperm functions. We analyzed the levels of lysine-acetylated (Ac), malonylated (Mal), succinylated (Succ), and crotonylated 
+(Cr) proteins involved in glycolysis, oxidative phosphorylation, the citrate cycle, fatty acid oxidation, and ketone body metabolism. 
+Y. Tian et al.                                                                                                                                                                                                                                     
+
+Journal of Proteomics 303 (2024) 105213
+11
+functions, we analyzed the four modifications of proteins involved in 
+glycolysis, oxidative phosphorylation, the citrate cycle, fatty acid 
+oxidation, and ketone body metabolism. The results showed that the 
+enzymes in all key steps of the five energy metabolic pathways were 
+modified by the four modifications (Fig. 7 and Table S31). Most glyco­
+lytic enzymes are modified by more than two PTMs. In particular, 
+fructose-bisphosphate 
+aldolase 
+A 
+(ALDOA), 
+glyceraldehyde-3- 
+phosphate dehydrogenase, testis-specific (GAPDHS), alpha-enolase 
+(ENO1), and L-lactate dehydrogenase C chain (LDHC) were modified 
+by all four modifications (Fig. 7 and Table S31). Among the enzymes of 
+the citrate cycle, most enzymes were modified by more than three PLMs, 
+especially malate dehydrogenase 2 (MDH2), which was modified by all 
+four PLMs (Fig. 7 and Table S31). Among the enzymes involved in 
+oxidative phosphorylation, more than two PLMs were present among 
+Fig. 8. Protein–protein interaction (PPI) networks of crosstalk between modified proteins associated with male infertility. 
+The PPI network of 62 male infertility-related proteins that were modified by the four modifications was classified into seven clusters: asthenoteratozoospermia- 
+MMAF (multiple morphological abnormalities of the sperm flagella), asthenoteratozoospermia-PCD (primary ciliary dyskinesia), asthenozoospermia, spermato­
+genic failure, abnormal acrosome and globozoospermia, hypogonadotropic hypogonadism, and polycystic kidney disease. 
+Y. Tian et al.                                                                                                                                                                                                                                     
+
+Journal of Proteomics 303 (2024) 105213
+12
+the modified enzymes (Fig. 7 and Table S31). Among these enzymes, 
+cytochrome c oxidase subunit 4 isoform 1 (COX4I1) was modified by all 
+four modifications (Fig. 7 and Table S31). Among the enzymes involved 
+in fatty acid oxidation, most enzymes were modified by more than two 
+PLMs, and trifunctional enzyme subunit alpha (HADHA) and acetyl-CoA 
+acetyltransferase (ACAT1) were modified by all four PLMs (Fig. 7 and 
+Table S31). In addition, ACAT1 is also a key enzyme in ketone body 
+metabolism. Two other enzymes involved in ketone body metabolism, 
+succinyl-CoA:3-ketoacid coenzyme A transferase (OXCT) 1 and OXCT2, 
+were modified by Kac, Ksucc, and Kcr (Fig. 7 and Table S31). 
+3.8. PPI network of modified proteins in human sperm 
+Five biological functions, valine, leucine and isoleucine degradation, 
+platinum drug resistance, aminoacyl tRNA biosynthesis, complement 
+and coagulation cascades, and ribosome, were clustered in the PPI 
+network (Fig. S3). To further understand the roles of the four modifi­
+cations in male reproduction, we constructed a PPI network of 62 male 
+fertility-related proteins that were modified by the four modifications 
+(Fig. 8 and Table S32). Among these proteins, 45, 38, 18, and 12 were 
+modified by Kcr, Kac, Kmal, and Ksucc, respectively (Fig. 8). The 62 
+male fertility-related proteins were associated with asthenoter­
+atozoospermia, asthenozoospermia, globozoospermia, spermatogenic 
+failure, hypogonadotropic hypogonadism, and polycystic kidney dis­
+ease. 
+These 
+genes 
+were 
+classified 
+into 
+seven 
+clusters: 
+asthenoteratozoospermia-MMAF (multiple morphological abnormal­
+ities 
+of 
+the 
+sperm 
+flagella), 
+which 
+contains 
+19 
+proteins; 
+asthenoteratozoospermia-PCD (primary ciliary dyskinesia), which con­
+tains 4 proteins; asthenozoospermia, which contains 26 proteins; sper­
+matogenic failure, which contains 6 proteins; abnormal acrosome and 
+globozoospermia, which contains 5 proteins; hypogonadotropic hypo­
+gonadism, which contains one protein; and polycystic kidney disease, 
+which contains one protein (Fig. 8 and Table S32). There are intricate 
+interactions 
+between 
+these 
+proteins, 
+especially 
+in 
+the 
+asthenoteratozoospermia-MMAF and asthenoteratozoospermia-PCD 
+clusters (Fig. 8 and Table S32). However, calcium/calmodulin- 
+dependent protein kinase type IV (CAMK4) in the asthenozoospermia 
+cluster, TATA element modulatory factor (TMF1) in the abnormal 
+acrosome and globozoospermia cluster, and gonadotropin-releasing 
+hormone receptor (GNRHR) in the hypogonadotropic hypogonadism 
+cluster did not interact with other proteins (Fig. 8 and Table S32). In 
+addition, the clusters of histones and tubulins in the PPI network were 
+also analyzed. Five kinds of histones (histone 1, 2A, 2B, 3, and 4) con­
+taining 17 histones and tubulin alpha and beta containing 5 tubulins 
+were modified by the four modifications (Fig. S4 and Table S33). Most 
+histones and tubulins were modified by one modification (Fig. S4 and 
+Table S33). Among these proteins, 13 (2), 6 (2), 1 (1), and 1 (1) histones 
+(tubulins) were modified by Kac, Kcr, Kmal, and Ksucc, respectively 
+(Fig. S4 and Table S33). There are intricate interactions between his­
+tones and tubulins (Fig. S4 and Table S33). 
+4. Discussion 
+As a hotspot of PTMs, the PLM has been extensively studied in so­
+matic cells. In this study, we found that human sperm proteins were 
+modified by a classical PLM (Kac) and three novel PLMs (Kmal, Ksucc, 
+and Kcr). Similar to those in somatic cells, the modified proteins in 
+human sperm were mainly located in the cytoplasm, mitochondria, 
+nucleus, and extracellular components and were enriched in diverse 
+biological functions and pathways, especially in substance and energy 
+metabolism (Fig. 4 and Fig. 5). In addition, these modifications were 
+found in 62 male infertility-associated proteins (Fig. 8) and could serve 
+as potential diagnostic markers and therapeutic targets for male 
+infertility. 
+Kac is one of the most prominent PLMs and serves as a key regulatory 
+mechanism in all eukaryotic organisms. The acetylome of human sperm 
+was revealed approximately ten years ago by Sun et al. (2014) and Yu 
+et al. (2015) [12,13]. Sun et al. (2014) identified 1206 Kac sites in 576 
+proteins [12], while Yu et al. (2015) detected 973 Kac sites in 456 
+proteins [13]. According to our previous acetylome data, 321 new Kac 
+proteins were discovered in human sperm, while 359 reported Kac 
+proteins were identified. In addition, 326 Kac sites in 174 acetylated 
+proteins were also identified in our study (Table S2), while 1097 new 
+Kac sites in 506 proteins were found in our study (Table S2). Similar to 
+previous acetylome data, our data demonstrated that the acetylated 
+proteins in human sperm are also enriched in substance and energy 
+metabolism, such as the citrate cycle, glycolysis, and oxidative phos­
+phorylation (Fig. 5I). In addition, Kac sites in male infertility-associated 
+proteins, including dynein axonemal heavy chain 1 (DNAH1), cilia and 
+flagella associated protein 43 (CFAP43), A-kinase anchoring protein 4 
+(AKAP4), and outer dense fiber of sperm tails 1 (ODF1), were also found 
+in previous studies [12,13]. Interestingly, we found some new Kac sites 
+in male infertility-associated proteins, including dynein axonemal heavy 
+chain 2 (DNAH2), dynein axonemal heavy chain 7 (DNAH7), radial 
+spoke head component 9 (RSPH9), and meiosis-specific nuclear struc­
+tural 1 (MNS1) (Table S2). Therefore, the present study deepens the 
+research on Kac in human sperm and may lay the foundation for using 
+Kac as a diagnostic treatment for male infertility in the future. 
+Kmal is a novel PLMs which regulates diverse biological processes 
+and physiological processes. It is involved in metabolic diseases, 
+inflammation, and tumorigenesis [31]. The malonylome of mouse livers 
+identified 1137 Kmal sites in 430 proteins that are enriched in cellular 
+metabolic networks, such as fatty acid β-oxidation, glycolysis, and the 
+urea cycle [21]. In addition, 4943 Kmal sites were recognized on 1822 
+proteins in human fibroblasts [32]. However, in this study, we detected 
+fewer malonylated proteins in human sperm than in mouse liver and 
+human fibroblasts (Fig. 2B). Malonylated proteins in human sperm are 
+also enriched in glycolysis and fatty acid β-oxidation (Fig. 5J). Inter­
+estingly, some testis-specific isoforms of enzymes involved in glycolysis, 
+such as glyceraldehyde-3-phosphate dehydrogenase, spermatogenesis 
+(GAPDHS), phosphoglycerate kinase 2 (PGK2), and lactate dehydroge­
+nase C (LDHC), are modified by Kmal (Table S3). Furthermore, this is the 
+first report showing that many male infertility-associated proteins are 
+modified by Kmal (Fig. 8). These results suggest that Kmal in human 
+sperm may affect the energy metabolism that is essential for human 
+sperm and may be involved in the pathogenesis of male infertility. 
+In recent years, Ksucc has attracted increased interest among re­
+searchers since it participates in many pathophysiological processes. 
+The quantitative global succinylome in human cell lines and tissues 
+revealed more than thousands of Ksucc sites. The modified proteins were 
+enriched in pathways related to substance and energy metabolism [33]. 
+In this study, we characterized the first succinylome in human sperm. 
+Equivalent numbers of Ksucc sites were identified in human sperm 
+compared to those in somatic cells (Fig. 2C). Similar to those in somatic 
+cells, the modified human sperm proteins were located mainly in the 
+mitochondria and cytoplasm and were enriched in substances and en­
+ergy metabolism, such as the citrate cycle, oxidative phosphorylation, 
+glycolysis, and fatty acid β-oxidation (Fig. 4C and Fig. 5K). Interestingly, 
+some testis-specific isoforms of enzymes involved in these metabolic 
+pathways, such as GAPDHS, LDHC, and pyruvate dehydrogenase E1 
+subunit alpha 2 (PDHA2), are modified by Ksucc (Table S4). Further­
+more, this is the first study in which proteins associated with astheno­
+zoospermia, spermatogenic failure, and abnormal acrosome and 
+globozoospermia were modified by Ksucc (Fig. 8). These results may 
+provide potential targets for the diagnosis of male infertility. 
+Kcr, a novel PTM, has been reported to play an important role in 
+normal physiological functions and disease development, such as 
+gametogenesis and cancer [34,35]. Kcr was first discovered in gene 
+transcription promoter regions and enhancers and promotes gene 
+expression. Subsequent studies have shown that Kcr has multiple func­
+tions in germ cells [36]. Kcr can regulate the proliferation and apoptosis 
+of human granulosa cells, thereby affecting the maturation of oocytes 
+Y. Tian et al.                                                                                                                                                                                                                                     
+
+Journal of Proteomics 303 (2024) 105213
+13
+[37]. Moreover, the level of histone Kcr can also serve as an indicator of 
+gene expression in male germ cells in sperm and can help sperm avoid 
+gene transcription silencing during the process of sperm development 
+and maturation [38]. In this study, we characterized the first crotony­
+lome in human sperm. Many of the modified proteins were also found in 
+a previous study [39]. These proteins were enriched in the ribosome and 
+proteasome pathways (Fig. 5L). These results suggest that Kcr may have 
+a regulatory effect on protein synthesis during spermatogenesis. In 
+addition, we found that many proteins in energy pathways were modi­
+fied by Kcr, indicating the role of Kcr in the regulation of sperm energy 
+metabolism (Fig. 5L). Furthermore, among the 62 modified proteins 
+associated with male infertility, the most frequent modification was Kcr 
+(Fig. 8). This result suggested the functional role of Kcr in male 
+reproduction. 
+After analyzing the data of the four PLMs, we believe that all four 
+PLMs may regulate the function of human sperm through energy 
+metabolism pathways, but their focus is different. We speculate that Kac 
+has an impact on multiple energy metabolism pathways, Kmal has a 
+significant impact on glycolysis, and Ksucc has a significant impact on 
+oxidative phosphorylation and ATP generation within mitochondria. 
+The characteristics of Kcr are similar to those of Kac, as it has regulatory 
+effects on various energy metabolism pathways. In addition, Kcr plays 
+an important role in protein generation and degradation. 
+To further understand the role of these four modifications in male 
+fertility, we performed a bibliographic search and identified 62 modified 
+proteins associated with male infertility, including asthenozoospermia, 
+spermatogenic failure, abnormal acrosome and globozoospermia, 
+hypogonadotropic hypogonadism, and polycystic kidney disease 
+(Fig. 8). Among these proteins, MMAF- and PCD-related proteins 
+maintain the structure of the sperm flagella. The pathogenesis of MMAF 
+and PCD is closely associated with gene mutations [40]. The modifica­
+tions of MMAF and PCD-related proteins may change the structure of 
+these proteins to regulate the formation of sperm flagella and sperm 
+morphology and motility [40]. In addition, the modifications of other 
+proteins associated with male infertility may affect the structure, func­
+tion and/or stability of these proteins to regulate male reproduction. 
+These results may provide potential targets for the diagnosis and treat­
+ment of male infertility in the future. However, further studies should be 
+performed to validate these findings. 
+In somatic cells, histone modification is an important epigenetic 
+event, while in germ cells, most histones are replaced by protamine 
+during spermatogenesis [41]. The transformation from histone to prot­
+amine is very important for sperm and has a great impact on male 
+fertility [42]. The highly acetylated histones in mammalian testes can 
+promote the excretion of histones and improve the succession of prot­
+amines [43]. Kcr of histones is also indispensable in the process of his­
+tone replacement [44]. In this study, we found that human sperm 
+histones are frequently modified by Kac and Kcr (Fig. S4). Interestingly, 
+we also detected Ksucc in histone H2B type 1-A and Kmal in histone H2B 
+type 1-L in human sperm, suggesting a possible role for Ksucc and Kmal 
+in histone replacement (Fig. S4). 
+Microtubules assemble axonemes, which are the core structures of 
+sperm flagella. Tubulins are key components of microtubules and 
+regulate their properties and functions [45]. Tubulins undergo a series 
+of PTMs that modulate their depolymerization and assembly. Acetyla­
+tion of tubulin promotes tubulin assembly and prevents tubulin depo­
+lymerization [46]. Knockout of the genes encoding enzymes that modify 
+tubulin PTMs resulted in a phenotype of asthenoteratozoospermia- 
+MMAF [45]. In this study, Kac was found in α-tubulin and β-tubulin in 
+human sperm, consistent with previous studies [45,47]. Interestingly, 
+this study is the first to report the Kmal and Ksucc of α-tubulins and Kcr 
+of α-tubulins and β-tubulins in human sperm (Fig. S4). These results 
+suggest that the PLMs of tubulins may regulate tubulin depolymeriza­
+tion and assembly to modulate the formation of sperm flagella. 
+5. Conclusion 
+In this study, four PLMs (Kac, Kmal, Ksucc, and Kcr) were detected 
+among human sperm proteins. Global characterization of these four 
+PLMs identified thousands of modified sites in hundreds of proteins that 
+participate in a variety of biological processes and metabolic pathways. 
+Crosstalk analysis showed that the modified proteins in sperm energy 
+pathways and male fertility-related proteins were involved in a PPI 
+network associated with male reproduction. Our findings provide a 
+reference for studying the pathophysiological function of human sperm 
+PLMs and lay the foundation for using PLMs for the diagnosis and 
+treatment of male infertility. 
+CRediT authorship contribution statement 
+Yan Tian: Writing – original draft, Methodology, Investigation, 
+Formal analysis, Conceptualization. Hao Wang: Writing – original draft, 
+Methodology, Investigation, Formal analysis. Tingting Pan: Writing – 
+review & editing, Methodology, Investigation, Formal analysis. Xiao­
+nian Hu: Writing – review & editing, Methodology, Investigation, 
+Formal analysis. Jing Ding: Writing – review & editing, Methodology, 
+Investigation, Formal analysis. Ying Chen: Writing – review & editing. 
+Jia Li: Writing – review & editing. Houyang Chen: Writing – review & 
+editing, Resources, Funding acquisition, Conceptualization. Tao Luo: 
+Writing – review & editing, Writing – original draft, Supervision, Project 
+administration, Investigation, Funding acquisition, Formal analysis, 
+Data curation, Conceptualization. 
+Declaration of competing interest 
+The authors declare that the research was conducted in the absence 
+of any commercial or financial relationships that could be construed as 
+potential conflicts of interest. 
+Data availability 
+The acetylome, malonylome, succinylome, and crotonylome datasets 
+of human sperm used in this study have been deposited in the Proteo­
+meXchange Consortium (https://proteomecentral.proteomexchange. 
+org) via the iProX partner repository [48,49] with the dataset identi­
+fier PXD049161. 
+Acknowledgments 
+We thank PTM BioLabs Inc. (Hangzhou, China) for assistance with 
+the LC–MS/MS experiments. This work was supported by the National 
+Natural Science Foundation of China (82071708), the Jiangxi Double 
+Thousand Plan (jxsq2019201091), and the Natural Science Foundation 
+of Jiangxi Province (20232ACB206008 and 20224ACB216008). 
+Appendix A. Supplementary data 
+Supplementary data to this article can be found online at https://doi. 
+org/10.1016/j.jprot.2024.105213. 
+References 
+[1] P. Njagi, W. Groot, J. Arsenijevic, S. Dyer, G. Mburu, J. Kiarie, Financial costs of 
+assisted reproductive technology for patients in low- and middle-income countries: 
+a systematic review, Hum. Reprod. Open. 2 (2023) hoad007. 
+[2] Z. Zhou, D. Zheng, H. Wu, R. Li, S. Xu, Y. Kang, Y. Cao, X. Chen, Y. Zhu, S. Xu, 
+Z. Chen, B.W. Mol, J. Qiao, Epidemiology of infertility in China: a population-based 
+study, BJOG 125 (2018) 432–441. 
+[3] B. Huang, Z. Wang, Y. Kong, M. Jin, L. Ma, Global, regional and national burden of 
+male infertility in 204 countries and territories between 1990 and 2019: an 
+analysis of global burden of disease study, BMC Public Health 23 (2023) 2195. 
+[4] H.E. Virtanen, N. Jørgensen, J. Toppari, Semen quality in the 21st century, Nat. 
+Rev. Urol. 14 (2017) 120–130. 
+Y. Tian et al.                                                                                                                                                                                                                                     
+
+Journal of Proteomics 303 (2024) 105213
+14
+[5] S. Ramazi, J. Zahiri, Posttranslational modifications in proteins: resources, tools 
+and prediction methods, in: Database. 2021, 2021 baab012. 
+[6] M.A. Baker, Proteomics of post-translational modifications of mammalian 
+spermatozoa, Cell Tissue Res. 363 (2016) 279–287. 
+[7] R.K. Naz, P.B. Rajesh, Role of tyrosine phosphorylation in sperm capacitation/ 
+acrosome reaction, Reprod. Biol. Endocrinol. 2 (2004) 75. 
+[8] R. Pereira, R. S´a, A. Barros, M. Sousa, Major regulatory mechanisms involved in 
+sperm motility, Asian J. Androl. 19 (2017) 5–14. 
+[9] C. Chan, H. Shui, C. Wu, C. Wang, G. Sun, H. Chen, G. Wu, Motility and protein 
+phosphorylation in healthy and asthenozoospermic sperm, J. Proteome Res. 8 
+(2009) 5382–5386. 
+[10] A. Nassar, M. Mahony, M. Morshedi, M.H. Lin, C. Srisombut, S. Oehninger, 
+Modulation of sperm tail protein tyrosine phosphorylation by pentoxifylline and its 
+correlation with hyperactivated motility, Fertil. Steril. 71 (1999) 919–923. 
+[11] J. Castillo, J.C. Knol, C.M. Korver, S.R. Piersma, T.V. Pham, R.R. De Goeij-de Haas, 
+A.M.M. van Pelt, C.R. Jimenez, B.J.H. Jansen, Human testis phosphoproteome 
+reveals kinases as potential targets in spermatogenesis and testicular cancer, Mol. 
+Cell. Proteomics 18 (2019) S132–S144. 
+[12] G. Sun, M. Jiang, T. Zhou, Y. Guo, Y. Cui, X. Guo, J. Sha, Insights into the lysine 
+acetylproteome of human sperm, J. Proteome 109 (2014) 199–211. 
+[13] H. Yu, H. Diao, C. Wang, Y. Lin, F. Yu, H. Lu, W. Xu, Z. Li, H. Shi, S. Zhao, Y. Zhou, 
+Y. Zhang, Acetylproteomic analysis reveals functional implications of lysine 
+acetylation in human spermatozoa (sperm), Mol. Cell. Proteomics 14 (2015) 
+1009–1023. 
+[14] R.D. Brohi, L.J. Huo, Posttranslational modifications in spermatozoa and effects on 
+male fertility and sperm viability, Omics 21 (2017) 245–256. 
+[15] H. Zhang, C. Situ, X. Guo, Recent progress of proteomic analysis on 
+spermatogenesis, Biol. Reprod. 107 (2022) 109–117. 
+[16] S. Shang, J. Liu, F. Hua, Protein acylation: mechanisms, biological functions and 
+therapeutic targets, Signal Transduct. Target. Ther. 7 (2022) 396. 
+[17] Y. Xu, Z. Shi, L. Bao, An expanding repertoire of protein acylations, Mol. Cell. 
+Proteomics 21 (2022) 100193. 
+[18] Y. Cheng, X. Hu, Z. Peng, T. Pan, F. Wang, H. Chen, W. Chen, Y. Zhang, X. Zeng, 
+T. Luo, Lysine glutarylation in human sperm is associated with progressive 
+motility, Hum. Reprod. 34 (2019) 1186–1194. 
+[19] Y. Cheng, Z. Peng, H. Chen, T. Pan, X. Hu, F. Wang, T. Luo, Posttranslational lysine 
+2-hydroxyisobutyrylation of human sperm tail proteins affects motility, Hum. 
+Reprod. 35 (2020) 494–503. 
+[20] M.J. Rardin, W. He, Y. Nishida, J.C. Newman, C. Carrico, S.R. Danielson, A. Guo, 
+P. Gut, A.K. Sahu, B. Li, R. Uppala, M. Fitch, T. Riiff, L. Zhu, J. Zhou, D. Mulhern, R. 
+D. Stevens, O.R. Ilkayeva, C.B. Newgard, M.P. Jacobson, M. Hellerstein, E. 
+S. Goetzman, B.W. Gibson, E. Verdin, SIRT5 regulates the mitochondrial lysine 
+succinylome and metabolic networks, Cell Metab. 18 (2013) 920–933. 
+[21] Y. Nishida, M.J. Rardin, C. Carrico, W. He, A.K. Sahu, P. Gut, R. Najjar, M. Fitch, 
+M. Hellerstein, B.W. Gibson, E. Verdin, SIRT5 regulates both cytosolic and 
+mitochondrial protein malonylation with glycolysis as a major target, Mol. Cell 59 
+(2015) 321–332. 
+[22] H. Yu, C. Bu, Y. Liu, T. Gong, X. Liu, S. Liu, X. Peng, W. Zhang, Y. Peng, J. Yang, 
+L. He, Y. Zhang, X. Yi, X. Yang, L. Sun, Y. Shang, Z. Cheng, J. Liang, Global 
+crotonylome reveals CDYL-regulated RPA1 crotonylation in homologous 
+recombination-mediated DNA repair, Sci. Adv. 6 (2020) eaay4697. 
+[23] A. Amaral, Energy metabolism in mammalian sperm motility, WIREs Mech. Dis. 14 
+(2022) e1569. 
+[24] J. Cox, M. Mann, MaxQuant enables high peptide identification rates, 
+individualized p.p.b.-range mass accuracies and proteome-wide protein 
+quantification, Nat. Biotechnol. 26 (2008) 1367–1372. 
+[25] A. Cheng, C.E. Grant, W.S. Noble, T.L. Bailey, MoMo: discovery of statistically 
+significant post-translational modification motifs, Bioinformatics 35 (2019) 
+2774–2782. 
+[26] N. Colaert, K. Helsens, L. Martens, J. Vandekerckhove, K. Gevaert, Improved 
+visualization of protein consensus sequences by iceLogo, Nat. Methods 6 (2009) 
+786–787. 
+[27] M.H. Høie, E.N. Kiehl, B. Petersen, M. Nielsen, O. Winther, H. Nielsen, J. Hallgren, 
+P. Marcatili, NetSurfP-3.0: accurate and fast prediction of protein structural 
+features by protein language models and deep learning, Nucleic Acids Res. 50 
+(2022) W510–W515. 
+[28] T. Paysan-Lafosse, M. Blum, S. Chuguransky, T. Grego, B.L. Pinto, G.A. Salazar, M. 
+L. Bileschi, P. Bork, A. Bridge, L. Colwell, J. Gough, D.H. Haft, I. Letuni´c, 
+A. Marchler-Bauer, H. Mi, D.A. Natale, C.A. Orengo, A.P. Pandurangan, C. Rivoire, 
+C.J.A. Sigrist, I. Sillitoe, N. Thanki, P.D. Thomas, S.C.E. Tosatto, C.H. Wu, 
+A. Bateman, InterPro in 2022, Nucleic Acids Res. 51 (2023) D418–D427. 
+[29] M. Kanehisa, Y. Sato, KEGG mapper for inferring cellular functions from protein 
+sequences, Protein Sci. 29 (2020) 28–35. 
+[30] D. Szklarczyk, R. Kirsch, M. Koutrouli, K. Nastou, F. Mehryary, R. Hachilif, A. 
+L. Gable, T. Fang, N.T. Doncheva, S. Pyysalo, P. Bork, L.J. Jensen, C. von Mering, 
+The STRING database in 2023: protein-protein association networks and functional 
+enrichment analyses for any sequenced genome of interest, Nucleic Acids Res. 51 
+(2023) D638–D646. 
+[31] L. Zou, Y. Yang, Z. Wang, X. Fu, X. He, J. Song, T. Li, H. Ma, T. Yu, Lysine 
+malonylation and its links to metabolism and diseases, Aging Dis. 14 (2023) 84–98. 
+[32] G. Colak, O. Pougovkina, L. Dai, M. Tan, H. Te Brinke, H. Huang, Z. Cheng, J. Park, 
+X. Wan, X. Liu, W. Yue, R.J. Wanders, J.W. Locasale, D.B. Lombard, V.C. de Boer, 
+Y. Zhao, Proteomic and biochemical studies of lysine malonylation suggest its 
+malonic aciduria-associated regulatory role in mitochondrial function and fatty 
+acid oxidation, Mol. Cell. Proteomics 14 (2015) 3056–3071. 
+[33] G. Zhao, J. Zhen, X. Liu, J. Guo, D. Li, J. Xie, L. Xie, Protein post-translational 
+modification by lysine succinylation: biochemistry, biological implications, and 
+therapeutic opportunities, Genes Dis. 10 (2023) 1242–1262. 
+[34] S. Liu, H. Yu, Y. Liu, X. Liu, Y. Zhang, C. Bu, S. Yuan, Z. Chen, G. Xie, W. Li, B. Xu, 
+J. Yang, L. He, T. Jin, Y. Xiong, L. Sun, X. Liu, C. Han, Z. Cheng, J. Liang, Y. Shang, 
+Chromodomain protein CDYL acts as a crotonyl-CoA hydratase to regulate histone 
+crotonylation and spermatogenesis, Mol. Cell 67 (2017) 853–866.e5. 
+[35] W. Wei, A. Mao, B. Tang, Q. Zeng, S. Gao, X. Liu, L. Lu, W. Li, J.X. Du, J. Li, 
+J. Wong, L. Liao, Large-scale identification of protein crotonylation reveals its role 
+in multiple cellular functions, J. Proteome Res. 16 (2017) 1743–1752. 
+[36] M. Tan, H. Luo, S. Lee, F. Jin, J.S. Yang, E. Montellier, T. Buchou, Z. Cheng, 
+S. Rousseaux, N. Rajagopal, Z. Lu, Z. Ye, Q. Zhu, J. Wysocka, Y. Ye, S. Khochbin, 
+B. Ren, Y. Zhao, Identification of 67 histone marks and histone lysine crotonylation 
+as a new type of histone modification, Cell 146 (2011) 1016–1028. 
+[37] C. Zhou, H. Zeng, X. Xiao, L. Wang, L. Jia, Y. Shi, M. Zhang, C. Fang, Y. Zeng, 
+T. Wu, J. Huang, X. Liang, Global crotonylome identifies EP300-regulated ANXA2 
+crotonylation in cumulus cells as a regulator of oocyte maturation, Int. J. Biol. 
+Macromol. 259 (2024) 129149. 
+[38] E. Montellier, S. Rousseaux, Y. Zhao, S. Khochbin, Histone crotonylation 
+specifically marks the haploid male germ cell gene expression program: post- 
+meiotic male-specific gene expression, Bioessays 34 (2012) 187–193. 
+[39] W. Xu, J. Wan, J. Zhan, X. Li, H. He, Z. Shi, H. Zhang, Global profiling of 
+crotonylation on non-histone proteins, Cell Res. 27 (2017) 946–949. 
+[40] W. Wang, C. Tu, Y. Tan, Insight on multiple morphological abnormalities of sperm 
+flagella in male infertility: what is new? Asian J. Androl. 22 (2020) 236–245. 
+[41] L.J. Luense, X. Wang, S.B. Schon, A.H. Weller, E. Lin Shiao, J.M. Bryant, M. 
+S. Bartolomei, C. Coutifaris, B.A. Garcia, S.L. Berger, Comprehensive analysis of 
+histone post-translational modifications in mouse and human male germ cells, 
+Epigenetics Chromatin 9 (2016) 24. 
+[42] T. Wang, H. Gao, W. Li, C. Liu, Essential role of histone replacement and 
+modifications in male fertility, Front. Genet. 10 (2019) 962. 
+[43] S.R. Grimes Jr., N. Henderson, Hyperacetylation of histone H4 in rat testis 
+spermatids, Exp. Cell Res. 152 (1984) 91–97. 
+[44] J. Gaucher, F. Boussouar, E. Montellier, S. Curtet, T. Buchou, S. Bertrand, P. Hery, 
+S. Jounier, A. Depaux, A.L. Vitte, P. Guardiola, K. Pernet, A. Debernardi, F. Lopez, 
+H. Holota, J. Imbert, D.J. Wolgemuth, M. G´erard, S. Rousseaux, S. Khochbin, 
+Bromodomain-dependent stage-specific male genome programming by Brdt, EMBO 
+J. 31 (2012) 3809–3820. 
+[45] S. Gadadhar, T. Hirschmugl, C. Janke, The tubulin code in mammalian sperm 
+development and function, Semin. Cell Dev. Biol. 137 (2023) 26–37. 
+[46] N. Liu, Y. Xiong, Y. Ren, L. Zhang, X. He, X. Wang, M. Liu, D. Li, W. Shui, J. Zhou, 
+Proteomic profiling and functional characterization of multiple post-translational 
+modifications of tubulin, J. Proteome Res. 14 (2015) 3292–3304. 
+[47] S. Bhagwat, V. Dalvi, D. Chandrasekhar, T. Matthew, K. Acharya, R. Gajbhiye, 
+V. Kulkarni, S. Sonawane, M. Ghosalkar, P. Parte, Acetylated α-tubulin is reduced 
+in individuals with poor sperm motility, Fertil. Steril. 101 (2014) 95–104.e3. 
+[48] J. Ma, T. Chen, S. Wu, C. Yang, M. Bai, K. Shu, K. Li, G. Zhang, Z. Jin, F. He, 
+H. Hermjakob, Y. Zhu, iProX: an integrated proteome resource, Nucleic Acids Res. 
+47 (2019) D1211–D1217. 
+[49] T. Chen, J. Ma, Y. Liu, Z. Chen, N. Xiao, Y. Lu, Y. Fu, C. Yang, M. Li, S. Wu, 
+X. Wang, D. Li, F. He, H. Hermjakob, Y. Zhu, iProX in 2021: connecting proteomics 
+data sharing with big data, Nucleic Acids Res. 50 (2022) D1522–D1527. 
+Y. Tian et al.                                                                                                                                                                                                                                     

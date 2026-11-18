@@ -21,7 +21,7 @@ def arr(x1,y1,x2,y2,c=G):
 box(1,9.5,16,8,"co-occupancy\nclaim","#F2F6FA","#C9D8E6",6.9,True)
 box(22,17.5,26,6.5,"1  declare the reference set")
 box(22,10.2,26,6.5,"2  match protein composition")
-box(22,2.9,26,6.5,"3  state power (catalogued n)")
+box(22,2.9,26,6.5,"3  state power and\n    retained strata")
 box(53,9.5,17,8,"all three\nreported?","#F2F6FA","#C9D8E6",6.9,True)
 box(75,17.0,24,7.5,"comparison\ninterpretable","#E8F5EF","#8CC9AC",6.9,True,"#255C42")
 box(75,3.0,24,7.5,"not\ninterpretable","#FBEDED","#E0A9A9",6.9,False,"#7A3B3B")

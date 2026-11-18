@@ -1,0 +1,78 @@
+{
+ "mapping": {
+  "1": 1,
+  "2": 2,
+  "3": 3,
+  "4": 4,
+  "5": 5,
+  "6": 6,
+  "7": 7,
+  "8": 8,
+  "9": 9,
+  "10": 10,
+  "11": 11,
+  "12": 12,
+  "16": 13,
+  "18": 14,
+  "17": 15,
+  "13": 16,
+  "14": 17,
+  "15": 18
+ },
+ "order": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  16,
+  18,
+  17,
+  13,
+  14,
+  15
+ ],
+ "chk": {
+  "first_appearance_strict": true,
+  "first_appearance_sequence": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18
+  ],
+  "tokens_before_after": [
+   19,
+   19
+  ],
+  "expanded_before_after": [
+   23,
+   23
+  ],
+  "entry_count": 18,
+  "entries_seq_1_18": true,
+  "cited_without_entry": [],
+  "entry_without_citation": [],
+  "entry_texts_identical": true
+ }
+}

@@ -51,6 +51,7 @@ def flush_table():
     ncol = len(rows[0])
     tbl = doc.add_table(rows=0, cols=ncol)
     tbl.style = "Table Grid"
+    rows = [r for r in rows if not all(re.fullmatch(r"-{2,}", (c or "").strip()) for c in r)]
     for ri, cells in enumerate(rows):
         cells = (cells + [""]*ncol)[:ncol]
         cells = [c.replace("**","").strip() for c in cells]
@@ -63,6 +64,7 @@ def flush_table():
             par.paragraph_format.line_spacing = 1.0
     rows = []
 
+skip_title_body = False
 for line in md:
     t = line.rstrip()
     if t.strip().startswith("|"):
@@ -71,7 +73,15 @@ for line in md:
         continue
     else:
         flush_table()
-    if not t.strip() or t.startswith(">") or t.strip() == "## Title": continue
+    if t.strip() == "## Title":
+        skip_title_body = True
+        continue
+    if skip_title_body:
+        if t.startswith("## "):
+            skip_title_body = False
+        else:
+            continue
+    if not t.strip() or t.startswith(">"): continue
     if t.startswith("## "):
         h = doc.add_paragraph(); r = h.add_run(t[3:].strip()); r.bold = True
         r.font.name = "Times New Roman"; r.font.size = Pt(13)
