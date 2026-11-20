@@ -25,6 +25,26 @@ The primary databases are not redistributed. They are large (CPLM 4.0 is ~260 MB
 | UniProt entries | fetched by `analysis/fetch_uniprot.py` via the REST API | `data/uniprot/*.json` |
 | AlphaFold models | fetched by `analysis/fetch_af.py` (needs a browser User-Agent; the API returns 403 otherwise) | `data/alphafold/*.pdb` |
 
+### Data provenance
+
+The exact files this analysis was run on are recorded in
+[`artifacts/cplm_provenance.csv`](artifacts/cplm_provenance.csv), one row per
+downloaded CPLM archive. Field meanings:
+
+| Field | Meaning |
+|---|---|
+| `source_url` | The download page the archives came from. |
+| `download_date` | Date on which the archive file first existed on the local disk. **This is not an independently verified download date**: no download log was kept, so the value is derived from `archive_birth` and should be read as a lower bound of known precision. |
+| `download_date_basis` | The sentence that states exactly how `download_date` was obtained. |
+| `archive_sha256` | SHA-256 of the **original ZIP archive** as saved, computed over the whole file, not over any member. |
+| `extracted_sha256` | SHA-256 of the **extracted `.txt` member actually read by the analysis**. All ten match the corresponding archive member byte for byte, which is what establishes that the archive and the analysed text are the same data. |
+| `archive_birth` | Local file-creation timestamp, to the second, of the saved archive. Filesystem metadata, not download metadata. |
+| `used_in_analysis` | `yes` for the nine acylations analysed; `no` for Formylation, which was downloaded for reference and is not part of any reported number. |
+
+ZIP-internal timestamps are deliberately not used anywhere in this table.
+
+Note that `archive_bytes` is the size of the compressed archive and `member_bytes` the uncompressed size of the member, so the two are not comparable across rows.
+
 ## Reproducing the results
 
     python tools/extract_sites.py        # 88 Kpy sites  -> data/kpy_sites.csv
