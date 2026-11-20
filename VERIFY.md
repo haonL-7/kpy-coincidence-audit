@@ -6,7 +6,7 @@ enough to regenerate the reported numbers.
 
 ## 1. Get the archive
 
-Open <https://doi.org/10.5281/zenodo.23915860> and use **Download all**, or take
+Open <https://doi.org/10.5281/zenodo.23906360> and use **Download all**, or take
 the single `.zip` / `.tar.gz`. Unpack somewhere outside any existing clone:
 
     mkdir ~/verify && cd ~/verify
@@ -34,13 +34,23 @@ for the checks below.
 
 ## 4. Five checks against numbers in the manuscript
 
-| Command | Expected output | Where the manuscript states it |
+Every figure in the manuscript that a reader can recompute, the command that
+produces it, and the value the manuscript states. Run each from the archive root.
+
+| Manuscript claim | Command | Expected output |
 |---|---|---|
-| `python tools/exact_ci.py` | `MH OR = 2.60`, `exact two-sided P ... 0.224`, `95% CI ... 0.60 - 10.25` | Results 1; Abstract |
-| `python tools/leave_one_out.py` | nine odds ratios from 1.97 to 65.12, then `Kpy ... OR=2.60 P=0.182` | Table S1 |
-| `python tools/power_sim.py` | `power at OR 2.6 = 0.18`, `x2 ... 0.45`, `x4 ... 0.56` | Results 5; Methods, Power |
-| `python tools/power_scale.py` | `power at OR 5.19 = 0.50`, `power at OR 10.25 = 0.80` (about 2 points of Monte Carlo noise) | Results 5 |
-| `python tools/check_sections.py` | `median 0.042`, `Spearman … = -0.48`, `single 331 \| multi 128`, `median RSA: multi 0.569 \| single 0.636`, `with curated evidence 74`, `Fisher P = 9.0e-14` | Results 2, 3 and 4 |
+| Table S1: nine stratified ORs, range 1.39 to 64.62 | `python tools/leave_one_out.py` | `nine LOO OR range: 1.39 - 64.62`; acetylation row `2.13`; Kpy row `OR=2.60` |
+| Table S1: acetylation 10,098 query sites in 1,833 strata | `python tools/leave_one_out.py` | `Acetylation ... 10098 1833 2.13` |
+| Kpy: OR 2.60, exact P 0.224, CI 0.60-10.25 | `python tools/exact_ci.py` | `MH OR = 2.60`, `0.224`, `0.60 - 10.25` |
+| Table S4: crude ORs 2.87 / 5.96 / 5.45 / 2.58 / 3.24 / 6.04 / 3.93 / 1.50 / 24.97 and Kpy 2.97; shifts 0.74 to 2.73 | `python tools/table_s4.py` | ten rows; crude column and shift column as printed |
+| Table S4: stratified column equals the Table S1 column | `python tools/table_s4.py` and `python tools/leave_one_out.py` | the two print the same nine values |
+| Results 5: 17% at OR 2.60, 42% at 4.44, 50% at 5.19, 71% at 8.0, 80% at 10.25 | `python tools/power_scale.py` | `0.17`, `0.42`, `0.50`, `0.71`, `0.80` |
+| Results 1: 15% at 0.042, Spearman -0.48, RSA medians | `python tools/check_sections.py` | `median 0.042`, `-0.48`, `multi 0.569 | single 0.636` |
+| Results 4: 74 of 4,748 lysines curated, Fisher P 9.0e-14 | `python tools/check_sections.py` | `with curated evidence 74`, `Fisher P = 9.0e-14` |
+| Table S3: 35 records, 33 studies, C1 of 20, C2 of 15, C3 of 33 | count rows of `artifacts/coding.csv` after dropping 37398265 and 40462961 | 33 rows; 20 + 13 = 33 for C1 |
+
+Anything that does not match is a defect in this table, not in the analysis:
+the numbers above were regenerated from the same scripts at release time.
 
 On Windows set `PYTHONIOENCODING=utf-8` first; the scripts print no non-ASCII
 except the typographic minus in a few table cells.

@@ -70,7 +70,7 @@ for i,(lab,d,col) in enumerate(groups):
     ax.text(i,99,"%.0f%%"%float((v<50).mean()*100),ha="center",fontsize=5.8,color=CB["grey"])
 ax.set_xticks([0,1,2]); ax.set_xticklabels(["all","single","multi"],fontsize=6.4)
 ax.set_ylim(0,106); ax.set_ylabel("pLDDT")
-ax.set_title("c   Disorder (%)",loc="left")
+ax.set_title("c   pLDDT < 50 (%)",loc="left")
 
 ax=axes[3]
 rows=[]

@@ -38,10 +38,10 @@ mA=multi(ks); mH=multi(kpy_h); mN=multi(kpy_nh)
 cH=(len([s for s in kpy_h if s in site_mods]),len(kpy_h)); cN=(len([s for s in kpy_nh if s in site_mods]),len(kpy_nh))
 
 fig = plt.figure(figsize=(7.0,3.95))
-gs = fig.add_gridspec(2,3, height_ratios=[1.25,2.15], hspace=0.58, wspace=0.95,
-                      left=0.115, right=0.985, top=0.90, bottom=0.15)
+gs = fig.add_gridspec(2,3, height_ratios=[1.24,2.16], hspace=0.62, wspace=1.05,
+                      left=0.105, right=0.968, top=0.905, bottom=0.145)
 ax0 = fig.add_subplot(gs[0,:]); ax0.set_xlim(0,100); ax0.set_ylim(0,10); ax0.axis("off")
-ax0.text(0,9.9,"a   How each reference set samples lysines",fontsize=7.8,fontweight="bold",va="top")
+ax0.text(0,9.9,"a   How each reference design samples lysines",fontsize=7.8,fontweight="bold",va="top")
 
 def ticks(ax, x0, ymid, w, n, included):
     for i in range(n):
@@ -61,37 +61,51 @@ label(0,"A","pooled")
 for yy in (5.9,4.8,3.7):
     bar(ax0,X[0],yy,W); ticks(ax0,X[0],yy+0.475,W,11,[True]*11)
 # B
-label(1,"B","stratified")
+label(1,"B","class-stratified")
 bar(ax0,X[1],5.9,W); ticks(ax0,X[1],6.375,W,14,[True]*14)
 bar(ax0,X[1],3.7,W); ticks(ax0,X[1],4.175,W,9,[True,False,True,False,True,False,True,False,True])
 # C
-label(2,"C","within-protein")
+label(2,"C","coverage")
 bar(ax0,X[2],4.8,W); ticks(ax0,X[2],5.275,W,12,[True]*12)
 # D
-label(3,"D","annotated-only")
+label(3,"D","co-annotation")
 bar(ax0,X[3],4.8,W); ticks(ax0,X[3],5.275,W,12,[True,False,False,True,False,True,False,False,True,False,False,True])
 ax0.text(X[0],1.9,"filled ticks = lysines entering the comparison set;  pale ticks = excluded",fontsize=6.4,color=CB["grey"])
 
 axes=[fig.add_subplot(gs[1,i]) for i in range(3)]
 ax=axes[0]
-rows=[("A  pooled",*mA,14754/66790,"P = 1.1e-5"),("B  histone",*mH,371/756,"P = 0.0089"),
-      ("B  non-histone",*mN,14383/66034,"P = 0.044"),("D  histone",*mH,8.0/10,"P = 0.351"),
-      ("D  non-histone",*mN,4.8/13,"P = 0.293")]
+rows=[("A  overall",*mA,14754/66790,"P = 1.1e-5",""),
+      ("B  histone",*mH,371/756,"P = 0.0089",""),
+      ("B  non-histone",*mN,14383/66034,"P = 0.044",""),
+      ("D  histone",*mH,8.0/10,"P = 0.351",""),
+      ("D  non-histone",*mN,4.8/13,"P = 0.293",""),
+      ("D  overall",*mA,12.8404/23,"P = 0.224","2.60 (0.60-10.25)")]
+EXP_TXT="expected 55.8%"
 ys=np.arange(len(rows))[::-1]
-for y,(lab,k,n,exp,pt) in zip(ys,rows):
+last=len(rows)-1
+for y,(lab,k,n,exp,pt,orc) in zip(ys,rows):
     o,lo,hi=wilson(k,n)
-    ax.plot([exp*100,o*100],[y,y],color="#9EC9E2",lw=0.8,zorder=1)
-    ax.plot(exp*100,y,"o",mfc="white",mec=CB["grey"],ms=4.0,mew=0.8,zorder=2)
-    ax.plot(o*100,y,"o",color=CB["blue"],ms=5.2,zorder=3)
-    ax.errorbar(o*100,y,xerr=[[o*100-lo*100],[hi*100-o*100]],color=CB["blue"],lw=0.8,capsize=1.6,zorder=3)
-    ax.text(103,y,"%d/%d   %s"%(k,n,pt),va="center",fontsize=6.4,color=CB["grey"])
+    bold=(y==ys[last])
+    ax.plot([exp*100,o*100],[y,y],color="#9EC9E2",lw=0.9 if bold else 0.8,zorder=1)
+    ax.plot(exp*100,y,"o",mfc="white",mec=CB["grey"],ms=4.4 if bold else 4.0,mew=0.9 if bold else 0.8,zorder=2)
+    ax.plot(o*100,y,"o",color=CB["blue"],ms=6.0 if bold else 5.2,zorder=3)
+    ax.errorbar(o*100,y,xerr=[[o*100-lo*100],[hi*100-o*100]],color=CB["blue"],lw=0.9 if bold else 0.8,capsize=1.6,zorder=3)
+    label_txt = ("%d/%d"%(k,n)) if orc else ("%d/%d   %s"%(k,n,pt))
+    ax.text(103,y,label_txt,va="center",fontsize=6.4,color="#333333" if bold else CB["grey"],fontweight=("bold" if bold else "normal"))
+    if y == ys[last]:
+        ax.text(exp*100-1.5,y+0.34,EXP_TXT,fontsize=5.8,color=CB["grey"],ha="right",va="center")
+    if orc:
+        ax.text(152,y,orc,va="center",fontsize=6.4,color="#333333" if bold else CB["grey"],fontweight=("bold" if bold else "normal"))
 ax.set_yticks(ys); ax.set_yticklabels([r[0] for r in rows],fontsize=6.6)
-ax.set_xlim(0,132); ax.set_xticks([0,20,40,60,80,100])
+labs=ax.get_yticklabels(); labs[last].set_fontweight("bold")
+ax.set_xlim(0,205); ax.set_xticks([0,25,50,75,100])
 ax.set_xlabel("Multi-modified, % of catalogued Kpy sites")
-ax.set_title("b   Observed versus expected",loc="left")
+ax.set_title("b   Observed vs expected",loc="left")
+
+ax.text(152,-0.98,"OR (95% CI)",fontsize=5.4,color=CB["grey"],ha="left",va="bottom",style="italic")
 ax.axvline(22.1,color=CB["red"],ls=(0,(3,2)),lw=0.7,zorder=0)
-ax.text(24.5,-0.72,"global baseline 22.1%",color=CB["red"],fontsize=6.4,ha="left")
-ax.set_ylim(-0.85,len(rows)-0.35)
+ax.text(24.5,-0.66,"global baseline 22.1%",color=CB["red"],fontsize=6.4,ha="left")
+ax.set_ylim(-1.05,len(rows)+0.42)
 
 ax=axes[1]
 k,n=23,88; o,lo,hi=wilson(k,n); exp=21.0/88
@@ -101,7 +115,7 @@ ax.plot(o*100,0,"o",color=CB["blue"],ms=5.2,zorder=3)
 ax.errorbar(o*100,0,xerr=[[o*100-lo*100],[hi*100-o*100]],color=CB["blue"],lw=0.8,capsize=1.6,zorder=3)
 ax.set_xlim(10,55); ax.set_ylim(-1,1); ax.set_yticks([])
 ax.set_xlabel("Kpy sites catalogued at all (%)")
-ax.set_title("c   Reference set C")
+ax.set_title("c   Within-protein coverage")
 ax.text(o*100,0.40,"observed 26.1%",ha="center",fontsize=6.6)
 ax.text(exp*100,-0.52,"expected 23.9%",ha="center",fontsize=6.4,color=CB["grey"])
 ax.text(43,0,"P = 0.275",fontsize=6.0,va="center")
@@ -117,7 +131,7 @@ for i,(lab,g) in enumerate([("non-histone",kpy_nh),("histone",kpy_h)]):
 ax.set_yticks([0,1]); ax.set_yticklabels(["non-histone","histone"],fontsize=6.6)
 ax.set_xlim(0,125); ax.set_xticks([0,25,50,75,100]); ax.set_ylim(-0.7,1.6)
 ax.set_xlabel("Kpy sites catalogued at all (%)")
-ax.set_title("d   Coverage by protein class")
+ax.set_title("d   Coverage by class")
 fig.savefig(os.path.join(figs,"Fig1_reference_sets.pdf"))
 fig.savefig(os.path.join(figs,"Fig1_reference_sets.png"),dpi=300)
 print("saved")

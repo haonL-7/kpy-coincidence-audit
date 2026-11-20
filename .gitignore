@@ -38,3 +38,7 @@ __pycache__/
 *.pyc
 *.pyo
 
+
+# manuscript text and internal artefacts
+09_manuscript_from_docx.md
+figs/_compare_fig1.png

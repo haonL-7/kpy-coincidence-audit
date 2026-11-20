@@ -14,7 +14,6 @@ header_lines = sys.argv[3].split("|") if len(sys.argv) > 3 else []
 FIG = {
   "1": "figs/Fig1_reference_sets.png",
   "2": "figs/Fig2_density_and_crossmod.png",
-  "3": "figs/Fig4_protocol.png",
   "S1": "figs/FigS1_structure.png",
   "S2": "figs/FigS2_curation.png",
 }

@@ -6,7 +6,7 @@ import os
 import re
 import sys
 
-MD = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "08_manuscript_v1.md")
+MD = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "09_manuscript_from_docx.md")
 
 
 def main():
@@ -29,16 +29,16 @@ def main():
         problems.append("section list changed: %s" % sections)
 
     results = re.findall(r"^### (\d)\.", text, flags=re.M)
-    if results != ["1", "2", "3", "4", "5"]:
+    if results != ["1", "2", "3", "4", "5", "6"]:
         problems.append("Results numbering broken: %s" % results)
 
     legends = re.findall(r"\*\*(?:Supplementary )?Figure [0-9S]+\.", text)
-    if len(legends) != 5:
-        problems.append("expected 6 figure legends, found %d: %s" % (len(legends), legends))
+    if len(legends) != 4:
+        problems.append("expected 4 figure legends, found %d: %s" % (len(legends), legends))
 
     tables = re.findall(r"\*\*Table [0-9S]+\.", text)
-    if len(tables) != 5:
-        problems.append("expected 5 table captions, found %d" % len(tables))
+    if len(tables) != 6:
+        problems.append("expected 6 table captions, found %d" % len(tables))
 
     abstract = re.search(r"## Abstract\n\n(.+?)\n", text)
     if abstract:
@@ -51,7 +51,7 @@ def main():
         for p in problems:
             print("  -", p)
         return 1
-    print("manuscript guard: ok (sections 10, Results 1-5, legends 5, tables 5, abstract %d words, longest line %d)"
+    print("manuscript guard: ok (sections 10, Results 1-5, legends 4, tables 6, Results 1-6, abstract %d words, longest line %d)"
           % (n, longest))
     return 0
 
