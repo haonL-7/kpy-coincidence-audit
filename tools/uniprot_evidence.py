@@ -21,9 +21,11 @@ for a, j in recs.items():
         p = ft["location"]["start"]["value"]
         pos_mods[(a,p)].add((ft.get("description") or "").split(";")[0].strip())
         for ev in ft.get("evidences", []):
-            src = ev.get("source")
-            sid = src.get("id") if isinstance(src, dict) else src
-            if sid: pos_refs[(a,p)].add(str(sid))
+            src = (ev.get("source") or "").strip()
+            sid = str(ev.get("id") or "").strip()
+            # up_refs counts distinct evidence SOURCE NAMES, not PMIDs;
+            # the manuscript PubMed-linked definition lives in tools/pubmed_provenance.py
+            if src: pos_refs[(a,p)].add(src)
 
 lys = {a: [i+1 for i,c in enumerate(s)] if False else [i+1 for i,c in enumerate(s) if c=="K"] for a,s in seq.items()}
 total_lys = sum(len(v) for v in lys.values())

@@ -85,11 +85,17 @@ def section4(site, ks):
     up = pd.read_csv(os.path.join(DATA, "uniprot_lysines.csv"))
     up["nmod"] = [len(site.get((a, int(p)), ())) for a, p in zip(up.acc, up.pos)]
     up["iskpy"] = [(a, int(p)) in ks for a, p in zip(up.acc, up.pos)]
-    print("  lysines %d | with curated evidence %d" % (len(up), int((up.up_refs > 0).sum())))
-    for label, df in [("all catalogued", up), ("query excluded", up[~up.iskpy])]:
-        m, s1 = df[df.nmod >= 2], df[df.nmod == 1]
-        a = int((m.up_refs > 0).sum()); b = len(m) - a
-        c = int((s1.up_refs > 0).sum()); d = len(s1) - c
+    import csv as _csv
+    _pv=list(_csv.DictReader(open(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),"data","pubmed_provenance.csv"),encoding="utf-8-sig")))
+    _lk=lambda rs: sum(1 for r in rs if r["pubmed_linked"]=="1")
+    _m=[r for r in _pv if int(r["cplm_mods"])>=2]; _s=[r for r in _pv if int(r["cplm_mods"])==1]
+    print("  lysines %d | PubMed-linked %d" % (len(_pv), _lk(_pv)))
+    print("  all catalogued  multi %d/%d | single %d/%d" % (_lk(_m),len(_m),_lk(_s),len(_s)))
+    for label, cond in [("all catalogued", lambda r: True), ("query excluded", lambda r: (r["acc"], int(r["pos"])) not in ks)]:
+        sub = [r for r in _pv if int(r["cplm_mods"]) >= 1 and cond(r)]
+        m = [r for r in sub if int(r["cplm_mods"]) >= 2]; s1 = [r for r in sub if int(r["cplm_mods"]) == 1]
+        a = _lk(m); b = len(m) - a
+        c = _lk(s1); d = len(s1) - c
         print("  %-15s multi %d/%d | single %d/%d | Fisher P = %.1e"
               % (label, a, a + b, c, c + d, fisher_tail((a, b, c, d))))
 

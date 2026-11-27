@@ -46,7 +46,7 @@ produces it, and the value the manuscript states. Run each from the archive root
 | Table S4: stratified column equals the Table S1 column | `python tools/table_s4.py` and `python tools/leave_one_out.py` | the two print the same nine values |
 | Results 5: 17% at OR 2.60, 42% at 4.44, 50% at 5.19, 71% at 8.0, 80% at 10.25 | `python tools/power_scale.py` | `0.17`, `0.42`, `0.50`, `0.71`, `0.80` |
 | Results 1: 15% at 0.042, Spearman -0.48, RSA medians | `python tools/check_sections.py` | `median 0.042`, `-0.48`, `multi 0.569 | single 0.636` |
-| Results 4: 62 of 4,748 lysines curated (PubMed-linked plus query-excluded), Fisher P 2.5e-13 and 2.3e-9 for the two contrasts | `python tools/check_sections.py` | `62 lysines linked to citable records`; both Fisher P values printed by the script |
+| Results 4: 62 of 4,748 lysines PubMed-linked (42/128 multi vs 20/354 single, Fisher P 2.5e-13; query excluded 31/113 vs 19/346, P 2.3e-9) | `python tools/check_sections.py` | `lysines 4748 | PubMed-linked 62`, `multi 42/128 | single 20/354 | Fisher P = 2.5e-13` |
 | Table S3: 33 primary studies and 9 reviews; C1 of 19, C2 of 19, C3 of 31 | `python tools/regen_s3.py` | `artifacts/Table_S3.md`; C1 no/partial/yes = 18/1/0, C2 = 6/8/5, C3 = 20/11/0 |
 | Figure 1: query counts and catalogue coverage | `python tools/make_fig1.py` | `figs/Fig1_reference_sets.png` and `.pdf`, plus `figs/submission/Fig1.pdf` and `.tif`; A/D overall 15/23, class rows 9/10 and 6/13, coverage 10/11 and 13/77 |
 
@@ -103,3 +103,11 @@ cite, and the Methods should name that version explicitly.
 Cite the version that contains what you are checking. The five power values in
 Results 5 and every row of Table S1 need v1.2; the odds ratio and its exact
 interval, and the power at 2.60, are reproducible from either.
+
+## PubMed-linked definition
+
+`python tools/pubmed_provenance.py` writes `data/pubmed_provenance.csv` and prints the counts above.
+A lysine is PubMed-linked when at least one Modified-residue feature carries an evidence entry with
+`source = "PubMed"` and a numeric id (the PMID). The `up_refs` column of `data/uniprot_lysines.csv`
+counted distinct evidence source names, not PMIDs, and must not be used for these counts;
+`pubmed_provenance.py` supersedes it.
