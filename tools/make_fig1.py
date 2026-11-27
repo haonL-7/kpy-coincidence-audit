@@ -1,14 +1,15 @@
 
-import os, glob, math, re
+import os, math, re
 import numpy as np, pandas as pd
 import matplotlib; matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from matplotlib.patches import FancyBboxPatch, Rectangle
-from collections import defaultdict
+from kpydata import load_sites
 BASE = os.environ.get("KPY_BASE", os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 base = BASE
 data = os.path.join(base,"data"); figs = os.path.join(base,"figs")
+os.makedirs(figs, exist_ok=True)
 plt.rcParams.update({"font.family":"Arial","font.size":7,"axes.labelsize":7.2,"axes.titlesize":7.8,
  "xtick.labelsize":6.6,"ytick.labelsize":6.6,"axes.linewidth":0.6,"xtick.major.width":0.6,"ytick.major.width":0.6,
  "xtick.major.size":2.4,"ytick.major.size":2.4,"axes.spines.top":False,"axes.spines.right":False,
@@ -21,14 +22,9 @@ def wilson(k,n,z=1.96):
 kpy=pd.read_csv(os.path.join(data,"kpy_sites.csv"))
 kpy["acc"]=kpy["Uniprot ID"].astype(str).str.strip(); kpy["pos"]=kpy["Positions within proteins"].astype(int)
 ks=[(a,int(p)) for a,p in zip(kpy.acc,kpy.pos)]
-site_mods=defaultdict(set); gene_of={}
-for f in sorted(glob.glob(os.path.join(data,"cplm","*","*.txt"))):
-    mod=os.path.basename(os.path.dirname(f))
-    df=pd.read_csv(f,sep="\t",header=None,usecols=[1,2,4,5],names=["acc","pos","gene","sp"],dtype=str,on_bad_lines="skip")
-    df=df[df["sp"].fillna("").str.contains("Homo sapiens",na=False)].dropna(subset=["acc","pos"])
-    df=df[df["pos"].str.match(r"^\d+$",na=False)]
-    for a,p,g in zip(df.acc.str.strip(),df.pos.astype(int),df.gene.fillna("")):
-        site_mods[(a,p)].add(mod); gene_of.setdefault(a,g.strip())
+site_mods = load_sites()
+proteins = pd.read_csv(os.path.join(data, "protein_lysines.csv"), dtype=str).fillna("")
+gene_of = dict(zip(proteins.acc, proteins.gene))
 HIST=re.compile(r"^(H1|H2A|H2B|H2AX|H3|H4|HIST|CENP)",re.I)
 hist_acc={a for a,g in gene_of.items() if HIST.match(g)}
 kpy_h=[s for s in ks if s[0] in hist_acc]; kpy_nh=[s for s in ks if s[0] not in hist_acc]
@@ -136,11 +132,8 @@ fig.savefig(os.path.join(figs,"Fig1_reference_sets.pdf"))
 fig.savefig(os.path.join(figs,"Fig1_reference_sets.png"),dpi=300)
 print("saved")
 
-import os as _os
-
-import os
-_sub=_os.path.join(os.path.dirname(os.path.dirname(_os.path.abspath(__file__))),"figs","submission")
-_os.makedirs(_sub, exist_ok=True)
-fig.savefig(_os.path.join(_sub,"Fig1.pdf"))
-fig.savefig(_os.path.join(_sub,"Fig1.tif"), dpi=600, pil_kwargs={"compression":"tiff_lzw"})
+_sub=os.path.join(figs,"submission")
+os.makedirs(_sub, exist_ok=True)
+fig.savefig(os.path.join(_sub,"Fig1.pdf"))
+fig.savefig(os.path.join(_sub,"Fig1.tif"), dpi=600, pil_kwargs={"compression":"tiff_lzw"})
 print("submission export done")

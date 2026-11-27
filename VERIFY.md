@@ -47,7 +47,22 @@ produces it, and the value the manuscript states. Run each from the archive root
 | Results 5: 17% at OR 2.60, 42% at 4.44, 50% at 5.19, 71% at 8.0, 80% at 10.25 | `python tools/power_scale.py` | `0.17`, `0.42`, `0.50`, `0.71`, `0.80` |
 | Results 1: 15% at 0.042, Spearman -0.48, RSA medians | `python tools/check_sections.py` | `median 0.042`, `-0.48`, `multi 0.569 | single 0.636` |
 | Results 4: 62 of 4,748 lysines curated (PubMed-linked plus query-excluded), Fisher P 2.5e-13 and 2.3e-9 for the two contrasts | `python tools/check_sections.py` | `62 lysines linked to citable records`; both Fisher P values printed by the script |
-| Table S3: 35 records, 33 studies, C1 of 19, C2 of 19, C3 of 31 | count rows of `artifacts/coding.csv` after dropping 37398265 and 40462961 | 33 rows; 19 + 14 = 33 for C1 |
+| Table S3: 33 primary studies and 9 reviews; C1 of 19, C2 of 19, C3 of 31 | `python tools/regen_s3.py` | `artifacts/Table_S3.md`; C1 no/partial/yes = 18/1/0, C2 = 6/8/5, C3 = 20/11/0 |
+| Figure 1: query counts and catalogue coverage | `python tools/make_fig1.py` | `figs/Fig1_reference_sets.png` and `.pdf`, plus `figs/submission/Fig1.pdf` and `.tif`; A/D overall 15/23, class rows 9/10 and 6/13, coverage 10/11 and 13/77 |
+
+Table S3 is generated from `artifacts/coding.csv` and
+`artifacts/reviews_coding_final.csv`. The generator excludes not-assessable
+primary records and the two duplicate preprints, and reads review outcomes
+from the coding sheet. It needs only Python's standard library, not a local
+manuscript or downloaded full texts. Use `--output <path>` to choose another
+Markdown output file. The caption describes the adjudicated study snapshot;
+if the coding changes, its narrative must also be reviewed.
+
+Table S4 and Figure 1 use the shared catalogue loader, which falls back to
+the archived `data/cplm_sites.tsv.gz` when the raw CPLM directory is absent.
+Figure 1 additionally uses `data/kpy_sites.csv` and
+`data/protein_lysines.csv`; its statistical labels are the reported results,
+while the query and coverage counts are calculated from these inputs.
 
 Anything that does not match is a defect in this table, not in the analysis:
 the numbers above were regenerated from the same scripts at release time.
