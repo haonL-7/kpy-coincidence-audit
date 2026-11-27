@@ -106,8 +106,17 @@ interval, and the power at 2.60, are reproducible from either.
 
 ## PubMed-linked definition
 
-`python tools/pubmed_provenance.py` writes `data/pubmed_provenance.csv` and prints the counts above.
+`python tools/pubmed_provenance.py --summary` recomputes the counts above from the archived `data/pubmed_provenance.csv`, offline, without any raw record.
 A lysine is PubMed-linked when at least one Modified-residue feature carries an evidence entry with
 `source = "PubMed"` and a numeric id (the PMID). The `up_refs` column of `data/uniprot_lysines.csv`
 counted distinct evidence source names, not PMIDs, and must not be used for these counts;
 `pubmed_provenance.py` supersedes it.
+
+`python tools/pubmed_provenance.py` (no flag) re-extracts the per-lysine evidence from the raw
+UniProt snapshot in `data/uniprot/`. That snapshot is required for this mode only: if it is absent,
+or if the records do not cover the catalogue, the script exits with an error and leaves the
+archived CSV untouched rather than overwriting it with zeros.
+
+The twelve lysines whose evidence carries no PubMed record are listed in
+`artifacts/excluded_sites.csv`, written by the same script; they are the difference between
+the 74 lysines with any evidence source and the 62 that count as PubMed-linked.

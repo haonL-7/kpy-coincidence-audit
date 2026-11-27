@@ -5,7 +5,7 @@ from docx import Document
 from docx.shared import Pt, Inches
 from docx.enum.text import WD_ALIGN_PARAGRAPH
 
-BASE = r"C:\Users\Administrator\Desktop\丙酮酰化"
+BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 src = open(os.path.join(BASE, "12_cover_letter_JPR.md"), encoding="utf-8").read()
 body = src.split("\n---\n")[1]          # drop the status header
 body = body.split("\n## What changed")[0]  # drop the internal rationale

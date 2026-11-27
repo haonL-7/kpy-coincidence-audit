@@ -118,7 +118,8 @@ for f in glob.glob(os.path.join(base,"uniprot","*.json")):
             if sid: refs.add(str(sid))
         uprefs[(a,p)]=max(uprefs.get((a,p),0),len(refs))
 ann_up=[s for s in rows if (s in uprefs)]
-print("[8] lysines=%d UniProt-annotated=%d (%.1f%%)" % (len(rows),len(ann_up),100*len(ann_up)/len(rows)))
+print("[8] UniProt-evidence levels (an internal check; the curated count of Results 4 is "
+      "reproduced by tools/uniprot_evidence.py): lysines=%d annotated=%d (%.1f%%)" % (len(rows),len(ann_up),100*len(ann_up)/len(rows)))
 for lo,hi,lbl in [(1,1,"refs=1"),(2,99,"refs>=2")]:
     g=[s for s in ann_up if lo<=uprefs.get(s,0)<=hi]
     gm=[s for s in g if len(site_mods.get(s,()))>=2]

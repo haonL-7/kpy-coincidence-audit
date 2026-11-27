@@ -4,7 +4,7 @@ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 import pandas as pd
 from collections import defaultdict
 from math import comb
-B = os.environ.get("KPY_BASE", r"C:\Users\Administrator\Desktop\丙酮酰化")
+B = os.environ.get("KPY_BASE", os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 site = defaultdict(set); gene = {}
 for f in sorted(glob.glob(os.path.join(B, "data", "cplm", "*", "*.txt"))):
     m = os.path.basename(os.path.dirname(f))

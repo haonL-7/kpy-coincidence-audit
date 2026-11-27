@@ -3,7 +3,7 @@ import sys, os, glob, math, itertools
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 import pandas as pd
 from collections import defaultdict
-BASE = os.environ.get("KPY_BASE", r"C:\Users\Administrator\Desktop\丙酮酰化")
+BASE = os.environ.get("KPY_BASE", os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 data = os.path.join(BASE, "data")
 
 site = defaultdict(set)

@@ -1,0 +1,13 @@
+accession,position,modification_class,n_sources,source_names,reason
+P09382,13,multi-modified,1,UniProtKB,"evidence carries no source=""PubMed"" record with a numeric PMID"
+P09382,108,multi-modified,1,UniProtKB,"evidence carries no source=""PubMed"" record with a numeric PMID"
+P09382,128,multi-modified,1,UniProtKB,"evidence carries no source=""PubMed"" record with a numeric PMID"
+P0DPI2,151,multi-modified,1,UniProtKB,"evidence carries no source=""PubMed"" record with a numeric PMID"
+P0DPI2,157,multi-modified,1,UniProtKB,"evidence carries no source=""PubMed"" record with a numeric PMID"
+P0DPI2,164,multi-modified,1,UniProtKB,"evidence carries no source=""PubMed"" record with a numeric PMID"
+P0DPI2,203,multi-modified,1,UniProtKB,"evidence carries no source=""PubMed"" record with a numeric PMID"
+P0DPI2,219,multi-modified,1,UniProtKB,"evidence carries no source=""PubMed"" record with a numeric PMID"
+P0DPI2,223,multi-modified,1,UniProtKB,"evidence carries no source=""PubMed"" record with a numeric PMID"
+P0DPI2,233,multi-modified,1,UniProtKB,"evidence carries no source=""PubMed"" record with a numeric PMID"
+P37837,115,multi-modified,1,UniProtKB,"evidence carries no source=""PubMed"" record with a numeric PMID"
+Q86VM9,814,single-modified,1,UniProtKB,"evidence carries no source=""PubMed"" record with a numeric PMID"

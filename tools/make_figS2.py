@@ -3,7 +3,7 @@ import os, math
 import numpy as np
 import matplotlib; matplotlib.use("Agg")
 import matplotlib.pyplot as plt
-BASE = r"C:\Users\Administrator\Desktop\丙酮酰化"
+BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 figs = os.path.join(BASE, "figs")
 plt.rcParams.update({"font.family":"Arial","font.size":7,"axes.labelsize":7.2,"axes.titlesize":7.8,
  "xtick.labelsize":6.6,"ytick.labelsize":6.6,"axes.linewidth":0.6,"xtick.major.width":0.6,"ytick.major.width":0.6,

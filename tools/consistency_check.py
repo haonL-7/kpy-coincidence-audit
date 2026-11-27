@@ -5,7 +5,7 @@ import pandas as pd
 import os
 BASE = os.environ.get("KPY_BASE", os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
-ms = os.path.join(BASE, "08_manuscript_v1.md")
+ms = os.path.join(BASE, "09_manuscript_from_docx.md")
 t = open(ms, encoding="utf-8").read()
 body = t.split("## References")[0]
 refs = t.split("## References")[1].split("## Figure legends")[0]

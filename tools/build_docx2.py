@@ -7,7 +7,7 @@ from docx.enum.text import WD_ALIGN_PARAGRAPH
 from docx.oxml.ns import qn
 from docx.oxml import OxmlElement
 
-BASE = r"C:\Users\Administrator\Desktop\丙酮酰化"
+BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 md_path, out_path = sys.argv[1], sys.argv[2]
 header_lines = sys.argv[3].split("|") if len(sys.argv) > 3 else []
 
