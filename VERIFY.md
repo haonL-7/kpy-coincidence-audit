@@ -120,3 +120,12 @@ archived CSV untouched rather than overwriting it with zeros.
 The twelve lysines whose evidence carries no PubMed record are listed in
 `artifacts/excluded_sites.csv`, written by the same script; they are the difference between
 the 74 lysines with any evidence source and the 62 that count as PubMed-linked.
+
+## make_protein_table.py
+
+Numeric columns are re-extracted from `data/uniprot/`; the gene symbols are a retained
+annotation input, read from the archived `data/protein_lysines.csv`, because they were
+originally taken from the CPLM downloads, which are not part of the archive. Rebuilding
+with the raw snapshot and the archived CPLM extract reproduces all five columns
+(acc, gene, seq_len, n_lys, n_catalogued) for all 63 proteins byte for byte. Without the
+snapshot the script exits and leaves the table untouched.
