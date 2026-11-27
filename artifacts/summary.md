@@ -1,6 +1,6 @@
 # summary.md
 
-`single coder, no reliability estimate`
+`two independent coders; agreement and adjudication recorded in agreement_stats.csv and adjudication_log_signed.csv`
 
 ## 0. 版本（v1.3.2，2026-11-18）
 
@@ -26,16 +26,16 @@ v1.3.1 的 `leave_one_out.py` 把「只带查询修饰、不带其他修饰」�
 
 ## 2. 编码结果（按独立研究，n = 33）
 
-| 项 | 适用基数 | no | partial | yes |
+| 项 | 适用 | no | partial | yes | NA |
 |---|---|---|---|---|
-| C1 期望集合 | 20 | 19 | 1 | 0 |
-| C2 蛋白构成 | 15 | 7 | 8 | 0 |
-| C3 功效 | 33 | 28 | 5 | 0 |
+| C1 期望集合 | 19 | 18 | 1 | 0 | 14 |
+| C2 蛋白构成 | 19 | 6 | 8 | 5 | 14 |
+| C3 功效 | 31 | 20 | 11 | 0 | 2 |
 
 三项同时为 yes 的研究：0。
 
 NA 的含义按列区分：C1 的 NA 是「没有跨修饰重合比较」，C2 的 NA 是「没有两个集合的构成比较」，
-两者都不是「缺失陈述」。C3 无 NA，每篇都按同一问题判定。
+两者都不是「缺失陈述」。C3 有 2 篇 NA：这两篇没有需要功效陈述的定量比较。
 
 ## 3. 判定依据
 
@@ -44,5 +44,7 @@ NA 的含义按列区分：C1 的 NA 是「没有跨修饰重合比较」，C2 �
 
 ## 4. 边界
 
-- 单编码者，无一致性系数；结论按 bounded check 陈述。
+- 两名编码者独立编码，裁决由 S.L. 复核确认；一致性数字见 `agreement_stats.csv`，逐格裁决见 `adjudication_log_signed.csv`（两份文件均已随仓库提交）。
 - 计数描述的是取得全文的 33 个研究，不是该领域全部文献。
+
+- `agreement_stats.csv` 的 E、R 两行保留了 κ 数值（0.250、0.100），但正文只报一致率：n = 9、二分类、边际倾斜时 κ 不稳定，数值仅作原始记录，不作为一致性证据。

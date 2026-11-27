@@ -42,12 +42,12 @@ produces it, and the value the manuscript states. Run each from the archive root
 | Table S1: nine stratified ORs, range 1.39 to 64.62 | `python tools/leave_one_out.py` | `nine LOO OR range: 1.39 - 64.62`; acetylation row `2.13`; Kpy row `OR=2.60` |
 | Table S1: acetylation 10,098 query sites in 1,833 strata | `python tools/leave_one_out.py` | `Acetylation ... 10098 1833 2.13` |
 | Kpy: OR 2.60, exact P 0.224, CI 0.60-10.25 | `python tools/exact_ci.py` | `MH OR = 2.60`, `0.224`, `0.60 - 10.25` |
-| Table S4: crude ORs 2.87 / 5.96 / 5.45 / 2.58 / 3.24 / 6.04 / 3.93 / 1.50 / 24.97 and Kpy 2.97; shifts 0.74 to 2.73 | `python tools/table_s4.py` | ten rows; crude column and shift column as printed |
+| Table S4: crude ORs 2.87 / 5.96 / 5.45 / 2.58 / 3.24 / 6.04 / 3.93 / 1.50 / 24.97 and Kpy 2.97; shifts 0.74 to 2.73 (unchanged by adjudication) | `python tools/table_s4.py` | ten rows; crude column and shift column as printed |
 | Table S4: stratified column equals the Table S1 column | `python tools/table_s4.py` and `python tools/leave_one_out.py` | the two print the same nine values |
 | Results 5: 17% at OR 2.60, 42% at 4.44, 50% at 5.19, 71% at 8.0, 80% at 10.25 | `python tools/power_scale.py` | `0.17`, `0.42`, `0.50`, `0.71`, `0.80` |
 | Results 1: 15% at 0.042, Spearman -0.48, RSA medians | `python tools/check_sections.py` | `median 0.042`, `-0.48`, `multi 0.569 | single 0.636` |
-| Results 4: 74 of 4,748 lysines curated, Fisher P 9.0e-14 | `python tools/check_sections.py` | `with curated evidence 74`, `Fisher P = 9.0e-14` |
-| Table S3: 35 records, 33 studies, C1 of 20, C2 of 15, C3 of 33 | count rows of `artifacts/coding.csv` after dropping 37398265 and 40462961 | 33 rows; 20 + 13 = 33 for C1 |
+| Results 4: 62 of 4,748 lysines curated (PubMed-linked plus query-excluded), Fisher P 2.5e-13 and 2.3e-9 for the two contrasts | `python tools/check_sections.py` | `62 lysines linked to citable records`; both Fisher P values printed by the script |
+| Table S3: 35 records, 33 studies, C1 of 19, C2 of 19, C3 of 31 | count rows of `artifacts/coding.csv` after dropping 37398265 and 40462961 | 33 rows; 19 + 14 = 33 for C1 |
 
 Anything that does not match is a defect in this table, not in the analysis:
 the numbers above were regenerated from the same scripts at release time.
