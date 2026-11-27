@@ -43,3 +43,9 @@ __pycache__/
 09_manuscript_from_docx.md
 figs/_compare_fig1.png
 csv/
+PDF.zip
+*.zip
+请求的PDF/
+.dsh-ds*.json
+19_review_prompt.md
+17_email_requests.txt
