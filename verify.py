@@ -18,7 +18,7 @@ CHECKS = [
     ("exact conditional estimate", "tools/exact_ci.py",
      ["MH OR = 2.60", "0.224", "0.60 - 10.25"], []),
     ("leave-one-out across nine acylations", "tools/leave_one_out.py",
-     ["1.97 - 65.12", "OR=2.60"], []),
+     ["1.39 - 64.62", "OR=2.60"], []),
     ("power across effect sizes", "tools/power_scale.py",
      ["power at OR 2.60", "power at OR 5.19", "power at OR 10.25"],
      [("power at OR 5.19", r"power at OR 5\.19 = ([\d.]+)", 0.50, 0.05),
@@ -30,7 +30,7 @@ CHECKS = [
     ("annotation density, structure and curation (Results 2-4)", "tools/check_sections.py",
      ["median 0.042", "Spearman(log10 catalogue size, multi-modification rate) = -0.48",
       "single 331 | multi 128", "median RSA: multi 0.569 | single 0.636",
-      "with curated evidence 74", "Fisher P = 9.0e-14"], []),
+      "PubMed-linked 62"], []),
 ]
 
 

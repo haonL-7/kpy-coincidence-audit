@@ -49,3 +49,7 @@ PDF.zip
 .dsh-ds*.json
 19_review_prompt.md
 17_email_requests.txt
+pdf_text/
+_tmp_pmc.xml
+history/
+figs/legacy/

@@ -1,19 +1,22 @@
 cff-version: 1.2.0
 message: "If you use this code or the derived tables, please cite this archived release."
-title: "Reference-set dependence of lysine acylation co-occupancy claims"
-abstract: "Analysis code and derived tables reproducing an audit of four reference sets for lysine acylation co-occupancy, using 88 lysine pyruvylation sites as a test case, together with leave-one-out comparisons across nine catalogued acylations."
+title: "Reference-set dependence in reported co-annotation of lysine acylations: code and data"
+abstract: "Analysis code and derived data supporting the manuscript of the same name. Using a published map of 88 lysine pyruvylation sites across 63 proteins, the archive supports comparisons of four reference designs, protein-stratified analyses across nine catalogue acylations, structural and annotation-evidence analyses, and an audit of reporting practice in 33 primary studies and nine reviews. Recalculation from archived derived tables is distinguished from re-extraction using upstream UniProt records and structural models."
 authors:
-  - family-names: "Liu"
-    given-names: "Haon"
-    email: "haon.liu@outlook.com"
-version: 1.3.0
-date-released: "2026-11-03"
+  - family-names: Liu
+    given-names: Haoan
+    affiliation: Yulin University
+    orcid: https://orcid.org/0009-0008-1764-0908
+  - family-names: Li
+    given-names: Sixiao
+    affiliation: Yulin University
+    orcid: https://orcid.org/0009-0009-5959-9728
+  - family-names: Feng
+    given-names: Wen
+    affiliation: Yulin University
+    orcid: https://orcid.org/0000-0001-8485-5345
+version: v1.4.6
+date-released: "2026-11-27"
 license: MIT
-type: software
-repository-code: "https://github.com/haonL-7/kpy-coincidence-audit"
-keywords:
-  - lysine pyruvylation
-  - lysine acylation
-  - post-translational modification
-  - annotation bias
-  - reproducibility
+repository-code: https://github.com/haonL-7/kpy-coincidence-audit
+doi: "10.5281/zenodo.23906360"
